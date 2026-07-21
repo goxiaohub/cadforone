@@ -4,8 +4,8 @@
 export async function onRequest(context) {
   const { request } = context;
   const url = new URL(request.url);
-  const CLIENT_ID = context.env.CMS_GITHUB_CLIENT_ID || '';
-  const CLIENT_SECRET = context.env.CMS_GITHUB_CLIENT_SECRET || '';
+  const CLIENT_ID = (context.env.CMS_GITHUB_CLIENT_ID || '').trim();
+  const CLIENT_SECRET = (context.env.CMS_GITHUB_CLIENT_SECRET || '').trim();
 
   const corsHeaders = {
     'Access-Control-Allow-Origin': '*',
