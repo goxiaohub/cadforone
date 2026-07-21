@@ -1,5 +1,5 @@
 // Cloudflare Pages Function — GitHub OAuth proxy for Decap CMS
-// Full-page redirect flow (no popup needed)
+// Proper flow: popup → GitHub → callback with code → postMessage → exchange
 
 export async function onRequest(context) {
   const { request } = context;
@@ -9,13 +9,48 @@ export async function onRequest(context) {
 
   if (request.method === 'OPTIONS') {
     return new Response(null, {
-      headers: { 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'GET, POST, OPTIONS', 'Access-Control-Allow-Headers': 'Content-Type' },
+      headers: { 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'GET,POST,OPTIONS', 'Access-Control-Allow-Headers': 'Content-Type' },
     });
   }
 
   const code = url.searchParams.get('code');
 
-  // Step 1: No code → redirect to GitHub authorization
+  // Handle POST — Decap CMS sends code here for token exchange
+  if (request.method === 'POST') {
+    try {
+      const body = await request.json();
+      const exchangeCode = body.code || code;
+
+      if (!exchangeCode) {
+        return new Response(JSON.stringify({ error: 'Missing code' }), {
+          status: 400, headers: { 'Content-Type': 'application/json' },
+        });
+      }
+
+      const resp = await fetch('https://github.com/login/oauth/access_token', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+        body: JSON.stringify({ client_id: CLIENT_ID, client_secret: CLIENT_SECRET, code: exchangeCode }),
+      });
+      const data = await resp.json();
+
+      if (data.error) {
+        return new Response(JSON.stringify({ error: data.error_description || data.error }), {
+          status: 400, headers: { 'Content-Type': 'application/json' },
+        });
+      }
+
+      return new Response(JSON.stringify(data), {
+        headers: { 'Content-Type': 'application/json', 'Access-Control-Allow-Origin': '*' },
+      });
+    } catch (err) {
+      return new Response(JSON.stringify({ error: err.message }), {
+        status: 500, headers: { 'Content-Type': 'application/json' },
+      });
+    }
+  }
+
+  // Step 1: No code → redirect to GitHub
   if (!code) {
     const redirectUri = `${url.origin}/api/auth`;
     const authUrl = new URL('https://github.com/login/oauth/authorize');
@@ -25,27 +60,21 @@ export async function onRequest(context) {
     return Response.redirect(authUrl.toString(), 302);
   }
 
-  // Step 2: Have code → exchange for access token
-  try {
-    const resp = await fetch('https://github.com/login/oauth/access_token', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
-      body: JSON.stringify({ client_id: CLIENT_ID, client_secret: CLIENT_SECRET, code }),
-    });
-    const data = await resp.json();
+  // Step 2: Callback with code — DON'T exchange it, just pass code to Decap CMS via postMessage
+  const html = `<!DOCTYPE html><html><head><script>
+    (function() {
+      var data = { code: ${JSON.stringify(code)} };
+      if (window.opener) {
+        window.opener.postMessage(data, '*');
+        window.close();
+      } else {
+        document.write('<p>Authentication successful. You can close this window.</p>');
+      }
+    })();
+  <\/script></head><body></body></html>`;
 
-    if (data.error) {
-      return new Response(`<html><body><h3>Error</h3><p>${data.error_description || data.error}</p><p><a href="/admin/">Back</a></p></body></html>`, {
-        status: 200, headers: { 'Content-Type': 'text/html;charset=utf-8' },
-      });
-    }
-
-    // Success: redirect back to admin with token in URL hash
-    const tokenStr = encodeURIComponent(JSON.stringify(data));
-    return Response.redirect(`${url.origin}/admin/#/auth?token=${tokenStr}`, 302);
-  } catch (err) {
-    return new Response(JSON.stringify({ error: err.message }), {
-      status: 500, headers: { 'Content-Type': 'application/json' },
-    });
-  }
+  return new Response(html, {
+    status: 200,
+    headers: { 'Content-Type': 'text/html;charset=utf-8' },
+  });
 }
