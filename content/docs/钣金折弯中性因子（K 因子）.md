@@ -1,16 +1,11 @@
----
-title: 'Sheet Metal K-Factor Reference Table'
-date: 2026-07-21
-description: 'Comprehensive K-factor reference table for sheet metal bending in UG NX'
-weight: 2
----
-
-# Sheet Metal Bending Neutral Axis (K-Factor)
+# 钣金折弯中性因子（K 因子）
 
 > 数据来源：E:\FDM\折弯中性因子\折弯中性因子.xlsx（作者：光軍）  
 > 适用版本：UG NX 折弯系数表
 
 ---
+![[Pasted image 20260707092829.png]]
+
 
 ## 什么是 K 因子
 
@@ -156,5 +151,5 @@ L = L1 + L2 + (π × (R + K × T) × θ) / 180
 
 ## 延伸阅读
 
-- UGNX 展开问题 — 钣金展开操作问题
-- UGNX 环境变量配置 — NX 环境变量配置参考
+- [[UGNX 展开问题（1）]] — 钣金展开操作问题
+- [[UGNX 环境变量配置]] — NX 环境变量配置参考
