@@ -1,0 +1,56 @@
+# Decap CMS Configuration
+# This file defines the content structure and editor behavior.
+
+backend:
+  name: github
+  repo: goxiaohub/cadforone
+  branch: main
+  base_url: https://oauth.pstn.workers.dev
+
+# When true, media assets will be stored in the repo
+media_folder: 'static/images/uploads'
+public_folder: '/images/uploads'
+
+# Enable the editorial workflow (draft → review → publish)
+publish_mode: editorial_workflow
+
+# Site URL for the preview link
+site_url: https://cadforone.com
+logo_url: https://cadforone.com/images/uploads/logo.png
+
+# Slug configuration
+slug:
+  encoding: 'ascii'
+  clean_accents: true
+  sanitize_replacement: '-'
+
+collections:
+  - name: 'posts'
+    label: 'Tutorials'
+    label_singular: 'Tutorial'
+    folder: 'content/posts'
+    create: true
+    delete: true
+    path: '{{slug}}/index'
+    media_folder: ''
+    public_folder: ''
+    preview_path: 'posts/{{slug}}/'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string', hint: 'The tutorial title, e.g. "How to Create a Thread in NX"' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime', format: 'YYYY-MM-DD', timeFormat: false }
+      - { label: 'Featured Image', name: 'image', widget: 'image', required: false, hint: 'Main image shown on the homepage card' }
+      - { label: 'Description', name: 'description', widget: 'text', required: false, hint: 'Short summary shown in search results and previews' }
+      - { label: 'Tags', name: 'tags', widget: 'list', required: false, hint: 'e.g. NX, FreeCAD, CAM' }
+      - { label: 'Body', name: 'body', widget: 'markdown', hint: 'Write your tutorial content here. Use the image button to insert screenshots.' }
+
+  - name: 'pages'
+    label: 'Pages'
+    label_singular: 'Page'
+    folder: 'content'
+    create: true
+    delete: true
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }

@@ -1,0 +1,24 @@
+baseURL = 'https://cadforone.com/'
+locale = 'en-us'
+title = 'CAD For One - Mechanical Design Tutorials'
+theme = 'ananke'
+
+# Disable draft mode — published content shows up
+buildDrafts = false
+
+# Configure section structure
+[module]
+  [[module.mounts]]
+    source = 'content'
+    target = 'content'
+
+# Pagination
+[params]
+  description = 'Free CAD tutorials for mechanical engineers and CNC machinists'
+  author = 'CAD For One'
+
+# Date format
+[languages]
+  [languages.en]
+    label = 'English'
+    weight = 1
