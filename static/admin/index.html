@@ -6,69 +6,7 @@
   <title>Content Manager</title>
 </head>
 <body>
-  <script>
-    // MUST run before Decap CMS loads
-    window.CMS_MANUAL_INIT = true;
-
-    // Check for token from OAuth callback
-    (function() {
-      try {
-        var hash = window.location.hash;
-        var m = hash && hash.match(/token=([^&]+)/);
-        if (m) {
-          var data = JSON.parse(decodeURIComponent(m[1]));
-          if (data && data.access_token) {
-            localStorage.setItem('decap-cms-github-token', data.access_token);
-            window.location.replace('/admin/');
-          }
-        }
-      } catch(e) {}
-    })();
-  </script>
+  <p><a href="https://github.com/goxiaohub/cadforone/tree/main/content/posts">Write tutorials on GitHub →</a></p>
   <script src="https://unpkg.com/decap-cms@^3/dist/decap-cms.js"></script>
-  <script>
-    // Register custom auth handler — reads token from localStorage
-    CMS.registerAuth(function() {
-      return {
-        authenticate: function(credentials) {
-          // If Decap CMS passes us a code, exchange it via POST
-          if (credentials && credentials.code) {
-            return fetch('/api/auth', {
-              method: 'POST',
-              headers: { 'Content-Type': 'application/json' },
-              body: JSON.stringify({ code: credentials.code })
-            }).then(function(r) { return r.json(); }).then(function(data) {
-              if (data.access_token) {
-                localStorage.setItem('decap-cms-github-token', data.access_token);
-              }
-              return data;
-            });
-          }
-          // No credentials — check localStorage
-          var t = localStorage.getItem('decap-cms-github-token');
-          if (t) return Promise.resolve({ token: t });
-          // No token — redirect to GitHub OAuth
-          window.location.href = '/api/auth';
-          return new Promise(function(){});
-        },
-        getToken: function() {
-          return Promise.resolve(localStorage.getItem('decap-cms-github-token'));
-        },
-        logout: function() {
-          localStorage.removeItem('decap-cms-github-token');
-          return Promise.resolve();
-        },
-        currentUser: function() {
-          // Only return user if we have a token
-          var t = localStorage.getItem('decap-cms-github-token');
-          if (t) return Promise.resolve({ name: 'Authorized User' });
-          return Promise.resolve(null);
-        }
-      };
-    });
-
-    // Initialize Decap CMS
-    CMS.init();
-  </script>
 </body>
 </html>
