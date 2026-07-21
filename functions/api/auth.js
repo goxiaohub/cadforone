@@ -7,30 +7,39 @@ export async function onRequest(context) {
   const CLIENT_ID = (context.env.CMS_GITHUB_CLIENT_ID || '').trim();
   const CLIENT_SECRET = (context.env.CMS_GITHUB_CLIENT_SECRET || '').trim();
 
-  // Handle preflight
   if (request.method === 'OPTIONS') {
     return new Response(null, {
-      headers: {
-        'Access-Control-Allow-Origin': '*',
-        'Access-Control-Allow-Methods': 'GET, POST, OPTIONS',
-        'Access-Control-Allow-Headers': 'Content-Type',
-      },
+      headers: { 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'GET, POST, OPTIONS', 'Access-Control-Allow-Headers': 'Content-Type' },
     });
   }
 
   const code = url.searchParams.get('code');
 
-  // Step 1: No code → redirect to GitHub authorization
+  // Step 1: No code → show HTML page that redirects to GitHub in the popup
   if (!code) {
     const redirectUri = `${url.origin}/api/auth`;
     const authUrl = new URL('https://github.com/login/oauth/authorize');
     authUrl.searchParams.set('client_id', CLIENT_ID);
     authUrl.searchParams.set('redirect_uri', redirectUri);
     authUrl.searchParams.set('scope', 'repo');
-    return Response.redirect(authUrl.toString(), 302);
+
+    const html = `<!DOCTYPE html><html><head>
+      <title>Redirecting to GitHub...</title>
+      <script>
+        window.location.replace("${authUrl.toString()}");
+      <\/script>
+    </head><body>
+      <p>Redirecting to GitHub for authorization...</p>
+      <p>If nothing happens, <a href="${authUrl.toString()}">click here</a>.</p>
+    </body></html>`;
+
+    return new Response(html, {
+      status: 200,
+      headers: { 'Content-Type': 'text/html;charset=utf-8' },
+    });
   }
 
-  // Step 2: Have code → exchange for token
+  // Step 2: Have code → exchange for access token
   try {
     const resp = await fetch('https://github.com/login/oauth/access_token', {
       method: 'POST',
@@ -40,32 +49,32 @@ export async function onRequest(context) {
     const data = await resp.json();
 
     if (data.error) {
-      return new Response(JSON.stringify({ error: data.error_description || data.error }), {
-        status: 400,
-        headers: { 'Access-Control-Allow-Origin': '*', 'Content-Type': 'application/json' },
-      });
+      const errHtml = `<!DOCTYPE html><html><head><title>Auth Error</title></head><body>
+        <p>Error: ${data.error_description || data.error}</p>
+        <p><a href="/admin/">Go back to admin</a></p>
+      </body></html>`;
+      return new Response(errHtml, { status: 200, headers: { 'Content-Type': 'text/html;charset=utf-8' } });
     }
 
-    // Return HTML page that sends token to the popup opener and closes itself
-    const token = JSON.stringify(data);
+    // Success: HTML page that posts token back to opener and closes popup
+    const tokenJson = JSON.stringify(data);
     const html = `<!DOCTYPE html><html><head><script>
-      if (window.opener) {
-        try {
-          window.opener.postMessage(${token}, '*');
-        } catch(e) {
-          window.opener.postMessage(JSON.stringify(${token}), '*');
+      (function() {
+        var data = ${tokenJson};
+        if (window.opener) {
+          try {
+            window.opener.postMessage(data, '*');
+          } catch(e) {
+            window.opener.postMessage(JSON.stringify(data), '*');
+          }
+          window.close();
+        } else {
+          document.body.innerHTML = '<p>Success! You can close this window.</p>';
         }
-        window.close();
-      } else {
-        document.write('<pre>${token.replace(/"/g, '\\"')}</pre>');
-        document.write('<p>You can close this window.</p>');
-      }
+      })();
     <\/script></head><body></body></html>`;
 
-    return new Response(html, {
-      status: 200,
-      headers: { 'Content-Type': 'text/html;charset=utf-8' },
-    });
+    return new Response(html, { status: 200, headers: { 'Content-Type': 'text/html;charset=utf-8' } });
   } catch (err) {
     return new Response(JSON.stringify({ error: err.message }), {
       status: 500,
