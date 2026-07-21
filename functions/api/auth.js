@@ -1,5 +1,5 @@
 // Cloudflare Pages Function — GitHub OAuth proxy for Decap CMS
-// Handles the full OAuth flow: redirect to GitHub + code exchange
+// Full OAuth flow: redirect to GitHub → exchange code → return token to popup
 
 export async function onRequest(context) {
   const { request } = context;
@@ -7,61 +7,69 @@ export async function onRequest(context) {
   const CLIENT_ID = (context.env.CMS_GITHUB_CLIENT_ID || '').trim();
   const CLIENT_SECRET = (context.env.CMS_GITHUB_CLIENT_SECRET || '').trim();
 
-  const corsHeaders = {
-    'Access-Control-Allow-Origin': '*',
-    'Access-Control-Allow-Methods': 'GET, POST, OPTIONS',
-    'Access-Control-Allow-Headers': 'Content-Type',
-  };
-
+  // Handle preflight
   if (request.method === 'OPTIONS') {
-    return new Response(null, { headers: corsHeaders });
+    return new Response(null, {
+      headers: {
+        'Access-Control-Allow-Origin': '*',
+        'Access-Control-Allow-Methods': 'GET, POST, OPTIONS',
+        'Access-Control-Allow-Headers': 'Content-Type',
+      },
+    });
   }
 
   const code = url.searchParams.get('code');
 
-  // Step 1: No code yet — redirect user to GitHub authorization
+  // Step 1: No code → redirect to GitHub authorization
   if (!code) {
     const redirectUri = `${url.origin}/api/auth`;
-    const githubAuthUrl = new URL('https://github.com/login/oauth/authorize');
-    githubAuthUrl.searchParams.set('client_id', CLIENT_ID);
-    githubAuthUrl.searchParams.set('redirect_uri', redirectUri);
-    githubAuthUrl.searchParams.set('scope', 'repo');
-    return Response.redirect(githubAuthUrl.toString(), 302);
+    const authUrl = new URL('https://github.com/login/oauth/authorize');
+    authUrl.searchParams.set('client_id', CLIENT_ID);
+    authUrl.searchParams.set('redirect_uri', redirectUri);
+    authUrl.searchParams.set('scope', 'repo');
+    return Response.redirect(authUrl.toString(), 302);
   }
 
-  // Step 2: Got code from GitHub — exchange it for an access token
+  // Step 2: Have code → exchange for token
   try {
-    const tokenResponse = await fetch(
-      'https://github.com/login/oauth/access_token',
-      {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-          Accept: 'application/json',
-        },
-        body: JSON.stringify({
-          client_id: CLIENT_ID,
-          client_secret: CLIENT_SECRET,
-          code,
-        }),
-      }
-    );
-    const tokenData = await tokenResponse.json();
+    const resp = await fetch('https://github.com/login/oauth/access_token', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+      body: JSON.stringify({ client_id: CLIENT_ID, client_secret: CLIENT_SECRET, code }),
+    });
+    const data = await resp.json();
 
-    if (tokenData.error) {
-      return new Response(
-        JSON.stringify({ error: tokenData.error_description || tokenData.error }),
-        { status: 400, headers: { ...corsHeaders, 'Content-Type': 'application/json' } }
-      );
+    if (data.error) {
+      return new Response(JSON.stringify({ error: data.error_description || data.error }), {
+        status: 400,
+        headers: { 'Access-Control-Allow-Origin': '*', 'Content-Type': 'application/json' },
+      });
     }
 
-    return new Response(JSON.stringify(tokenData), {
-      headers: { ...corsHeaders, 'Content-Type': 'application/json' },
+    // Return HTML page that sends token to the popup opener and closes itself
+    const token = JSON.stringify(data);
+    const html = `<!DOCTYPE html><html><head><script>
+      if (window.opener) {
+        try {
+          window.opener.postMessage(${token}, '*');
+        } catch(e) {
+          window.opener.postMessage(JSON.stringify(${token}), '*');
+        }
+        window.close();
+      } else {
+        document.write('<pre>${token.replace(/"/g, '\\"')}</pre>');
+        document.write('<p>You can close this window.</p>');
+      }
+    <\/script></head><body></body></html>`;
+
+    return new Response(html, {
+      status: 200,
+      headers: { 'Content-Type': 'text/html;charset=utf-8' },
     });
   } catch (err) {
-    return new Response(
-      JSON.stringify({ error: err.message }),
-      { status: 500, headers: { ...corsHeaders, 'Content-Type': 'application/json' } }
-    );
+    return new Response(JSON.stringify({ error: err.message }), {
+      status: 500,
+      headers: { 'Access-Control-Allow-Origin': '*', 'Content-Type': 'application/json' },
+    });
   }
 }
