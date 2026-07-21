@@ -24,10 +24,8 @@ export async function onRequest(context) {
     authUrl.searchParams.set('scope', 'repo');
 
     const html = `<!DOCTYPE html><html><head>
+      <meta http-equiv="refresh" content="0;url=${authUrl.toString()}">
       <title>Redirecting to GitHub...</title>
-      <script>
-        window.location.replace("${authUrl.toString()}");
-      <\/script>
     </head><body>
       <p>Redirecting to GitHub for authorization...</p>
       <p>If nothing happens, <a href="${authUrl.toString()}">click here</a>.</p>
