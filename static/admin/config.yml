@@ -1,51 +1,23 @@
-# Decap CMS Configuration
+# Decap CMS Configuration — Simple
 
 backend:
   name: github
   repo: goxiaohub/cadforone
   branch: main
-  base_url: https://cadforone.com
-  auth_endpoint: api/auth
 
 media_folder: 'static/images/uploads'
 public_folder: '/images/uploads'
 
-publish_mode: editorial_workflow
-
 site_url: https://cadforone.com
-
-slug:
-  encoding: 'ascii'
-  clean_accents: true
-  sanitize_replacement: '-'
 
 collections:
   - name: 'posts'
     label: 'Tutorials'
-    label_singular: 'Tutorial'
     folder: 'content/posts'
     create: true
-    delete: true
-    path: '{{slug}}/index'
-    media_folder: ''
-    public_folder: ''
-    preview_path: 'posts/{{slug}}/'
-    editor:
-      preview: false
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime', format: 'YYYY-MM-DD', timeFormat: false }
-      - { label: 'Featured Image', name: 'image', widget: 'image', required: false }
       - { label: 'Description', name: 'description', widget: 'text', required: false }
       - { label: 'Tags', name: 'tags', widget: 'list', required: false }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
-
-  - name: 'pages'
-    label: 'Pages'
-    label_singular: 'Page'
-    folder: 'content'
-    create: true
-    delete: true
-    fields:
-      - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
