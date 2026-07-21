@@ -6,53 +6,6 @@
   <title>Content Manager</title>
 </head>
 <body>
-  <script>
-    // MUST run before Decap CMS loads
-    window.CMS_MANUAL_INIT = true;
-
-    // Check for token from OAuth callback
-    (function() {
-      try {
-        var hash = window.location.hash;
-        var m = hash && hash.match(/token=([^&]+)/);
-        if (m) {
-          var data = JSON.parse(decodeURIComponent(m[1]));
-          if (data && data.access_token) {
-            localStorage.setItem('decap-cms-github-token', data.access_token);
-            window.location.replace('/admin/');
-          }
-        }
-      } catch(e) {}
-    })();
-  </script>
   <script src="https://unpkg.com/decap-cms@^3/dist/decap-cms.js"></script>
-  <script>
-    // Register custom auth handler — reads token from localStorage
-    // instead of using popup OAuth flow
-    CMS.registerAuth(function() {
-      return {
-        authenticate: function() {
-          var t = localStorage.getItem('decap-cms-github-token');
-          if (t) return Promise.resolve({ token: t });
-          // No token — redirect to GitHub OAuth, return hanging promise
-          window.location.href = '/api/auth';
-          return new Promise(function(){});
-        },
-        getToken: function() {
-          return Promise.resolve(localStorage.getItem('decap-cms-github-token'));
-        },
-        logout: function() {
-          localStorage.removeItem('decap-cms-github-token');
-          return Promise.resolve();
-        },
-        currentUser: function() {
-          return Promise.resolve({ name: 'Authorized User' });
-        }
-      };
-    });
-
-    // Now initialize Decap CMS
-    CMS.init();
-  </script>
 </body>
 </html>
