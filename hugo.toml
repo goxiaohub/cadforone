@@ -1,24 +1,32 @@
 baseURL = 'https://cadforone.com/'
-locale = 'en-us'
 title = 'CAD For One - Mechanical Design Tutorials'
-theme = 'ananke'
+theme = 'hextra'
 
-# Disable draft mode — published content shows up
-buildDrafts = false
+# Markdown config
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    noClasses = false
 
-# Configure section structure
-[module]
-  [[module.mounts]]
-    source = 'content'
-    target = 'content'
-
-# Pagination
-[params]
-  description = 'Free CAD tutorials for mechanical engineers and CNC machinists'
-  author = 'CAD For One'
-
-# Date format
-[languages]
-  [languages.en]
-    label = 'English'
+# Menu (top nav bar)
+[menu]
+  [[menu.main]]
+    name = 'Tutorials'
+    pageRef = '/docs'
     weight = 1
+  [[menu.main]]
+    name = 'Search'
+    weight = 2
+    [menu.main.params]
+      type = 'search'
+
+# Site params
+[params]
+  [params.navbar]
+    displayTitle = true
+    displayLogo = false
+  [params.footer]
+    displayCopyright = false
+    displayPoweredBy = true
