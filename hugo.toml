@@ -1,8 +1,8 @@
 baseURL = 'https://cadforone.com/'
-title = 'CAD For One - Mechanical Design Tutorials'
+title = 'CAD For One'
 theme = 'hextra'
 
-# Markdown config
+# Markdown
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
@@ -10,23 +10,42 @@ theme = 'hextra'
   [markup.highlight]
     noClasses = false
 
-# Menu (top nav bar)
+# Top navigation menu
 [menu]
   [[menu.main]]
     name = 'Tutorials'
     pageRef = '/docs'
     weight = 1
   [[menu.main]]
-    name = 'Search'
+    name = 'About'
+    pageRef = '/about'
     weight = 2
+  [[menu.main]]
+    name = 'Search'
+    weight = 3
     [menu.main.params]
       type = 'search'
 
-# Site params
+# Sidebar footer links
 [params]
+  description = 'Free CAD tutorials for mechanical engineers and CNC machinists'
+
   [params.navbar]
     displayTitle = true
     displayLogo = false
+    width = 'wide'
+
   [params.footer]
     displayCopyright = false
     displayPoweredBy = true
+
+  [params.theme]
+    default = 'system'
+    displayToggle = true
+
+  [params.search]
+    enable = true
+    type = 'flexsearch'
+    [params.search.flexsearch]
+      index = 'content'
+      tokenize = 'forward'
