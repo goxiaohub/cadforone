@@ -21,8 +21,12 @@ theme = 'hextra'
     pageRef = '/about'
     weight = 2
   [[menu.main]]
-    name = 'Search'
+    name = 'Archives'
+    pageRef = '/archives'
     weight = 3
+  [[menu.main]]
+    name = 'Search'
+    weight = 4
     [menu.main.params]
       type = 'search'
 
