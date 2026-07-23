@@ -1,0 +1,18 @@
+# Hugo output
+public/
+resources/
+.hugo_build.lock
+hugo_stats.json
+
+# Themes (downloaded by build.sh on Cloudflare Pages)
+themes/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
