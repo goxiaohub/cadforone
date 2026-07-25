@@ -5,6 +5,7 @@
 
 ---
 ![[Pasted image 20260707092829.png]]
+![image.png](https://img.cadforone.com/20260725173052610.webp)
 
 
 ## 什么是 K 因子
