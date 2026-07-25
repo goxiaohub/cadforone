@@ -127,13 +127,13 @@ params:
       Hextra **v0.12** is here! 🎉 Discover [what's new]({{% relref "blog/v0.12" %}})
 
   navbar:
-    displayTitle: true
+    displayTitle: false
     displayLogo: true
     logo:
-      path: images/logo.svg
-      dark: images/logo-dark.svg
-      # width: 40
-      # height: 20
+      path: images/logo.png
+      dark: images/logo-dark.png
+      width: 180
+      height: 120
       # link: /
     width: wide
 
