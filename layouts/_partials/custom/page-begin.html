@@ -1,0 +1,21 @@
+{{- if eq .Section "drawings" -}}
+  {{- $page := . -}}
+  {{- $series := partial "drawing-navigation-context.html" . -}}
+  <nav class="cad-breadcrumbs" aria-label="Breadcrumb">
+    <ol>
+      <li><a href="{{ site.Home.RelPermalink }}">{{ if eq .Language.Lang "zh-cn" }}首页{{ else }}Home{{ end }}</a></li>
+      {{ with site.GetPage "/drawings" }}<li>{{ if eq .RelPermalink $page.RelPermalink }}<span aria-current="page">{{ .Title }}</span>{{ else }}<a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }}</li>{{ end }}
+      {{ with $series }}
+        {{ $path := cond (eq . "2d-cad-exercises") "/drawings/2d" "/drawings/3d" }}
+        {{ with site.GetPage $path }}<li>{{ if eq .RelPermalink $page.RelPermalink }}<span aria-current="page">{{ .Title }}</span>{{ else }}<a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }}</li>{{ end }}
+      {{ end }}
+      {{ if .IsPage }}<li><span aria-current="page">{{ .Title }}</span></li>{{ end }}
+    </ol>
+  </nav>
+  <nav class="cad-series-switch" aria-label="Switch drawing series">
+    {{ range slice "2d" "3d" }}
+      {{ $key := printf "%s-cad-exercises" . }}
+      {{ with site.GetPage (printf "/drawings/%s" .) }}<a href="{{ .RelPermalink }}" {{ if eq $series $key }}class="cad-selected-series"{{ end }}>{{ .Title }}</a>{{ end }}
+    {{ end }}
+  </nav>
+{{- end -}}

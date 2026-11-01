@@ -1,0 +1,27 @@
+{{- $page := . -}}
+{{- $series := partial "drawing-navigation-context.html" . -}}
+{{- .Store.Set "enableFooterSwitches" true -}}
+<aside class="hextra-sidebar-container cad-drawing-sidebar hx:flex hx:flex-col hx:print:hidden hx:md:sticky hx:md:top-[var(--hextra-navbar-height)] hx:md:shrink-0 hx:md:w-64 hx:md:self-start hx:max-md:[transform:translate3d(0,-100%,0)]">
+  <div class="hextra-scrollbar hx:overflow-y-auto hx:overflow-x-hidden hx:p-4 hx:grow hx:md:h-[calc(100vh-var(--hextra-navbar-height)-var(--menu-height))]">
+    <nav aria-label="Drawing library navigation">
+      <a class="cad-sidebar-home" href="{{ site.Home.RelPermalink }}">← {{ if eq .Language.Lang "zh-cn" }}首页{{ else }}Home{{ end }}</a>
+      {{ with site.GetPage "/drawings" }}<a class="cad-sidebar-home" href="{{ .RelPermalink }}" {{ if eq .RelPermalink $page.RelPermalink }}aria-current="page"{{ end }}>{{ .Title }}</a>{{ end }}
+      <ul class="cad-sidebar-series">
+        {{ range slice "2d" "3d" }}
+          {{ $key := printf "%s-cad-exercises" . }}
+          {{ with site.GetPage (printf "/drawings/%s" .) }}
+            <li><a href="{{ .RelPermalink }}" {{ if eq $series $key }}class="cad-selected-series"{{ end }} {{ if eq .RelPermalink $page.RelPermalink }}aria-current="page"{{ end }}>{{ .Title }}</a></li>
+          {{ end }}
+        {{ end }}
+      </ul>
+      {{ with $series }}
+        {{ $english := index (where hugo.Sites "Language.Lang" "en") 0 }}
+        <ol class="cad-sidebar-exercises">
+          {{ range (where $english.RegularPages "Params.drawing_series" .).ByParam "series_order" }}
+            <li><a href="{{ .RelPermalink }}" {{ if eq .RelPermalink $page.RelPermalink }}aria-current="page" class="hextra-sidebar-active-item"{{ end }}>{{ .Title }}</a></li>
+          {{ end }}
+        </ol>
+      {{ end }}
+    </nav>
+  </div>
+</aside>

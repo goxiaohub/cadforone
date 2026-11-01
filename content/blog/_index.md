@@ -1,10 +1,8 @@
 ---
-title: "Blog"
+title: "CAD Notes"
+description: "Practical introductions to FreeCAD and SolidCraft, with drawing-based exercises and advice on building editable parts."
 ---
 
-<div style="text-align: center; margin-top: 1em;">
-{{< hextra/hero-badge link="index.xml" >}}
-  <span>RSS Feed</span>
-  {{< icon name="rss" attributes="height=14" >}}
-{{< /hextra/hero-badge >}}
-</div>
+Software guides, modeling habits, and ideas for your next drawing exercise.
+
+[RSS feed](index.xml)

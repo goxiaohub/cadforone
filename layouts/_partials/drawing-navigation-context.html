@@ -1,0 +1,4 @@
+{{- $series := .Params.drawing_series | default "" -}}
+{{- if eq .RelPermalink ("/drawings/2d/" | relLangURL) -}}{{- $series = "2d-cad-exercises" -}}{{- end -}}
+{{- if eq .RelPermalink ("/drawings/3d/" | relLangURL) -}}{{- $series = "3d-cad-exercises" -}}{{- end -}}
+{{- return $series -}}

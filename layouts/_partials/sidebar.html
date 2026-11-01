@@ -1,0 +1,5 @@
+{{- if eq .context.Section "drawings" -}}
+  {{- partial "drawings-sidebar.html" .context -}}
+{{- else -}}
+  {{- partial "hextra-sidebar-original.html" . -}}
+{{- end -}}

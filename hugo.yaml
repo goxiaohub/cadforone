@@ -30,7 +30,7 @@ languages:
     params:
       banner:
         message: |
-          Hextra **v0.12** 发布啦！🎉 查看[更新内容]({{% relref "blog/v0.12" %}})
+          阅读 [CAD 软件与练习文章]({{% relref "blog" %}})，探索 FreeCAD 和 SolidCraft。
       page:
         contextMenu:
           links:
@@ -58,6 +58,10 @@ enableInlineShortcodes: true
 
 menu:
   main:
+    - identifier: drawings
+      name: Drawings
+      pageRef: /drawings
+      weight: -10
     - identifier: documentation
       name: Documentation
       pageRef: /docs
@@ -117,23 +121,23 @@ menu:
       weight: 3
 
 params:
-  description: Modern, responsive, batteries-included Hugo theme for creating beautiful static websites.
+  description: Mechanical CAD drawings, modeling practice, and learning resources for CAD beginners and engineers.
 
   externalLinkDecoration: true
 
   banner:
-    key: 'announcement-v0.12'
+    key: 'cad-drawings-library'
     message: |
-      Hextra **v0.12** is here! 🎉 Discover [what's new]({{% relref "blog/v0.12" %}})
+      CAD for One · Explore the [drawing library]({{% relref "drawings" %}}). Start with 3D Exercise 001.
 
   navbar:
     displayTitle: false
     displayLogo: true
     logo:
-      path: images/logo.png
-      dark: images/logo-dark.png
+      path: images/logo-concept-v2.png
+      dark: images/logo-concept-v2.png
       width: 180
-      height: 120
+      height: 60
       # link: /
     width: wide
 

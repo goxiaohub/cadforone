@@ -1,0 +1,29 @@
+{{- if and .IsPage .Params.drawing_series -}}
+  {{- $current := . -}}
+  {{- $pages := (where .Site.RegularPages "Params.drawing_series" .Params.drawing_series).ByParam "series_order" -}}
+  <section class="cad-series not-prose" aria-label="Drawing series">
+    <nav class="cad-series-nav" aria-label="Previous and next drawing">
+      {{- range $i, $page := $pages -}}
+        {{- if eq $page.RelPermalink $current.RelPermalink -}}
+          {{- if gt $i 0 -}}
+            {{- with index $pages (sub $i 1) -}}<a href="{{ .RelPermalink }}" rel="prev"><span>← Previous</span><strong>{{ .Title }}</strong></a>{{- end -}}
+          {{- else -}}<span class="cad-series-boundary">← Previous<span>First exercise in this series</span></span>{{- end -}}
+          {{- if lt $i (sub (len $pages) 1) -}}
+            {{- with index $pages (add $i 1) -}}<a href="{{ .RelPermalink }}" rel="next"><span>Next →</span><strong>{{ .Title }}</strong></a>{{- end -}}
+          {{- else -}}<span class="cad-series-boundary">Next →<span>Last exercise in this series</span></span>{{- end -}}
+        {{- end -}}
+      {{- end -}}
+    </nav>
+    <div class="cad-series-heading">
+      <h2>More in {{ .Params.series_title }}</h2>
+      <a class="cad-series-view-all" href="{{ with site.GetPage $current.Params.series_path }}{{ .RelPermalink }}{{ end }}">View all ({{ len $pages }}) →</a>
+    </div>
+    {{- $position := 0 -}}
+    {{- range $i, $page := $pages -}}
+      {{- if eq $page.RelPermalink $current.RelPermalink -}}{{- $position = $i -}}{{- end -}}
+    {{- end -}}
+    {{- $start := math.Max 0 (math.Min (sub $position 1) (sub (len $pages) 5)) | int -}}
+    {{- $nearby := first 4 (where (after $start $pages) "RelPermalink" "ne" $current.RelPermalink) -}}
+    {{ partial "drawing-series-grid.html" (dict "pages" $nearby "current" $current) }}
+  </section>
+{{- end -}}

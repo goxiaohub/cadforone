@@ -1,0 +1,4 @@
+{{- $series := .Get "series" -}}
+{{- $english := index (where hugo.Sites "Language.Lang" "en") 0 -}}
+{{- $pages := (where $english.RegularPages "Params.drawing_series" $series).ByParam "series_order" -}}
+{{- partial "drawing-series-grid.html" (dict "pages" $pages "current" .Page) -}}

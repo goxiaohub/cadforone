@@ -6,7 +6,7 @@ echo "=== Setting up Hextra theme ==="
 if [ ! -d themes/hextra ] || [ ! -f themes/hextra/theme.toml ]; then
   mkdir -p themes
   echo "Downloading Hextra theme..."
-  curl -sL "https://github.com/imfing/hextra/archive/refs/heads/main.tar.gz" \
+  curl -fsSL "https://github.com/imfing/hextra/archive/e58687ee6c2e7ccd054c7ef31307d2147a7b8bd7.tar.gz" \
     -o /tmp/hextra.tar.gz
   mkdir -p themes/hextra
   tar xzf /tmp/hextra.tar.gz -C themes/hextra --strip-components=1

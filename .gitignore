@@ -20,3 +20,6 @@ Thumbs.db
 # Obsidian
 .obsidian/
 .attachments/
+
+# Local validation output
+.local-build/

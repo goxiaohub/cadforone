@@ -1,0 +1,90 @@
+/* Homepage styles are scoped; article and library styling follows below. */
+.cad-home { --cad-ink: #152d3b; --cad-muted: #526773; --cad-border: #d9e3e8; --cad-accent: #086c83; width: 100%; max-width: 1140px; margin: 0 auto; color: var(--cad-ink); }
+.cad-home-intro { padding: .25rem 0 1.75rem; border-bottom: 1px solid var(--cad-border); }
+.cad-home .cad-eyebrow { font-size: .72rem; font-weight: 700; letter-spacing: .14em; color: var(--cad-accent); margin: 0 0 1rem; }
+.cad-home h1 { font-size: clamp(2rem, 3.8vw, 2.8rem); line-height: 1.12; font-weight: 750; letter-spacing: -.04em; margin: 0 0 1rem; }
+.cad-home-lead { font-size: 1.05rem; line-height: 1.65; color: var(--cad-muted); }
+.cad-home-actions { display: flex; flex-wrap: wrap; gap: .75rem; margin: 1.5rem 0 1rem; }
+.cad-home-button { display: inline-flex; align-items: center; justify-content: space-between; gap: 1.75rem; padding: .8rem 1.2rem; border-radius: .4rem; background: #086c83; color: white; border: 1px solid #086c83; font-size: .95rem; font-weight: 600; }
+.cad-home-secondary { background: transparent; color: var(--cad-ink); border-color: var(--cad-border); }
+.cad-home-button:hover { background: #06566a; color: white; }
+.cad-home-facts { font-size: .8rem; color: var(--cad-muted); }
+.cad-home-facts span { margin: 0 .6rem; color: #94a3b8; }
+.cad-home-section { margin-top: 2rem; }
+.cad-home-section-heading { display: flex; align-items: center; justify-content: space-between; gap: 1rem; margin-bottom: 1rem; }
+.cad-home h2 { font-size: 1.4rem; font-weight: 650; letter-spacing: -.02em; margin: 0; }
+.cad-home-section-heading p { font-size: .9rem; color: var(--cad-muted); margin-top: .3rem; }
+.cad-home-all { white-space: nowrap; font-size: .9rem; color: var(--cad-accent); }
+.cad-home-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.15rem; }
+.cad-home-card { display: block; border: 1px solid var(--cad-border); border-radius: .5rem; overflow: hidden; transition: border-color .15s ease, box-shadow .15s ease; }
+.cad-home-card:hover { border-color: var(--cad-accent); box-shadow: 0 4px 16px #086c8314; }
+.cad-home-image { padding: .5rem; background: white; border-bottom: 1px solid var(--cad-border); }
+.cad-home-image img { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; object-fit: contain; }
+.cad-home-card-label { display: flex; align-items: center; justify-content: space-between; gap: .4rem; padding: .85rem 1rem .2rem; }
+.cad-home h3 { font-size: .97rem; font-weight: 650; margin: 0; }
+.cad-home-card-label > span { color: var(--cad-accent); }
+.cad-home-card > p { font-size: .8rem; color: var(--cad-muted); padding: 0 1rem 1rem; margin: 0; }
+.cad-home-bottom { display: flex; justify-content: space-between; gap: 1rem; margin: 2.5rem 0 1rem; padding: 1.25rem 0; border-top: 1px solid var(--cad-border); font-size: .9rem; color: var(--cad-muted); }
+.cad-home-bottom a { color: var(--cad-accent); }
+.cad-home a:focus-visible { outline: 3px solid #0284c7; outline-offset: 4px; }
+.dark .cad-home { --cad-ink: #e4edf2; --cad-muted: #a7bac7; --cad-border: #354651; --cad-accent: #7dd3e8; }
+@media (max-width: 640px) {
+  .cad-home-grid { grid-template-columns: 1fr; gap: 1rem; }
+  .cad-home-intro { padding-top: 0; padding-bottom: 1.75rem; }
+  .cad-home h1 { font-size: 2.25rem; }
+  .cad-home h2 { font-size: 1.2rem; }
+  .cad-home-section-heading p { max-width: 15rem; }
+  .cad-home-bottom { flex-direction: column; }
+  .cad-home-facts span { margin: 0 .25rem; }
+}
+@media (prefers-reduced-motion: reduce) { .cad-home-card { transition: none; } }
+
+/* Drawing navigation and thumbnails, shared by the library and article footer. */
+.cad-series { margin-top: 3rem; border-top: 1px solid #94a3b8; padding-top: 1.5rem; }
+.cad-series-nav { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; }
+.cad-series-nav > * { padding: 1rem; border: 1px solid #94a3b8; border-radius: .5rem; }
+.cad-series-nav strong, .cad-series-boundary > span { display: block; margin-top: .4rem; }
+.cad-series-nav > :last-child { text-align: right; }
+.cad-series-boundary { color: #64748b; }
+.cad-series h2 { font-size: 1.4rem; font-weight: 650; margin: 2rem 0 .5rem; }
+.cad-series small { font-size: .85rem; font-weight: 400; }
+.cad-series-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .85rem; margin: 1.25rem 0; }
+.cad-series-card { display: block; overflow: hidden; border: 1px solid #94a3b8; border-radius: .5rem; text-decoration: none !important; color: inherit; }
+.cad-series-card img { width: 100%; height: auto; aspect-ratio: 16 / 9; object-fit: contain; background: white; margin: 0 !important; border-radius: 0; }
+.cad-series-card span { display: block; padding: .65rem; font-size: .85rem; font-weight: 600; }
+.cad-series-card[aria-current="page"] { outline: 3px solid #0284c7; outline-offset: 1px; }
+.cad-series-card:hover, .cad-series-nav a:hover { border-color: #0284c7; background: #e0f2fe; color: #0c4a6e; }
+.cad-series a:focus-visible, .cad-series-card:focus-visible { outline: 3px solid #0284c7; outline-offset: 3px; }
+.dark .cad-series-boundary { color: #a6b4c7; }
+@media (max-width: 640px) { .cad-series-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } .cad-series-nav { gap: .5rem; } .cad-series-nav > * { padding: .65rem; } }
+
+/* Compact article recommendations; the library keeps the complete grid. */
+.cad-series-heading { display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; margin-top: 1.5rem; }
+.cad-series .cad-series-heading h2 { margin: 0; font-size: 1.1rem; }
+.cad-series-view-all { font-size: .85rem; text-decoration: underline; white-space: nowrap; }
+.cad-series .cad-series-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+@media (max-width: 640px) { .cad-series .cad-series-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+
+/* Series navigation: keep 2D and 3D exercises separate without changing URLs. */
+.cad-breadcrumbs { font-size: .8rem; color: #64748b; margin: 1rem 0; }
+.cad-breadcrumbs ol { display: flex; flex-wrap: wrap; gap: .5rem; list-style: none; padding: 0; }
+.cad-breadcrumbs li + li::before { content: '/'; margin-right: .5rem; color: #94a3b8; }
+.cad-breadcrumbs a:hover { text-decoration: underline; }
+.cad-series-switch { display: flex; flex-wrap: wrap; gap: .65rem; margin: 0 0 1.5rem; }
+.cad-series-switch a { border: 1px solid #cbd5e1; padding: .5rem .85rem; border-radius: .4rem; font-size: .9rem; }
+.cad-drawing-sidebar ul, .cad-drawing-sidebar ol { list-style: none; padding: 0; margin: 0; }
+.cad-drawing-sidebar a { display: block; padding: .5rem .65rem; border-radius: .35rem; font-size: .85rem; }
+.cad-sidebar-home { font-weight: 600; }
+.cad-sidebar-series { padding-bottom: .75rem !important; border-bottom: 1px solid #cbd5e1; margin-bottom: .75rem !important; }
+.cad-sidebar-exercises a { color: #64748b; }
+.cad-drawing-sidebar a:hover { background: #f1f5f9; color: #0c4a6e; }
+.cad-selected-series, .cad-drawing-sidebar a[aria-current="page"] { background: #e0f2fe; color: #075985 !important; font-weight: 600; }
+.cad-breadcrumbs a:focus-visible, .cad-series-switch a:focus-visible, .cad-drawing-sidebar a:focus-visible { outline: 2px solid #0284c7; outline-offset: 2px; }
+.dark .cad-breadcrumbs, .dark .cad-sidebar-exercises a { color: #a7bac7; }
+.dark .cad-selected-series, .dark .cad-drawing-sidebar a[aria-current="page"], .dark .cad-drawing-sidebar a:hover { background: #173849; color: #bae6fd !important; }
+
+/* Keep the preview logo legible on dark navigation backgrounds. */
+.dark .hextra-nav-container img[src$="/logo-concept-v2.png"] { filter: brightness(0) invert(1); }
+
+.cad-blog-cover { display: block; margin-top: 2rem; border: 1px solid #cbd5e1; border-radius: .5rem; overflow: hidden; background: white; }
+.cad-blog-cover img { display: block; width: 100%; max-height: 270px; object-fit: contain; }

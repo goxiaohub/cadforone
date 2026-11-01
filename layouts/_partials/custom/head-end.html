@@ -4,3 +4,11 @@
     quicklink.listen();
   });
 </script>
+
+{{- if and .IsPage .Params.drawing_series -}}
+  {{- $page := . -}}
+  {{- with .Resources.Get .Params.preview_image -}}
+    {{- $image := dict "@context" "https://schema.org" "@type" "ImageObject" "@id" (printf "%s#drawing" $page.Permalink) "name" $page.Title "description" $page.Params.image_alt "caption" $page.Params.image_alt "contentUrl" .Permalink "encodingFormat" "image/webp" "width" .Width "height" .Height "isPartOf" (dict "@type" "WebPage" "@id" $page.Permalink "url" $page.Permalink "name" $page.Title) -}}
+    <script type="application/ld+json">{{ $image | jsonify | safeJS }}</script>
+  {{- end -}}
+{{- end -}}

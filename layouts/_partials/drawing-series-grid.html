@@ -1,0 +1,13 @@
+<div class="cad-series-grid not-prose">
+  {{- $current := .current -}}
+  {{- range .pages -}}
+    {{- $page := . -}}
+    <a class="cad-series-card" href="{{ .RelPermalink }}" {{ if eq .RelPermalink $current.RelPermalink }}aria-current="page"{{ end }}>
+      {{- with .Resources.Get .Params.preview_image -}}
+        {{- $thumb := .Resize "480x webp q80" -}}
+        <img src="{{ $thumb.RelPermalink }}" alt="{{ $page.Params.image_alt | default $page.Title }}" width="{{ $thumb.Width }}" height="{{ $thumb.Height }}" loading="lazy" decoding="async">
+      {{- end -}}
+      <span>{{ .Title }}</span>
+    </a>
+  {{- end -}}
+</div>
