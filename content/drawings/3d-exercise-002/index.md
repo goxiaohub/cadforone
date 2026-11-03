@@ -1,6 +1,6 @@
 ---
 title: "3D CAD Exercise 002"
-description: "3D CAD Exercise 002: dimensioned CAD practice drawing for 3D modeling practice. View the drawing and browse the 3D exercise series."
+description: "3D CAD Exercise 002: A three-hole mounting plate supports a central bore and an angled side passage, with two sections and an enlarged detail."
 draft: false
 slug: 3d-exercise-002
 drawing_id: CFO-0002
@@ -17,11 +17,23 @@ license:
   name: "Website display authorized by the site owner"
   website_display_allowed: true
   redistribution_allowed: false
-summary: "3D CAD Exercise 002: dimensioned CAD practice drawing for 3D modeling practice. View the drawing and browse the 3D exercise series."
+summary: "A three-hole mounting plate supports a central bore and an angled side passage, with two sections and an enlarged detail."
 images: [drawing.webp]
-image_alt: "3D CAD exercise 002, dimensioned drawing for 3D modeling practice"
+image_alt: "3D CAD Exercise 002. A three-hole mounting plate supports a central bore and an angled side passage, with two sections and an enlarged detail."
 series_title: "3D CAD Exercises"
 series_path: "/drawings/3d/"
 ---
 
-![3D CAD exercise 002, dimensioned drawing for 3D modeling practice](drawing.webp)
+A three-hole mounting plate supports a central bore and an angled side passage, with two sections and an enlarged detail.
+
+![3D CAD Exercise 002. A three-hole mounting plate supports a central bore and an angled side passage, with two sections and an enlarged detail.](drawing.webp)
+
+<details class="cad-practice-notes">
+<summary>Practice notes</summary>
+
+- Use section A-A and detail C to follow the side passage.
+- Compare the central bore and mounting holes across the plan and section views.
+
+These are suggested reading checks, not a tested modeling tutorial.
+
+</details>

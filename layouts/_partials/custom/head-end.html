@@ -12,3 +12,8 @@
     <script type="application/ld+json">{{ $image | jsonify | safeJS }}</script>
   {{- end -}}
 {{- end -}}
+
+{{- if .IsHome -}}
+  {{- $website := dict "@context" "https://schema.org" "@type" "WebSite" "name" "CAD for One" "url" site.Home.Permalink "description" .Description "inLanguage" .Language.Lang -}}
+  <script type="application/ld+json">{{ $website | jsonify | safeJS }}</script>
+{{- end -}}

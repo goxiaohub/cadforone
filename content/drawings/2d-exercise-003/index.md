@@ -1,6 +1,6 @@
 ---
 title: "2D CAD Exercise 003"
-description: "2D CAD Exercise 003: dimensioned CAD practice drawing for 2D drafting and sketch practice. View the drawing and browse the 2D exercise series."
+description: "2D CAD Exercise 003: A circular boundary contains nested curved bands that form an S-shaped pattern."
 draft: false
 slug: 2d-exercise-003
 drawing_id: CFO-2D-003
@@ -17,11 +17,23 @@ license:
   name: "Website display authorized by the site owner"
   website_display_allowed: true
   redistribution_allowed: false
-summary: "2D CAD Exercise 003: dimensioned CAD practice drawing for 2D drafting and sketch practice. View the drawing and browse the 2D exercise series."
+summary: "A circular boundary contains nested curved bands that form an S-shaped pattern."
 images: [drawing.webp]
-image_alt: "2D CAD exercise 003, dimensioned drawing for 2D drafting and sketch practice"
+image_alt: "2D CAD Exercise 003. A circular boundary contains nested curved bands that form an S-shaped pattern."
 series_title: "2D CAD Exercises"
 series_path: "/drawings/2d/"
 ---
 
-![2D CAD exercise 003, dimensioned drawing for 2D drafting and sketch practice](drawing.webp)
+A circular boundary contains nested curved bands that form an S-shaped pattern.
+
+![2D CAD Exercise 003. A circular boundary contains nested curved bands that form an S-shaped pattern.](drawing.webp)
+
+<details class="cad-practice-notes">
+<summary>Practice notes</summary>
+
+- Separate the outer circle from the internal arc construction.
+- Only the outer radius is labeled; record any assumptions needed for the internal curves.
+
+These are suggested reading checks, not a tested modeling tutorial.
+
+</details>

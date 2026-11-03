@@ -27,3 +27,7 @@
     {{ partial "drawing-series-grid.html" (dict "pages" $nearby "current" $current) }}
   </section>
 {{- end -}}
+
+{{- if and .IsPage (eq .Section "blog") -}}
+<p class="cad-editorial-note"><a href="{{ with site.GetPage "/about" }}{{ .RelPermalink }}{{ end }}">About CAD for One · Sources, editorial approach &amp; corrections</a></p>
+{{- end -}}

@@ -1,0 +1,12 @@
+{{- $pager := .pager -}}
+{{- $zh := eq .page.Language.Lang "zh-cn" -}}
+{{- if gt $pager.TotalPages 1 -}}
+<nav class="cad-pagination not-prose" aria-label="{{ if $zh }}图纸分页{{ else }}Drawing pages{{ end }}">
+  <span class="cad-page-count">{{ if $zh }}第 {{ $pager.PageNumber }} / {{ $pager.TotalPages }} 页{{ else }}Page {{ $pager.PageNumber }} of {{ $pager.TotalPages }}{{ end }}</span>
+  {{ with $pager.Prev }}<a href="{{ .URL }}" rel="prev">{{ if $zh }}← 上一页{{ else }}← Previous{{ end }}</a>{{ end }}
+  {{ range $pager.Pagers }}
+    <a href="{{ .URL }}" aria-label="{{ if $zh }}第 {{ .PageNumber }} 页{{ else }}Page {{ .PageNumber }}{{ end }}" {{ if eq .PageNumber $pager.PageNumber }}aria-current="page"{{ end }}>{{ .PageNumber }}</a>
+  {{ end }}
+  {{ with $pager.Next }}<a href="{{ .URL }}" rel="next">{{ if $zh }}下一页 →{{ else }}Next →{{ end }}</a>{{ end }}
+</nav>
+{{- end -}}

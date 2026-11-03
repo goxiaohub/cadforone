@@ -1,18 +1,28 @@
-{{- $home := .Page -}}
 {{- $two := (where site.RegularPages "Params.drawing_series" "2d-cad-exercises").ByParam "series_order" -}}
 {{- $three := (where site.RegularPages "Params.drawing_series" "3d-cad-exercises").ByParam "series_order" -}}
 <div class="cad-home">
   <header class="cad-home-intro">
+<div class="cad-home-copy">
     <p class="cad-eyebrow">CAD FOR ONE · DRAWING LIBRARY</p>
-    <h1>Find your next CAD challenge.</h1>
+    <h1>A drawing.<br>A challenge.<br><span>Your next part.</span></h1>
     <p class="cad-home-lead">Choose a dimensioned drawing. Practice with your favorite CAD tool.</p>
     <div class="cad-home-actions">
       {{ with site.GetPage "/drawings/3d" }}<a class="cad-home-button" href="{{ .RelPermalink }}">Explore 3D drawings <span aria-hidden="true">→</span></a>{{ end }}
       {{ with site.GetPage "/drawings/2d" }}<a class="cad-home-button cad-home-secondary" href="{{ .RelPermalink }}">Explore 2D drawings <span aria-hidden="true">→</span></a>{{ end }}
     </div>
     <p class="cad-home-facts">{{ add (len $two) (len $three) }} drawings <span aria-hidden="true">/</span> No sign-up needed</p>
-  </header>
-  {{ range slice (dict "name" "3D modeling practice" "intro" "Read the drawing. Build the part." "pages" $three "path" "/drawings/3d") (dict "name" "2D drawing practice" "intro" "Start with a sketch. Work through the dimensions." "pages" $two "path" "/drawings/2d") }}
+</div>
+{{ with site.GetPage "/drawings/slotted-tray-001" }}
+<a class="cad-home-feature" href="{{ .RelPermalink }}">
+<div class="cad-feature-top"><span>ON THE DRAWING BOARD</span><span>001 / 3D</span></div>
+{{ $featured := . }}{{ with .Resources.Get .Params.preview_image }}{{ $image := .Resize "960x webp q85" }}
+<img src="{{ $image.RelPermalink }}" alt="{{ $featured.Params.image_alt }}" width="{{ $image.Width }}" height="{{ $image.Height }}" fetchpriority="high" decoding="async">
+{{ end }}
+<div class="cad-feature-bottom"><span><strong>Start with Exercise 001</strong><small>Study the views. Make it in CAD.</small></span><span class="cad-feature-arrow" aria-hidden="true">&#8599;</span></div>
+</a>{{ end }}
+</header>
+<div class="cad-home-strip" aria-label="Library overview"><span><strong>{{ len $two }}</strong> 2D exercises</span><span><strong>{{ len $three }}</strong> 3D exercises</span><span>Pick a drawing. <strong>Build your skills.</strong></span></div>
+  {{ range slice (dict "name" "2D drawing practice" "intro" "Start with a sketch. Work through the dimensions." "pages" $two "path" "/drawings/2d") (dict "name" "3D modeling practice" "intro" "Read the drawing. Build the part." "pages" $three "path" "/drawings/3d") }}
     <section class="cad-home-section" aria-label="{{ .name }}">
       <div class="cad-home-section-heading">
         <div><h2>{{ .name }}</h2><p>{{ .intro }}</p></div>
@@ -25,7 +35,7 @@
           <a class="cad-home-card" href="{{ .RelPermalink }}">
             {{ with .Resources.Get .Params.preview_image }}
               {{ $thumb := .Resize "720x webp q85" }}
-              <div class="cad-home-image"><img src="{{ $thumb.RelPermalink }}" alt="{{ $drawing.Params.image_alt | default $drawing.Title }}" width="{{ $thumb.Width }}" height="{{ $thumb.Height }}" decoding="async" {{ if eq $drawing.Params.drawing_series "2d-cad-exercises" }}loading="lazy"{{ end }}></div>
+              <div class="cad-home-image"><img src="{{ $thumb.RelPermalink }}" alt="{{ $drawing.Params.image_alt | default $drawing.Title }}" width="{{ $thumb.Width }}" height="{{ $thumb.Height }}" decoding="async" loading="lazy"></div>
             {{ end }}
             <div class="cad-home-card-label"><h3>{{ .Title }}</h3><span aria-hidden="true">↗</span></div>
             <p>View drawing</p>
@@ -34,7 +44,11 @@
       </div>
     </section>
   {{ end }}
-  <aside class="cad-home-bottom">
+<section class="cad-home-notes" aria-labelledby="cad-notes-title">
+<div><p class="cad-eyebrow">BEYOND THE DRAWING</p><h2 id="cad-notes-title">Get to know your tools.</h2><p>Practical reads for your next modeling session.</p></div>
+<div class="cad-note-links">{{ range slice "/blog/freecad-for-drawing-practice" "/blog/solidcraft-introduction" }}{{ with site.GetPage . }}<a href="{{ .RelPermalink }}"><span>{{ .Title }}</span><span aria-hidden="true">&#8599;</span></a>{{ end }}{{ end }}</div>
+</section>
+<aside class="cad-home-bottom">
     <p>Find your next exercise by number or series.</p>
     {{ with site.GetPage "/drawings" }}<a href="{{ .RelPermalink }}">Browse the full library <span aria-hidden="true">→</span></a>{{ end }}
   </aside>

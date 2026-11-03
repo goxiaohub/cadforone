@@ -1,20 +1,29 @@
 ---
-title: 关于
+title: 关于 CAD for One
+description: CAD for One 提供二维草图练习、三维机械图纸和 CAD 学习笔记，帮助读者练习读图与建模。
 toc: false
 ---
 
-Hextra 是一款专为构建现代化静态网站而设计的简洁、快速且灵活的主题。它尤其适合搭建文档类网站，同时也能轻松驾驭博客、作品集等多种站点类型。
+CAD for One 是面向 CAD 练习者的图纸与学习资源网站。你可以浏览 [2D 图纸练习](/zh-cn/drawings/2d/)、选择 [3D 建模练习](/zh-cn/drawings/3d/)，或阅读英文 [CAD 博客](/blog/)。
 
-与 Jekyll 类似，Hugo 同样是一款静态网站生成器。其独特之处在于采用单一二进制文件，可在多平台轻松安装运行。Hugo 以极致的速度与稳定性著称，能在毫秒间渲染包含数千页面的网站。
+图纸库目前有 65 张 2D 图纸和 71 张 3D 图纸。每张图纸保留原始练习编号，并有独立页面，方便重复练习和分享。练习不限定某一款 CAD 软件。
 
-Hextra 秉持极简理念开发。您无需安装 Node.js 等额外依赖，仅需一个 YAML 配置文件搭配 Markdown 内容即可快速开始。这让我们能专注于创作优质内容，而非配置工具链。
+## 素材来源与使用
+
+图纸图片由网站所有者提供，并已授权在本站展示；原编号和水印保留。展示授权不等于向访客授予开放转载或再分发许可，本站也不据此宣称全部图片均由运营者原创。
+
+图纸用于学习练习，不是经过验证的生产制造规范。除非页面明确说明已实测，否则建模思路属于练习建议。
+
+## 内容编写方式
+
+软件文章附有来源链接，历史版本信息会标明版本或日期。原创示意图与软件截图、练习建议与实测结果分别说明。本站使用 AI 工具辅助写作和开发，这不能代替实际 CAD 建模验证。
+
+未完成并核验的模型不会被称为实测案例；不会虚构作者资历、测试结果或模型下载。
+
+## 问题与更正
+
+反馈时请提供页面地址或图纸编号，并说明具体问题。本站公开项目位于 [GitHub：goxiaohub/cadforone](https://github.com/goxiaohub/cadforone)，可使用项目已有的反馈渠道。请勿公开私人文件或个人信息。
 
 ## 致谢
 
-Hextra 的诞生离不开以下工具与灵感的启发：
-
-- [Hugo](https://gohugo.io/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [Heroicons](https://heroicons.com/)
-- [Nextra](https://nextra.vercel.app/)
-- [Next.js](https://nextjs.org/)
+本站使用 [Hugo](https://gohugo.io/) 与 [Hextra](https://github.com/imfing/hextra) 构建。CAD for One 是独立学习网站，不是 FreeCAD、SolidCraft 等软件的官方文档。

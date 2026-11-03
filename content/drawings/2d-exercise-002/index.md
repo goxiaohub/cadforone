@@ -1,6 +1,6 @@
 ---
 title: "2D CAD Exercise 002"
-description: "2D CAD Exercise 002: dimensioned CAD practice drawing for 2D drafting and sketch practice. View the drawing and browse the 2D exercise series."
+description: "2D CAD Exercise 002: Three circular openings sit in a symmetric outline joined by concave arcs."
 draft: false
 slug: 2d-exercise-002
 drawing_id: CFO-2D-002
@@ -17,11 +17,23 @@ license:
   name: "Website display authorized by the site owner"
   website_display_allowed: true
   redistribution_allowed: false
-summary: "2D CAD Exercise 002: dimensioned CAD practice drawing for 2D drafting and sketch practice. View the drawing and browse the 2D exercise series."
+summary: "Three circular openings sit in a symmetric outline joined by concave arcs."
 images: [drawing.webp]
-image_alt: "2D CAD exercise 002, dimensioned drawing for 2D drafting and sketch practice"
+image_alt: "2D CAD Exercise 002. Three circular openings sit in a symmetric outline joined by concave arcs."
 series_title: "2D CAD Exercises"
 series_path: "/drawings/2d/"
 ---
 
-![2D CAD exercise 002, dimensioned drawing for 2D drafting and sketch practice](drawing.webp)
+Three circular openings sit in a symmetric outline joined by concave arcs.
+
+![2D CAD Exercise 002. Three circular openings sit in a symmetric outline joined by concave arcs.](drawing.webp)
+
+<details class="cad-practice-notes">
+<summary>Practice notes</summary>
+
+- Use the side-hole centerline and raised middle center as construction references.
+- Check arc connections and left-to-right symmetry before trimming.
+
+These are suggested reading checks, not a tested modeling tutorial.
+
+</details>

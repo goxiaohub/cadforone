@@ -1,6 +1,6 @@
 ---
 title: "2D CAD Exercise 001"
-description: "2D CAD Exercise 001: dimensioned CAD practice drawing for 2D drafting and sketch practice. View the drawing and browse the 2D exercise series."
+description: "2D CAD Exercise 001: A rounded plate outline with five surrounding holes and a central circular opening interrupted by two narrow notches."
 draft: false
 slug: 2d-exercise-001
 drawing_id: CFO-2D-001
@@ -17,11 +17,23 @@ license:
   name: "Website display authorized by the site owner"
   website_display_allowed: true
   redistribution_allowed: false
-summary: "2D CAD Exercise 001: dimensioned CAD practice drawing for 2D drafting and sketch practice. View the drawing and browse the 2D exercise series."
+summary: "A rounded plate outline with five surrounding holes and a central circular opening interrupted by two narrow notches."
 images: [drawing.webp]
-image_alt: "2D CAD exercise 001, dimensioned drawing for 2D drafting and sketch practice"
+image_alt: "2D CAD Exercise 001. A rounded plate outline with five surrounding holes and a central circular opening interrupted by two narrow notches."
 series_title: "2D CAD Exercises"
 series_path: "/drawings/2d/"
 ---
 
-![2D CAD exercise 001, dimensioned drawing for 2D drafting and sketch practice](drawing.webp)
+A rounded plate outline with five surrounding holes and a central circular opening interrupted by two narrow notches.
+
+![2D CAD Exercise 001. A rounded plate outline with five surrounding holes and a central circular opening interrupted by two narrow notches.](drawing.webp)
+
+<details class="cad-practice-notes">
+<summary>Practice notes</summary>
+
+- Locate the hole centers before constructing the outer arcs.
+- Compare the upper and lower notches against the vertical centerline.
+
+These are suggested reading checks, not a tested modeling tutorial.
+
+</details>

@@ -1,20 +1,29 @@
 ---
-title: About
+title: About CAD for One
+description: CAD for One is a library of 2D sketch exercises, 3D mechanical drawings, and practical CAD learning notes.
 toc: false
 ---
 
-Hextra is designed to be a simple, fast, and flexible theme for building modern static websites. It is especially well-suited for documentation websites but can also be used for various types of sites, such as blogs, portfolios, and more.
+CAD for One helps you practice reading engineering drawings and building CAD models. Browse the [2D drawing exercises](/drawings/2d/), choose a [3D modeling exercise](/drawings/3d/), or read the [CAD Notes blog](/blog/).
 
-Hugo, like Jekyll, is a static site generator. What sets Hugo apart is that it is a single binary, making it easy to install and run on various platforms. It is also extremely fast and reliable, capable of rendering a site with thousands of pages in milliseconds.
+The library contains 65 2D exercises and 71 3D exercises. Each drawing has its own page and original exercise number, so you can return to it or share the same reference with another learner. The exercises can be approached in your preferred CAD software; they are not tied to one vendor.
 
-Hextra is built with a mindset focused on having a minimal footprint. To get started, no extra dependencies like Node.js packages are required; all you need is a single YAML configuration file, along with your Markdown content. Thus, we can focus on writing quality content instead of setting up tooling.
+## Drawings and permissions
 
-## Credits
+The drawing images were supplied by the site owner, who authorized their display on CAD for One. Original exercise numbers and watermarks are retained. Display permission is not an open license for visitors to republish or redistribute the images. This site does not claim that every image was originally authored by its operator.
 
-Hextra cannot be built without the following tools and inspirations:
+These are practice references. A drawing page is not a verified manufacturing specification, and a suggested modeling approach is not a tested tutorial unless the page explicitly says so.
 
-- [Hugo](https://gohugo.io/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [Heroicons](https://heroicons.com/)
-- [Nextra](https://nextra.vercel.app/)
-- [Next.js](https://nextjs.org/)
+## How the learning notes are prepared
+
+Software articles link to their source material. Historical release information is identified by version or date. Practice suggestions and conceptual diagrams are distinguished from software screenshots and measured test results. AI tools assist with drafting and site development; that assistance is not a substitute for testing a model in CAD.
+
+We do not invent completed models, test results, author credentials, or downloadable files. If an exercise has not been modeled and checked, its notes remain suggestions for practice.
+
+## Questions and corrections
+
+For a correction, include the page URL or exercise number and describe what appears wrong. The site's public project is [goxiaohub/cadforone on GitHub](https://github.com/goxiaohub/cadforone); use its available feedback channels. Please do not post private documents or personal information.
+
+## Site credits
+
+CAD for One is built with [Hugo](https://gohugo.io/) and the [Hextra theme](https://github.com/imfing/hextra). FreeCAD, SolidCraft, and other software names belong to their respective projects. CAD for One is an independent learning site, not their official documentation.

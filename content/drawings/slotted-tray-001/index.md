@@ -1,6 +1,6 @@
 ---
 title: "3D CAD Exercise 001"
-description: "3D CAD Exercise 001: dimensioned CAD practice drawing for 3D modeling practice. View the drawing and browse the 3D exercise series."
+description: "3D CAD Exercise 001: A thin-walled part with five upper slots, a circular feature, and a lower open cutout is shown in front, section, and isometric views."
 draft: false
 slug: slotted-tray-001
 drawing_id: CFO-0001
@@ -22,11 +22,23 @@ license:
   name: "Website display authorized by the site owner"
   website_display_allowed: true
   redistribution_allowed: false
-summary: "3D CAD Exercise 001: dimensioned CAD practice drawing for 3D modeling practice. View the drawing and browse the 3D exercise series."
+summary: "A thin-walled part with five upper slots, a circular feature, and a lower open cutout is shown in front, section, and isometric views."
 images: [drawing.webp]
-image_alt: "3D CAD exercise 001: dimensioned front view, section A\u2013A and isometric view of a thin-walled part with five slots"
+image_alt: "3D CAD Exercise 001. A thin-walled part with five upper slots, a circular feature, and a lower open cutout is shown in front, section, and isometric views."
 series_title: "3D CAD Exercises"
 series_path: "/drawings/3d/"
 ---
 
-![3D CAD exercise 001: dimensioned front view, section A–A and isometric view of a thin-walled part with five slots](drawing.webp)
+A thin-walled part with five upper slots, a circular feature, and a lower open cutout is shown in front, section, and isometric views.
+
+![3D CAD Exercise 001. A thin-walled part with five upper slots, a circular feature, and a lower open cutout is shown in front, section, and isometric views.](drawing.webp)
+
+<details class="cad-practice-notes">
+<summary>Practice notes</summary>
+
+- Read section A-A before deciding which side of the body is open.
+- Compare the different slot lengths and the curved arrangement of their lower ends.
+
+These are suggested reading checks, not a tested modeling tutorial.
+
+</details>

@@ -16,7 +16,7 @@
   {{- $pageLink := $page.RelPermalink -}}
   {{- $data := partial "utils/fragments" (dict "context" $page "type" $indexType) -}}
   {{- if $page.Params.drawing_series -}}
-    {{- $data = dict "" (printf "%s\n%s\n%s\n%s" $page.Title $page.Description $page.Params.image_alt $page.Params.drawing_id) -}}
+    {{- $data = dict "" (printf "%s\n%s\n%s\n%s\n%s" $page.Title $page.Description $page.Params.image_alt $page.Params.drawing_id $page.Plain) -}}
   {{- end -}}
   {{- $output = $output | merge (dict $pageLink (dict "title" $pageTitle "data" $data)) -}}
 {{- end -}}

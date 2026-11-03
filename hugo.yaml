@@ -70,13 +70,6 @@ menu:
       name: Blog
       pageRef: /blog
       weight: 2
-    - identifier: showcase
-      name: Showcase
-      pageRef: /showcase
-      weight: 3
-      params:
-        type: link
-        icon: collection
     - identifier: more
       name: More
       weight: 4

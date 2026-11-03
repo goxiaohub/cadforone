@@ -14,14 +14,6 @@
           {{ end }}
         {{ end }}
       </ul>
-      {{ with $series }}
-        {{ $english := index (where hugo.Sites "Language.Lang" "en") 0 }}
-        <ol class="cad-sidebar-exercises">
-          {{ range (where $english.RegularPages "Params.drawing_series" .).ByParam "series_order" }}
-            <li><a href="{{ .RelPermalink }}" {{ if eq .RelPermalink $page.RelPermalink }}aria-current="page" class="hextra-sidebar-active-item"{{ end }}>{{ .Title }}</a></li>
-          {{ end }}
-        </ol>
-      {{ end }}
     </nav>
   </div>
 </aside>
