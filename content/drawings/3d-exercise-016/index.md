@@ -1,6 +1,6 @@
 ---
 title: "3D CAD Exercise 016"
-description: "3D CAD Exercise 016: dimensioned CAD practice drawing for 3D modeling practice. View the drawing and browse the 3D exercise series."
+description: "3D CAD Exercise 016: A curved cover with several openings, shown through multiple cross-sections."
 draft: false
 slug: 3d-exercise-016
 drawing_id: CFO-0016
@@ -17,11 +17,23 @@ license:
   name: "Website display authorized by the site owner"
   website_display_allowed: true
   redistribution_allowed: false
-summary: "3D CAD Exercise 016: dimensioned CAD practice drawing for 3D modeling practice. View the drawing and browse the 3D exercise series."
+summary: "A curved cover with several openings, shown through multiple cross-sections."
 images: [drawing.webp]
-image_alt: "3D CAD exercise 016, dimensioned drawing for 3D modeling practice"
+image_alt: "3D CAD Exercise 016. A curved cover with several openings, shown through multiple cross-sections."
 series_title: "3D CAD Exercises"
 series_path: "/drawings/3d/"
 ---
 
-![3D CAD exercise 016, dimensioned drawing for 3D modeling practice](drawing.webp)
+A curved cover with several openings, shown through multiple cross-sections.
+
+![3D CAD Exercise 016. A curved cover with several openings, shown through multiple cross-sections.](drawing.webp)
+
+<details class="cad-practice-notes">
+<summary>Practice notes</summary>
+
+- Use the sections to establish the shell curvature and edge returns.
+- Project the openings onto the curved body without treating the plan outline as a flat plate.
+
+These are suggested reading checks, not a tested modeling tutorial.
+
+</details>

@@ -1,6 +1,6 @@
 ---
 title: "3D CAD Exercise 067"
-description: "3D CAD Exercise 067: dimensioned CAD practice drawing for 3D modeling practice. View the drawing and browse the 3D exercise series."
+description: "3D CAD Exercise 067: A tapered hollow housing with a circular base flange and an inclined side outlet."
 draft: false
 slug: 3d-exercise-067
 drawing_id: CFO-0067
@@ -17,11 +17,23 @@ license:
   name: "Website display authorized by the site owner"
   website_display_allowed: true
   redistribution_allowed: false
-summary: "3D CAD Exercise 067: dimensioned CAD practice drawing for 3D modeling practice. View the drawing and browse the 3D exercise series."
+summary: "A tapered hollow housing with a circular base flange and an inclined side outlet."
 images: [drawing.webp]
-image_alt: "3D CAD exercise 067, dimensioned drawing for 3D modeling practice"
+image_alt: "3D CAD Exercise 067. A tapered hollow housing with a circular base flange and an inclined side outlet."
 series_title: "3D CAD Exercises"
 series_path: "/drawings/3d/"
 ---
 
-![3D CAD exercise 067, dimensioned drawing for 3D modeling practice](drawing.webp)
+A tapered hollow housing with a circular base flange and an inclined side outlet.
+
+![3D CAD Exercise 067. A tapered hollow housing with a circular base flange and an inclined side outlet.](drawing.webp)
+
+<details class="cad-practice-notes">
+<summary>Practice notes</summary>
+
+- Use section A-A to establish the tapered wall and internal passages.
+- Read the outlet view separately to locate its flange holes and orientation.
+
+These are suggested reading checks, not a tested modeling tutorial.
+
+</details>

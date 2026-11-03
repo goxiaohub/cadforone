@@ -1,6 +1,6 @@
 ---
 title: "3D CAD Exercise 034"
-description: "3D CAD Exercise 034: dimensioned CAD practice drawing for 3D modeling practice. View the drawing and browse the 3D exercise series."
+description: "3D CAD Exercise 034: A shallow circular housing with a central bored boss, internal ribs, and two opposing tabs."
 draft: false
 slug: 3d-exercise-034
 drawing_id: CFO-0034
@@ -17,11 +17,23 @@ license:
   name: "Website display authorized by the site owner"
   website_display_allowed: true
   redistribution_allowed: false
-summary: "3D CAD Exercise 034: dimensioned CAD practice drawing for 3D modeling practice. View the drawing and browse the 3D exercise series."
+summary: "A shallow circular housing with a central bored boss, internal ribs, and two opposing tabs."
 images: [drawing.webp]
-image_alt: "3D CAD exercise 034, dimensioned drawing for 3D modeling practice"
+image_alt: "3D CAD Exercise 034. A shallow circular housing with a central bored boss, internal ribs, and two opposing tabs."
 series_title: "3D CAD Exercises"
 series_path: "/drawings/3d/"
 ---
 
-![3D CAD exercise 034, dimensioned drawing for 3D modeling practice](drawing.webp)
+A shallow circular housing with a central bored boss, internal ribs, and two opposing tabs.
+
+![3D CAD Exercise 034. A shallow circular housing with a central bored boss, internal ribs, and two opposing tabs.](drawing.webp)
+
+<details class="cad-practice-notes">
+<summary>Practice notes</summary>
+
+- Use section A-A to separate the thin shell from the central boss.
+- Compare the upper and underside views when positioning the ribs and tabs.
+
+These are suggested reading checks, not a tested modeling tutorial.
+
+</details>

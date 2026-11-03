@@ -1,6 +1,6 @@
 ---
 title: "3D CAD Exercise 014"
-description: "3D CAD Exercise 014: dimensioned CAD practice drawing for 3D modeling practice. View the drawing and browse the 3D exercise series."
+description: "3D CAD Exercise 014: A mounting rail with several drilled holes and a central bored, rounded projection."
 draft: false
 slug: 3d-exercise-014
 drawing_id: CFO-0014
@@ -17,11 +17,23 @@ license:
   name: "Website display authorized by the site owner"
   website_display_allowed: true
   redistribution_allowed: false
-summary: "3D CAD Exercise 014: dimensioned CAD practice drawing for 3D modeling practice. View the drawing and browse the 3D exercise series."
+summary: "A mounting rail with several drilled holes and a central bored, rounded projection."
 images: [drawing.webp]
-image_alt: "3D CAD exercise 014, dimensioned drawing for 3D modeling practice"
+image_alt: "3D CAD Exercise 014. A mounting rail with several drilled holes and a central bored, rounded projection."
 series_title: "3D CAD Exercises"
 series_path: "/drawings/3d/"
 ---
 
-![3D CAD exercise 014, dimensioned drawing for 3D modeling practice](drawing.webp)
+A mounting rail with several drilled holes and a central bored, rounded projection.
+
+![3D CAD Exercise 014. A mounting rail with several drilled holes and a central bored, rounded projection.](drawing.webp)
+
+<details class="cad-practice-notes">
+<summary>Practice notes</summary>
+
+- Use section A-A to distinguish the hole depths and stepped openings.
+- Compare the end view with the isometric view to resolve the central projection and lower rail.
+
+These are suggested reading checks, not a tested modeling tutorial.
+
+</details>

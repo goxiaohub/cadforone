@@ -1,6 +1,6 @@
 ---
 title: "3D CAD Exercise 047"
-description: "3D CAD Exercise 047: dimensioned CAD practice drawing for 3D modeling practice. View the drawing and browse the 3D exercise series."
+description: "3D CAD Exercise 047: An angled, stepped support mounted on a rounded rectangular base."
 draft: false
 slug: 3d-exercise-047
 drawing_id: CFO-0047
@@ -17,11 +17,23 @@ license:
   name: "Website display authorized by the site owner"
   website_display_allowed: true
   redistribution_allowed: false
-summary: "3D CAD Exercise 047: dimensioned CAD practice drawing for 3D modeling practice. View the drawing and browse the 3D exercise series."
+summary: "An angled, stepped support mounted on a rounded rectangular base."
 images: [drawing.webp]
-image_alt: "3D CAD exercise 047, dimensioned drawing for 3D modeling practice"
+image_alt: "3D CAD Exercise 047. An angled, stepped support mounted on a rounded rectangular base."
 series_title: "3D CAD Exercises"
 series_path: "/drawings/3d/"
 ---
 
-![3D CAD exercise 047, dimensioned drawing for 3D modeling practice](drawing.webp)
+An angled, stepped support mounted on a rounded rectangular base.
+
+![3D CAD Exercise 047. An angled, stepped support mounted on a rounded rectangular base.](drawing.webp)
+
+<details class="cad-practice-notes">
+<summary>Practice notes</summary>
+
+- Use rotated view A to read the inclined feature in its own plane.
+- Check the base-hole locations separately from the rotated upper profile.
+
+These are suggested reading checks, not a tested modeling tutorial.
+
+</details>

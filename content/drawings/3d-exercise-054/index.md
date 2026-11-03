@@ -1,6 +1,6 @@
 ---
 title: "3D CAD Exercise 054"
-description: "3D CAD Exercise 054: dimensioned CAD practice drawing for 3D modeling practice. View the drawing and browse the 3D exercise series."
+description: "3D CAD Exercise 054: A clevis-style bracket with two parallel plates joined to a transverse cylindrical eye."
 draft: false
 slug: 3d-exercise-054
 drawing_id: CFO-0054
@@ -17,11 +17,23 @@ license:
   name: "Website display authorized by the site owner"
   website_display_allowed: true
   redistribution_allowed: false
-summary: "3D CAD Exercise 054: dimensioned CAD practice drawing for 3D modeling practice. View the drawing and browse the 3D exercise series."
+summary: "A clevis-style bracket with two parallel plates joined to a transverse cylindrical eye."
 images: [drawing.webp]
-image_alt: "3D CAD exercise 054, dimensioned drawing for 3D modeling practice"
+image_alt: "3D CAD Exercise 054. A clevis-style bracket with two parallel plates joined to a transverse cylindrical eye."
 series_title: "3D CAD Exercises"
 series_path: "/drawings/3d/"
 ---
 
-![3D CAD exercise 054, dimensioned drawing for 3D modeling practice](drawing.webp)
+A clevis-style bracket with two parallel plates joined to a transverse cylindrical eye.
+
+![3D CAD Exercise 054. A clevis-style bracket with two parallel plates joined to a transverse cylindrical eye.](drawing.webp)
+
+<details class="cad-practice-notes">
+<summary>Practice notes</summary>
+
+- Use the side view to establish the plate spacing and the round eye.
+- Check which holes pass through the plates and which follow the transverse axis.
+
+These are suggested reading checks, not a tested modeling tutorial.
+
+</details>

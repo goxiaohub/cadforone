@@ -1,6 +1,6 @@
 ---
 title: "3D CAD Exercise 022"
-description: "3D CAD Exercise 022: dimensioned CAD practice drawing for 3D modeling practice. View the drawing and browse the 3D exercise series."
+description: "3D CAD Exercise 022: An oval link with two openings separated by a curved central bridge."
 draft: false
 slug: 3d-exercise-022
 drawing_id: CFO-0022
@@ -17,11 +17,23 @@ license:
   name: "Website display authorized by the site owner"
   website_display_allowed: true
   redistribution_allowed: false
-summary: "3D CAD Exercise 022: dimensioned CAD practice drawing for 3D modeling practice. View the drawing and browse the 3D exercise series."
+summary: "An oval link with two openings separated by a curved central bridge."
 images: [drawing.webp]
-image_alt: "3D CAD exercise 022, dimensioned drawing for 3D modeling practice"
+image_alt: "3D CAD Exercise 022. An oval link with two openings separated by a curved central bridge."
 series_title: "3D CAD Exercises"
 series_path: "/drawings/3d/"
 ---
 
-![3D CAD exercise 022, dimensioned drawing for 3D modeling practice](drawing.webp)
+An oval link with two openings separated by a curved central bridge.
+
+![3D CAD Exercise 022. An oval link with two openings separated by a curved central bridge.](drawing.webp)
+
+<details class="cad-practice-notes">
+<summary>Practice notes</summary>
+
+- Read both sections before choosing profiles for the outer rim and middle bridge.
+- Compare the opening outlines with the varying thickness shown in section.
+
+These are suggested reading checks, not a tested modeling tutorial.
+
+</details>

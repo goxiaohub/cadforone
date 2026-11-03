@@ -1,6 +1,6 @@
 ---
 title: "2D CAD Exercise 042"
-description: "2D CAD Exercise 042: dimensioned CAD practice drawing for 2D drafting and sketch practice. View the drawing and browse the 2D exercise series."
+description: "2D CAD Exercise 042: A lever-like outline combining a circular eye, a straight slot, a curved slot, and a small end loop."
 draft: false
 slug: 2d-exercise-042
 drawing_id: CFO-2D-042
@@ -17,11 +17,23 @@ license:
   name: "Website display authorized by the site owner"
   website_display_allowed: true
   redistribution_allowed: false
-summary: "2D CAD Exercise 042: dimensioned CAD practice drawing for 2D drafting and sketch practice. View the drawing and browse the 2D exercise series."
+summary: "A lever-like outline combining a circular eye, a straight slot, a curved slot, and a small end loop."
 images: [drawing.webp]
-image_alt: "2D CAD exercise 042, dimensioned drawing for 2D drafting and sketch practice"
+image_alt: "2D CAD Exercise 042. A lever-like outline combining a circular eye, a straight slot, a curved slot, and a small end loop."
 series_title: "2D CAD Exercises"
 series_path: "/drawings/2d/"
 ---
 
-![2D CAD exercise 042, dimensioned drawing for 2D drafting and sketch practice](drawing.webp)
+A lever-like outline combining a circular eye, a straight slot, a curved slot, and a small end loop.
+
+![2D CAD Exercise 042. A lever-like outline combining a circular eye, a straight slot, a curved slot, and a small end loop.](drawing.webp)
+
+<details class="cad-practice-notes">
+<summary>Practice notes</summary>
+
+- Place the eye center and straight slot before constructing the lower curved arm.
+- Check the different slot centerlines and their end radii without assuming equal widths.
+
+These are suggested reading checks, not a tested modeling tutorial.
+
+</details>

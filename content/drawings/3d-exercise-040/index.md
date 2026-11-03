@@ -1,6 +1,6 @@
 ---
 title: "3D CAD Exercise 040"
-description: "3D CAD Exercise 040: dimensioned CAD practice drawing for 3D modeling practice. View the drawing and browse the 3D exercise series."
+description: "3D CAD Exercise 040: A hollow vessel with a spherical body and a tall, offset neck."
 draft: false
 slug: 3d-exercise-040
 drawing_id: CFO-0040
@@ -17,11 +17,23 @@ license:
   name: "Website display authorized by the site owner"
   website_display_allowed: true
   redistribution_allowed: false
-summary: "3D CAD Exercise 040: dimensioned CAD practice drawing for 3D modeling practice. View the drawing and browse the 3D exercise series."
+summary: "A hollow vessel with a spherical body and a tall, offset neck."
 images: [drawing.webp]
-image_alt: "3D CAD exercise 040, dimensioned drawing for 3D modeling practice"
+image_alt: "3D CAD Exercise 040. A hollow vessel with a spherical body and a tall, offset neck."
 series_title: "3D CAD Exercises"
 series_path: "/drawings/3d/"
 ---
 
-![3D CAD exercise 040, dimensioned drawing for 3D modeling practice](drawing.webp)
+A hollow vessel with a spherical body and a tall, offset neck.
+
+![3D CAD Exercise 040. A hollow vessel with a spherical body and a tall, offset neck.](drawing.webp)
+
+<details class="cad-practice-notes">
+<summary>Practice notes</summary>
+
+- Establish the sphere and neck axes before blending the two forms.
+- Check the mouth and interior opening using the line views rather than the reflective rendering.
+
+These are suggested reading checks, not a tested modeling tutorial.
+
+</details>

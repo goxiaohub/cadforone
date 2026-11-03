@@ -1,6 +1,6 @@
 ---
 title: "2D CAD Exercise 044"
-description: "2D CAD Exercise 044: dimensioned CAD practice drawing for 2D drafting and sketch practice. View the drawing and browse the 2D exercise series."
+description: "2D CAD Exercise 044: A pedestal-shaped outline with a circular cluster, two side holes, and a sloping base."
 draft: false
 slug: 2d-exercise-044
 drawing_id: CFO-2D-044
@@ -17,11 +17,23 @@ license:
   name: "Website display authorized by the site owner"
   website_display_allowed: true
   redistribution_allowed: false
-summary: "2D CAD Exercise 044: dimensioned CAD practice drawing for 2D drafting and sketch practice. View the drawing and browse the 2D exercise series."
+summary: "A pedestal-shaped outline with a circular cluster, two side holes, and a sloping base."
 images: [drawing.webp]
-image_alt: "2D CAD exercise 044, dimensioned drawing for 2D drafting and sketch practice"
+image_alt: "2D CAD Exercise 044. A pedestal-shaped outline with a circular cluster, two side holes, and a sloping base."
 series_title: "2D CAD Exercises"
 series_path: "/drawings/2d/"
 ---
 
-![2D CAD exercise 044, dimensioned drawing for 2D drafting and sketch practice](drawing.webp)
+A pedestal-shaped outline with a circular cluster, two side holes, and a sloping base.
+
+![2D CAD Exercise 044. A pedestal-shaped outline with a circular cluster, two side holes, and a sloping base.](drawing.webp)
+
+<details class="cad-practice-notes">
+<summary>Practice notes</summary>
+
+- Establish the vertical centerline and the centers of the inner circles.
+- Check the side lobes and the transitions into the angled base.
+
+These are suggested reading checks, not a tested modeling tutorial.
+
+</details>

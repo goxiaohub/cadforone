@@ -1,6 +1,6 @@
 ---
 title: "3D CAD Exercise 018"
-description: "3D CAD Exercise 018: dimensioned CAD practice drawing for 3D modeling practice. View the drawing and browse the 3D exercise series."
+description: "3D CAD Exercise 018: A spherical form decorated with rounded, contrasting surface patches."
 draft: false
 slug: 3d-exercise-018
 drawing_id: CFO-0018
@@ -17,11 +17,23 @@ license:
   name: "Website display authorized by the site owner"
   website_display_allowed: true
   redistribution_allowed: false
-summary: "3D CAD Exercise 018: dimensioned CAD practice drawing for 3D modeling practice. View the drawing and browse the 3D exercise series."
+summary: "A spherical form decorated with rounded, contrasting surface patches."
 images: [drawing.webp]
-image_alt: "3D CAD exercise 018, dimensioned drawing for 3D modeling practice"
+image_alt: "3D CAD Exercise 018. A spherical form decorated with rounded, contrasting surface patches."
 series_title: "3D CAD Exercises"
 series_path: "/drawings/3d/"
 ---
 
-![3D CAD exercise 018, dimensioned drawing for 3D modeling practice](drawing.webp)
+A spherical form decorated with rounded, contrasting surface patches.
+
+![3D CAD Exercise 018. A spherical form decorated with rounded, contrasting surface patches.](drawing.webp)
+
+<details class="cad-practice-notes">
+<summary>Practice notes</summary>
+
+- Use both circular views to locate the patch boundaries around the sphere.
+- Decide which boundaries are surface divisions; the shading alone does not specify a cut depth.
+
+These are suggested reading checks, not a tested modeling tutorial.
+
+</details>

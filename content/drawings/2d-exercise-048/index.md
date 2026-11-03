@@ -1,6 +1,6 @@
 ---
 title: "2D CAD Exercise 048"
-description: "2D CAD Exercise 048: dimensioned CAD practice drawing for 2D drafting and sketch practice. View the drawing and browse the 2D exercise series."
+description: "2D CAD Exercise 048: A polygonal outline containing three stacked tangent circles beside an angled internal boundary."
 draft: false
 slug: 2d-exercise-048
 drawing_id: CFO-2D-048
@@ -17,11 +17,23 @@ license:
   name: "Website display authorized by the site owner"
   website_display_allowed: true
   redistribution_allowed: false
-summary: "2D CAD Exercise 048: dimensioned CAD practice drawing for 2D drafting and sketch practice. View the drawing and browse the 2D exercise series."
+summary: "A polygonal outline containing three stacked tangent circles beside an angled internal boundary."
 images: [drawing.webp]
-image_alt: "2D CAD exercise 048, dimensioned drawing for 2D drafting and sketch practice"
+image_alt: "2D CAD Exercise 048. A polygonal outline containing three stacked tangent circles beside an angled internal boundary."
 series_title: "2D CAD Exercises"
 series_path: "/drawings/2d/"
 ---
 
-![2D CAD exercise 048, dimensioned drawing for 2D drafting and sketch practice](drawing.webp)
+A polygonal outline containing three stacked tangent circles beside an angled internal boundary.
+
+![2D CAD Exercise 048. A polygonal outline containing three stacked tangent circles beside an angled internal boundary.](drawing.webp)
+
+<details class="cad-practice-notes">
+<summary>Practice notes</summary>
+
+- Establish the outer vertices and internal angle before fitting the circles.
+- Check circle-to-circle and circle-to-edge tangency separately.
+
+These are suggested reading checks, not a tested modeling tutorial.
+
+</details>

@@ -1,6 +1,6 @@
 ---
 title: "3D CAD Exercise 015"
-description: "3D CAD Exercise 015: dimensioned CAD practice drawing for 3D modeling practice. View the drawing and browse the 3D exercise series."
+description: "3D CAD Exercise 015: A stepped support bracket with a raised bridge, two lower feet, and a drilled extension."
 draft: false
 slug: 3d-exercise-015
 drawing_id: CFO-0015
@@ -17,11 +17,23 @@ license:
   name: "Website display authorized by the site owner"
   website_display_allowed: true
   redistribution_allowed: false
-summary: "3D CAD Exercise 015: dimensioned CAD practice drawing for 3D modeling practice. View the drawing and browse the 3D exercise series."
+summary: "A stepped support bracket with a raised bridge, two lower feet, and a drilled extension."
 images: [drawing.webp]
-image_alt: "3D CAD exercise 015, dimensioned drawing for 3D modeling practice"
+image_alt: "3D CAD Exercise 015. A stepped support bracket with a raised bridge, two lower feet, and a drilled extension."
 series_title: "3D CAD Exercises"
 series_path: "/drawings/3d/"
 ---
 
-![3D CAD exercise 015, dimensioned drawing for 3D modeling practice](drawing.webp)
+A stepped support bracket with a raised bridge, two lower feet, and a drilled extension.
+
+![3D CAD Exercise 015. A stepped support bracket with a raised bridge, two lower feet, and a drilled extension.](drawing.webp)
+
+<details class="cad-practice-notes">
+<summary>Practice notes</summary>
+
+- Build the height changes from the side profile before cutting the lower gaps.
+- Locate the extension holes from the plan view and check the corner radii separately.
+
+These are suggested reading checks, not a tested modeling tutorial.
+
+</details>

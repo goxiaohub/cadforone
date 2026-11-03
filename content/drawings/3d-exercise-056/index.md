@@ -1,6 +1,6 @@
 ---
 title: "3D CAD Exercise 056"
-description: "3D CAD Exercise 056: dimensioned CAD practice drawing for 3D modeling practice. View the drawing and browse the 3D exercise series."
+description: "3D CAD Exercise 056: A three-armed hub with a central stepped bore and curved recesses between the arms."
 draft: false
 slug: 3d-exercise-056
 drawing_id: CFO-0056
@@ -17,11 +17,23 @@ license:
   name: "Website display authorized by the site owner"
   website_display_allowed: true
   redistribution_allowed: false
-summary: "3D CAD Exercise 056: dimensioned CAD practice drawing for 3D modeling practice. View the drawing and browse the 3D exercise series."
+summary: "A three-armed hub with a central stepped bore and curved recesses between the arms."
 images: [drawing.webp]
-image_alt: "3D CAD exercise 056, dimensioned drawing for 3D modeling practice"
+image_alt: "3D CAD Exercise 056. A three-armed hub with a central stepped bore and curved recesses between the arms."
 series_title: "3D CAD Exercises"
 series_path: "/drawings/3d/"
 ---
 
-![3D CAD exercise 056, dimensioned drawing for 3D modeling practice](drawing.webp)
+A three-armed hub with a central stepped bore and curved recesses between the arms.
+
+![3D CAD Exercise 056. A three-armed hub with a central stepped bore and curved recesses between the arms.](drawing.webp)
+
+<details class="cad-practice-notes">
+<summary>Practice notes</summary>
+
+- Establish the hub and bore from section A-A before forming one radial arm.
+- Check the arm width and root radii before repeating the feature around the axis.
+
+These are suggested reading checks, not a tested modeling tutorial.
+
+</details>

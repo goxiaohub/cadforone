@@ -1,6 +1,6 @@
 ---
 title: "2D CAD Exercise 049"
-description: "2D CAD Exercise 049: dimensioned CAD practice drawing for 2D drafting and sketch practice. View the drawing and browse the 2D exercise series."
+description: "2D CAD Exercise 049: A curved link with a large circular end, a smaller circular end, and a changing-width middle."
 draft: false
 slug: 2d-exercise-049
 drawing_id: CFO-2D-049
@@ -17,11 +17,23 @@ license:
   name: "Website display authorized by the site owner"
   website_display_allowed: true
   redistribution_allowed: false
-summary: "2D CAD Exercise 049: dimensioned CAD practice drawing for 2D drafting and sketch practice. View the drawing and browse the 2D exercise series."
+summary: "A curved link with a large circular end, a smaller circular end, and a changing-width middle."
 images: [drawing.webp]
-image_alt: "2D CAD exercise 049, dimensioned drawing for 2D drafting and sketch practice"
+image_alt: "2D CAD Exercise 049. A curved link with a large circular end, a smaller circular end, and a changing-width middle."
 series_title: "2D CAD Exercises"
 series_path: "/drawings/2d/"
 ---
 
-![2D CAD exercise 049, dimensioned drawing for 2D drafting and sketch practice](drawing.webp)
+A curved link with a large circular end, a smaller circular end, and a changing-width middle.
+
+![2D CAD Exercise 049. A curved link with a large circular end, a smaller circular end, and a changing-width middle.](drawing.webp)
+
+<details class="cad-practice-notes">
+<summary>Practice notes</summary>
+
+- Place the two end centers before constructing the joining arcs.
+- Check the inner and outer radii individually rather than using a uniform offset.
+
+These are suggested reading checks, not a tested modeling tutorial.
+
+</details>

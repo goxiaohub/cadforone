@@ -1,6 +1,6 @@
 ---
 title: "2D CAD Exercise 029"
-description: "2D CAD Exercise 029: dimensioned CAD practice drawing for 2D drafting and sketch practice. View the drawing and browse the 2D exercise series."
+description: "2D CAD Exercise 029: A circular motif combining four pointed leaves with four rounded diagonal lobes."
 draft: false
 slug: 2d-exercise-029
 drawing_id: CFO-2D-029
@@ -17,11 +17,23 @@ license:
   name: "Website display authorized by the site owner"
   website_display_allowed: true
   redistribution_allowed: false
-summary: "2D CAD Exercise 029: dimensioned CAD practice drawing for 2D drafting and sketch practice. View the drawing and browse the 2D exercise series."
+summary: "A circular motif combining four pointed leaves with four rounded diagonal lobes."
 images: [drawing.webp]
-image_alt: "2D CAD exercise 029, dimensioned drawing for 2D drafting and sketch practice"
+image_alt: "2D CAD Exercise 029. A circular motif combining four pointed leaves with four rounded diagonal lobes."
 series_title: "2D CAD Exercises"
 series_path: "/drawings/2d/"
 ---
 
-![2D CAD exercise 029, dimensioned drawing for 2D drafting and sketch practice](drawing.webp)
+A circular motif combining four pointed leaves with four rounded diagonal lobes.
+
+![2D CAD Exercise 029. A circular motif combining four pointed leaves with four rounded diagonal lobes.](drawing.webp)
+
+<details class="cad-practice-notes">
+<summary>Practice notes</summary>
+
+- Use the horizontal and vertical axes to organize the repeated elements.
+- Check the visible symmetries without treating unmarked internal sizes as specified dimensions.
+
+These are suggested reading checks, not a tested modeling tutorial.
+
+</details>

@@ -1,6 +1,6 @@
 ---
 title: "3D CAD Exercise 012"
-description: "3D CAD Exercise 012: dimensioned CAD practice drawing for 3D modeling practice. View the drawing and browse the 3D exercise series."
+description: "3D CAD Exercise 012: A thin, rounded-end plate with a raised profile and small features at its squared end."
 draft: false
 slug: 3d-exercise-012
 drawing_id: CFO-0012
@@ -17,11 +17,23 @@ license:
   name: "Website display authorized by the site owner"
   website_display_allowed: true
   redistribution_allowed: false
-summary: "3D CAD Exercise 012: dimensioned CAD practice drawing for 3D modeling practice. View the drawing and browse the 3D exercise series."
+summary: "A thin, rounded-end plate with a raised profile and small features at its squared end."
 images: [drawing.webp]
-image_alt: "3D CAD exercise 012, dimensioned drawing for 3D modeling practice"
+image_alt: "3D CAD Exercise 012. A thin, rounded-end plate with a raised profile and small features at its squared end."
 series_title: "3D CAD Exercises"
 series_path: "/drawings/3d/"
 ---
 
-![3D CAD exercise 012, dimensioned drawing for 3D modeling practice](drawing.webp)
+A thin, rounded-end plate with a raised profile and small features at its squared end.
+
+![3D CAD Exercise 012. A thin, rounded-end plate with a raised profile and small features at its squared end.](drawing.webp)
+
+<details class="cad-practice-notes">
+<summary>Practice notes</summary>
+
+- Use the side view to resolve the changing height along the plate.
+- Check the end details against the plan view before adding rounds.
+
+These are suggested reading checks, not a tested modeling tutorial.
+
+</details>

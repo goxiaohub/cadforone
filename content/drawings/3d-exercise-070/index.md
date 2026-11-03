@@ -1,6 +1,6 @@
 ---
 title: "3D CAD Exercise 070"
-description: "3D CAD Exercise 070: dimensioned CAD practice drawing for 3D modeling practice. View the drawing and browse the 3D exercise series."
+description: "3D CAD Exercise 070: A tapered cup with a curved side profile and a small loop handle."
 draft: false
 slug: 3d-exercise-070
 drawing_id: CFO-0070
@@ -17,11 +17,23 @@ license:
   name: "Website display authorized by the site owner"
   website_display_allowed: true
   redistribution_allowed: false
-summary: "3D CAD Exercise 070: dimensioned CAD practice drawing for 3D modeling practice. View the drawing and browse the 3D exercise series."
+summary: "A tapered cup with a curved side profile and a small loop handle."
 images: [drawing.webp]
-image_alt: "3D CAD exercise 070, dimensioned drawing for 3D modeling practice"
+image_alt: "3D CAD Exercise 070. A tapered cup with a curved side profile and a small loop handle."
 series_title: "3D CAD Exercises"
 series_path: "/drawings/3d/"
 ---
 
-![3D CAD exercise 070, dimensioned drawing for 3D modeling practice](drawing.webp)
+A tapered cup with a curved side profile and a small loop handle.
+
+![3D CAD Exercise 070. A tapered cup with a curved side profile and a small loop handle.](drawing.webp)
+
+<details class="cad-practice-notes">
+<summary>Practice notes</summary>
+
+- Establish the inner and outer cup profiles before attaching the handle.
+- Check the handle's upper and lower junctions against the side-view radii.
+
+These are suggested reading checks, not a tested modeling tutorial.
+
+</details>

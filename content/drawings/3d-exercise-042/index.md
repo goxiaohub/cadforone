@@ -1,6 +1,6 @@
 ---
 title: "3D CAD Exercise 042"
-description: "3D CAD Exercise 042: dimensioned CAD practice drawing for 3D modeling practice. View the drawing and browse the 3D exercise series."
+description: "3D CAD Exercise 042: A compact forked link with rounded ends and intersecting hole directions."
 draft: false
 slug: 3d-exercise-042
 drawing_id: CFO-0042
@@ -17,11 +17,23 @@ license:
   name: "Website display authorized by the site owner"
   website_display_allowed: true
   redistribution_allowed: false
-summary: "3D CAD Exercise 042: dimensioned CAD practice drawing for 3D modeling practice. View the drawing and browse the 3D exercise series."
+summary: "A compact forked link with rounded ends and intersecting hole directions."
 images: [drawing.webp]
-image_alt: "3D CAD exercise 042, dimensioned drawing for 3D modeling practice"
+image_alt: "3D CAD Exercise 042. A compact forked link with rounded ends and intersecting hole directions."
 series_title: "3D CAD Exercises"
 series_path: "/drawings/3d/"
 ---
 
-![3D CAD exercise 042, dimensioned drawing for 3D modeling practice](drawing.webp)
+A compact forked link with rounded ends and intersecting hole directions.
+
+![3D CAD Exercise 042. A compact forked link with rounded ends and intersecting hole directions.](drawing.webp)
+
+<details class="cad-practice-notes">
+<summary>Practice notes</summary>
+
+- Compare the two principal views to resolve which end is forked in each direction.
+- Check the gaps and hole axes before adding the rounded outside ends.
+
+These are suggested reading checks, not a tested modeling tutorial.
+
+</details>

@@ -1,6 +1,6 @@
 ---
 title: "2D CAD Exercise 062"
-description: "2D CAD Exercise 062: dimensioned CAD practice drawing for 2D drafting and sketch practice. View the drawing and browse the 2D exercise series."
+description: "2D CAD Exercise 062: A D-shaped profile with two left-edge notches, a curved slot, and paired semicircular recesses on the right."
 draft: false
 slug: 2d-exercise-062
 drawing_id: CFO-2D-062
@@ -17,11 +17,23 @@ license:
   name: "Website display authorized by the site owner"
   website_display_allowed: true
   redistribution_allowed: false
-summary: "2D CAD Exercise 062: dimensioned CAD practice drawing for 2D drafting and sketch practice. View the drawing and browse the 2D exercise series."
+summary: "A D-shaped profile with two left-edge notches, a curved slot, and paired semicircular recesses on the right."
 images: [drawing.webp]
-image_alt: "2D CAD exercise 062, dimensioned drawing for 2D drafting and sketch practice"
+image_alt: "2D CAD Exercise 062. A D-shaped profile with two left-edge notches, a curved slot, and paired semicircular recesses on the right."
 series_title: "2D CAD Exercises"
 series_path: "/drawings/2d/"
 ---
 
-![2D CAD exercise 062, dimensioned drawing for 2D drafting and sketch practice](drawing.webp)
+A D-shaped profile with two left-edge notches, a curved slot, and paired semicircular recesses on the right.
+
+![2D CAD Exercise 062. A D-shaped profile with two left-edge notches, a curved slot, and paired semicircular recesses on the right.](drawing.webp)
+
+<details class="cad-practice-notes">
+<summary>Practice notes</summary>
+
+- Lay out the semicircular outer end and left-edge notches first.
+- Keep the curved slot separate from the open recesses on the right-hand centerline.
+
+These are suggested reading checks, not a tested modeling tutorial.
+
+</details>

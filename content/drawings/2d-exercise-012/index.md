@@ -1,6 +1,6 @@
 ---
 title: "2D CAD Exercise 012"
-description: "2D CAD Exercise 012: dimensioned CAD practice drawing for 2D drafting and sketch practice. View the drawing and browse the 2D exercise series."
+description: "2D CAD Exercise 012: A circular head joined to a curved, narrow stem with a flat lower end."
 draft: false
 slug: 2d-exercise-012
 drawing_id: CFO-2D-012
@@ -17,11 +17,23 @@ license:
   name: "Website display authorized by the site owner"
   website_display_allowed: true
   redistribution_allowed: false
-summary: "2D CAD Exercise 012: dimensioned CAD practice drawing for 2D drafting and sketch practice. View the drawing and browse the 2D exercise series."
+summary: "A circular head joined to a curved, narrow stem with a flat lower end."
 images: [drawing.webp]
-image_alt: "2D CAD exercise 012, dimensioned drawing for 2D drafting and sketch practice"
+image_alt: "2D CAD Exercise 012. A circular head joined to a curved, narrow stem with a flat lower end."
 series_title: "2D CAD Exercises"
 series_path: "/drawings/2d/"
 ---
 
-![2D CAD exercise 012, dimensioned drawing for 2D drafting and sketch practice](drawing.webp)
+A circular head joined to a curved, narrow stem with a flat lower end.
+
+![2D CAD Exercise 012. A circular head joined to a curved, narrow stem with a flat lower end.](drawing.webp)
+
+<details class="cad-practice-notes">
+<summary>Practice notes</summary>
+
+- Construct the inner and outer stem arcs from their indicated radii.
+- Check how the stem meets the head and where the lower end is trimmed.
+
+These are suggested reading checks, not a tested modeling tutorial.
+
+</details>

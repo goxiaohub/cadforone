@@ -1,6 +1,6 @@
 ---
 title: "2D CAD Exercise 047"
-description: "2D CAD Exercise 047: dimensioned CAD practice drawing for 2D drafting and sketch practice. View the drawing and browse the 2D exercise series."
+description: "2D CAD Exercise 047: An irregular stepped polygon with an inward diagonal notch and sloped lower-left edge."
 draft: false
 slug: 2d-exercise-047
 drawing_id: CFO-2D-047
@@ -17,11 +17,23 @@ license:
   name: "Website display authorized by the site owner"
   website_display_allowed: true
   redistribution_allowed: false
-summary: "2D CAD Exercise 047: dimensioned CAD practice drawing for 2D drafting and sketch practice. View the drawing and browse the 2D exercise series."
+summary: "An irregular stepped polygon with an inward diagonal notch and sloped lower-left edge."
 images: [drawing.webp]
-image_alt: "2D CAD exercise 047, dimensioned drawing for 2D drafting and sketch practice"
+image_alt: "2D CAD Exercise 047. An irregular stepped polygon with an inward diagonal notch and sloped lower-left edge."
 series_title: "2D CAD Exercises"
 series_path: "/drawings/2d/"
 ---
 
-![2D CAD exercise 047, dimensioned drawing for 2D drafting and sketch practice](drawing.webp)
+An irregular stepped polygon with an inward diagonal notch and sloped lower-left edge.
+
+![2D CAD Exercise 047. An irregular stepped polygon with an inward diagonal notch and sloped lower-left edge.](drawing.webp)
+
+<details class="cad-practice-notes">
+<summary>Practice notes</summary>
+
+- Build the horizontal and vertical steps from the chained dimensions.
+- Use the marked angle to resolve the diagonal notch and check closure of the outline.
+
+These are suggested reading checks, not a tested modeling tutorial.
+
+</details>

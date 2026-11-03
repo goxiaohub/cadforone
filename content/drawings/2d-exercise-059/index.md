@@ -1,6 +1,6 @@
 ---
 title: "2D CAD Exercise 059"
-description: "2D CAD Exercise 059: dimensioned CAD practice drawing for 2D drafting and sketch practice. View the drawing and browse the 2D exercise series."
+description: "2D CAD Exercise 059: A rectangle inscribed in a circle, with a diagonal passing through the center."
 draft: false
 slug: 2d-exercise-059
 drawing_id: CFO-2D-059
@@ -17,11 +17,23 @@ license:
   name: "Website display authorized by the site owner"
   website_display_allowed: true
   redistribution_allowed: false
-summary: "2D CAD Exercise 059: dimensioned CAD practice drawing for 2D drafting and sketch practice. View the drawing and browse the 2D exercise series."
+summary: "A rectangle inscribed in a circle, with a diagonal passing through the center."
 images: [drawing.webp]
-image_alt: "2D CAD exercise 059, dimensioned drawing for 2D drafting and sketch practice"
+image_alt: "2D CAD Exercise 059. A rectangle inscribed in a circle, with a diagonal passing through the center."
 series_title: "2D CAD Exercises"
 series_path: "/drawings/2d/"
 ---
 
-![2D CAD exercise 059, dimensioned drawing for 2D drafting and sketch practice](drawing.webp)
+A rectangle inscribed in a circle, with a diagonal passing through the center.
+
+![2D CAD Exercise 059. A rectangle inscribed in a circle, with a diagonal passing through the center.](drawing.webp)
+
+<details class="cad-practice-notes">
+<summary>Practice notes</summary>
+
+- Keep the rectangle centered and its corners on the circumference.
+- Use the circle diameter and shown rectangle dimension to check the remaining side.
+
+These are suggested reading checks, not a tested modeling tutorial.
+
+</details>

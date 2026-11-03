@@ -1,6 +1,6 @@
 ---
 title: "3D CAD Exercise 030"
-description: "3D CAD Exercise 030: dimensioned CAD practice drawing for 3D modeling practice. View the drawing and browse the 3D exercise series."
+description: "3D CAD Exercise 030: A three-pointed cover with a domed top, a central hole, and a circular feature underneath."
 draft: false
 slug: 3d-exercise-030
 drawing_id: CFO-0030
@@ -17,11 +17,23 @@ license:
   name: "Website display authorized by the site owner"
   website_display_allowed: true
   redistribution_allowed: false
-summary: "3D CAD Exercise 030: dimensioned CAD practice drawing for 3D modeling practice. View the drawing and browse the 3D exercise series."
+summary: "A three-pointed cover with a domed top, a central hole, and a circular feature underneath."
 images: [drawing.webp]
-image_alt: "3D CAD exercise 030, dimensioned drawing for 3D modeling practice"
+image_alt: "3D CAD Exercise 030. A three-pointed cover with a domed top, a central hole, and a circular feature underneath."
 series_title: "3D CAD Exercises"
 series_path: "/drawings/3d/"
 ---
 
-![3D CAD exercise 030, dimensioned drawing for 3D modeling practice](drawing.webp)
+A three-pointed cover with a domed top, a central hole, and a circular feature underneath.
+
+![3D CAD Exercise 030. A three-pointed cover with a domed top, a central hole, and a circular feature underneath.](drawing.webp)
+
+<details class="cad-practice-notes">
+<summary>Practice notes</summary>
+
+- Compare the side profiles to establish the crown height and curvature.
+- Check the underside circular feature separately from the three-lobed top outline.
+
+These are suggested reading checks, not a tested modeling tutorial.
+
+</details>

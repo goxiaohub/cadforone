@@ -1,6 +1,6 @@
 ---
 title: "3D CAD Exercise 019"
-description: "3D CAD Exercise 019: dimensioned CAD practice drawing for 3D modeling practice. View the drawing and browse the 3D exercise series."
+description: "3D CAD Exercise 019: A volleyball-like sphere divided into curved, alternating panels."
 draft: false
 slug: 3d-exercise-019
 drawing_id: CFO-0019
@@ -17,11 +17,23 @@ license:
   name: "Website display authorized by the site owner"
   website_display_allowed: true
   redistribution_allowed: false
-summary: "3D CAD Exercise 019: dimensioned CAD practice drawing for 3D modeling practice. View the drawing and browse the 3D exercise series."
+summary: "A volleyball-like sphere divided into curved, alternating panels."
 images: [drawing.webp]
-image_alt: "3D CAD exercise 019, dimensioned drawing for 3D modeling practice"
+image_alt: "3D CAD Exercise 019. A volleyball-like sphere divided into curved, alternating panels."
 series_title: "3D CAD Exercises"
 series_path: "/drawings/3d/"
 ---
 
-![3D CAD exercise 019, dimensioned drawing for 3D modeling practice](drawing.webp)
+A volleyball-like sphere divided into curved, alternating panels.
+
+![3D CAD Exercise 019. A volleyball-like sphere divided into curved, alternating panels.](drawing.webp)
+
+<details class="cad-practice-notes">
+<summary>Practice notes</summary>
+
+- Use the angular layout to position the panel divisions on the sphere.
+- Check how neighboring panels meet before assigning contrasting appearances.
+
+These are suggested reading checks, not a tested modeling tutorial.
+
+</details>

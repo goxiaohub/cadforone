@@ -1,6 +1,6 @@
 ---
 title: "2D CAD Exercise 041"
-description: "2D CAD Exercise 041: dimensioned CAD practice drawing for 2D drafting and sketch practice. View the drawing and browse the 2D exercise series."
+description: "2D CAD Exercise 041: A rounded housing outline with four mounting ears and a large, partly straight-sided opening."
 draft: false
 slug: 2d-exercise-041
 drawing_id: CFO-2D-041
@@ -17,11 +17,23 @@ license:
   name: "Website display authorized by the site owner"
   website_display_allowed: true
   redistribution_allowed: false
-summary: "2D CAD Exercise 041: dimensioned CAD practice drawing for 2D drafting and sketch practice. View the drawing and browse the 2D exercise series."
+summary: "A rounded housing outline with four mounting ears and a large, partly straight-sided opening."
 images: [drawing.webp]
-image_alt: "2D CAD exercise 041, dimensioned drawing for 2D drafting and sketch practice"
+image_alt: "2D CAD Exercise 041. A rounded housing outline with four mounting ears and a large, partly straight-sided opening."
 series_title: "2D CAD Exercises"
 series_path: "/drawings/2d/"
 ---
 
-![2D CAD exercise 041, dimensioned drawing for 2D drafting and sketch practice](drawing.webp)
+A rounded housing outline with four mounting ears and a large, partly straight-sided opening.
+
+![2D CAD Exercise 041. A rounded housing outline with four mounting ears and a large, partly straight-sided opening.](drawing.webp)
+
+<details class="cad-practice-notes">
+<summary>Practice notes</summary>
+
+- Position the mounting ears from their center references before adding fillets.
+- Check the straight sides and rounded end of the inner opening independently.
+
+These are suggested reading checks, not a tested modeling tutorial.
+
+</details>

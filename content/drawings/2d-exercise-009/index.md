@@ -1,6 +1,6 @@
 ---
 title: "2D CAD Exercise 009"
-description: "2D CAD Exercise 009: dimensioned CAD practice drawing for 2D drafting and sketch practice. View the drawing and browse the 2D exercise series."
+description: "2D CAD Exercise 009: A circular arrangement of twelve small circles around a larger central circle."
 draft: false
 slug: 2d-exercise-009
 drawing_id: CFO-2D-009
@@ -17,11 +17,23 @@ license:
   name: "Website display authorized by the site owner"
   website_display_allowed: true
   redistribution_allowed: false
-summary: "2D CAD Exercise 009: dimensioned CAD practice drawing for 2D drafting and sketch practice. View the drawing and browse the 2D exercise series."
+summary: "A circular arrangement of twelve small circles around a larger central circle."
 images: [drawing.webp]
-image_alt: "2D CAD exercise 009, dimensioned drawing for 2D drafting and sketch practice"
+image_alt: "2D CAD Exercise 009. A circular arrangement of twelve small circles around a larger central circle."
 series_title: "2D CAD Exercises"
 series_path: "/drawings/2d/"
 ---
 
-![2D CAD exercise 009, dimensioned drawing for 2D drafting and sketch practice](drawing.webp)
+A circular arrangement of twelve small circles around a larger central circle.
+
+![2D CAD Exercise 009. A circular arrangement of twelve small circles around a larger central circle.](drawing.webp)
+
+<details class="cad-practice-notes">
+<summary>Practice notes</summary>
+
+- Distinguish the radius of each small circle from the radius of its center path.
+- Check the repeated spacing and tangent contacts around the complete ring.
+
+These are suggested reading checks, not a tested modeling tutorial.
+
+</details>

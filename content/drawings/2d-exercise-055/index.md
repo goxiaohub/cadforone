@@ -1,6 +1,6 @@
 ---
 title: "2D CAD Exercise 055"
-description: "2D CAD Exercise 055: dimensioned CAD practice drawing for 2D drafting and sketch practice. View the drawing and browse the 2D exercise series."
+description: "2D CAD Exercise 055: A rectangular profile with a wide V-shaped opening ending in a narrow rectangular notch."
 draft: false
 slug: 2d-exercise-055
 drawing_id: CFO-2D-055
@@ -17,11 +17,23 @@ license:
   name: "Website display authorized by the site owner"
   website_display_allowed: true
   redistribution_allowed: false
-summary: "2D CAD Exercise 055: dimensioned CAD practice drawing for 2D drafting and sketch practice. View the drawing and browse the 2D exercise series."
+summary: "A rectangular profile with a wide V-shaped opening ending in a narrow rectangular notch."
 images: [drawing.webp]
-image_alt: "2D CAD exercise 055, dimensioned drawing for 2D drafting and sketch practice"
+image_alt: "2D CAD Exercise 055. A rectangular profile with a wide V-shaped opening ending in a narrow rectangular notch."
 series_title: "2D CAD Exercises"
 series_path: "/drawings/2d/"
 ---
 
-![2D CAD exercise 055, dimensioned drawing for 2D drafting and sketch practice](drawing.webp)
+A rectangular profile with a wide V-shaped opening ending in a narrow rectangular notch.
+
+![2D CAD Exercise 055. A rectangular profile with a wide V-shaped opening ending in a narrow rectangular notch.](drawing.webp)
+
+<details class="cad-practice-notes">
+<summary>Practice notes</summary>
+
+- Use the reference circle and included angle to locate the sloping faces.
+- Check the small bottom notch independently from the wider V opening.
+
+These are suggested reading checks, not a tested modeling tutorial.
+
+</details>

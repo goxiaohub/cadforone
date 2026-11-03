@@ -1,6 +1,6 @@
 ---
 title: "3D CAD Exercise 059"
-description: "3D CAD Exercise 059: dimensioned CAD practice drawing for 3D modeling practice. View the drawing and browse the 3D exercise series."
+description: "3D CAD Exercise 059: A stepped link with a single eye at one end and a forked eye at the other."
 draft: false
 slug: 3d-exercise-059
 drawing_id: CFO-0059
@@ -17,11 +17,23 @@ license:
   name: "Website display authorized by the site owner"
   website_display_allowed: true
   redistribution_allowed: false
-summary: "3D CAD Exercise 059: dimensioned CAD practice drawing for 3D modeling practice. View the drawing and browse the 3D exercise series."
+summary: "A stepped link with a single eye at one end and a forked eye at the other."
 images: [drawing.webp]
-image_alt: "3D CAD exercise 059, dimensioned drawing for 3D modeling practice"
+image_alt: "3D CAD Exercise 059. A stepped link with a single eye at one end and a forked eye at the other."
 series_title: "3D CAD Exercises"
 series_path: "/drawings/3d/"
 ---
 
-![3D CAD exercise 059, dimensioned drawing for 3D modeling practice](drawing.webp)
+A stepped link with a single eye at one end and a forked eye at the other.
+
+![3D CAD Exercise 059. A stepped link with a single eye at one end and a forked eye at the other.](drawing.webp)
+
+<details class="cad-practice-notes">
+<summary>Practice notes</summary>
+
+- Use the sectioned side profile to establish the offset and fork gap.
+- Check that the two fork holes share an axis before rounding the ends.
+
+These are suggested reading checks, not a tested modeling tutorial.
+
+</details>

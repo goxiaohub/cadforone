@@ -1,6 +1,6 @@
 ---
 title: "3D CAD Exercise 025"
-description: "3D CAD Exercise 025: dimensioned CAD practice drawing for 3D modeling practice. View the drawing and browse the 3D exercise series."
+description: "3D CAD Exercise 025: A three-bladed propeller with a cylindrical hub and curved blade profiles."
 draft: false
 slug: 3d-exercise-025
 drawing_id: CFO-0025
@@ -17,11 +17,23 @@ license:
   name: "Website display authorized by the site owner"
   website_display_allowed: true
   redistribution_allowed: false
-summary: "3D CAD Exercise 025: dimensioned CAD practice drawing for 3D modeling practice. View the drawing and browse the 3D exercise series."
+summary: "A three-bladed propeller with a cylindrical hub and curved blade profiles."
 images: [drawing.webp]
-image_alt: "3D CAD exercise 025, dimensioned drawing for 3D modeling practice"
+image_alt: "3D CAD Exercise 025. A three-bladed propeller with a cylindrical hub and curved blade profiles."
 series_title: "3D CAD Exercises"
 series_path: "/drawings/3d/"
 ---
 
-![3D CAD exercise 025, dimensioned drawing for 3D modeling practice](drawing.webp)
+A three-bladed propeller with a cylindrical hub and curved blade profiles.
+
+![3D CAD Exercise 025. A three-bladed propeller with a cylindrical hub and curved blade profiles.](drawing.webp)
+
+<details class="cad-practice-notes">
+<summary>Practice notes</summary>
+
+- Establish the hub bore and steps from the section before shaping one blade.
+- Compare the plan and side views to resolve blade inclination before circular repetition.
+
+These are suggested reading checks, not a tested modeling tutorial.
+
+</details>

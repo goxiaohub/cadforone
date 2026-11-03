@@ -1,6 +1,6 @@
 ---
 title: "3D CAD Exercise 057"
-description: "3D CAD Exercise 057: dimensioned CAD practice drawing for 3D modeling practice. View the drawing and browse the 3D exercise series."
+description: "3D CAD Exercise 057: A low domed component with a rounded plan outline and an opening beneath the crown."
 draft: false
 slug: 3d-exercise-057
 drawing_id: CFO-0057
@@ -17,11 +17,23 @@ license:
   name: "Website display authorized by the site owner"
   website_display_allowed: true
   redistribution_allowed: false
-summary: "3D CAD Exercise 057: dimensioned CAD practice drawing for 3D modeling practice. View the drawing and browse the 3D exercise series."
+summary: "A low domed component with a rounded plan outline and an opening beneath the crown."
 images: [drawing.webp]
-image_alt: "3D CAD exercise 057, dimensioned drawing for 3D modeling practice"
+image_alt: "3D CAD Exercise 057. A low domed component with a rounded plan outline and an opening beneath the crown."
 series_title: "3D CAD Exercises"
 series_path: "/drawings/3d/"
 ---
 
-![3D CAD exercise 057, dimensioned drawing for 3D modeling practice](drawing.webp)
+A low domed component with a rounded plan outline and an opening beneath the crown.
+
+![3D CAD Exercise 057. A low domed component with a rounded plan outline and an opening beneath the crown.](drawing.webp)
+
+<details class="cad-practice-notes">
+<summary>Practice notes</summary>
+
+- Use the hatched section to distinguish the outer dome from the lower opening.
+- Compare the plan and end views to resolve the taper and edge rounds.
+
+These are suggested reading checks, not a tested modeling tutorial.
+
+</details>

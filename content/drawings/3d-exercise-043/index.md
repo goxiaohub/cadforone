@@ -1,6 +1,6 @@
 ---
 title: "3D CAD Exercise 043"
-description: "3D CAD Exercise 043: dimensioned CAD practice drawing for 3D modeling practice. View the drawing and browse the 3D exercise series."
+description: "3D CAD Exercise 043: An inclined support arm joining a cylindrical eye to a two-hole mounting flange."
 draft: false
 slug: 3d-exercise-043
 drawing_id: CFO-0043
@@ -17,11 +17,23 @@ license:
   name: "Website display authorized by the site owner"
   website_display_allowed: true
   redistribution_allowed: false
-summary: "3D CAD Exercise 043: dimensioned CAD practice drawing for 3D modeling practice. View the drawing and browse the 3D exercise series."
+summary: "An inclined support arm joining a cylindrical eye to a two-hole mounting flange."
 images: [drawing.webp]
-image_alt: "3D CAD exercise 043, dimensioned drawing for 3D modeling practice"
+image_alt: "3D CAD Exercise 043. An inclined support arm joining a cylindrical eye to a two-hole mounting flange."
 series_title: "3D CAD Exercises"
 series_path: "/drawings/3d/"
 ---
 
-![3D CAD exercise 043, dimensioned drawing for 3D modeling practice](drawing.webp)
+An inclined support arm joining a cylindrical eye to a two-hole mounting flange.
+
+![3D CAD Exercise 043. An inclined support arm joining a cylindrical eye to a two-hole mounting flange.](drawing.webp)
+
+<details class="cad-practice-notes">
+<summary>Practice notes</summary>
+
+- Establish the eye axis and flange angle from the orthographic views.
+- Check the triangular web opening and its surrounding thickness independently.
+
+These are suggested reading checks, not a tested modeling tutorial.
+
+</details>

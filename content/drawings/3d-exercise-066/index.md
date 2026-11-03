@@ -1,6 +1,6 @@
 ---
 title: "3D CAD Exercise 066"
-description: "3D CAD Exercise 066: dimensioned CAD practice drawing for 3D modeling practice. View the drawing and browse the 3D exercise series."
+description: "3D CAD Exercise 066: A bent handle with a threaded attachment end and a spherical knob."
 draft: false
 slug: 3d-exercise-066
 drawing_id: CFO-0066
@@ -17,11 +17,23 @@ license:
   name: "Website display authorized by the site owner"
   website_display_allowed: true
   redistribution_allowed: false
-summary: "3D CAD Exercise 066: dimensioned CAD practice drawing for 3D modeling practice. View the drawing and browse the 3D exercise series."
+summary: "A bent handle with a threaded attachment end and a spherical knob."
 images: [drawing.webp]
-image_alt: "3D CAD exercise 066, dimensioned drawing for 3D modeling practice"
+image_alt: "3D CAD Exercise 066. A bent handle with a threaded attachment end and a spherical knob."
 series_title: "3D CAD Exercises"
 series_path: "/drawings/3d/"
 ---
 
-![3D CAD exercise 066, dimensioned drawing for 3D modeling practice](drawing.webp)
+A bent handle with a threaded attachment end and a spherical knob.
+
+![3D CAD Exercise 066. A bent handle with a threaded attachment end and a spherical knob.](drawing.webp)
+
+<details class="cad-practice-notes">
+<summary>Practice notes</summary>
+
+- Construct the bent center path from the straight lengths and bend radii.
+- Check the attachment direction and knob position against the reference views.
+
+These are suggested reading checks, not a tested modeling tutorial.
+
+</details>

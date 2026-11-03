@@ -1,6 +1,6 @@
 ---
 title: "3D CAD Exercise 046"
-description: "3D CAD Exercise 046: dimensioned CAD practice drawing for 3D modeling practice. View the drawing and browse the 3D exercise series."
+description: "3D CAD Exercise 046: A U-shaped support with two bored uprights, reinforcing webs, and four base holes."
 draft: false
 slug: 3d-exercise-046
 drawing_id: CFO-0046
@@ -17,11 +17,23 @@ license:
   name: "Website display authorized by the site owner"
   website_display_allowed: true
   redistribution_allowed: false
-summary: "3D CAD Exercise 046: dimensioned CAD practice drawing for 3D modeling practice. View the drawing and browse the 3D exercise series."
+summary: "A U-shaped support with two bored uprights, reinforcing webs, and four base holes."
 images: [drawing.webp]
-image_alt: "3D CAD exercise 046, dimensioned drawing for 3D modeling practice"
+image_alt: "3D CAD Exercise 046. A U-shaped support with two bored uprights, reinforcing webs, and four base holes."
 series_title: "3D CAD Exercises"
 series_path: "/drawings/3d/"
 ---
 
-![3D CAD exercise 046, dimensioned drawing for 3D modeling practice](drawing.webp)
+A U-shaped support with two bored uprights, reinforcing webs, and four base holes.
+
+![3D CAD Exercise 046. A U-shaped support with two bored uprights, reinforcing webs, and four base holes.](drawing.webp)
+
+<details class="cad-practice-notes">
+<summary>Practice notes</summary>
+
+- Align the upright bores before shaping the tapered side supports.
+- Use the section to check the base and webs, then locate the four mounting holes in plan.
+
+These are suggested reading checks, not a tested modeling tutorial.
+
+</details>

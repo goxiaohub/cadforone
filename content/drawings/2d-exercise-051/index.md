@@ -1,6 +1,6 @@
 ---
 title: "2D CAD Exercise 051"
-description: "2D CAD Exercise 051: dimensioned CAD practice drawing for 2D drafting and sketch practice. View the drawing and browse the 2D exercise series."
+description: "2D CAD Exercise 051: A rectangular plate profile topped by a rounded central lug with a circular hole."
 draft: false
 slug: 2d-exercise-051
 drawing_id: CFO-2D-051
@@ -17,11 +17,23 @@ license:
   name: "Website display authorized by the site owner"
   website_display_allowed: true
   redistribution_allowed: false
-summary: "2D CAD Exercise 051: dimensioned CAD practice drawing for 2D drafting and sketch practice. View the drawing and browse the 2D exercise series."
+summary: "A rectangular plate profile topped by a rounded central lug with a circular hole."
 images: [drawing.webp]
-image_alt: "2D CAD exercise 051, dimensioned drawing for 2D drafting and sketch practice"
+image_alt: "2D CAD Exercise 051. A rectangular plate profile topped by a rounded central lug with a circular hole."
 series_title: "2D CAD Exercises"
 series_path: "/drawings/2d/"
 ---
 
-![2D CAD exercise 051, dimensioned drawing for 2D drafting and sketch practice](drawing.webp)
+A rectangular plate profile topped by a rounded central lug with a circular hole.
+
+![2D CAD Exercise 051. A rectangular plate profile topped by a rounded central lug with a circular hole.](drawing.webp)
+
+<details class="cad-practice-notes">
+<summary>Practice notes</summary>
+
+- Center the lug and hole on the plate's vertical axis.
+- Check the shoulder height separately from the overall rounded top.
+
+These are suggested reading checks, not a tested modeling tutorial.
+
+</details>

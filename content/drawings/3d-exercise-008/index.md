@@ -1,6 +1,6 @@
 ---
 title: "3D CAD Exercise 008"
-description: "3D CAD Exercise 008: dimensioned CAD practice drawing for 3D modeling practice. View the drawing and browse the 3D exercise series."
+description: "3D CAD Exercise 008: A circular flanged body with four radial mounting arms and open-ended slots."
 draft: false
 slug: 3d-exercise-008
 drawing_id: CFO-0008
@@ -17,11 +17,23 @@ license:
   name: "Website display authorized by the site owner"
   website_display_allowed: true
   redistribution_allowed: false
-summary: "3D CAD Exercise 008: dimensioned CAD practice drawing for 3D modeling practice. View the drawing and browse the 3D exercise series."
+summary: "A circular flanged body with four radial mounting arms and open-ended slots."
 images: [drawing.webp]
-image_alt: "3D CAD exercise 008, dimensioned drawing for 3D modeling practice"
+image_alt: "3D CAD Exercise 008. A circular flanged body with four radial mounting arms and open-ended slots."
 series_title: "3D CAD Exercises"
 series_path: "/drawings/3d/"
 ---
 
-![3D CAD exercise 008, dimensioned drawing for 3D modeling practice](drawing.webp)
+A circular flanged body with four radial mounting arms and open-ended slots.
+
+![3D CAD Exercise 008. A circular flanged body with four radial mounting arms and open-ended slots.](drawing.webp)
+
+<details class="cad-practice-notes">
+<summary>Practice notes</summary>
+
+- Use the section to establish the central bore and changes in thickness.
+- Build one mounting arm and slot, then check the radial arrangement in the front view.
+
+These are suggested reading checks, not a tested modeling tutorial.
+
+</details>

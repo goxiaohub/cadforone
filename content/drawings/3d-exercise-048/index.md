@@ -1,6 +1,6 @@
 ---
 title: "3D CAD Exercise 048"
-description: "3D CAD Exercise 048: dimensioned CAD practice drawing for 3D modeling practice. View the drawing and browse the 3D exercise series."
+description: "3D CAD Exercise 048: A ribbed mounting body with an upright bore and a transverse cylindrical feature."
 draft: false
 slug: 3d-exercise-048
 drawing_id: CFO-0048
@@ -17,11 +17,23 @@ license:
   name: "Website display authorized by the site owner"
   website_display_allowed: true
   redistribution_allowed: false
-summary: "3D CAD Exercise 048: dimensioned CAD practice drawing for 3D modeling practice. View the drawing and browse the 3D exercise series."
+summary: "A ribbed mounting body with an upright bore and a transverse cylindrical feature."
 images: [drawing.webp]
-image_alt: "3D CAD exercise 048, dimensioned drawing for 3D modeling practice"
+image_alt: "3D CAD Exercise 048. A ribbed mounting body with an upright bore and a transverse cylindrical feature."
 series_title: "3D CAD Exercises"
 series_path: "/drawings/3d/"
 ---
 
-![3D CAD exercise 048, dimensioned drawing for 3D modeling practice](drawing.webp)
+A ribbed mounting body with an upright bore and a transverse cylindrical feature.
+
+![3D CAD Exercise 048. A ribbed mounting body with an upright bore and a transverse cylindrical feature.](drawing.webp)
+
+<details class="cad-practice-notes">
+<summary>Practice notes</summary>
+
+- Locate the vertical and horizontal axes before constructing the surrounding body.
+- Compare the side view and plan to resolve the internal openings and supporting ribs.
+
+These are suggested reading checks, not a tested modeling tutorial.
+
+</details>

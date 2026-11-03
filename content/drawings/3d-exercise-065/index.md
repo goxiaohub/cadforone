@@ -1,6 +1,6 @@
 ---
 title: "3D CAD Exercise 065"
-description: "3D CAD Exercise 065: dimensioned CAD practice drawing for 3D modeling practice. View the drawing and browse the 3D exercise series."
+description: "3D CAD Exercise 065: A triangular hinge leaf with mounting holes, an elongated slot, and a rolled edge."
 draft: false
 slug: 3d-exercise-065
 drawing_id: CFO-0065
@@ -17,11 +17,23 @@ license:
   name: "Website display authorized by the site owner"
   website_display_allowed: true
   redistribution_allowed: false
-summary: "3D CAD Exercise 065: dimensioned CAD practice drawing for 3D modeling practice. View the drawing and browse the 3D exercise series."
+summary: "A triangular hinge leaf with mounting holes, an elongated slot, and a rolled edge."
 images: [drawing.webp]
-image_alt: "3D CAD exercise 065, dimensioned drawing for 3D modeling practice"
+image_alt: "3D CAD Exercise 065. A triangular hinge leaf with mounting holes, an elongated slot, and a rolled edge."
 series_title: "3D CAD Exercises"
 series_path: "/drawings/3d/"
 ---
 
-![3D CAD exercise 065, dimensioned drawing for 3D modeling practice](drawing.webp)
+A triangular hinge leaf with mounting holes, an elongated slot, and a rolled edge.
+
+![3D CAD Exercise 065. A triangular hinge leaf with mounting holes, an elongated slot, and a rolled edge.](drawing.webp)
+
+<details class="cad-practice-notes">
+<summary>Practice notes</summary>
+
+- Lay out the flat leaf and openings before shaping the rolled barrel.
+- Use the end profile to check the barrel radius and remaining opening.
+
+These are suggested reading checks, not a tested modeling tutorial.
+
+</details>

@@ -1,6 +1,6 @@
 ---
 title: "2D CAD Exercise 033"
-description: "2D CAD Exercise 033: dimensioned CAD practice drawing for 2D drafting and sketch practice. View the drawing and browse the 2D exercise series."
+description: "2D CAD Exercise 033: A continuous zigzag band with rounded turns and circular end features."
 draft: false
 slug: 2d-exercise-033
 drawing_id: CFO-2D-033
@@ -17,11 +17,23 @@ license:
   name: "Website display authorized by the site owner"
   website_display_allowed: true
   redistribution_allowed: false
-summary: "2D CAD Exercise 033: dimensioned CAD practice drawing for 2D drafting and sketch practice. View the drawing and browse the 2D exercise series."
+summary: "A continuous zigzag band with rounded turns and circular end features."
 images: [drawing.webp]
-image_alt: "2D CAD exercise 033, dimensioned drawing for 2D drafting and sketch practice"
+image_alt: "2D CAD Exercise 033. A continuous zigzag band with rounded turns and circular end features."
 series_title: "2D CAD Exercises"
 series_path: "/drawings/2d/"
 ---
 
-![2D CAD exercise 033, dimensioned drawing for 2D drafting and sketch practice](drawing.webp)
+A continuous zigzag band with rounded turns and circular end features.
+
+![2D CAD Exercise 033. A continuous zigzag band with rounded turns and circular end features.](drawing.webp)
+
+<details class="cad-practice-notes">
+<summary>Practice notes</summary>
+
+- Establish the inclination and spacing of the straight runs before rounding their ends.
+- Follow both edges through each turn to keep the band width consistent.
+
+These are suggested reading checks, not a tested modeling tutorial.
+
+</details>

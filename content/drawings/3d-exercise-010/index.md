@@ -1,6 +1,6 @@
 ---
 title: "3D CAD Exercise 010"
-description: "3D CAD Exercise 010: dimensioned CAD practice drawing for 3D modeling practice. View the drawing and browse the 3D exercise series."
+description: "3D CAD Exercise 010: A teapot drawing with a rounded body, lid, spout, and side handle."
 draft: false
 slug: 3d-exercise-010
 drawing_id: CFO-0010
@@ -17,11 +17,23 @@ license:
   name: "Website display authorized by the site owner"
   website_display_allowed: true
   redistribution_allowed: false
-summary: "3D CAD Exercise 010: dimensioned CAD practice drawing for 3D modeling practice. View the drawing and browse the 3D exercise series."
+summary: "A teapot drawing with a rounded body, lid, spout, and side handle."
 images: [drawing.webp]
-image_alt: "3D CAD exercise 010, dimensioned drawing for 3D modeling practice"
+image_alt: "3D CAD Exercise 010. A teapot drawing with a rounded body, lid, spout, and side handle."
 series_title: "3D CAD Exercises"
 series_path: "/drawings/3d/"
 ---
 
-![3D CAD exercise 010, dimensioned drawing for 3D modeling practice](drawing.webp)
+A teapot drawing with a rounded body, lid, spout, and side handle.
+
+![3D CAD Exercise 010. A teapot drawing with a rounded body, lid, spout, and side handle.](drawing.webp)
+
+<details class="cad-practice-notes">
+<summary>Practice notes</summary>
+
+- Read the sections to separate the vessel wall, lid, and internal openings.
+- Check the spout and handle against their orthographic profiles rather than the shaded view alone.
+
+These are suggested reading checks, not a tested modeling tutorial.
+
+</details>

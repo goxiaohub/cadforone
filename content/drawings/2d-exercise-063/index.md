@@ -1,6 +1,6 @@
 ---
 title: "2D CAD Exercise 063"
-description: "2D CAD Exercise 063: dimensioned CAD practice drawing for 2D drafting and sketch practice. View the drawing and browse the 2D exercise series."
+description: "2D CAD Exercise 063: An upright lever profile with a large lower eye, a straight slot, a curved side slot, and a narrow top loop."
 draft: false
 slug: 2d-exercise-063
 drawing_id: CFO-2D-063
@@ -17,11 +17,23 @@ license:
   name: "Website display authorized by the site owner"
   website_display_allowed: true
   redistribution_allowed: false
-summary: "2D CAD Exercise 063: dimensioned CAD practice drawing for 2D drafting and sketch practice. View the drawing and browse the 2D exercise series."
+summary: "An upright lever profile with a large lower eye, a straight slot, a curved side slot, and a narrow top loop."
 images: [drawing.webp]
-image_alt: "2D CAD exercise 063, dimensioned drawing for 2D drafting and sketch practice"
+image_alt: "2D CAD Exercise 063. An upright lever profile with a large lower eye, a straight slot, a curved side slot, and a narrow top loop."
 series_title: "2D CAD Exercises"
 series_path: "/drawings/2d/"
 ---
 
-![2D CAD exercise 063, dimensioned drawing for 2D drafting and sketch practice](drawing.webp)
+An upright lever profile with a large lower eye, a straight slot, a curved side slot, and a narrow top loop.
+
+![2D CAD Exercise 063. An upright lever profile with a large lower eye, a straight slot, a curved side slot, and a narrow top loop.](drawing.webp)
+
+<details class="cad-practice-notes">
+<summary>Practice notes</summary>
+
+- Use the lower eye center as the reference for the curved side slot.
+- Check the straight slot and top loop independently before blending the outer edges.
+
+These are suggested reading checks, not a tested modeling tutorial.
+
+</details>

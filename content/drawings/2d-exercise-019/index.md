@@ -1,6 +1,6 @@
 ---
 title: "2D CAD Exercise 019"
-description: "2D CAD Exercise 019: dimensioned CAD practice drawing for 2D drafting and sketch practice. View the drawing and browse the 2D exercise series."
+description: "2D CAD Exercise 019: A five-loop rosette with narrow bands crossing near its center."
 draft: false
 slug: 2d-exercise-019
 drawing_id: CFO-2D-019
@@ -17,11 +17,23 @@ license:
   name: "Website display authorized by the site owner"
   website_display_allowed: true
   redistribution_allowed: false
-summary: "2D CAD Exercise 019: dimensioned CAD practice drawing for 2D drafting and sketch practice. View the drawing and browse the 2D exercise series."
+summary: "A five-loop rosette with narrow bands crossing near its center."
 images: [drawing.webp]
-image_alt: "2D CAD exercise 019, dimensioned drawing for 2D drafting and sketch practice"
+image_alt: "2D CAD Exercise 019. A five-loop rosette with narrow bands crossing near its center."
 series_title: "2D CAD Exercises"
 series_path: "/drawings/2d/"
 ---
 
-![2D CAD exercise 019, dimensioned drawing for 2D drafting and sketch practice](drawing.webp)
+A five-loop rosette with narrow bands crossing near its center.
+
+![2D CAD Exercise 019. A five-loop rosette with narrow bands crossing near its center.](drawing.webp)
+
+<details class="cad-practice-notes">
+<summary>Practice notes</summary>
+
+- Construct one loop and establish the angular repetition about the center.
+- Follow each band through the crossings before trimming overlapping lines.
+
+These are suggested reading checks, not a tested modeling tutorial.
+
+</details>

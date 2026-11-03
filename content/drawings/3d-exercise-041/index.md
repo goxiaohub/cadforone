@@ -1,6 +1,6 @@
 ---
 title: "3D CAD Exercise 041"
-description: "3D CAD Exercise 041: dimensioned CAD practice drawing for 3D modeling practice. View the drawing and browse the 3D exercise series."
+description: "3D CAD Exercise 041: An oblong base with a tall cylindrical boss at one end and a raised slotted feature at the other."
 draft: false
 slug: 3d-exercise-041
 drawing_id: CFO-0041
@@ -17,11 +17,23 @@ license:
   name: "Website display authorized by the site owner"
   website_display_allowed: true
   redistribution_allowed: false
-summary: "3D CAD Exercise 041: dimensioned CAD practice drawing for 3D modeling practice. View the drawing and browse the 3D exercise series."
+summary: "An oblong base with a tall cylindrical boss at one end and a raised slotted feature at the other."
 images: [drawing.webp]
-image_alt: "3D CAD exercise 041, dimensioned drawing for 3D modeling practice"
+image_alt: "3D CAD Exercise 041. An oblong base with a tall cylindrical boss at one end and a raised slotted feature at the other."
 series_title: "3D CAD Exercises"
 series_path: "/drawings/3d/"
 ---
 
-![3D CAD exercise 041, dimensioned drawing for 3D modeling practice](drawing.webp)
+An oblong base with a tall cylindrical boss at one end and a raised slotted feature at the other.
+
+![3D CAD Exercise 041. An oblong base with a tall cylindrical boss at one end and a raised slotted feature at the other.](drawing.webp)
+
+<details class="cad-practice-notes">
+<summary>Practice notes</summary>
+
+- Use the section to establish the base thickness, boss height, and open bore.
+- Check the oblong slot and its raised rim as separate contours.
+
+These are suggested reading checks, not a tested modeling tutorial.
+
+</details>

@@ -1,6 +1,6 @@
 ---
 title: "2D CAD Exercise 039"
-description: "2D CAD Exercise 039: dimensioned CAD practice drawing for 2D drafting and sketch practice. View the drawing and browse the 2D exercise series."
+description: "2D CAD Exercise 039: A stepped bracket with a bored upright, an inclined face, and a recessed base."
 draft: false
 slug: 2d-exercise-039
 drawing_id: CFO-2D-039
@@ -17,11 +17,23 @@ license:
   name: "Website display authorized by the site owner"
   website_display_allowed: true
   redistribution_allowed: false
-summary: "2D CAD Exercise 039: dimensioned CAD practice drawing for 2D drafting and sketch practice. View the drawing and browse the 2D exercise series."
+summary: "A stepped bracket with a bored upright, an inclined face, and a recessed base."
 images: [drawing.webp]
-image_alt: "2D CAD exercise 039, dimensioned drawing for 2D drafting and sketch practice"
+image_alt: "2D CAD Exercise 039. A stepped bracket with a bored upright, an inclined face, and a recessed base."
 series_title: "2D CAD Exercises"
 series_path: "/drawings/2d/"
 ---
 
-![2D CAD exercise 039, dimensioned drawing for 2D drafting and sketch practice](drawing.webp)
+A stepped bracket with a bored upright, an inclined face, and a recessed base.
+
+![2D CAD Exercise 039. A stepped bracket with a bored upright, an inclined face, and a recessed base.](drawing.webp)
+
+<details class="cad-practice-notes">
+<summary>Practice notes</summary>
+
+- Project the hole center through the orthographic views.
+- Check which edges belong to the inclined face and which define the lower recess.
+
+These are suggested reading checks, not a tested modeling tutorial.
+
+</details>

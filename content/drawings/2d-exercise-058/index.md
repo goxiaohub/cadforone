@@ -1,6 +1,6 @@
 ---
 title: "2D CAD Exercise 058"
-description: "2D CAD Exercise 058: dimensioned CAD practice drawing for 2D drafting and sketch practice. View the drawing and browse the 2D exercise series."
+description: "2D CAD Exercise 058: A triangle divided by three lines meeting at an interior point."
 draft: false
 slug: 2d-exercise-058
 drawing_id: CFO-2D-058
@@ -17,11 +17,23 @@ license:
   name: "Website display authorized by the site owner"
   website_display_allowed: true
   redistribution_allowed: false
-summary: "2D CAD Exercise 058: dimensioned CAD practice drawing for 2D drafting and sketch practice. View the drawing and browse the 2D exercise series."
+summary: "A triangle divided by three lines meeting at an interior point."
 images: [drawing.webp]
-image_alt: "2D CAD exercise 058, dimensioned drawing for 2D drafting and sketch practice"
+image_alt: "2D CAD Exercise 058. A triangle divided by three lines meeting at an interior point."
 series_title: "2D CAD Exercises"
 series_path: "/drawings/2d/"
 ---
 
-![2D CAD exercise 058, dimensioned drawing for 2D drafting and sketch practice](drawing.webp)
+A triangle divided by three lines meeting at an interior point.
+
+![2D CAD Exercise 058. A triangle divided by three lines meeting at an interior point.](drawing.webp)
+
+<details class="cad-practice-notes">
+<summary>Practice notes</summary>
+
+- Resolve the outer triangle before locating the internal junction.
+- Distinguish the parenthesized reference values from the primary dimensions when constraining the sketch.
+
+These are suggested reading checks, not a tested modeling tutorial.
+
+</details>

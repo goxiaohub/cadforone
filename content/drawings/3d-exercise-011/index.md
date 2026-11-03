@@ -1,6 +1,6 @@
 ---
 title: "3D CAD Exercise 011"
-description: "3D CAD Exercise 011: dimensioned CAD practice drawing for 3D modeling practice. View the drawing and browse the 3D exercise series."
+description: "3D CAD Exercise 011: A U-shaped bracket with holes through its raised ends and two openings in its base."
 draft: false
 slug: 3d-exercise-011
 drawing_id: CFO-0011
@@ -17,11 +17,23 @@ license:
   name: "Website display authorized by the site owner"
   website_display_allowed: true
   redistribution_allowed: false
-summary: "3D CAD Exercise 011: dimensioned CAD practice drawing for 3D modeling practice. View the drawing and browse the 3D exercise series."
+summary: "A U-shaped bracket with holes through its raised ends and two openings in its base."
 images: [drawing.webp]
-image_alt: "3D CAD exercise 011, dimensioned drawing for 3D modeling practice"
+image_alt: "3D CAD Exercise 011. A U-shaped bracket with holes through its raised ends and two openings in its base."
 series_title: "3D CAD Exercises"
 series_path: "/drawings/3d/"
 ---
 
-![3D CAD exercise 011, dimensioned drawing for 3D modeling practice](drawing.webp)
+A U-shaped bracket with holes through its raised ends and two openings in its base.
+
+![3D CAD Exercise 011. A U-shaped bracket with holes through its raised ends and two openings in its base.](drawing.webp)
+
+<details class="cad-practice-notes">
+<summary>Practice notes</summary>
+
+- Establish the base and end-wall spacing before placing the holes.
+- Compare the side and top views to distinguish upright holes from base holes.
+
+These are suggested reading checks, not a tested modeling tutorial.
+
+</details>

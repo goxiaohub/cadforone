@@ -1,6 +1,6 @@
 ---
 title: "2D CAD Exercise 020"
-description: "2D CAD Exercise 020: dimensioned CAD practice drawing for 2D drafting and sketch practice. View the drawing and browse the 2D exercise series."
+description: "2D CAD Exercise 020: A lobed circular ring with repeated rectangular notches around its inner opening."
 draft: false
 slug: 2d-exercise-020
 drawing_id: CFO-2D-020
@@ -17,11 +17,23 @@ license:
   name: "Website display authorized by the site owner"
   website_display_allowed: true
   redistribution_allowed: false
-summary: "2D CAD Exercise 020: dimensioned CAD practice drawing for 2D drafting and sketch practice. View the drawing and browse the 2D exercise series."
+summary: "A lobed circular ring with repeated rectangular notches around its inner opening."
 images: [drawing.webp]
-image_alt: "2D CAD exercise 020, dimensioned drawing for 2D drafting and sketch practice"
+image_alt: "2D CAD Exercise 020. A lobed circular ring with repeated rectangular notches around its inner opening."
 series_title: "2D CAD Exercises"
 series_path: "/drawings/2d/"
 ---
 
-![2D CAD exercise 020, dimensioned drawing for 2D drafting and sketch practice](drawing.webp)
+A lobed circular ring with repeated rectangular notches around its inner opening.
+
+![2D CAD Exercise 020. A lobed circular ring with repeated rectangular notches around its inner opening.](drawing.webp)
+
+<details class="cad-practice-notes">
+<summary>Practice notes</summary>
+
+- Build the outer lobes and inner notches as separate repeating features.
+- Check the angular spacing and arc radii before joining the final contours.
+
+These are suggested reading checks, not a tested modeling tutorial.
+
+</details>

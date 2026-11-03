@@ -1,6 +1,6 @@
 ---
 title: "3D CAD Exercise 021"
-description: "3D CAD Exercise 021: dimensioned CAD practice drawing for 3D modeling practice. View the drawing and browse the 3D exercise series."
+description: "3D CAD Exercise 021: A figure-eight link with two circular openings and a smoothly narrowed middle."
 draft: false
 slug: 3d-exercise-021
 drawing_id: CFO-0021
@@ -17,11 +17,23 @@ license:
   name: "Website display authorized by the site owner"
   website_display_allowed: true
   redistribution_allowed: false
-summary: "3D CAD Exercise 021: dimensioned CAD practice drawing for 3D modeling practice. View the drawing and browse the 3D exercise series."
+summary: "A figure-eight link with two circular openings and a smoothly narrowed middle."
 images: [drawing.webp]
-image_alt: "3D CAD exercise 021, dimensioned drawing for 3D modeling practice"
+image_alt: "3D CAD Exercise 021. A figure-eight link with two circular openings and a smoothly narrowed middle."
 series_title: "3D CAD Exercises"
 series_path: "/drawings/3d/"
 ---
 
-![3D CAD exercise 021, dimensioned drawing for 3D modeling practice](drawing.webp)
+A figure-eight link with two circular openings and a smoothly narrowed middle.
+
+![3D CAD Exercise 021. A figure-eight link with two circular openings and a smoothly narrowed middle.](drawing.webp)
+
+<details class="cad-practice-notes">
+<summary>Practice notes</summary>
+
+- Use the section to distinguish the rounded ring profile from the thicker middle region.
+- Check the junctions between the rings and waist in both front and edge views.
+
+These are suggested reading checks, not a tested modeling tutorial.
+
+</details>

@@ -1,6 +1,6 @@
 ---
 title: "3D CAD Exercise 035"
-description: "3D CAD Exercise 035: dimensioned CAD practice drawing for 3D modeling practice. View the drawing and browse the 3D exercise series."
+description: "3D CAD Exercise 035: An elongated support with raised curved ribs and mounting slots near its ends."
 draft: false
 slug: 3d-exercise-035
 drawing_id: CFO-0035
@@ -17,11 +17,23 @@ license:
   name: "Website display authorized by the site owner"
   website_display_allowed: true
   redistribution_allowed: false
-summary: "3D CAD Exercise 035: dimensioned CAD practice drawing for 3D modeling practice. View the drawing and browse the 3D exercise series."
+summary: "An elongated support with raised curved ribs and mounting slots near its ends."
 images: [drawing.webp]
-image_alt: "3D CAD exercise 035, dimensioned drawing for 3D modeling practice"
+image_alt: "3D CAD Exercise 035. An elongated support with raised curved ribs and mounting slots near its ends."
 series_title: "3D CAD Exercises"
 series_path: "/drawings/3d/"
 ---
 
-![3D CAD exercise 035, dimensioned drawing for 3D modeling practice](drawing.webp)
+An elongated support with raised curved ribs and mounting slots near its ends.
+
+![3D CAD Exercise 035. An elongated support with raised curved ribs and mounting slots near its ends.](drawing.webp)
+
+<details class="cad-practice-notes">
+<summary>Practice notes</summary>
+
+- Establish the long base and end slots from the plan view.
+- Use the side and end profiles to check the rib heights and curved transitions.
+
+These are suggested reading checks, not a tested modeling tutorial.
+
+</details>

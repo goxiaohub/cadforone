@@ -1,6 +1,6 @@
 ---
 title: "2D CAD Exercise 060"
-description: "2D CAD Exercise 060: dimensioned CAD practice drawing for 2D drafting and sketch practice. View the drawing and browse the 2D exercise series."
+description: "2D CAD Exercise 060: Three tangent circles packed inside a larger circular boundary."
 draft: false
 slug: 2d-exercise-060
 drawing_id: CFO-2D-060
@@ -17,11 +17,23 @@ license:
   name: "Website display authorized by the site owner"
   website_display_allowed: true
   redistribution_allowed: false
-summary: "2D CAD Exercise 060: dimensioned CAD practice drawing for 2D drafting and sketch practice. View the drawing and browse the 2D exercise series."
+summary: "Three tangent circles packed inside a larger circular boundary."
 images: [drawing.webp]
-image_alt: "2D CAD exercise 060, dimensioned drawing for 2D drafting and sketch practice"
+image_alt: "2D CAD Exercise 060. Three tangent circles packed inside a larger circular boundary."
 series_title: "2D CAD Exercises"
 series_path: "/drawings/2d/"
 ---
 
-![2D CAD exercise 060, dimensioned drawing for 2D drafting and sketch practice](drawing.webp)
+Three tangent circles packed inside a larger circular boundary.
+
+![2D CAD Exercise 060. Three tangent circles packed inside a larger circular boundary.](drawing.webp)
+
+<details class="cad-practice-notes">
+<summary>Practice notes</summary>
+
+- Organize the three inner centers symmetrically about the outer center.
+- Check both internal tangency to the boundary and mutual tangency between the smaller circles.
+
+These are suggested reading checks, not a tested modeling tutorial.
+
+</details>

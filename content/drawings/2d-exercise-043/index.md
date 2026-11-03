@@ -1,6 +1,6 @@
 ---
 title: "2D CAD Exercise 043"
-description: "2D CAD Exercise 043: dimensioned CAD practice drawing for 2D drafting and sketch practice. View the drawing and browse the 2D exercise series."
+description: "2D CAD Exercise 043: A stepped shaft drawing with a longitudinal slot, a cross-marked section, and an end section view."
 draft: false
 slug: 2d-exercise-043
 drawing_id: CFO-2D-043
@@ -17,11 +17,23 @@ license:
   name: "Website display authorized by the site owner"
   website_display_allowed: true
   redistribution_allowed: false
-summary: "2D CAD Exercise 043: dimensioned CAD practice drawing for 2D drafting and sketch practice. View the drawing and browse the 2D exercise series."
+summary: "A stepped shaft drawing with a longitudinal slot, a cross-marked section, and an end section view."
 images: [drawing.webp]
-image_alt: "2D CAD exercise 043, dimensioned drawing for 2D drafting and sketch practice"
+image_alt: "2D CAD Exercise 043. A stepped shaft drawing with a longitudinal slot, a cross-marked section, and an end section view."
 series_title: "2D CAD Exercises"
 series_path: "/drawings/2d/"
 ---
 
-![2D CAD exercise 043, dimensioned drawing for 2D drafting and sketch practice](drawing.webp)
+A stepped shaft drawing with a longitudinal slot, a cross-marked section, and an end section view.
+
+![2D CAD Exercise 043. A stepped shaft drawing with a longitudinal slot, a cross-marked section, and an end section view.](drawing.webp)
+
+<details class="cad-practice-notes">
+<summary>Practice notes</summary>
+
+- Read axial lengths separately from the diameter callouts.
+- Use the end section to interpret the shaped portion instead of relying on the side silhouette alone.
+
+These are suggested reading checks, not a tested modeling tutorial.
+
+</details>

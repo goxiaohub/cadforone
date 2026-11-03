@@ -1,6 +1,6 @@
 ---
 title: "2D CAD Exercise 008"
-description: "2D CAD Exercise 008: dimensioned CAD practice drawing for 2D drafting and sketch practice. View the drawing and browse the 2D exercise series."
+description: "2D CAD Exercise 008: A central circle surrounded by a ring of smaller tangent circles."
 draft: false
 slug: 2d-exercise-008
 drawing_id: CFO-2D-008
@@ -17,11 +17,23 @@ license:
   name: "Website display authorized by the site owner"
   website_display_allowed: true
   redistribution_allowed: false
-summary: "2D CAD Exercise 008: dimensioned CAD practice drawing for 2D drafting and sketch practice. View the drawing and browse the 2D exercise series."
+summary: "A central circle surrounded by a ring of smaller tangent circles."
 images: [drawing.webp]
-image_alt: "2D CAD exercise 008, dimensioned drawing for 2D drafting and sketch practice"
+image_alt: "2D CAD Exercise 008. A central circle surrounded by a ring of smaller tangent circles."
 series_title: "2D CAD Exercises"
 series_path: "/drawings/2d/"
 ---
 
-![2D CAD exercise 008, dimensioned drawing for 2D drafting and sketch practice](drawing.webp)
+A central circle surrounded by a ring of smaller tangent circles.
+
+![2D CAD Exercise 008. A central circle surrounded by a ring of smaller tangent circles.](drawing.webp)
+
+<details class="cad-practice-notes">
+<summary>Practice notes</summary>
+
+- Establish the center of the arrangement before positioning the surrounding circles.
+- Check both the contacts with the middle circle and those between neighboring circles.
+
+These are suggested reading checks, not a tested modeling tutorial.
+
+</details>

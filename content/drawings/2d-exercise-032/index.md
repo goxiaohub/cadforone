@@ -1,6 +1,6 @@
 ---
 title: "2D CAD Exercise 032"
-description: "2D CAD Exercise 032: dimensioned CAD practice drawing for 2D drafting and sketch practice. View the drawing and browse the 2D exercise series."
+description: "2D CAD Exercise 032: A curved narrow arm rising from an angular base to a circular head."
 draft: false
 slug: 2d-exercise-032
 drawing_id: CFO-2D-032
@@ -17,11 +17,23 @@ license:
   name: "Website display authorized by the site owner"
   website_display_allowed: true
   redistribution_allowed: false
-summary: "2D CAD Exercise 032: dimensioned CAD practice drawing for 2D drafting and sketch practice. View the drawing and browse the 2D exercise series."
+summary: "A curved narrow arm rising from an angular base to a circular head."
 images: [drawing.webp]
-image_alt: "2D CAD exercise 032, dimensioned drawing for 2D drafting and sketch practice"
+image_alt: "2D CAD Exercise 032. A curved narrow arm rising from an angular base to a circular head."
 series_title: "2D CAD Exercises"
 series_path: "/drawings/2d/"
 ---
 
-![2D CAD exercise 032, dimensioned drawing for 2D drafting and sketch practice](drawing.webp)
+A curved narrow arm rising from an angular base to a circular head.
+
+![2D CAD Exercise 032. A curved narrow arm rising from an angular base to a circular head.](drawing.webp)
+
+<details class="cad-practice-notes">
+<summary>Practice notes</summary>
+
+- Construct the angular base from its lengths and included angle.
+- Use the marked arc radii to join the base to the circular head.
+
+These are suggested reading checks, not a tested modeling tutorial.
+
+</details>

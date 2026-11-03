@@ -1,6 +1,6 @@
 ---
 title: "3D CAD Exercise 017"
-description: "3D CAD Exercise 017: dimensioned CAD practice drawing for 3D modeling practice. View the drawing and browse the 3D exercise series."
+description: "3D CAD Exercise 017: A handheld shower-head shape with a perforated round face and a long angled handle."
 draft: false
 slug: 3d-exercise-017
 drawing_id: CFO-0017
@@ -17,11 +17,23 @@ license:
   name: "Website display authorized by the site owner"
   website_display_allowed: true
   redistribution_allowed: false
-summary: "3D CAD Exercise 017: dimensioned CAD practice drawing for 3D modeling practice. View the drawing and browse the 3D exercise series."
+summary: "A handheld shower-head shape with a perforated round face and a long angled handle."
 images: [drawing.webp]
-image_alt: "3D CAD exercise 017, dimensioned drawing for 3D modeling practice"
+image_alt: "3D CAD Exercise 017. A handheld shower-head shape with a perforated round face and a long angled handle."
 series_title: "3D CAD Exercises"
 series_path: "/drawings/3d/"
 ---
 
-![3D CAD exercise 017, dimensioned drawing for 3D modeling practice](drawing.webp)
+A handheld shower-head shape with a perforated round face and a long angled handle.
+
+![3D CAD Exercise 017. A handheld shower-head shape with a perforated round face and a long angled handle.](drawing.webp)
+
+<details class="cad-practice-notes">
+<summary>Practice notes</summary>
+
+- Compare the handle sections to track its changing profile.
+- Separate the face-hole pattern from the larger head and rim geometry.
+
+These are suggested reading checks, not a tested modeling tutorial.
+
+</details>

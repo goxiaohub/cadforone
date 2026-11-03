@@ -1,6 +1,6 @@
 ---
 title: "3D CAD Exercise 028"
-description: "3D CAD Exercise 028: dimensioned CAD practice drawing for 3D modeling practice. View the drawing and browse the 3D exercise series."
+description: "3D CAD Exercise 028: A tapered coil spring with a large base and progressively smaller turns."
 draft: false
 slug: 3d-exercise-028
 drawing_id: CFO-0028
@@ -17,11 +17,23 @@ license:
   name: "Website display authorized by the site owner"
   website_display_allowed: true
   redistribution_allowed: false
-summary: "3D CAD Exercise 028: dimensioned CAD practice drawing for 3D modeling practice. View the drawing and browse the 3D exercise series."
+summary: "A tapered coil spring with a large base and progressively smaller turns."
 images: [drawing.webp]
-image_alt: "3D CAD exercise 028, dimensioned drawing for 3D modeling practice"
+image_alt: "3D CAD Exercise 028. A tapered coil spring with a large base and progressively smaller turns."
 series_title: "3D CAD Exercises"
 series_path: "/drawings/3d/"
 ---
 
-![3D CAD exercise 028, dimensioned drawing for 3D modeling practice](drawing.webp)
+A tapered coil spring with a large base and progressively smaller turns.
+
+![3D CAD Exercise 028. A tapered coil spring with a large base and progressively smaller turns.](drawing.webp)
+
+<details class="cad-practice-notes">
+<summary>Practice notes</summary>
+
+- Establish the taper and axial length of the coil path first.
+- Check the wire diameter and end shapes independently from the shrinking coil radius.
+
+These are suggested reading checks, not a tested modeling tutorial.
+
+</details>

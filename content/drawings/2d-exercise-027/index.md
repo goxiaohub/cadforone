@@ -1,6 +1,6 @@
 ---
 title: "2D CAD Exercise 027"
-description: "2D CAD Exercise 027: dimensioned CAD practice drawing for 2D drafting and sketch practice. View the drawing and browse the 2D exercise series."
+description: "2D CAD Exercise 027: An asymmetric plate outline surrounding one large circle and three smaller circles."
 draft: false
 slug: 2d-exercise-027
 drawing_id: CFO-2D-027
@@ -17,11 +17,23 @@ license:
   name: "Website display authorized by the site owner"
   website_display_allowed: true
   redistribution_allowed: false
-summary: "2D CAD Exercise 027: dimensioned CAD practice drawing for 2D drafting and sketch practice. View the drawing and browse the 2D exercise series."
+summary: "An asymmetric plate outline surrounding one large circle and three smaller circles."
 images: [drawing.webp]
-image_alt: "2D CAD exercise 027, dimensioned drawing for 2D drafting and sketch practice"
+image_alt: "2D CAD Exercise 027. An asymmetric plate outline surrounding one large circle and three smaller circles."
 series_title: "2D CAD Exercises"
 series_path: "/drawings/2d/"
 ---
 
-![2D CAD exercise 027, dimensioned drawing for 2D drafting and sketch practice](drawing.webp)
+An asymmetric plate outline surrounding one large circle and three smaller circles.
+
+![2D CAD Exercise 027. An asymmetric plate outline surrounding one large circle and three smaller circles.](drawing.webp)
+
+<details class="cad-practice-notes">
+<summary>Practice notes</summary>
+
+- Place the circle centers from the reference dimensions before connecting the outside edges.
+- Check tangency at each straight-to-curved transition without changing the hole sizes.
+
+These are suggested reading checks, not a tested modeling tutorial.
+
+</details>

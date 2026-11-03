@@ -1,6 +1,6 @@
 ---
 title: "3D CAD Exercise 053"
-description: "3D CAD Exercise 053: dimensioned CAD practice drawing for 3D modeling practice. View the drawing and browse the 3D exercise series."
+description: "3D CAD Exercise 053: A forked mounting block with a vertical bore, horizontal gap, and two rounded mounting ears."
 draft: false
 slug: 3d-exercise-053
 drawing_id: CFO-0053
@@ -17,11 +17,23 @@ license:
   name: "Website display authorized by the site owner"
   website_display_allowed: true
   redistribution_allowed: false
-summary: "3D CAD Exercise 053: dimensioned CAD practice drawing for 3D modeling practice. View the drawing and browse the 3D exercise series."
+summary: "A forked mounting block with a vertical bore, horizontal gap, and two rounded mounting ears."
 images: [drawing.webp]
-image_alt: "3D CAD exercise 053, dimensioned drawing for 3D modeling practice"
+image_alt: "3D CAD Exercise 053. A forked mounting block with a vertical bore, horizontal gap, and two rounded mounting ears."
 series_title: "3D CAD Exercises"
 series_path: "/drawings/3d/"
 ---
 
-![3D CAD exercise 053, dimensioned drawing for 3D modeling practice](drawing.webp)
+A forked mounting block with a vertical bore, horizontal gap, and two rounded mounting ears.
+
+![3D CAD Exercise 053. A forked mounting block with a vertical bore, horizontal gap, and two rounded mounting ears.](drawing.webp)
+
+<details class="cad-practice-notes">
+<summary>Practice notes</summary>
+
+- Use section A-A to determine the depth of the gap and the bore steps.
+- Locate the mounting ears from the plan view before shaping the upper block.
+
+These are suggested reading checks, not a tested modeling tutorial.
+
+</details>

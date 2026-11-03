@@ -1,6 +1,6 @@
 ---
 title: "2D CAD Exercise 022"
-description: "2D CAD Exercise 022: dimensioned CAD practice drawing for 2D drafting and sketch practice. View the drawing and browse the 2D exercise series."
+description: "2D CAD Exercise 022: A sectioned circular plate showing a central countersunk opening and smaller straight bores."
 draft: false
 slug: 2d-exercise-022
 drawing_id: CFO-2D-022
@@ -17,11 +17,23 @@ license:
   name: "Website display authorized by the site owner"
   website_display_allowed: true
   redistribution_allowed: false
-summary: "2D CAD Exercise 022: dimensioned CAD practice drawing for 2D drafting and sketch practice. View the drawing and browse the 2D exercise series."
+summary: "A sectioned circular plate showing a central countersunk opening and smaller straight bores."
 images: [drawing.webp]
-image_alt: "2D CAD exercise 022, dimensioned drawing for 2D drafting and sketch practice"
+image_alt: "2D CAD Exercise 022. A sectioned circular plate showing a central countersunk opening and smaller straight bores."
 series_title: "2D CAD Exercises"
 series_path: "/drawings/2d/"
 ---
 
-![2D CAD exercise 022, dimensioned drawing for 2D drafting and sketch practice](drawing.webp)
+A sectioned circular plate showing a central countersunk opening and smaller straight bores.
+
+![2D CAD Exercise 022. A sectioned circular plate showing a central countersunk opening and smaller straight bores.](drawing.webp)
+
+<details class="cad-practice-notes">
+<summary>Practice notes</summary>
+
+- Separate the hatched material from the unhatched openings when reading the section.
+- Check the countersink angle and bore size independently from the plate thickness.
+
+These are suggested reading checks, not a tested modeling tutorial.
+
+</details>

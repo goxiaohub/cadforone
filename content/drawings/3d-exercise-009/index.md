@@ -1,6 +1,6 @@
 ---
 title: "3D CAD Exercise 009"
-description: "3D CAD Exercise 009: dimensioned CAD practice drawing for 3D modeling practice. View the drawing and browse the 3D exercise series."
+description: "3D CAD Exercise 009: A two-eye mounting plate with a projecting central tongue and a shaped end."
 draft: false
 slug: 3d-exercise-009
 drawing_id: CFO-0009
@@ -17,11 +17,23 @@ license:
   name: "Website display authorized by the site owner"
   website_display_allowed: true
   redistribution_allowed: false
-summary: "3D CAD Exercise 009: dimensioned CAD practice drawing for 3D modeling practice. View the drawing and browse the 3D exercise series."
+summary: "A two-eye mounting plate with a projecting central tongue and a shaped end."
 images: [drawing.webp]
-image_alt: "3D CAD exercise 009, dimensioned drawing for 3D modeling practice"
+image_alt: "3D CAD Exercise 009. A two-eye mounting plate with a projecting central tongue and a shaped end."
 series_title: "3D CAD Exercises"
 series_path: "/drawings/3d/"
 ---
 
-![3D CAD exercise 009, dimensioned drawing for 3D modeling practice](drawing.webp)
+A two-eye mounting plate with a projecting central tongue and a shaped end.
+
+![3D CAD Exercise 009. A two-eye mounting plate with a projecting central tongue and a shaped end.](drawing.webp)
+
+<details class="cad-practice-notes">
+<summary>Practice notes</summary>
+
+- Locate the two mounting holes before building the central projection.
+- Compare the front and side views to resolve the tongue height and curved end.
+
+These are suggested reading checks, not a tested modeling tutorial.
+
+</details>
