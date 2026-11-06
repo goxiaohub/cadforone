@@ -4,8 +4,8 @@ date: 2026-07-21
 description: 'Complete K-factor reference table for sheet metal bending - steel, aluminum, copper, stainless steel.'
 tags: ['Sheet Metal', 'NX', 'Reference']
 draft: false
-cover: cover-minimal.webp
-images: [cover-minimal.webp]
+cover: cover-series.webp
+images: [cover-series.webp]
 ---
 
 

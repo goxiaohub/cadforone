@@ -4,8 +4,8 @@ date: 2026-11-02
 description: "Understand on-view input, then use a small sketch exercise to separate size, position, and design intent."
 summary: "Understand on-view input, then use a small sketch exercise to separate size, position, and design intent."
 tags: [FreeCAD, CAD Practice]
-cover: cover-minimal.webp
-images: [cover-minimal.webp]
+cover: cover-series.webp
+images: [cover-series.webp]
 ---
 
 When a drawing already tells you the size of a feature, sketching it approximately and correcting it later can feel like doing the same job twice. FreeCAD's on-view inputs offer another way to work: enter a value while creating the geometry.

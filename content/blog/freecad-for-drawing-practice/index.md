@@ -4,8 +4,8 @@ date: 2026-11-01
 description: "A practical introduction to FreeCAD for readers who want to turn dimensioned drawings into editable parts."
 summary: "A practical introduction to FreeCAD for readers who want to turn dimensioned drawings into editable parts."
 tags: [FreeCAD, CAD Practice]
-cover: cover-minimal.webp
-images: [cover-minimal.webp]
+cover: cover-series.webp
+images: [cover-series.webp]
 ---
 
 A part can look right and still be awkward to edit. Move a hole, change the width, or increase the thickness, and you find out how much thought went into the model.
