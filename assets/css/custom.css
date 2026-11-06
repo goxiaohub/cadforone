@@ -167,3 +167,8 @@
 .cad-editorial-note { margin-top: 2rem; font-size: .85rem; }
 
 
+.cad-view-counter { padding: 0 1.5rem 1.5rem; margin: 0 auto; max-width: 90rem; font-size: .8rem; color: #526773; }
+.cad-view-counter[hidden] { display: none; }
+.cad-view-counter span { display: inline-block; margin-right: 1.25rem; }
+.cad-view-counter strong { font-variant-numeric: tabular-nums; margin-left: .3rem; }
+.dark .cad-view-counter { color: #a7bac7; }

@@ -30,6 +30,11 @@
       </div>
     </div>
   {{- end -}}
+<div class="cad-view-counter" data-view-counter hidden title="Aggregate page loads since counter activation; no visitor identifiers stored">
+  <span>{{ if eq site.Language.Lang "zh-cn" }}全站浏览量{{ else }}Site views{{ end }} <strong data-site-views>—</strong></span>
+  <span>{{ if eq site.Language.Lang "zh-cn" }}本页浏览量{{ else }}Page views{{ end }} <strong data-page-views>—</strong></span>
+</div>
+{{ if not hugo.IsServer }}<script defer src="{{ "js/views.js" | relURL }}"></script>{{ end }}
 </footer>
 
 {{- define "theme-credit" -}}
@@ -42,4 +47,5 @@
     </span>
   </a>
 {{- end -}}
+
 
