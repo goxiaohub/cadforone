@@ -8,8 +8,6 @@ cover: cover-minimal.webp
 images: [cover-minimal.webp]
 ---
 
-> Data source: E:\FDM\折弯中性因子\折弯中性因子.xlsx (author: 光軍)
-> Applicable to: UG NX bend coefficient table
 
 <!-- TODO: Replace placeholder with actual screenshot uploaded to R2 -->
 
@@ -151,3 +149,4 @@ You can also create a custom bend coefficient table (.bnd file), import the data
 | 0.3 ~ 2.0 | 0.30 ~ 0.45 | Standard bending range, K increases with R/T |
 | 2.0 ~ 5.0 | 0.45 ~ 0.48 | Large radius bending, neutral layer near center |
 | > 5.0 | 0.48 ~ 0.50 | Very large radius, neutral layer approximately at center |
+
