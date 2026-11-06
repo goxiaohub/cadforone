@@ -4,11 +4,11 @@ date: 2026-11-06T00:00:00+08:00
 draft: false
 description: "A practical user guide to FreeCAD 26.3: sketch references, feature offsets, patterns, mass properties, assemblies, and drawings."
 tags: [FreeCAD, CAD, Release Preview]
-images: [cover.webp]
-cover: cover.webp
+cover: cover-minimal.webp
+images: [cover-minimal.webp]
 ---
 
-![Conceptual machined bracket with sketch references and engineering drawings](cover.webp)
+![Conceptual machined bracket with sketch references and engineering drawings](cover-minimal.webp)
 *AI-generated editorial illustration; not a FreeCAD screenshot.*
 
 *From offset pockets and editable hole patterns to mass checks and clearer drawings, here’s what FreeCAD 26.3 changes in a typical design workflow.*

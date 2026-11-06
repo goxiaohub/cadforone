@@ -4,6 +4,8 @@ date: 2026-07-21
 description: 'Free mechanical design tutorials for CNC machinists, mold makers, and engineers.'
 tags: ['NX', 'FreeCAD', 'CAM']
 draft: false
+cover: cover-minimal.webp
+images: [cover-minimal.webp]
 ---
 
 Welcome to **CAD For One** — your free resource for mechanical design tutorials.

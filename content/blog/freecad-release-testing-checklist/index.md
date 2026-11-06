@@ -4,8 +4,8 @@ date: 2026-11-02
 description: "Turn a familiar CAD exercise into a small, repeatable version check before moving important work to a different build."
 summary: "Turn a familiar CAD exercise into a small, repeatable version check before moving important work to a different build."
 tags: [FreeCAD, CAD Practice]
-images: [practice.webp]
-cover: practice.webp
+cover: cover-minimal.webp
+images: [cover-minimal.webp]
 ---
 
 A new CAD build is easiest to judge with a part you already know. An unfamiliar project adds too many questions at once: is the result different because the software changed, because the drawing is difficult, or because you chose another modeling approach?

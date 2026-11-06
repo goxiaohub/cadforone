@@ -5,6 +5,8 @@ date: 2026-11-06T00:00:00+08:00
 draft: false
 tags: [SolidCraft, CAD, Release Notes]
 description: "Find the official SolidCraft 0.40.0 RC2 installers for Windows, macOS, and Linux, and understand the changes and compatibility limits before testing."
+cover: cover-minimal.webp
+images: [cover-minimal.webp]
 ---
 
 

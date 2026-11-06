@@ -4,8 +4,8 @@ date: 2026-11-01
 description: "Understand what three FreeCAD workbenches do, and when to move from a sketch to a part to a drawing."
 summary: "Understand what three FreeCAD workbenches do, and when to move from a sketch to a part to a drawing."
 tags: [FreeCAD, CAD Practice]
-images: [practice.webp]
-cover: practice.webp
+cover: cover-minimal.webp
+images: [cover-minimal.webp]
 ---
 
 The workbench selector is one of the first things a new FreeCAD user notices. It can also make a modest task feel larger than it is. You want to model one part, yet the application offers tools for many different kinds of work.

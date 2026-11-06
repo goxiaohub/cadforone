@@ -4,6 +4,8 @@ date: 2026-07-21
 description: 'Complete K-factor reference table for sheet metal bending - steel, aluminum, copper, stainless steel.'
 tags: ['Sheet Metal', 'NX', 'Reference']
 draft: false
+cover: cover-minimal.webp
+images: [cover-minimal.webp]
 ---
 
 > Data source: E:\FDM\折弯中性因子\折弯中性因子.xlsx (author: 光軍)

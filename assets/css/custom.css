@@ -87,7 +87,7 @@
 .dark .hextra-nav-container img[src$="/logo-concept-v2.png"] { filter: brightness(0) invert(1); }
 
 .cad-blog-cover { display: block; margin-top: 2rem; border: 0; border-radius: 0; overflow: hidden; background: transparent; }
-.cad-blog-cover img { display: block; width: 100%; max-height: 270px; object-fit: contain; }
+.cad-blog-cover img { display: block; width: 100%; height: auto; object-fit: contain; }
 
 /* Drawing-board visual refresh. */
 .cad-home { --cad-surface: #f1f6f7; }
@@ -165,4 +165,5 @@
 .cad-practice-notes summary:focus-visible { outline: 2px solid #0284c7; outline-offset: 4px; }
 .dark .cad-practice-notes { border-color: #354651; }
 .cad-editorial-note { margin-top: 2rem; font-size: .85rem; }
+
 

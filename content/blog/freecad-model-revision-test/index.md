@@ -4,8 +4,8 @@ date: 2026-11-02
 description: "A practical revision exercise inspired by the FreeCAD 1.0 milestone: check the model after changing it, not just after building it."
 summary: "A practical revision exercise inspired by the FreeCAD 1.0 milestone: check the model after changing it, not just after building it."
 tags: [FreeCAD, CAD Practice]
-images: [practice.webp]
-cover: practice.webp
+cover: cover-minimal.webp
+images: [cover-minimal.webp]
 ---
 
 A model can match a drawing beautifully and still be awkward to change. The real test comes when a hole moves, a wall gets thicker, or an early sketch needs another edge.

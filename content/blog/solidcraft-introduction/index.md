@@ -4,8 +4,8 @@ date: 2026-11-01
 description: "An introduction to SolidCraft, its editable modeling timeline, and the checks that matter before relying on a new CAD tool."
 summary: "An introduction to SolidCraft, its editable modeling timeline, and the checks that matter before relying on a new CAD tool."
 tags: [SolidCraft, CAD Practice]
-images: [practice.webp]
-cover: practice.webp
+cover: cover-minimal.webp
+images: [cover-minimal.webp]
 ---
 
 The interesting moment in a CAD demonstration is often the edit near the end. A dimension changes, the part rebuilds, and the features stay where they belong. That is the promise worth examining in SolidCraft.

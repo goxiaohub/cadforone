@@ -4,8 +4,8 @@ date: 2026-11-01
 description: "A repeatable exercise for evaluating sketch edits, feature rebuilds, saved files, and exports in SolidCraft."
 summary: "A repeatable exercise for evaluating sketch edits, feature rebuilds, saved files, and exports in SolidCraft."
 tags: [SolidCraft, CAD Practice]
-images: [practice.webp]
-cover: practice.webp
+cover: cover-minimal.webp
+images: [cover-minimal.webp]
 ---
 
 A complicated model is a poor first test of unfamiliar CAD software. If something goes wrong, you have too many possible explanations: the sketch, the selected edge, the feature order, or your understanding of the tool.
