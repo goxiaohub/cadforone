@@ -6,7 +6,7 @@ toc: false
 
 CAD for One helps you practice reading engineering drawings and building CAD models. Browse the [2D drawing exercises](/drawings/2d/), choose a [3D modeling exercise](/drawings/3d/), or read the [CAD Notes blog](/blog/).
 
-The library contains 65 2D exercises and 180 3D exercises. Each drawing has its own page and original exercise number, so you can return to it or share the same reference with another learner. The exercises can be approached in your preferred CAD software; they are not tied to one vendor.
+The library contains 65 2D exercises and 181 3D exercises. Each drawing has its own page and original exercise number, so you can return to it or share the same reference with another learner. The exercises can be approached in your preferred CAD software; they are not tied to one vendor.
 
 ## Drawings and permissions
 
