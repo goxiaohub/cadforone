@@ -83,6 +83,11 @@ menu:
       pageRef: /about
       parent: more
       weight: 1
+    - identifier: contact
+      name: Contact & Copyright
+      pageRef: /contact
+      parent: more
+      weight: 4
     - identifier: archives
       name: Archives
       pageRef: /archives
@@ -227,4 +232,5 @@ params:
       # inputPosition: top
       # lang: en
       # theme: noborder_dark
+
 

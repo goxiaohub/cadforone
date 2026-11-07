@@ -180,3 +180,16 @@
 .cad-coffee-link:hover { background: #f4ce00; }
 .cad-contact-footer a:focus-visible { outline: 2px solid #086c83; outline-offset: 4px; }
 .dark .cad-contact-footer { color: #a7bac7; }
+.cad-email-link { display: inline-flex; align-items: center; gap: .55rem; }
+.cad-support-card { margin: .75rem 0 1.5rem; font-size: .8rem; }
+.cad-support-card p { margin-top: .65rem; line-height: 1.5; color: #526773; }
+.dark .cad-support-card p { color: #a7bac7; }
+.cad-support-fallback { margin: 0 auto; padding: 0 1.5rem 1rem; }
+@media (min-width: 1280px) {
+ .cad-support-fallback { position: fixed; top: 9rem; right: max(1rem, calc((100vw - 1536px) / 2)); width: 240px; z-index: 10; padding: 0; }
+ body:has(.hextra-toc .cad-support-card) .cad-support-fallback { display: none; }
+}
+
+.cad-support-mobile { display: none; }
+@media (max-width: 1279px) { .cad-support-mobile { display: block; } body:has(.cad-support-mobile) .cad-support-fallback { display: none; } }
+
