@@ -12,7 +12,7 @@ preview_image: drawing.webp
 tutorials: []
 model_files: []
 source:
-  name: "CAD for One — 3D CAD Exercises-007.webp"
+  name: "3D CAD Exercises-135.pptx, slide 7"
 license:
   name: "Website display authorized by the site owner"
   website_display_allowed: true
@@ -31,8 +31,8 @@ A shallow rectangular tray with rounded corners, a raised rim, and projecting ed
 <details class="cad-practice-notes">
 <summary>Practice notes</summary>
 
-- Compare both sections to establish the tray depth and rim profile.
-- Check the corner transitions and tab positions against the plan view.
+- Compare sections H-H, I-I, and J-J to establish the tray depth, wall thicknesses, and rim profile.
+- Check the corner radii, mounting-hole positions, and 30-degree wall transitions against the plan and section views.
 
 These are suggested reading checks, not a tested modeling tutorial.
 
