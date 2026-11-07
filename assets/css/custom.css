@@ -193,3 +193,6 @@
 .cad-support-mobile { display: none; }
 @media (max-width: 1279px) { .cad-support-mobile { display: block; } body:has(.cad-support-mobile) .cad-support-fallback { display: none; } }
 
+.cad-contact-inline { margin-top: 1rem; font-size: .8rem; text-align: inherit; }
+.cad-home-support .cad-support-card { margin: 1rem 0; }
+body:has(.cad-home) .cad-support-mobile { display: none; }

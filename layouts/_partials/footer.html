@@ -27,10 +27,11 @@
       <div class="hx:flex hx:w-full hx:flex-col hx:items-center hx:sm:items-start">
         {{- if false }}<div class="hx:font-semibold">{{ template "theme-credit" $poweredBy }}</div>{{- end -}}
         {{- if .Site.Params.footer.displayCopyright }}<div class="hx:mt-6 hx:text-xs">© {{ now.Year }} CAD For One</div>{{- end -}}
+<div class="cad-contact-inline"><a class="cad-email-link" href="mailto:cadforone@outlook.com" aria-label="Email CAD For One"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 6 9 7 9-7"/></svg><span>cadforone@outlook.com</span></a></div>
       </div>
     </div>
   {{- end -}}
-<div class="cad-contact-footer"><a class="cad-email-link" href="mailto:cadforone@outlook.com" aria-label="Email CAD For One"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 6 9 7 9-7"/></svg><span>cadforone@outlook.com</span></a></div><div class="cad-support-fallback">{{ partial "coffee-support.html" . }}</div>
+{{ if not .IsHome }}<div class="cad-support-fallback">{{ partial "coffee-support.html" . }}</div>{{ end }}
 
 <div class="cad-view-counter" data-view-counter hidden title="Aggregate page loads since counter activation; no visitor identifiers stored">
   <span>{{ if eq site.Language.Lang "zh-cn" }}全站浏览量{{ else }}Site views{{ end }} <strong data-site-views>—</strong></span>
@@ -49,6 +50,7 @@
     </span>
   </a>
 {{- end -}}
+
 
 
 
