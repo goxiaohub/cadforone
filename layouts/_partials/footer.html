@@ -30,6 +30,17 @@
       </div>
     </div>
   {{- end -}}
+<section class="cad-contact-footer hextra-max-footer-width" aria-label="{{ if eq site.Language.Lang "zh-cn" }}联系与版权{{ else }}Contact and copyright{{ end }}">
+  <div class="cad-contact-links">
+    <a href="mailto:cadforone@outlook.com">cadforone@outlook.com</a>
+    <a class="cad-coffee-link" href="https://buymeacoffee.com/FreeCAD" target="_blank" rel="noopener noreferrer" aria-label="Support CAD For One on Buy Me a Coffee">
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 8h13v7a5 5 0 0 1-5 5H9a5 5 0 0 1-5-5V8Z"/><path d="M17 9h2a3 3 0 0 1 0 6h-2M3 22h16M7 2v3M11 2v3M15 2v3"/></svg>
+      <span>{{ if eq site.Language.Lang "zh-cn" }}请我喝杯咖啡{{ else }}Buy me a coffee{{ end }}</span>
+    </a>
+  </div>
+  <p>{{ if eq site.Language.Lang "zh-cn" }}本站部分图纸转载自网络，版权归原作者或相关权利人所有。如您认为本站内容侵犯了您的权益，或希望我们下架相关内容，请发送邮件至 <a href="mailto:cadforone@outlook.com">cadforone@outlook.com</a>，提供相关页面链接及权属说明。我们会及时核实并处理。{{ else }}Some drawings on this website are reproduced from online sources. Copyright remains with the original authors or respective rights holders. If you believe any content infringes your rights, or wish to request its removal, please email <a href="mailto:cadforone@outlook.com">cadforone@outlook.com</a> with the relevant page URL and details of your rights. We will review and address your request promptly.{{ end }}</p>
+</section>
+
 <div class="cad-view-counter" data-view-counter hidden title="Aggregate page loads since counter activation; no visitor identifiers stored">
   <span>{{ if eq site.Language.Lang "zh-cn" }}全站浏览量{{ else }}Site views{{ end }} <strong data-site-views>—</strong></span>
   <span>{{ if eq site.Language.Lang "zh-cn" }}本页浏览量{{ else }}Page views{{ end }} <strong data-page-views>—</strong></span>
@@ -47,5 +58,6 @@
     </span>
   </a>
 {{- end -}}
+
 
 
