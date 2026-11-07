@@ -196,3 +196,6 @@
 .cad-contact-inline { margin-top: 1rem; font-size: .8rem; text-align: inherit; }
 .cad-home-support .cad-support-card { margin: 1rem 0; }
 body:has(.cad-home) .cad-support-mobile { display: none; }
+.cad-home-footer-support { width: 100%; text-align: left; margin-top: .25rem; }
+.cad-home-footer-support .cad-support-card { margin: .75rem 0 0; }
+@media (max-width: 639px) { .cad-home-footer-support { text-align: center; } }

@@ -10,7 +10,7 @@
       {{ with site.GetPage "/drawings/3d" }}<a class="cad-home-button" href="{{ .RelPermalink }}">Explore 3D drawings <span aria-hidden="true">→</span></a>{{ end }}
       {{ with site.GetPage "/drawings/2d" }}<a class="cad-home-button cad-home-secondary" href="{{ .RelPermalink }}">Explore 2D drawings <span aria-hidden="true">→</span></a>{{ end }}
     </div>
-    <div class="cad-home-support">{{ partial "coffee-support.html" .Page }}</div>
+    
     <p class="cad-home-facts">{{ add (len $two) (len $three) }} drawings <span aria-hidden="true">/</span> No sign-up needed</p>
 </div>
 {{ with site.GetPage "/drawings/slotted-tray-001" }}
@@ -54,4 +54,5 @@
     {{ with site.GetPage "/drawings" }}<a href="{{ .RelPermalink }}">Browse the full library <span aria-hidden="true">→</span></a>{{ end }}
   </aside>
 </div>
+
 
