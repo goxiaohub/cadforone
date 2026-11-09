@@ -12,7 +12,7 @@ preview_image: drawing.webp
 tutorials: []
 model_files: []
 source:
-  name: "17.png"
+  name: "17-2.png"
 license:
   name: "Website display authorized by the site owner"
   website_display_allowed: true
