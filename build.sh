@@ -17,4 +17,4 @@ else
 fi
 
 echo "=== Building site ==="
-hugo --minify
+hugo --minify --cleanDestinationDir

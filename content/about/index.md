@@ -24,6 +24,6 @@ We do not invent completed models, test results, author credentials, or download
 
 For a correction, include the page URL or exercise number and describe what appears wrong. The site's public project is [goxiaohub/cadforone on GitHub](https://github.com/goxiaohub/cadforone); use its available feedback channels. Please do not post private documents or personal information.
 
-## Site credits
+## Independent learning site
 
-CAD for One is built with [Hugo](https://gohugo.io/) and the [Hextra theme](https://github.com/imfing/hextra). FreeCAD, SolidCraft, and other software names belong to their respective projects. CAD for One is an independent learning site, not their official documentation.
+FreeCAD, SolidCraft, and other software names belong to their respective projects. CAD for One is an independent learning site, not their official documentation.

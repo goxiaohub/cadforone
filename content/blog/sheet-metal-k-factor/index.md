@@ -9,8 +9,6 @@ images: [cover-series.webp]
 ---
 
 
-<!-- TODO: Replace placeholder with actual screenshot uploaded to R2 -->
-
 ## What is K-Factor
 
 When sheet metal is bent, the inside is compressed and the outside is stretched. There is a **neutral layer** in between that is neither compressed nor stretched. The position of this neutral layer is expressed as the **K-factor**:

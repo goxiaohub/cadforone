@@ -24,6 +24,6 @@ CAD for One 是面向 CAD 练习者的图纸与学习资源网站。你可以浏
 
 反馈时请提供页面地址或图纸编号，并说明具体问题。本站公开项目位于 [GitHub：goxiaohub/cadforone](https://github.com/goxiaohub/cadforone)，可使用项目已有的反馈渠道。请勿公开私人文件或个人信息。
 
-## 致谢
+## 独立学习网站
 
-本站使用 [Hugo](https://gohugo.io/) 与 [Hextra](https://github.com/imfing/hextra) 构建。CAD for One 是独立学习网站，不是 FreeCAD、SolidCraft 等软件的官方文档。
+FreeCAD、SolidCraft 等软件名称属于各自项目。CAD for One 是独立学习网站，不是这些软件的官方文档。

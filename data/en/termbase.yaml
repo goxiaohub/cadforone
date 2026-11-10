@@ -1,12 +1,57 @@
----
-# Terminology glossary
-#
-# Example usage of term.html shortcode:
-#
-# {{< term "SEO" >}}
-
-- term: seo
-  abbr: SEO
-  definition: "Search engine optimization – improving the visibility of a web page in search engines"
-- term: static site generator
-  definition: "Software engines processing text input to generate static web pages"
+[
+  {
+    "term": "CAD",
+    "definition": "Computer-aided design: software used to create and edit drawings and models.",
+    "abbr": "CAD"
+  },
+  {
+    "term": "parametric modeling",
+    "definition": "Modeling driven by dimensions and geometric relationships so that changes can update related features."
+  },
+  {
+    "term": "sketch constraint",
+    "definition": "A rule controlling sketch geometry, such as coincidence, tangency, parallelism, or a dimension."
+  },
+  {
+    "term": "degree of freedom",
+    "definition": "An independent movement or change still available to geometry; sketch constraints reduce these freedoms.",
+    "abbr": "DOF"
+  },
+  {
+    "term": "orthographic projection",
+    "definition": "A method of representing a part with aligned views projected perpendicular to the drawing planes."
+  },
+  {
+    "term": "section view",
+    "definition": "A view that exposes internal features by imagining the part cut along a specified plane or path."
+  },
+  {
+    "term": "extrusion",
+    "definition": "A feature made by extending a profile along a direction to add or remove material."
+  },
+  {
+    "term": "revolution",
+    "definition": "A feature made by rotating a profile about an axis."
+  },
+  {
+    "term": "fillet",
+    "definition": "A rounded transition between edges or faces; its size is commonly specified by a radius."
+  },
+  {
+    "term": "chamfer",
+    "definition": "A beveled transition replacing a sharp edge, commonly specified by distances or an angle."
+  },
+  {
+    "term": "datum",
+    "definition": "A reference point, axis, plane, or feature used to locate or relate other geometry."
+  },
+  {
+    "term": "boundary representation",
+    "definition": "A representation of a solid by its bounding faces, edges, and vertices together with their relationships.",
+    "abbr": "B-rep"
+  },
+  {
+    "term": "sheet-metal K-factor",
+    "definition": "The ratio of the neutral-axis distance from the inside bend surface to the sheet thickness; it is used in bend-allowance calculations."
+  }
+]
