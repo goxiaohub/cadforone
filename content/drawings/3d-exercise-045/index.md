@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 045"
+title: "Split, rounded clamp band – 3D CAD Exercise 045"
 description: "3D CAD Exercise 045: A split, rounded clamp band with two raised fastening ears."
 draft: false
 slug: 3d-exercise-045
@@ -28,12 +28,7 @@ A split, rounded clamp band with two raised fastening ears.
 
 ![3D CAD Exercise 045. A split, rounded clamp band with two raised fastening ears.](drawing.webp)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Use section A-A to trace the clamp's inner and outer profiles.
 - Check the separation of the ears and the alignment of their fastening holes.
-
-These are suggested reading checks, not a tested modeling tutorial.
-
-</details>

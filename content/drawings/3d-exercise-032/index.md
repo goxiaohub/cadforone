@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 032"
+title: "Bent strip – 3D CAD Exercise 032"
 description: "3D CAD Exercise 032: A bent strip following a spatial path with several rounded changes in direction."
 draft: false
 slug: 3d-exercise-032
@@ -28,12 +28,7 @@ A bent strip following a spatial path with several rounded changes in direction.
 
 ![3D CAD Exercise 032. A bent strip following a spatial path with several rounded changes in direction.](drawing.webp)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Combine the plan and elevation to locate bends that occur in different planes.
 - Keep the strip section oriented consistently along the path and inspect each bend transition.
-
-These are suggested reading checks, not a tested modeling tutorial.
-
-</details>

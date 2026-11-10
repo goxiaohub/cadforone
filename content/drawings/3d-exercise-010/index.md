@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 010"
+title: "Teapot drawing – 3D CAD Exercise 010"
 description: "3D CAD Exercise 010: A teapot drawing with a rounded body, lid, spout, and side handle."
 draft: false
 slug: 3d-exercise-010
@@ -28,12 +28,7 @@ A teapot drawing with a rounded body, lid, spout, and side handle.
 
 ![3D CAD Exercise 010. A teapot drawing with a rounded body, lid, spout, and side handle.](drawing.webp)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Read the sections to separate the vessel wall, lid, and internal openings.
 - Check the spout and handle against their orthographic profiles rather than the shaded view alone.
-
-These are suggested reading checks, not a tested modeling tutorial.
-
-</details>

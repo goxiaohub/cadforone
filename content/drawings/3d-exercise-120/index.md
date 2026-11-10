@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 120"
+title: "Offset support – 3D CAD Exercise 120"
 description: "3D CAD Exercise 120: An offset support joining a rectangular mounting plate to a lower bored cylindrical boss."
 draft: false
 slug: 3d-exercise-120
@@ -27,12 +27,11 @@ An offset support joining a rectangular mounting plate to a lower bored cylindri
 
 ![3D CAD Exercise 120. An offset support joining a rectangular mounting plate to a lower bored cylindrical boss.](drawing.avif)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Use section A-A to trace the curved connection and internal steps.
 - Check the small side boss and mounting-plate holes against the end view.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Check each opening against the drawing: its size, center position, and direction must agree across the available views.

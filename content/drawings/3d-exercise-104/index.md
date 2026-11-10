@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 104"
+title: "Domed housing on a square flange – 3D CAD Exercise 104"
 description: "3D CAD Exercise 104: A domed housing on a square flange with rim openings and a stepped central bore."
 draft: false
 slug: 3d-exercise-104
@@ -27,12 +27,11 @@ A domed housing on a square flange with rim openings and a stepped central bore.
 
 ![3D CAD Exercise 104. A domed housing on a square flange with rim openings and a stepped central bore.](drawing.avif)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Read section A-A before creating the outer dome and inner cavity.
 - Use detail C to check the small central steps separately from the base openings.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Check each opening against the drawing: its size, center position, and direction must agree across the available views.

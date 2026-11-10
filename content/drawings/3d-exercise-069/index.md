@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 069"
+title: "Ribbed mounting block – 3D CAD Exercise 069"
 description: "3D CAD Exercise 069: A ribbed mounting block with a bored split boss, four base holes, and an arched lower cutout."
 draft: false
 slug: 3d-exercise-069
@@ -28,12 +28,11 @@ A ribbed mounting block with a bored split boss, four base holes, and an arched 
 
 ![3D CAD Exercise 069. A ribbed mounting block with a bored split boss, four base holes, and an arched lower cutout.](drawing.webp)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Resolve the lower cutout and boss bore from the orthographic views first.
 - Check the boss slot and transverse hole independently from the base-hole pattern.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Check each opening against the drawing: its size, center position, and direction must agree across the available views.

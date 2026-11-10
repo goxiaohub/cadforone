@@ -1,5 +1,5 @@
 ---
-title: "2D CAD Exercise 057"
+title: "Scalene triangle – 2D CAD Exercise 057"
 description: "2D CAD Exercise 057: A scalene triangle with an internal slanted segment and a short horizontal cross-line."
 draft: false
 slug: 2d-exercise-057
@@ -28,12 +28,7 @@ A scalene triangle with an internal slanted segment and a short horizontal cross
 
 ![2D CAD Exercise 057. A scalene triangle with an internal slanted segment and a short horizontal cross-line.](drawing.webp)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Construct the outer triangle from its three side lengths first.
 - Use the lower offset to position the internal segment before checking the reference angle.
-
-These are suggested reading checks, not a tested modeling tutorial.
-
-</details>

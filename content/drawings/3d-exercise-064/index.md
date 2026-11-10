@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 064"
+title: "Forked support – 3D CAD Exercise 064"
 description: "3D CAD Exercise 064: A forked support with a vertical cylindrical boss, a reinforcing web, and a raised end block."
 draft: false
 slug: 3d-exercise-064
@@ -28,12 +28,7 @@ A forked support with a vertical cylindrical boss, a reinforcing web, and a rais
 
 ![3D CAD Exercise 064. A forked support with a vertical cylindrical boss, a reinforcing web, and a raised end block.](drawing.webp)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Establish the fork opening and boss location from the plan view.
 - Use the side and end views to check the web height and end-block opening.
-
-These are suggested reading checks, not a tested modeling tutorial.
-
-</details>

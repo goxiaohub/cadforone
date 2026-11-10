@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 163"
+title: "Piston and Ported Cylinder Liner – 3D CAD Exercise 163"
 description: "3D CAD Exercise 163: A piston and a cylinder liner with side openings, shown in orthographic and sectional views."
 draft: false
 slug: 3d-exercise-163
@@ -27,12 +27,11 @@ A piston and a cylinder liner with side openings, shown in orthographic and sect
 
 ![3D CAD Exercise 163. A piston and a cylinder liner with side openings, shown in orthographic and sectional views.](drawing.avif)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Use the piston section to establish its crown, skirt, and internal supports.
 - Check the liner openings and bore separately before considering the fit between the parts.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Check each opening against the drawing: its size, center position, and direction must agree across the available views.

@@ -1,5 +1,5 @@
 ---
-title: "2D CAD Exercise 009"
+title: "Twelve-Circle Radial Pattern – 2D CAD Exercise 009"
 description: "2D CAD Exercise 009: A circular arrangement of twelve small circles around a larger central circle."
 draft: false
 slug: 2d-exercise-009
@@ -28,12 +28,7 @@ A circular arrangement of twelve small circles around a larger central circle.
 
 ![2D CAD Exercise 009. A circular arrangement of twelve small circles around a larger central circle.](drawing.webp)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Distinguish the radius of each small circle from the radius of its center path.
 - Check the repeated spacing and tangent contacts around the complete ring.
-
-These are suggested reading checks, not a tested modeling tutorial.
-
-</details>

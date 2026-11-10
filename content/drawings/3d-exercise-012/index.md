@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 012"
+title: "Thin, rounded-end plate – 3D CAD Exercise 012"
 description: "3D CAD Exercise 012: A thin, rounded-end plate with a raised profile and small features at its squared end."
 draft: false
 slug: 3d-exercise-012
@@ -28,12 +28,7 @@ A thin, rounded-end plate with a raised profile and small features at its square
 
 ![3D CAD Exercise 012. A thin, rounded-end plate with a raised profile and small features at its squared end.](drawing.webp)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Use the side view to resolve the changing height along the plate.
 - Check the end details against the plan view before adding rounds.
-
-These are suggested reading checks, not a tested modeling tutorial.
-
-</details>

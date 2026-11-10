@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 036"
+title: "Connecting arm – 3D CAD Exercise 036"
 description: "3D CAD Exercise 036: A connecting arm with two bored bosses of different sizes joined by tapered ribs."
 draft: false
 slug: 3d-exercise-036
@@ -28,12 +28,11 @@ A connecting arm with two bored bosses of different sizes joined by tapered ribs
 
 ![3D CAD Exercise 036. A connecting arm with two bored bosses of different sizes joined by tapered ribs.](drawing.webp)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Place the boss centers and set their separate heights before joining them.
 - Read the side view to check the rib taper instead of extruding the plan silhouette uniformly.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Check each opening against the drawing: its size, center position, and direction must agree across the available views.

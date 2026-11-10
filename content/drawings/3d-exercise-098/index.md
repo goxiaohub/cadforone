@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 098"
+title: "Twisted vase-like form – 3D CAD Exercise 098"
 description: "3D CAD Exercise 098: A twisted vase-like form defined by elliptical sections and changing side profiles."
 draft: false
 slug: 3d-exercise-098
@@ -27,12 +27,7 @@ A twisted vase-like form defined by elliptical sections and changing side profil
 
 ![3D CAD Exercise 098. A twisted vase-like form defined by elliptical sections and changing side profiles.](drawing.avif)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Locate the section planes and their ellipse sizes before creating a loft.
 - Check section orientation and alignment to avoid unintended twists between profiles.
-
-These are suggested reading checks, not a tested modeling tutorial.
-
-</details>

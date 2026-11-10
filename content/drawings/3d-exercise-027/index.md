@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 027"
+title: "Star-Path Spring – 3D CAD Exercise 027"
 description: "3D CAD Exercise 027: A spring-like form following a repeating star-shaped path along its length."
 draft: false
 slug: 3d-exercise-027
@@ -28,12 +28,12 @@ A spring-like form following a repeating star-shaped path along its length.
 
 ![3D CAD Exercise 027. A spring-like form following a repeating star-shaped path along its length.](drawing.webp)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Separate the star-shaped path from the small circular wire section.
 - Check the axial spacing and end positions before extending the repeated sweep.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Count the repeated elements and check their spacing about the center or along the path; a matching outline alone can hide a misplaced repetition.
+- Compare the path, turn spacing, and end conditions with the drawing. Do not assume constant pitch or diameter where the views show a change.

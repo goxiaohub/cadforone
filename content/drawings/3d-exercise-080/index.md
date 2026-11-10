@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 080"
+title: "Tapered jug – 3D CAD Exercise 080"
 description: "3D CAD Exercise 080: A tapered jug with a narrow mouth, a broad base, and an angular loop handle."
 draft: false
 slug: 3d-exercise-080
@@ -27,12 +27,7 @@ A tapered jug with a narrow mouth, a broad base, and an angular loop handle.
 
 ![3D CAD Exercise 080. A tapered jug with a narrow mouth, a broad base, and an angular loop handle.](drawing.avif)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Use section B-B to establish the vessel wall and rounded mouth.
 - Read the handle detail before blending its two attachments into the body.
-
-These are suggested reading checks, not a tested modeling tutorial.
-
-</details>

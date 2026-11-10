@@ -1,5 +1,5 @@
 ---
-title: "2D CAD Exercise 040"
+title: "Oval plate outline – 2D CAD Exercise 040"
 description: "2D CAD Exercise 040: An oval plate outline with a hexagonal opening, a small circular hole, and a curved internal cutout."
 draft: false
 slug: 2d-exercise-040
@@ -28,12 +28,11 @@ An oval plate outline with a hexagonal opening, a small circular hole, and a cur
 
 ![2D CAD Exercise 040. An oval plate outline with a hexagonal opening, a small circular hole, and a curved internal cutout.](drawing.webp)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Locate the two circular centers before constructing the outer oval-like boundary.
 - Keep the hexagon and curved cutout as separate closed profiles.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Check each opening against the drawing: its size, center position, and direction must agree across the available views.

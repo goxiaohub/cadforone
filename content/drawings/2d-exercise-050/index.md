@@ -1,5 +1,5 @@
 ---
-title: "2D CAD Exercise 050"
+title: "Apple-shaped outline – 2D CAD Exercise 050"
 description: "2D CAD Exercise 050: An apple-shaped outline with a separate leaf, constructed from intersecting guide circles and arcs."
 draft: false
 slug: 2d-exercise-050
@@ -28,12 +28,7 @@ An apple-shaped outline with a separate leaf, constructed from intersecting guid
 
 ![2D CAD Exercise 050. An apple-shaped outline with a separate leaf, constructed from intersecting guide circles and arcs.](drawing.webp)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Use the guide-circle centers to resolve the large body curves first.
 - Trim the leaf and the small top and bottom transitions only after the main outline is established.
-
-These are suggested reading checks, not a tested modeling tutorial.
-
-</details>

@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 165"
+title: "Sectioned engine housing – 3D CAD Exercise 165"
 description: "3D CAD Exercise 165: A sectioned engine housing showing the cylinder bore, lower chamber, and inclined inlet passage."
 draft: false
 slug: 3d-exercise-165
@@ -27,12 +27,12 @@ A sectioned engine housing showing the cylinder bore, lower chamber, and incline
 
 ![3D CAD Exercise 165. A sectioned engine housing showing the cylinder bore, lower chamber, and inclined inlet passage.](drawing.avif)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Trace the internal cavities through section C-C before forming the outer walls.
 - Check how the inlet joins the main chamber and where the cooling fins stop.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Check each opening against the drawing: its size, center position, and direction must agree across the available views.
+- Inspect the internal space as well as the outside shape. Use any section views to check which walls remain and where the passage opens.

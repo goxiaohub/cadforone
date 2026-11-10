@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 179"
+title: "Branching pipe-like component – 3D CAD Exercise 179"
 description: "3D CAD Exercise 179: A branching pipe-like component with three flanged openings and curved connecting passages."
 draft: false
 slug: 3d-exercise-179
@@ -27,12 +27,12 @@ A branching pipe-like component with three flanged openings and curved connectin
 
 ![3D CAD Exercise 179. A branching pipe-like component with three flanged openings and curved connecting passages.](drawing.avif)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Establish the branch axes before constructing the curved connections.
 - Use the local section to check passage size and wall thickness independently from the outer flanges.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Check each opening against the drawing: its size, center position, and direction must agree across the available views.
+- Inspect the internal space as well as the outside shape. Use any section views to check which walls remain and where the passage opens.

@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 130"
+title: "Spatial Curve, Flanged Cup and Extraction – 3D CAD Exercise 130"
 description: "3D CAD Exercise 130: A spatial-curve exercise shown alongside a flanged cup and a block-based extraction example."
 draft: false
 slug: 3d-exercise-130
@@ -27,12 +27,7 @@ A spatial-curve exercise shown alongside a flanged cup and a block-based extract
 
 ![3D CAD Exercise 130. A spatial-curve exercise shown alongside a flanged cup and a block-based extraction example.](drawing.avif)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Use the orthographic outlines to locate the curve in three dimensions.
 - Keep the reference solids separate from the final curve or extracted shape.
-
-These are suggested reading checks, not a tested modeling tutorial.
-
-</details>

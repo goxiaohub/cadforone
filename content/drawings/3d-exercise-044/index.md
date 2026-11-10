@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 044"
+title: "Curved strap – 3D CAD Exercise 044"
 description: "3D CAD Exercise 044: A curved strap with a stepped bend and drilled mounting ends."
 draft: false
 slug: 3d-exercise-044
@@ -28,12 +28,11 @@ A curved strap with a stepped bend and drilled mounting ends.
 
 ![3D CAD Exercise 044. A curved strap with a stepped bend and drilled mounting ends.](drawing.webp)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Use the plan view to shape the curved outline and locate its holes.
 - Read the side profile to establish the offset between the two mounting ends.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Check each opening against the drawing: its size, center position, and direction must agree across the available views.

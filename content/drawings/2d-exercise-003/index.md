@@ -1,5 +1,5 @@
 ---
-title: "2D CAD Exercise 003"
+title: "S-Shaped Circular Pattern – 2D CAD Exercise 003"
 description: "2D CAD Exercise 003: A circular boundary contains nested curved bands that form an S-shaped pattern."
 draft: false
 slug: 2d-exercise-003
@@ -28,12 +28,11 @@ A circular boundary contains nested curved bands that form an S-shaped pattern.
 
 ![2D CAD Exercise 003. A circular boundary contains nested curved bands that form an S-shaped pattern.](drawing.webp)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Separate the outer circle from the internal arc construction.
 - Only the outer radius is labeled; record any assumptions needed for the internal curves.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Count the repeated elements and check their spacing about the center or along the path; a matching outline alone can hide a misplaced repetition.

@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 076"
+title: "Curved Solids and Intersecting Profiles – 3D CAD Exercise 076"
 description: "3D CAD Exercise 076: Two curved-solid exercises combining circular geometry, intersecting profiles, and rounded openings."
 draft: false
 slug: 3d-exercise-076
@@ -27,12 +27,11 @@ Two curved-solid exercises combining circular geometry, intersecting profiles, a
 
 ![3D CAD Exercise 076. Two curved-solid exercises combining circular geometry, intersecting profiles, and rounded openings.](drawing.avif)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Compare all views before deciding which profiles define each solid.
 - Check the openings and intersections independently from the shaded surfaces.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Check each opening against the drawing: its size, center position, and direction must agree across the available views.

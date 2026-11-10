@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 025"
+title: "Three-bladed propeller – 3D CAD Exercise 025"
 description: "3D CAD Exercise 025: A three-bladed propeller with a cylindrical hub and curved blade profiles."
 draft: false
 slug: 3d-exercise-025
@@ -28,12 +28,11 @@ A three-bladed propeller with a cylindrical hub and curved blade profiles.
 
 ![3D CAD Exercise 025. A three-bladed propeller with a cylindrical hub and curved blade profiles.](drawing.webp)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Establish the hub bore and steps from the section before shaping one blade.
 - Compare the plan and side views to resolve blade inclination before circular repetition.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Count the repeated elements and check their spacing about the center or along the path; a matching outline alone can hide a misplaced repetition.

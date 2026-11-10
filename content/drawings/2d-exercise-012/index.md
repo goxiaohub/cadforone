@@ -1,5 +1,5 @@
 ---
-title: "2D CAD Exercise 012"
+title: "Circular head – 2D CAD Exercise 012"
 description: "2D CAD Exercise 012: A circular head joined to a curved, narrow stem with a flat lower end."
 draft: false
 slug: 2d-exercise-012
@@ -28,12 +28,7 @@ A circular head joined to a curved, narrow stem with a flat lower end.
 
 ![2D CAD Exercise 012. A circular head joined to a curved, narrow stem with a flat lower end.](drawing.webp)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Construct the inner and outer stem arcs from their indicated radii.
 - Check how the stem meets the head and where the lower end is trimmed.
-
-These are suggested reading checks, not a tested modeling tutorial.
-
-</details>

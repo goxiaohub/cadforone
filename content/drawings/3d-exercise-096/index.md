@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 096"
+title: "Mounting block – 3D CAD Exercise 096"
 description: "3D CAD Exercise 096: A mounting block joined to a bent wire loop with rounded corners."
 draft: false
 slug: 3d-exercise-096
@@ -27,12 +27,7 @@ A mounting block joined to a bent wire loop with rounded corners.
 
 ![3D CAD Exercise 096. A mounting block joined to a bent wire loop with rounded corners.](drawing.avif)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Use section A-A to establish the block opening and sloped transition.
 - Build the loop from a continuous path and check its attachment points.
-
-These are suggested reading checks, not a tested modeling tutorial.
-
-</details>

@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 112"
+title: "Ribbed Eye Support Height Change – 3D CAD Exercise 112"
 description: "3D CAD Exercise 112: A ribbed eye support shown before and after a height change."
 draft: false
 slug: 3d-exercise-112
@@ -27,12 +27,11 @@ A ribbed eye support shown before and after a height change.
 
 ![3D CAD Exercise 112. A ribbed eye support shown before and after a height change.](drawing.avif)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Constrain the eye, inclined sides, and arched base to retain their intended relationships.
 - Change the driving height and inspect tangencies and rib connections for failures.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Rebuild each size or configuration shown on the sheet and check that the intended holes, slots, and connections remain in place after the change.

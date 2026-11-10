@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 034"
+title: "Shallow circular housing – 3D CAD Exercise 034"
 description: "3D CAD Exercise 034: A shallow circular housing with a central bored boss, internal ribs, and two opposing tabs."
 draft: false
 slug: 3d-exercise-034
@@ -28,12 +28,11 @@ A shallow circular housing with a central bored boss, internal ribs, and two opp
 
 ![3D CAD Exercise 034. A shallow circular housing with a central bored boss, internal ribs, and two opposing tabs.](drawing.webp)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Use section A-A to separate the thin shell from the central boss.
 - Compare the upper and underside views when positioning the ribs and tabs.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Check each opening against the drawing: its size, center position, and direction must agree across the available views.

@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 042"
+title: "Compact forked link – 3D CAD Exercise 042"
 description: "3D CAD Exercise 042: A compact forked link with rounded ends and intersecting hole directions."
 draft: false
 slug: 3d-exercise-042
@@ -28,12 +28,11 @@ A compact forked link with rounded ends and intersecting hole directions.
 
 ![3D CAD Exercise 042. A compact forked link with rounded ends and intersecting hole directions.](drawing.webp)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Compare the two principal views to resolve which end is forked in each direction.
 - Check the gaps and hole axes before adding the rounded outside ends.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Check each opening against the drawing: its size, center position, and direction must agree across the available views.

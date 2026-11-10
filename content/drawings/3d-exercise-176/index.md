@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 176"
+title: "Zero-offset cam – 3D CAD Exercise 176"
 description: "3D CAD Exercise 176: A zero-offset cam with a central bore, stepped thickness, and an angular rim interruption."
 draft: false
 slug: 3d-exercise-176
@@ -27,12 +27,11 @@ A zero-offset cam with a central bore, stepped thickness, and an angular rim int
 
 ![3D CAD Exercise 176. A zero-offset cam with a central bore, stepped thickness, and an angular rim interruption.](drawing.avif)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Use the side and section views to separate the thickness steps.
 - Locate the interrupted sector from the angular references before evaluating the solid's volume.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Check each opening against the drawing: its size, center position, and direction must agree across the available views.

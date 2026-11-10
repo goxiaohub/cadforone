@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 087"
+title: "Tapered hollow casing – 3D CAD Exercise 087"
 description: "3D CAD Exercise 087: A tapered hollow casing with a circular base flange and an angled branch outlet."
 draft: false
 slug: 3d-exercise-087
@@ -27,12 +27,11 @@ A tapered hollow casing with a circular base flange and an angled branch outlet.
 
 ![3D CAD Exercise 087. A tapered hollow casing with a circular base flange and an angled branch outlet.](drawing.avif)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Use section A-A to establish the main wall and intersecting passage.
 - Place the branch flange holes using rotated view B.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Inspect the internal space as well as the outside shape. Use any section views to check which walls remain and where the passage opens.

@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 001"
+title: "Slotted Tray – 3D CAD Exercise 001"
 description: "3D CAD Exercise 001: A thin-walled part with five upper slots, a circular feature, and a lower open cutout is shown in front, section, and isometric views."
 draft: false
 slug: slotted-tray-001
@@ -33,12 +33,11 @@ A thin-walled part with five upper slots, a circular feature, and a lower open c
 
 ![3D CAD Exercise 001. A thin-walled part with five upper slots, a circular feature, and a lower open cutout is shown in front, section, and isometric views.](drawing.webp)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Read section A-A before deciding which side of the body is open.
 - Compare the different slot lengths and the curved arrangement of their lower ends.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Check the slot ends and their center positions separately from the surrounding profile; confirm whether each slot is open-ended or enclosed.

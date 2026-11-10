@@ -1,5 +1,5 @@
 ---
-title: "2D CAD Exercise 008"
+title: "Tangent Circle Ring – 2D CAD Exercise 008"
 description: "2D CAD Exercise 008: A central circle surrounded by a ring of smaller tangent circles."
 draft: false
 slug: 2d-exercise-008
@@ -28,12 +28,7 @@ A central circle surrounded by a ring of smaller tangent circles.
 
 ![2D CAD Exercise 008. A central circle surrounded by a ring of smaller tangent circles.](drawing.webp)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Establish the center of the arrangement before positioning the surrounding circles.
 - Check both the contacts with the middle circle and those between neighboring circles.
-
-These are suggested reading checks, not a tested modeling tutorial.
-
-</details>

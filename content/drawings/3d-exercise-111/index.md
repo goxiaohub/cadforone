@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 111"
+title: "Parametric Slotted Cylindrical Post – 3D CAD Exercise 111"
 description: "3D CAD Exercise 111: A cylindrical post exercise comparing two sizes while preserving a flat and an elongated side slot."
 draft: false
 slug: 3d-exercise-111
@@ -27,12 +27,12 @@ A cylindrical post exercise comparing two sizes while preserving a flat and an e
 
 ![3D CAD Exercise 111. A cylindrical post exercise comparing two sizes while preserving a flat and an elongated side slot.](drawing.avif)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Relate the upper flat to the post diameter as specified in the drawing.
 - Check the slot's offset from the cylindrical surface after changing the main diameter.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Rebuild each size or configuration shown on the sheet and check that the intended holes, slots, and connections remain in place after the change.
+- Check the slot ends and their center positions separately from the surrounding profile; confirm whether each slot is open-ended or enclosed.

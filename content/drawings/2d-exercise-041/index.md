@@ -1,5 +1,5 @@
 ---
-title: "2D CAD Exercise 041"
+title: "Rounded housing outline – 2D CAD Exercise 041"
 description: "2D CAD Exercise 041: A rounded housing outline with four mounting ears and a large, partly straight-sided opening."
 draft: false
 slug: 2d-exercise-041
@@ -28,12 +28,11 @@ A rounded housing outline with four mounting ears and a large, partly straight-s
 
 ![2D CAD Exercise 041. A rounded housing outline with four mounting ears and a large, partly straight-sided opening.](drawing.webp)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Position the mounting ears from their center references before adding fillets.
 - Check the straight sides and rounded end of the inner opening independently.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Check each opening against the drawing: its size, center position, and direction must agree across the available views.

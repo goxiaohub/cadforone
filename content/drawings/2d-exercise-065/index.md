@@ -1,5 +1,5 @@
 ---
-title: "2D CAD Exercise 065"
+title: "Long curved lever – 2D CAD Exercise 065"
 description: "2D CAD Exercise 065: A long curved lever with a keyed circular opening, a smaller intermediate hole, and a drilled tip."
 draft: false
 slug: 2d-exercise-065
@@ -28,12 +28,11 @@ A long curved lever with a keyed circular opening, a smaller intermediate hole, 
 
 ![2D CAD Exercise 065. A long curved lever with a keyed circular opening, a smaller intermediate hole, and a drilled tip.](drawing.webp)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Locate the three hole centers before shaping the long connecting edges.
 - Check the keyway details and the two end transitions separately from the main sweep of the arm.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Check each opening against the drawing: its size, center position, and direction must agree across the available views.

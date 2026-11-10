@@ -1,3 +1,13 @@
+{{- if and .IsPage .Params.drawing_series (or .Params.units .Params.difficulty .Params.skills) -}}
+<section class="cad-practice-overview" aria-label="Practice overview">
+<h2>Practice overview</h2>
+<dl>
+{{ with .Params.difficulty }}<dt>Difficulty</dt><dd>{{ . | humanize }}</dd>{{ end }}
+{{ with .Params.units }}<dt>Drawing units</dt><dd>{{ . }}</dd>{{ end }}
+{{ with .Params.skills }}<dt>Skills to practice</dt><dd>{{ delimit . ", " }}</dd>{{ end }}
+</dl>
+</section>
+{{- end -}}
 {{- if and .IsPage .Params.drawing_series -}}
   {{- $current := . -}}
   {{- $pages := (where .Site.RegularPages "Params.drawing_series" .Params.drawing_series).ByParam "series_order" -}}

@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 060"
+title: "Arched saddle bracket – 3D CAD Exercise 060"
 description: "3D CAD Exercise 060: An arched saddle bracket with base feet and raised drilled ears."
 draft: false
 slug: 3d-exercise-060
@@ -28,12 +28,11 @@ An arched saddle bracket with base feet and raised drilled ears.
 
 ![3D CAD Exercise 060. An arched saddle bracket with base feet and raised drilled ears.](drawing.webp)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Establish the semicircular opening and outer arch from the end view.
 - Use the plan view to place the feet and the separated fastening ears.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Check each opening against the drawing: its size, center position, and direction must agree across the available views.

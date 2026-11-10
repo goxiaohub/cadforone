@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 162"
+title: "Engine Bracket, Hex-Head Part and Rod – 3D CAD Exercise 162"
 description: "3D CAD Exercise 162: An engine component sheet with a bent sheet bracket, a hex-headed part, and a two-eye connecting rod."
 draft: false
 slug: 3d-exercise-162
@@ -27,12 +27,7 @@ An engine component sheet with a bent sheet bracket, a hex-headed part, and a tw
 
 ![3D CAD Exercise 162. An engine component sheet with a bent sheet bracket, a hex-headed part, and a two-eye connecting rod.](drawing.avif)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Use the bracket side view to establish the offset bend.
 - Check the connecting-rod bore centers and the hex-headed part's section independently.
-
-These are suggested reading checks, not a tested modeling tutorial.
-
-</details>

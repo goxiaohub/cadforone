@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 015"
+title: "Stepped support bracket – 3D CAD Exercise 015"
 description: "3D CAD Exercise 015: A stepped support bracket with a raised bridge, two lower feet, and a drilled extension."
 draft: false
 slug: 3d-exercise-015
@@ -28,12 +28,11 @@ A stepped support bracket with a raised bridge, two lower feet, and a drilled ex
 
 ![3D CAD Exercise 015. A stepped support bracket with a raised bridge, two lower feet, and a drilled extension.](drawing.webp)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Build the height changes from the side profile before cutting the lower gaps.
 - Locate the extension holes from the plan view and check the corner radii separately.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Check each opening against the drawing: its size, center position, and direction must agree across the available views.

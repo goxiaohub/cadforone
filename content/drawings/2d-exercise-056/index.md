@@ -1,5 +1,5 @@
 ---
-title: "2D CAD Exercise 056"
+title: "Circular flange outline – 2D CAD Exercise 056"
 description: "2D CAD Exercise 056: A circular flange outline with three mounting ears and a large central hole."
 draft: false
 slug: 2d-exercise-056
@@ -28,12 +28,11 @@ A circular flange outline with three mounting ears and a large central hole.
 
 ![2D CAD Exercise 056. A circular flange outline with three mounting ears and a large central hole.](drawing.webp)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Place the three mounting-hole centers on the indicated pitch circle.
 - Trim the ear arcs into the main outer circle while preserving the central opening.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Check each opening against the drawing: its size, center position, and direction must agree across the available views.

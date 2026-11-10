@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 110"
+title: "Slotted and Stepped Parametric Blocks – 3D CAD Exercise 110"
 description: "3D CAD Exercise 110: Two block-modeling exercises with slots, steps, and dimension-driven shape changes."
 draft: false
 slug: 3d-exercise-110
@@ -27,12 +27,12 @@ Two block-modeling exercises with slots, steps, and dimension-driven shape chang
 
 ![3D CAD Exercise 110. Two block-modeling exercises with slots, steps, and dimension-driven shape changes.](drawing.avif)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Create the main envelopes before adding the open slots and smaller recesses.
 - Organize driving dimensions so the intended shape survives parameter changes.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Rebuild each size or configuration shown on the sheet and check that the intended holes, slots, and connections remain in place after the change.
+- Check the slot ends and their center positions separately from the surrounding profile; confirm whether each slot is open-ended or enclosed.

@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 102"
+title: "Box-like housing – 3D CAD Exercise 102"
 description: "3D CAD Exercise 102: A box-like housing with an open top, side bosses, and a drilled mounting flange."
 draft: false
 slug: 3d-exercise-102
@@ -27,12 +27,11 @@ A box-like housing with an open top, side bosses, and a drilled mounting flange.
 
 ![3D CAD Exercise 102. A box-like housing with an open top, side bosses, and a drilled mounting flange.](drawing.avif)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Use sections A-A and B-B to establish the cavity and side passages.
 - Check the corner mounting holes and the offset side feature in view C.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Check each opening against the drawing: its size, center position, and direction must agree across the available views.

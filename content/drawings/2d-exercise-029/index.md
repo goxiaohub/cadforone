@@ -1,5 +1,5 @@
 ---
-title: "2D CAD Exercise 029"
+title: "Four-Leaf Circular Motif – 2D CAD Exercise 029"
 description: "2D CAD Exercise 029: A circular motif combining four pointed leaves with four rounded diagonal lobes."
 draft: false
 slug: 2d-exercise-029
@@ -28,12 +28,7 @@ A circular motif combining four pointed leaves with four rounded diagonal lobes.
 
 ![2D CAD Exercise 029. A circular motif combining four pointed leaves with four rounded diagonal lobes.](drawing.webp)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Use the horizontal and vertical axes to organize the repeated elements.
 - Check the visible symmetries without treating unmarked internal sizes as specified dimensions.
-
-These are suggested reading checks, not a tested modeling tutorial.
-
-</details>

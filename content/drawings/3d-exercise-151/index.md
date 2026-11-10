@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 151"
+title: "Exploded clamping-fixture assembly – 3D CAD Exercise 151"
 description: "3D CAD Exercise 151: An exploded clamping-fixture assembly with a slide, screw, spherical support, and parts table."
 draft: false
 slug: 3d-exercise-151
@@ -27,12 +27,11 @@ An exploded clamping-fixture assembly with a slide, screw, spherical support, an
 
 ![3D CAD Exercise 151. An exploded clamping-fixture assembly with a slide, screw, spherical support, and parts table.](drawing.avif)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Identify the fixed base, moving slide, and screw-driven components first.
 - Use the numbered table to check component quantities and mating order.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Keep the components separate and compare their relative positions with the assembly view. Check the listed parts before treating the assembly as complete.

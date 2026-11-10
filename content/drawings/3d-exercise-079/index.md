@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 079"
+title: "Cylindrical Housing and Angle Bracket – 3D CAD Exercise 079"
 description: "3D CAD Exercise 079: Two small mounting parts: a stepped cylindrical housing and an angle bracket with a rounded upright."
 draft: false
 slug: 3d-exercise-079
@@ -27,12 +27,7 @@ Two small mounting parts: a stepped cylindrical housing and an angle bracket wit
 
 ![3D CAD Exercise 079. Two small mounting parts: a stepped cylindrical housing and an angle bracket with a rounded upright.](drawing.avif)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Use the housing section to distinguish the bore from the surrounding wall.
 - Check the bracket's upright hole and base hole along their separate axes.
-
-These are suggested reading checks, not a tested modeling tutorial.
-
-</details>

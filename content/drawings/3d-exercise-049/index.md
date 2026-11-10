@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 049"
+title: "Hollow branch fitting – 3D CAD Exercise 049"
 description: "3D CAD Exercise 049: A hollow branch fitting with a straight main passage, an inclined outlet, and mounting flanges."
 draft: false
 slug: 3d-exercise-049
@@ -28,12 +28,11 @@ A hollow branch fitting with a straight main passage, an inclined outlet, and mo
 
 ![3D CAD Exercise 049. A hollow branch fitting with a straight main passage, an inclined outlet, and mounting flanges.](drawing.webp)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Read section A-A to establish the passage walls and branch intersection.
 - Use rotated view B to place the outlet flange holes in the flange plane.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Inspect the internal space as well as the outside shape. Use any section views to check which walls remain and where the passage opens.

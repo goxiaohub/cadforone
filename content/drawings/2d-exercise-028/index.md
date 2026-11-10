@@ -1,5 +1,5 @@
 ---
-title: "2D CAD Exercise 028"
+title: "Hexagonal Six-Petal Rosette – 2D CAD Exercise 028"
 description: "2D CAD Exercise 028: A hexagonal outline filled with a six-petal rosette of intersecting arcs."
 draft: false
 slug: 2d-exercise-028
@@ -28,12 +28,11 @@ A hexagonal outline filled with a six-petal rosette of intersecting arcs.
 
 ![2D CAD Exercise 028. A hexagonal outline filled with a six-petal rosette of intersecting arcs.](drawing.webp)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Establish the hexagon and its center before constructing the repeated arcs.
 - Check coincident endpoints and distinguish retained petal edges from construction geometry.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Count the repeated elements and check their spacing about the center or along the path; a matching outline alone can hide a misplaced repetition.

@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 052"
+title: "Rectangular mounting plate – 3D CAD Exercise 052"
 description: "3D CAD Exercise 052: A rectangular mounting plate with a bored central boss, reinforcing ribs, and slots across the boss rim."
 draft: false
 slug: 3d-exercise-052
@@ -28,12 +28,12 @@ A rectangular mounting plate with a bored central boss, reinforcing ribs, and sl
 
 ![3D CAD Exercise 052. A rectangular mounting plate with a bored central boss, reinforcing ribs, and slots across the boss rim.](drawing.webp)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Establish the bore and stepped boss from the section first.
 - Check the rim slots and side hole separately from the reinforcing ribs.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Check each opening against the drawing: its size, center position, and direction must agree across the available views.
+- Check the slot ends and their center positions separately from the surrounding profile; confirm whether each slot is open-ended or enclosed.

@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 062"
+title: "Ring-shaped form – 3D CAD Exercise 062"
 description: "3D CAD Exercise 062: A ring-shaped form with a faceted upper body and a square recess on top."
 draft: false
 slug: 3d-exercise-062
@@ -28,12 +28,7 @@ A ring-shaped form with a faceted upper body and a square recess on top.
 
 ![3D CAD Exercise 062. A ring-shaped form with a faceted upper body and a square recess on top.](drawing.webp)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Establish the circular opening and the widening upper shoulders from the front view.
 - Use the plan view to check the square recess and the surrounding facets.
-
-These are suggested reading checks, not a tested modeling tutorial.
-
-</details>

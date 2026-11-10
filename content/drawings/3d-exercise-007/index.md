@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 007"
+title: "Shallow rectangular tray – 3D CAD Exercise 007"
 description: "3D CAD Exercise 007: A shallow rectangular tray with rounded corners, a raised rim, and projecting edge tabs."
 draft: false
 slug: 3d-exercise-007
@@ -28,12 +28,11 @@ A shallow rectangular tray with rounded corners, a raised rim, and projecting ed
 
 ![3D CAD Exercise 007. A shallow rectangular tray with rounded corners, a raised rim, and projecting edge tabs.](drawing.webp)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Compare sections H-H, I-I, and J-J to establish the tray depth, wall thicknesses, and rim profile.
 - Check the corner radii, mounting-hole positions, and 30-degree wall transitions against the plan and section views.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Inspect the internal space as well as the outside shape. Use any section views to check which walls remain and where the passage opens.

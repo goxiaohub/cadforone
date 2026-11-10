@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 038"
+title: "Fork-ended link – 3D CAD Exercise 038"
 description: "3D CAD Exercise 038: A fork-ended link with a raised central ring and a smaller eye on an angled arm."
 draft: false
 slug: 3d-exercise-038
@@ -28,12 +28,7 @@ A fork-ended link with a raised central ring and a smaller eye on an angled arm.
 
 ![3D CAD Exercise 038. A fork-ended link with a raised central ring and a smaller eye on an angled arm.](drawing.webp)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Use the section to establish the central boss height and bore.
 - Locate the small eye on its angled centerline before opening the fork at the opposite end.
-
-These are suggested reading checks, not a tested modeling tutorial.
-
-</details>

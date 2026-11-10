@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 129"
+title: "Pipe-support body – 3D CAD Exercise 129"
 description: "3D CAD Exercise 129: A pipe-support body with an elevated circular flange, a side tube, and a broad mounting foot."
 draft: false
 slug: 3d-exercise-129
@@ -27,12 +27,11 @@ A pipe-support body with an elevated circular flange, a side tube, and a broad m
 
 ![3D CAD Exercise 129. A pipe-support body with an elevated circular flange, a side tube, and a broad mounting foot.](drawing.avif)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Compare the section views to locate each bore and supporting wall.
 - Check the top and base bolt patterns independently before blending the supports.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Inspect the internal space as well as the outside shape. Use any section views to check which walls remain and where the passage opens.

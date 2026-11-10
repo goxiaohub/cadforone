@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 135"
+title: "Ornamental vessel – 3D CAD Exercise 135"
 description: "3D CAD Exercise 135: An ornamental vessel with a tall neck, curved spout, loop handle, and pointed lid."
 draft: false
 slug: 3d-exercise-135
@@ -27,12 +27,11 @@ An ornamental vessel with a tall neck, curved spout, loop handle, and pointed li
 
 ![3D CAD Exercise 135. An ornamental vessel with a tall neck, curved spout, loop handle, and pointed lid.](drawing.avif)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Build the body profile around its axis before adding the asymmetric features.
 - Compare the front, side, and plan views to locate the spout and handle attachments.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Inspect the internal space as well as the outside shape. Use any section views to check which walls remain and where the passage opens.

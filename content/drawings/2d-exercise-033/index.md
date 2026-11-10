@@ -1,5 +1,5 @@
 ---
-title: "2D CAD Exercise 033"
+title: "Continuous zigzag band – 2D CAD Exercise 033"
 description: "2D CAD Exercise 033: A continuous zigzag band with rounded turns and circular end features."
 draft: false
 slug: 2d-exercise-033
@@ -28,12 +28,7 @@ A continuous zigzag band with rounded turns and circular end features.
 
 ![2D CAD Exercise 033. A continuous zigzag band with rounded turns and circular end features.](drawing.webp)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Establish the inclination and spacing of the straight runs before rounding their ends.
 - Follow both edges through each turn to keep the band width consistent.
-
-These are suggested reading checks, not a tested modeling tutorial.
-
-</details>

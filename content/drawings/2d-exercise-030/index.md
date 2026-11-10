@@ -1,5 +1,5 @@
 ---
-title: "2D CAD Exercise 030"
+title: "Hatched, sloping profile – 2D CAD Exercise 030"
 description: "2D CAD Exercise 030: A hatched, sloping profile with stepped recesses rising from its lower edge."
 draft: false
 slug: 2d-exercise-030
@@ -28,12 +28,7 @@ A hatched, sloping profile with stepped recesses rising from its lower edge.
 
 ![2D CAD Exercise 030. A hatched, sloping profile with stepped recesses rising from its lower edge.](drawing.webp)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Set the base divisions and outer slope before drawing the internal steps.
 - Check that the hatch stays within the material boundary and outside the recesses.
-
-These are suggested reading checks, not a tested modeling tutorial.
-
-</details>

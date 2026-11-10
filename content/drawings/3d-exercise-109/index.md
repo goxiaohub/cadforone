@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 109"
+title: "Angular bracket – 3D CAD Exercise 109"
 description: "3D CAD Exercise 109: An angular bracket with a sloping drilled flange and a conical feature on its base."
 draft: false
 slug: 3d-exercise-109
@@ -27,12 +27,11 @@ An angular bracket with a sloping drilled flange and a conical feature on its ba
 
 ![3D CAD Exercise 109. An angular bracket with a sloping drilled flange and a conical feature on its base.](drawing.avif)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Locate the flange hole using view A and the inclined reference plane.
 - Keep the conical apex tied to the indicated hole axis when changing dimensions.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Check each opening against the drawing: its size, center position, and direction must agree across the available views.

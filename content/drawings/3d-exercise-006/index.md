@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 006"
+title: "Hollow cylindrical component – 3D CAD Exercise 006"
 description: "3D CAD Exercise 006: A hollow cylindrical component with curved exterior grooves, end details, and a longitudinal section."
 draft: false
 slug: 3d-exercise-006
@@ -28,12 +28,11 @@ A hollow cylindrical component with curved exterior grooves, end details, and a 
 
 ![3D CAD Exercise 006. A hollow cylindrical component with curved exterior grooves, end details, and a longitudinal section.](drawing.webp)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Use section A-A to establish the bore and stepped wall before adding the exterior grooves.
 - Read the enlarged detail separately to check the small edge features.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Inspect the internal space as well as the outside shape. Use any section views to check which walls remain and where the passage opens.

@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 008"
+title: "Hollow rounded housing – 3D CAD Exercise 008"
 description: "3D CAD Exercise 008: A hollow rounded housing with two raised circular openings, a base flange, and reinforcing ribs."
 draft: false
 slug: 3d-exercise-008
@@ -28,12 +28,12 @@ A hollow rounded housing with two raised circular openings, a base flange, and r
 
 ![3D CAD Exercise 008. A hollow rounded housing with two raised circular openings, a base flange, and reinforcing ribs.](drawing.webp)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Compare sections M-M and T-T to establish the wall thickness, raised openings, and base flange.
 - Use the plan and isometric views to check the rounded outline, reinforcing ribs, and opening positions.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Check each opening against the drawing: its size, center position, and direction must agree across the available views.
+- Inspect the internal space as well as the outside shape. Use any section views to check which walls remain and where the passage opens.

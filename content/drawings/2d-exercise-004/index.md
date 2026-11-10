@@ -1,5 +1,5 @@
 ---
-title: "2D CAD Exercise 004"
+title: "Circle and Triangle Geometric Pattern – 2D CAD Exercise 004"
 description: "2D CAD Exercise 004: An outer circle encloses intersecting triangles, a central square, and an inner circle."
 draft: false
 slug: 2d-exercise-004
@@ -28,12 +28,7 @@ An outer circle encloses intersecting triangles, a central square, and an inner 
 
 ![2D CAD Exercise 004. An outer circle encloses intersecting triangles, a central square, and an inner circle.](drawing.webp)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Build around the shared horizontal and vertical centerlines.
 - Check the intersections before trimming; do not assume an unlabeled length is specified.
-
-These are suggested reading checks, not a tested modeling tutorial.
-
-</details>

@@ -1,5 +1,5 @@
 ---
-title: "2D CAD Exercise 038"
+title: "Two-ear bracket – 2D CAD Exercise 038"
 description: "2D CAD Exercise 038: A two-ear bracket shown in orthographic and isometric views, with an open slot in its base."
 draft: false
 slug: 2d-exercise-038
@@ -28,12 +28,11 @@ A two-ear bracket shown in orthographic and isometric views, with an open slot i
 
 ![2D CAD Exercise 038. A two-ear bracket shown in orthographic and isometric views, with an open slot in its base.](drawing.webp)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Use the plan view to establish the gap between the upright ears.
 - Compare the base slot and ear holes against the isometric view.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Check the slot ends and their center positions separately from the surrounding profile; confirm whether each slot is open-ended or enclosed.

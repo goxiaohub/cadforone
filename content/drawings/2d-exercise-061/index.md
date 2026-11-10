@@ -1,5 +1,5 @@
 ---
-title: "2D CAD Exercise 061"
+title: "Circle with an Internal Step – 2D CAD Exercise 061"
 description: "2D CAD Exercise 061: A circle with an internal right-angled step and a radial line to their shared point on the circumference."
 draft: false
 slug: 2d-exercise-061
@@ -28,12 +28,11 @@ A circle with an internal right-angled step and a radial line to their shared po
 
 ![2D CAD Exercise 061. A circle with an internal right-angled step and a radial line to their shared point on the circumference.](drawing.webp)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Relate the horizontal and vertical offsets to the circle's centerline.
 - Check that the step endpoint lies on the circle before evaluating the reference radius.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Count the repeated elements and check their spacing about the center or along the path; a matching outline alone can hide a misplaced repetition.

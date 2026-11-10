@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 026"
+title: "Spoon – 3D CAD Exercise 026"
 description: "3D CAD Exercise 026: A spoon with a shallow bowl, a narrow handle, and several curved sections."
 draft: false
 slug: 3d-exercise-026
@@ -28,12 +28,7 @@ A spoon with a shallow bowl, a narrow handle, and several curved sections.
 
 ![3D CAD Exercise 026. A spoon with a shallow bowl, a narrow handle, and several curved sections.](drawing.webp)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Use the side profile to establish the bowl depth and handle rise.
 - Compare the transverse sections to control the transition from handle to bowl.
-
-These are suggested reading checks, not a tested modeling tutorial.
-
-</details>

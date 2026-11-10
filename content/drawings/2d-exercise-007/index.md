@@ -1,5 +1,5 @@
 ---
-title: "2D CAD Exercise 007"
+title: "Scalene triangle – 2D CAD Exercise 007"
 description: "2D CAD Exercise 007: A scalene triangle defined by three side lengths and a horizontal base."
 draft: false
 slug: 2d-exercise-007
@@ -28,12 +28,7 @@ A scalene triangle defined by three side lengths and a horizontal base.
 
 ![2D CAD Exercise 007. A scalene triangle defined by three side lengths and a horizontal base.](drawing.webp)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Locate the upper vertex from the two distances measured from the base endpoints.
 - Check that all three segments meet without leaving a small gap.
-
-These are suggested reading checks, not a tested modeling tutorial.
-
-</details>

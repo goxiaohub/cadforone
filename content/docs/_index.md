@@ -1,4 +1,22 @@
 ---
+noindex: true
+excludeSearch: true
+sitemap:
+  disable: true
+search:
+  exclude: true
+sidebar:
+  exclude: true
+cascade:
+  params:
+    noindex: true
+    excludeSearch: true
+    search:
+      exclude: true
+    sidebar:
+      exclude: true
+  sitemap:
+    disable: true
 linkTitle: "Documentation"
 title: Introduction
 ---

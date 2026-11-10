@@ -1,5 +1,5 @@
 ---
-title: "2D CAD Exercise 016"
+title: "Inclined bracket profile – 2D CAD Exercise 016"
 description: "2D CAD Exercise 016: An inclined bracket profile with a circular eye, a rounded slot, and a stepped lower outline."
 draft: false
 slug: 2d-exercise-016
@@ -28,12 +28,11 @@ An inclined bracket profile with a circular eye, a rounded slot, and a stepped l
 
 ![2D CAD Exercise 016. An inclined bracket profile with a circular eye, a rounded slot, and a stepped lower outline.](drawing.webp)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Locate the eye center and the sloping boundaries before adding smaller features.
 - Align the rounded slot to its reference direction and check its end radii.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Check the slot ends and their center positions separately from the surrounding profile; confirm whether each slot is open-ended or enclosed.

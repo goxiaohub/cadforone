@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 115"
+title: "Plate cam – 3D CAD Exercise 115"
 description: "3D CAD Exercise 115: A plate cam defined by an angular radius diagram and a development chart."
 draft: false
 slug: 3d-exercise-115
@@ -27,12 +27,7 @@ A plate cam defined by an angular radius diagram and a development chart.
 
 ![3D CAD Exercise 115. A plate cam defined by an angular radius diagram and a development chart.](drawing.avif)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Relate the changing radius to the cam's rotation angle before sketching the perimeter.
 - Check the transition between chart segments and the location of the central bore.
-
-These are suggested reading checks, not a tested modeling tutorial.
-
-</details>

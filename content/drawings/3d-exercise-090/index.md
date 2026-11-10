@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 090"
+title: "Tall eye bracket – 3D CAD Exercise 090"
 description: "3D CAD Exercise 090: A tall eye bracket with a central reinforcing rib and a rectangular mounting base."
 draft: false
 slug: 3d-exercise-090
@@ -27,12 +27,7 @@ A tall eye bracket with a central reinforcing rib and a rectangular mounting bas
 
 ![3D CAD Exercise 090. A tall eye bracket with a central reinforcing rib and a rectangular mounting base.](drawing.avif)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Use section C-C to separate the upright, rib, and base.
 - Check the rib's end conditions and the two mounting-hole positions.
-
-These are suggested reading checks, not a tested modeling tutorial.
-
-</details>

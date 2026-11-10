@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 094"
+title: "Rounded hollow valve-like body – 3D CAD Exercise 094"
 description: "3D CAD Exercise 094: A rounded hollow valve-like body with three openings and stepped internal passages."
 draft: false
 slug: 3d-exercise-094
@@ -27,12 +27,12 @@ A rounded hollow valve-like body with three openings and stepped internal passag
 
 ![3D CAD Exercise 094. A rounded hollow valve-like body with three openings and stepped internal passages.](drawing.avif)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Compare sections B-B and C-C before cutting the intersecting bores.
 - Keep the exterior rounds separate from the internal shoulders.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Check each opening against the drawing: its size, center position, and direction must agree across the available views.
+- Inspect the internal space as well as the outside shape. Use any section views to check which walls remain and where the passage opens.

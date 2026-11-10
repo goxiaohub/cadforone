@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 177"
+title: "Slotted Angle Bracket and Stepped Arm – 3D CAD Exercise 177"
 description: "3D CAD Exercise 177: Two component exercises: an angle bracket with an open slot and a slender stepped arm."
 draft: false
 slug: 3d-exercise-177
@@ -27,12 +27,11 @@ Two component exercises: an angle bracket with an open slot and a slender steppe
 
 ![3D CAD Exercise 177. Two component exercises: an angle bracket with an open slot and a slender stepped arm.](drawing.avif)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Read the bracket section to distinguish the upright opening from its mounting slot.
 - Check the arm's end profiles and local detail before comparing volume results.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Check the slot ends and their center positions separately from the surrounding profile; confirm whether each slot is open-ended or enclosed.

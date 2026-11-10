@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 122"
+title: "Base-mounted body – 3D CAD Exercise 122"
 description: "3D CAD Exercise 122: A base-mounted body with intersecting vertical and horizontal bores and rounded mounting ears."
 draft: false
 slug: 3d-exercise-122
@@ -27,12 +27,11 @@ A base-mounted body with intersecting vertical and horizontal bores and rounded 
 
 ![3D CAD Exercise 122. A base-mounted body with intersecting vertical and horizontal bores and rounded mounting ears.](drawing.avif)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Compare the sections to determine which passages intersect and where they stop.
 - Use local view B to check the small threaded feature and surrounding wall.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Check each opening against the drawing: its size, center position, and direction must agree across the available views.

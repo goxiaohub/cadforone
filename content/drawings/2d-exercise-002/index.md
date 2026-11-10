@@ -1,5 +1,5 @@
 ---
-title: "2D CAD Exercise 002"
+title: "Three-Hole Symmetric Profile – 2D CAD Exercise 002"
 description: "2D CAD Exercise 002: Three circular openings sit in a symmetric outline joined by concave arcs."
 draft: false
 slug: 2d-exercise-002
@@ -28,12 +28,11 @@ Three circular openings sit in a symmetric outline joined by concave arcs.
 
 ![2D CAD Exercise 002. Three circular openings sit in a symmetric outline joined by concave arcs.](drawing.webp)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Use the side-hole centerline and raised middle center as construction references.
 - Check arc connections and left-to-right symmetry before trimming.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Check each opening against the drawing: its size, center position, and direction must agree across the available views.

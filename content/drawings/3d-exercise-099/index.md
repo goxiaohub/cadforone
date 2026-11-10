@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 099"
+title: "Polygonal Loft and Conical Spiral – 3D CAD Exercise 099"
 description: "3D CAD Exercise 099: A waisted loft between polygonal ends and a conical spiral form shown as separate exercises."
 draft: false
 slug: 3d-exercise-099
@@ -27,12 +27,11 @@ A waisted loft between polygonal ends and a conical spiral form shown as separat
 
 ![3D CAD Exercise 099. A waisted loft between polygonal ends and a conical spiral form shown as separate exercises.](drawing.avif)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Use the end profiles and middle section to control the lofted solid.
 - For the spiral, distinguish the path taper from the swept profile orientation.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Compare the path, turn spacing, and end conditions with the drawing. Do not assume constant pitch or diameter where the views show a change.

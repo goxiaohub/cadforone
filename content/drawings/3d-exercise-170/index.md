@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 170"
+title: "Articulated bracket assembly – 3D CAD Exercise 170"
 description: "3D CAD Exercise 170: An articulated bracket assembly with a round base, several links, and pivot pins."
 draft: false
 slug: 3d-exercise-170
@@ -27,12 +27,11 @@ An articulated bracket assembly with a round base, several links, and pivot pins
 
 ![3D CAD Exercise 170. An articulated bracket assembly with a round base, several links, and pivot pins.](drawing.avif)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Build the links and pins separately, then align the indicated pivot axes.
 - Check the specified joint angles before evaluating the assembly's center of mass.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Keep the components separate and compare their relative positions with the assembly view. Check the listed parts before treating the assembly as complete.

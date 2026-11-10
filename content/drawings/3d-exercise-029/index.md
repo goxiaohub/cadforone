@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 029"
+title: "Bent sheet bracket – 3D CAD Exercise 029"
 description: "3D CAD Exercise 029: A bent sheet bracket with a scalloped upright, a curved slot, and a small base flange."
 draft: false
 slug: 3d-exercise-029
@@ -28,12 +28,11 @@ A bent sheet bracket with a scalloped upright, a curved slot, and a small base f
 
 ![3D CAD Exercise 029. A bent sheet bracket with a scalloped upright, a curved slot, and a small base flange.](drawing.webp)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Use the side view and section to establish the bend and sheet thickness.
 - Place the curved slot on the upright before checking its relation to the outer profile.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Check the slot ends and their center positions separately from the surrounding profile; confirm whether each slot is open-ended or enclosed.

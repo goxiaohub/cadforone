@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 002"
+title: "Three-hole mounting plate – 3D CAD Exercise 002"
 description: "3D CAD Exercise 002: A three-hole mounting plate supports a central bore and an angled side passage, with two sections and an enlarged detail."
 draft: false
 slug: 3d-exercise-002
@@ -28,12 +28,12 @@ A three-hole mounting plate supports a central bore and an angled side passage, 
 
 ![3D CAD Exercise 002. A three-hole mounting plate supports a central bore and an angled side passage, with two sections and an enlarged detail.](drawing.webp)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Use section A-A and detail C to follow the side passage.
 - Compare the central bore and mounting holes across the plan and section views.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Check each opening against the drawing: its size, center position, and direction must agree across the available views.
+- Inspect the internal space as well as the outside shape. Use any section views to check which walls remain and where the passage opens.

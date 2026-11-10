@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 046"
+title: "U-shaped support – 3D CAD Exercise 046"
 description: "3D CAD Exercise 046: A U-shaped support with two bored uprights, reinforcing webs, and four base holes."
 draft: false
 slug: 3d-exercise-046
@@ -28,12 +28,11 @@ A U-shaped support with two bored uprights, reinforcing webs, and four base hole
 
 ![3D CAD Exercise 046. A U-shaped support with two bored uprights, reinforcing webs, and four base holes.](drawing.webp)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Align the upright bores before shaping the tapered side supports.
 - Use the section to check the base and webs, then locate the four mounting holes in plan.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Check each opening against the drawing: its size, center position, and direction must agree across the available views.

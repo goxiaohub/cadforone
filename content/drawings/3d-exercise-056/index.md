@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 056"
+title: "Three-armed hub – 3D CAD Exercise 056"
 description: "3D CAD Exercise 056: A three-armed hub with a central stepped bore and curved recesses between the arms."
 draft: false
 slug: 3d-exercise-056
@@ -28,12 +28,11 @@ A three-armed hub with a central stepped bore and curved recesses between the ar
 
 ![3D CAD Exercise 056. A three-armed hub with a central stepped bore and curved recesses between the arms.](drawing.webp)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Establish the hub and bore from section A-A before forming one radial arm.
 - Check the arm width and root radii before repeating the feature around the axis.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Check each opening against the drawing: its size, center position, and direction must agree across the available views.

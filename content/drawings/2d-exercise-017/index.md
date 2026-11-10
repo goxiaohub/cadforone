@@ -1,5 +1,5 @@
 ---
-title: "2D CAD Exercise 017"
+title: "Curved arm – 2D CAD Exercise 017"
 description: "2D CAD Exercise 017: A curved arm with an upright circular eye and a long arcing slot in its lower portion."
 draft: false
 slug: 2d-exercise-017
@@ -28,12 +28,11 @@ A curved arm with an upright circular eye and a long arcing slot in its lower po
 
 ![2D CAD Exercise 017. A curved arm with an upright circular eye and a long arcing slot in its lower portion.](drawing.webp)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Resolve the centers of the eyes and the curved slot before trimming the outline.
 - Check the transition radii where the upright joins the lower arm.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Check the slot ends and their center positions separately from the surrounding profile; confirm whether each slot is open-ended or enclosed.

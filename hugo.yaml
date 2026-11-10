@@ -109,10 +109,6 @@ menu:
       name: "About"
       pageRef: "/about"
       weight: 2
-    - identifier: hugoDocs
-      name: "Hugo Docs ↗"
-      url: "https://gohugo.io/documentation/"
-      weight: 3
 
 params:
   description: Mechanical CAD drawings, modeling practice, and learning resources for CAD beginners and engineers.

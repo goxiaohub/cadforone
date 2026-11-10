@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 119"
+title: "Cylindrical housing – 3D CAD Exercise 119"
 description: "3D CAD Exercise 119: A cylindrical housing with a perpendicular side branch and multiple mounting flanges."
 draft: false
 slug: 3d-exercise-119
@@ -27,12 +27,7 @@ A cylindrical housing with a perpendicular side branch and multiple mounting fla
 
 ![3D CAD Exercise 119. A cylindrical housing with a perpendicular side branch and multiple mounting flanges.](drawing.avif)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Read the sections to establish the intersecting internal cavities.
 - Place the flange holes in their respective planes before adding exterior blends.
-
-These are suggested reading checks, not a tested modeling tutorial.
-
-</details>

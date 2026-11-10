@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 174"
+title: "Stepped shaft – 3D CAD Exercise 174"
 description: "3D CAD Exercise 174: A stepped shaft with a socket at one end and a flattened, cross-drilled tip at the other."
 draft: false
 slug: 3d-exercise-174
@@ -27,12 +27,11 @@ A stepped shaft with a socket at one end and a flattened, cross-drilled tip at t
 
 ![3D CAD Exercise 174. A stepped shaft with a socket at one end and a flattened, cross-drilled tip at the other.](drawing.avif)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Use the longitudinal section to establish the socket depth and shaft shoulders.
 - Check the tip flats and cross-hole relative to the main shaft axis.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Check each opening against the drawing: its size, center position, and direction must agree across the available views.

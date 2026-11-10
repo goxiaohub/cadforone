@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 156"
+title: "Model airplane engine – 3D CAD Exercise 156"
 description: "3D CAD Exercise 156: A model airplane engine shown in three orthographic views and an assembled rendering."
 draft: false
 slug: 3d-exercise-156
@@ -27,12 +27,11 @@ A model airplane engine shown in three orthographic views and an assembled rende
 
 ![3D CAD Exercise 156. A model airplane engine shown in three orthographic views and an assembled rendering.](drawing.avif)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Use the views to establish the cylinder, crankshaft, and inlet directions.
 - Treat the drawing as an assembly reference and identify which details require separate part sheets.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Keep the components separate and compare their relative positions with the assembly view. Check the listed parts before treating the assembly as complete.

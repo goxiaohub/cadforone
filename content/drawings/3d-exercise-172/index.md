@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 172"
+title: "Ribbed bearing support – 3D CAD Exercise 172"
 description: "3D CAD Exercise 172: A ribbed bearing support with two upright bores and an elongated mounting foot."
 draft: false
 slug: 3d-exercise-172
@@ -27,12 +27,11 @@ A ribbed bearing support with two upright bores and an elongated mounting foot.
 
 ![3D CAD Exercise 172. A ribbed bearing support with two upright bores and an elongated mounting foot.](drawing.avif)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Place both bore centers before shaping the sloping connecting web.
 - Use the section and enlarged detail to check the base steps and local rounds.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Check each opening against the drawing: its size, center position, and direction must agree across the available views.

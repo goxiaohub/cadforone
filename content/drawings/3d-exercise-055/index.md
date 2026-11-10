@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 055"
+title: "Conical funnel-like body – 3D CAD Exercise 055"
 description: "3D CAD Exercise 055: A conical funnel-like body with an outlet tube, wall openings, and internal reinforcing features."
 draft: false
 slug: 3d-exercise-055
@@ -28,12 +28,12 @@ A conical funnel-like body with an outlet tube, wall openings, and internal rein
 
 ![3D CAD Exercise 055. A conical funnel-like body with an outlet tube, wall openings, and internal reinforcing features.](drawing.webp)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Use section A-A to establish the conical wall and outlet passage.
 - Read the local view before repeating the openings around the cone.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Check each opening against the drawing: its size, center position, and direction must agree across the available views.
+- Inspect the internal space as well as the outside shape. Use any section views to check which walls remain and where the passage opens.

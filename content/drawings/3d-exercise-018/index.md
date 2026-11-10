@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 018"
+title: "Sphere with Rounded Surface Patches – 3D CAD Exercise 018"
 description: "3D CAD Exercise 018: A spherical form decorated with rounded, contrasting surface patches."
 draft: false
 slug: 3d-exercise-018
@@ -28,12 +28,7 @@ A spherical form decorated with rounded, contrasting surface patches.
 
 ![3D CAD Exercise 018. A spherical form decorated with rounded, contrasting surface patches.](drawing.webp)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Use both circular views to locate the patch boundaries around the sphere.
 - Decide which boundaries are surface divisions; the shading alone does not specify a cut depth.
-
-These are suggested reading checks, not a tested modeling tutorial.
-
-</details>

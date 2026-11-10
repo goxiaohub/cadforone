@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 125"
+title: "Elbow-shaped flanged housing – 3D CAD Exercise 125"
 description: "3D CAD Exercise 125: An elbow-shaped flanged housing with a curved passage and a side access feature."
 draft: false
 slug: 3d-exercise-125
@@ -27,12 +27,11 @@ An elbow-shaped flanged housing with a curved passage and a side access feature.
 
 ![3D CAD Exercise 125. An elbow-shaped flanged housing with a curved passage and a side access feature.](drawing.avif)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Use section A-A to establish the bend and wall thickness.
 - Read section B-B and view C before adding the access feature and flange holes.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Inspect the internal space as well as the outside shape. Use any section views to check which walls remain and where the passage opens.

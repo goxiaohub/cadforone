@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 013"
+title: "Compact mounting bracket – 3D CAD Exercise 013"
 description: "3D CAD Exercise 013: A compact mounting bracket combining a hollow rectangular body with a downward forked lug."
 draft: false
 slug: 3d-exercise-013
@@ -28,12 +28,11 @@ A compact mounting bracket combining a hollow rectangular body with a downward f
 
 ![3D CAD Exercise 013. A compact mounting bracket combining a hollow rectangular body with a downward forked lug.](drawing.webp)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Establish the rectangular cavity from the front and side views.
 - Check the lower slot and the mounting holes in their respective viewing directions.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Inspect the internal space as well as the outside shape. Use any section views to check which walls remain and where the passage opens.

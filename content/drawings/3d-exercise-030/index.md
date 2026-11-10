@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 030"
+title: "Three-pointed cover – 3D CAD Exercise 030"
 description: "3D CAD Exercise 030: A three-pointed cover with a domed top, a central hole, and a circular feature underneath."
 draft: false
 slug: 3d-exercise-030
@@ -28,12 +28,11 @@ A three-pointed cover with a domed top, a central hole, and a circular feature u
 
 ![3D CAD Exercise 030. A three-pointed cover with a domed top, a central hole, and a circular feature underneath.](drawing.webp)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Compare the side profiles to establish the crown height and curvature.
 - Check the underside circular feature separately from the three-lobed top outline.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Check each opening against the drawing: its size, center position, and direction must agree across the available views.

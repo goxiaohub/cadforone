@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 093"
+title: "V-Saddle and Inclined Lug Supports – 3D CAD Exercise 093"
 description: "3D CAD Exercise 093: Two angular supports featuring a V-shaped saddle and an inclined drilled lug."
 draft: false
 slug: 3d-exercise-093
@@ -27,12 +27,11 @@ Two angular supports featuring a V-shaped saddle and an inclined drilled lug.
 
 ![3D CAD Exercise 093. Two angular supports featuring a V-shaped saddle and an inclined drilled lug.](drawing.avif)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Resolve the saddle angles and the indicated equal edges first.
 - For the smaller support, locate the lug axis relative to the sloping base.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Check each opening against the drawing: its size, center position, and direction must agree across the available views.

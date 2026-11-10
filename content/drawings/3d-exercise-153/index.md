@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 153"
+title: "Exploded manual-valve assembly – 3D CAD Exercise 153"
 description: "3D CAD Exercise 153: An exploded manual-valve assembly with a lever, valve stem, seals, and housing."
 draft: false
 slug: 3d-exercise-153
@@ -27,12 +27,11 @@ An exploded manual-valve assembly with a lever, valve stem, seals, and housing.
 
 ![3D CAD Exercise 153. An exploded manual-valve assembly with a lever, valve stem, seals, and housing.](drawing.avif)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Match each numbered component to the parts list before placing mates.
 - Check the sequence of seals and retaining components along the stem axis.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Keep the components separate and compare their relative positions with the assembly view. Check the listed parts before treating the assembly as complete.

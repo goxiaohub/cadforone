@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 031"
+title: "Straight cylindrical coil spring – 3D CAD Exercise 031"
 description: "3D CAD Exercise 031: A straight cylindrical coil spring shown in end, side, and isometric views."
 draft: false
 slug: 3d-exercise-031
@@ -28,12 +28,11 @@ A straight cylindrical coil spring shown in end, side, and isometric views.
 
 ![3D CAD Exercise 031. A straight cylindrical coil spring shown in end, side, and isometric views.](drawing.webp)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Distinguish the coil diameter from the wire diameter when setting up the path.
 - Check the total length and spacing of the turns against the side view.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Compare the path, turn spacing, and end conditions with the drawing. Do not assume constant pitch or diameter where the views show a change.

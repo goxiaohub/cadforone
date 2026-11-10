@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 043"
+title: "Inclined support arm – 3D CAD Exercise 043"
 description: "3D CAD Exercise 043: An inclined support arm joining a cylindrical eye to a two-hole mounting flange."
 draft: false
 slug: 3d-exercise-043
@@ -28,12 +28,11 @@ An inclined support arm joining a cylindrical eye to a two-hole mounting flange.
 
 ![3D CAD Exercise 043. An inclined support arm joining a cylindrical eye to a two-hole mounting flange.](drawing.webp)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Establish the eye axis and flange angle from the orthographic views.
 - Check the triangular web opening and its surrounding thickness independently.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Check each opening against the drawing: its size, center position, and direction must agree across the available views.

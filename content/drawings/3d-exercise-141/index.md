@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 141"
+title: "Sheet-metal clip – 3D CAD Exercise 141"
 description: "3D CAD Exercise 141: A sheet-metal clip with a rectangular opening, rolled edges, and an upright fastening tab."
 draft: false
 slug: 3d-exercise-141
@@ -27,12 +27,12 @@ A sheet-metal clip with a rectangular opening, rolled edges, and an upright fast
 
 ![3D CAD Exercise 141. A sheet-metal clip with a rectangular opening, rolled edges, and an upright fastening tab.](drawing.avif)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Use the expanded view to locate cuts and bend lines before folding.
 - Check the rolled edges and tab direction against the formed isometric view.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Check each opening against the drawing: its size, center position, and direction must agree across the available views.
+- Compare the bent shape with any flat layout provided. Check bend direction and the positions of openings on each face.

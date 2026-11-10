@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 004"
+title: "Cylindrical housing – 3D CAD Exercise 004"
 description: "3D CAD Exercise 004: A cylindrical housing stands on a square mounting flange, with internal openings and a lower side cutout."
 draft: false
 slug: 3d-exercise-004
@@ -28,12 +28,11 @@ A cylindrical housing stands on a square mounting flange, with internal openings
 
 ![3D CAD Exercise 004. A cylindrical housing stands on a square mounting flange, with internal openings and a lower side cutout.](drawing.webp)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Compare sections A-A and B-B to understand the internal wall and side features.
 - Read enlarged detail C separately before placing the small shaped openings.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Check each opening against the drawing: its size, center position, and direction must agree across the available views.

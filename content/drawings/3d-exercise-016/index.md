@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 016"
+title: "Curved cover – 3D CAD Exercise 016"
 description: "3D CAD Exercise 016: A curved cover with several openings, shown through multiple cross-sections."
 draft: false
 slug: 3d-exercise-016
@@ -28,12 +28,11 @@ A curved cover with several openings, shown through multiple cross-sections.
 
 ![3D CAD Exercise 016. A curved cover with several openings, shown through multiple cross-sections.](drawing.webp)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Use the sections to establish the shell curvature and edge returns.
 - Project the openings onto the curved body without treating the plan outline as a flat plate.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Check each opening against the drawing: its size, center position, and direction must agree across the available views.

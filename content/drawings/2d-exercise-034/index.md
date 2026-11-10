@@ -1,5 +1,5 @@
 ---
-title: "2D CAD Exercise 034"
+title: "Scissors outline – 2D CAD Exercise 034"
 description: "2D CAD Exercise 034: A scissors outline with two circular finger loops, a pivot, and long tapered blades."
 draft: false
 slug: 2d-exercise-034
@@ -28,12 +28,11 @@ A scissors outline with two circular finger loops, a pivot, and long tapered bla
 
 ![2D CAD Exercise 034. A scissors outline with two circular finger loops, a pivot, and long tapered blades.](drawing.webp)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Locate the pivot and finger-loop centers before drawing the blade edges.
 - Check the blade angles and the curved transitions into the handles separately.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Count the repeated elements and check their spacing about the center or along the path; a matching outline alone can hide a misplaced repetition.

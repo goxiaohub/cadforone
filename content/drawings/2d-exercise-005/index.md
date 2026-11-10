@@ -1,5 +1,5 @@
 ---
-title: "2D CAD Exercise 005"
+title: "Interwoven Four-Loop Pattern – 2D CAD Exercise 005"
 description: "2D CAD Exercise 005: Four rounded loops form an interwoven pattern with repeated parallel bands."
 draft: false
 slug: 2d-exercise-005
@@ -28,12 +28,11 @@ Four rounded loops form an interwoven pattern with repeated parallel bands.
 
 ![2D CAD Exercise 005. Four rounded loops form an interwoven pattern with repeated parallel bands.](drawing.webp)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Construct one loop and study how the pattern repeats around the center.
 - Use trimming to express the crossings; note that most internal spacing is not dimensioned.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Count the repeated elements and check their spacing about the center or along the path; a matching outline alone can hide a misplaced repetition.

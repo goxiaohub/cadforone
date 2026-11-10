@@ -1,5 +1,5 @@
 ---
-title: "2D CAD Exercise 058"
+title: "Triangle with Intersecting Lines – 2D CAD Exercise 058"
 description: "2D CAD Exercise 058: A triangle divided by three lines meeting at an interior point."
 draft: false
 slug: 2d-exercise-058
@@ -28,12 +28,7 @@ A triangle divided by three lines meeting at an interior point.
 
 ![2D CAD Exercise 058. A triangle divided by three lines meeting at an interior point.](drawing.webp)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Resolve the outer triangle before locating the internal junction.
 - Distinguish the parenthesized reference values from the primary dimensions when constraining the sketch.
-
-These are suggested reading checks, not a tested modeling tutorial.
-
-</details>

@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 033"
+title: "Base-mounted fork bracket – 3D CAD Exercise 033"
 description: "3D CAD Exercise 033: A base-mounted fork bracket with two inclined ears and aligned circular holes."
 draft: false
 slug: 3d-exercise-033
@@ -28,12 +28,11 @@ A base-mounted fork bracket with two inclined ears and aligned circular holes.
 
 ![3D CAD Exercise 033. A base-mounted fork bracket with two inclined ears and aligned circular holes.](drawing.webp)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Locate both ear holes on a common axis before forming the sloped supports.
 - Check the central gap and base mounting holes against the plan view.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Check each opening against the drawing: its size, center position, and direction must agree across the available views.

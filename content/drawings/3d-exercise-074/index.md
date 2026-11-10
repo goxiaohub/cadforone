@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 074"
+title: "Two Bored Mounting Brackets – 3D CAD Exercise 074"
 description: "3D CAD Exercise 074: Two brackets combining cylindrical openings with rectangular supports and mounting bases."
 draft: false
 slug: 3d-exercise-074
@@ -27,12 +27,11 @@ Two brackets combining cylindrical openings with rectangular supports and mounti
 
 ![3D CAD Exercise 074. Two brackets combining cylindrical openings with rectangular supports and mounting bases.](drawing.avif)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Match each section to the corresponding bracket before modeling.
 - Check the upright cavity and transverse opening in their own viewing directions.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Check each opening against the drawing: its size, center position, and direction must agree across the available views.

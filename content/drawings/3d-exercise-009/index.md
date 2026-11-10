@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 009"
+title: "Two-eye mounting plate – 3D CAD Exercise 009"
 description: "3D CAD Exercise 009: A two-eye mounting plate with a projecting central tongue and a shaped end."
 draft: false
 slug: 3d-exercise-009
@@ -28,12 +28,7 @@ A two-eye mounting plate with a projecting central tongue and a shaped end.
 
 ![3D CAD Exercise 009. A two-eye mounting plate with a projecting central tongue and a shaped end.](drawing.webp)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Locate the two mounting holes before building the central projection.
 - Compare the front and side views to resolve the tongue height and curved end.
-
-These are suggested reading checks, not a tested modeling tutorial.
-
-</details>

@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 088"
+title: "Hollow rectangular housing – 3D CAD Exercise 088"
 description: "3D CAD Exercise 088: A hollow rectangular housing with rounded mounting lobes and cross-drilled openings."
 draft: false
 slug: 3d-exercise-088
@@ -27,12 +27,12 @@ A hollow rectangular housing with rounded mounting lobes and cross-drilled openi
 
 ![3D CAD Exercise 088. A hollow rectangular housing with rounded mounting lobes and cross-drilled openings.](drawing.avif)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Use section A-A to establish the cavity and floor thickness.
 - Check the assigned material before comparing your calculated mass and volume with the exercise.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Check each opening against the drawing: its size, center position, and direction must agree across the available views.
+- Inspect the internal space as well as the outside shape. Use any section views to check which walls remain and where the passage opens.

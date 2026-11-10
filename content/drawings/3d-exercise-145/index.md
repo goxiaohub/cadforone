@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 145"
+title: "Small wheel assembly – 3D CAD Exercise 145"
 description: "3D CAD Exercise 145: A small wheel assembly with separate drawings for its fork, axle, sleeve, and wheel."
 draft: false
 slug: 3d-exercise-145
@@ -27,12 +27,11 @@ A small wheel assembly with separate drawings for its fork, axle, sleeve, and wh
 
 ![3D CAD Exercise 145. A small wheel assembly with separate drawings for its fork, axle, sleeve, and wheel.](drawing.avif)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Build each component from its own dimensions before assembling.
 - Check the common wheel axis and the spacing between the fork arms.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Keep the components separate and compare their relative positions with the assembly view. Check the listed parts before treating the assembly as complete.

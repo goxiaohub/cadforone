@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 024"
+title: "Hollow Y-shaped connector – 3D CAD Exercise 024"
 description: "3D CAD Exercise 024: A hollow Y-shaped connector with three tubular branches and blended junctions."
 draft: false
 slug: 3d-exercise-024
@@ -28,12 +28,11 @@ A hollow Y-shaped connector with three tubular branches and blended junctions.
 
 ![3D CAD Exercise 024. A hollow Y-shaped connector with three tubular branches and blended junctions.](drawing.webp)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Lay out the branch axes and angles before building their tubular walls.
 - Check the inner passage and outer blend separately at the three-way junction.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Inspect the internal space as well as the outside shape. Use any section views to check which walls remain and where the passage opens.

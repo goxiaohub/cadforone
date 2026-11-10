@@ -1,5 +1,5 @@
 ---
-title: "2D CAD Exercise 062"
+title: "D-shaped profile – 2D CAD Exercise 062"
 description: "2D CAD Exercise 062: A D-shaped profile with two left-edge notches, a curved slot, and paired semicircular recesses on the right."
 draft: false
 slug: 2d-exercise-062
@@ -28,12 +28,11 @@ A D-shaped profile with two left-edge notches, a curved slot, and paired semicir
 
 ![2D CAD Exercise 062. A D-shaped profile with two left-edge notches, a curved slot, and paired semicircular recesses on the right.](drawing.webp)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Lay out the semicircular outer end and left-edge notches first.
 - Keep the curved slot separate from the open recesses on the right-hand centerline.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Check the slot ends and their center positions separately from the surrounding profile; confirm whether each slot is open-ended or enclosed.

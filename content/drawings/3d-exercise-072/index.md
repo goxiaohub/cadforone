@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 072"
+title: "Curved handle – 3D CAD Exercise 072"
 description: "3D CAD Exercise 072: A curved handle with a spherical tip, a bent lower end, and a tapered connecting arm."
 draft: false
 slug: 3d-exercise-072
@@ -27,12 +27,7 @@ A curved handle with a spherical tip, a bent lower end, and a tapered connecting
 
 ![3D CAD Exercise 072. A curved handle with a spherical tip, a bent lower end, and a tapered connecting arm.](drawing.avif)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Locate the end centers before shaping the curved arm.
 - Use the enlarged section to check the transition into the lower end.
-
-These are suggested reading checks, not a tested modeling tutorial.
-
-</details>

@@ -1,5 +1,5 @@
 ---
-title: "2D CAD Exercise 048"
+title: "Three Tangent Circles in a Polygon – 2D CAD Exercise 048"
 description: "2D CAD Exercise 048: A polygonal outline containing three stacked tangent circles beside an angled internal boundary."
 draft: false
 slug: 2d-exercise-048
@@ -28,12 +28,7 @@ A polygonal outline containing three stacked tangent circles beside an angled in
 
 ![2D CAD Exercise 048. A polygonal outline containing three stacked tangent circles beside an angled internal boundary.](drawing.webp)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Establish the outer vertices and internal angle before fitting the circles.
 - Check circle-to-circle and circle-to-edge tangency separately.
-
-These are suggested reading checks, not a tested modeling tutorial.
-
-</details>

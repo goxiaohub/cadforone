@@ -1,5 +1,5 @@
 ---
-title: "2D CAD Exercise 011"
+title: "Circular profile – 2D CAD Exercise 011"
 description: "2D CAD Exercise 011: A circular profile with six rectangular tabs extending radially around its edge."
 draft: false
 slug: 2d-exercise-011
@@ -28,12 +28,7 @@ A circular profile with six rectangular tabs extending radially around its edge.
 
 ![2D CAD Exercise 011. A circular profile with six rectangular tabs extending radially around its edge.](drawing.webp)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Build one tab relative to a radial centerline before repeating it.
 - Check which dimension describes the circle and which includes the projecting tabs.
-
-These are suggested reading checks, not a tested modeling tutorial.
-
-</details>

@@ -1,5 +1,5 @@
 ---
-title: "2D CAD Exercise 035"
+title: "Gasket-like outline – 2D CAD Exercise 035"
 description: "2D CAD Exercise 035: A gasket-like outline with mounting holes, rounded lobes, and an irregular central opening."
 draft: false
 slug: 2d-exercise-035
@@ -28,12 +28,11 @@ A gasket-like outline with mounting holes, rounded lobes, and an irregular centr
 
 ![2D CAD Exercise 035. A gasket-like outline with mounting holes, rounded lobes, and an irregular central opening.](drawing.webp)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Lay out the mounting-hole centers and symmetry references first.
 - Construct the central opening from its own arcs rather than offsetting the outer edge.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Check each opening against the drawing: its size, center position, and direction must agree across the available views.

@@ -1,5 +1,5 @@
 ---
-title: "2D CAD Exercise 018"
+title: "Rectangular frame – 2D CAD Exercise 018"
 description: "2D CAD Exercise 018: A rectangular frame with a central opening and a scalloped perimeter arranged around mounting holes."
 draft: false
 slug: 2d-exercise-018
@@ -28,12 +28,11 @@ A rectangular frame with a central opening and a scalloped perimeter arranged ar
 
 ![2D CAD Exercise 018. A rectangular frame with a central opening and a scalloped perimeter arranged around mounting holes.](drawing.webp)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Lay out the hole centers before constructing the surrounding lobes.
 - Check the inner opening independently from the outside envelope.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Check each opening against the drawing: its size, center position, and direction must agree across the available views.

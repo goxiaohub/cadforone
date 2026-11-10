@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 084"
+title: "Two Drilled Mounting Brackets – 3D CAD Exercise 084"
 description: "3D CAD Exercise 084: Two mounting brackets with drilled uprights, one on a circular base and one on an elongated slotted base."
 draft: false
 slug: 3d-exercise-084
@@ -27,12 +27,12 @@ Two mounting brackets with drilled uprights, one on a circular base and one on a
 
 ![3D CAD Exercise 084. Two mounting brackets with drilled uprights, one on a circular base and one on an elongated slotted base.](drawing.avif)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Resolve the inclined upper features using the auxiliary view.
 - Check the two base layouts separately rather than sharing a single hole pattern.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Check each opening against the drawing: its size, center position, and direction must agree across the available views.
+- Check the slot ends and their center positions separately from the surrounding profile; confirm whether each slot is open-ended or enclosed.

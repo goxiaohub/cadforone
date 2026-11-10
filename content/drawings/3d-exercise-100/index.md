@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 100"
+title: "Forked mounting bracket – 3D CAD Exercise 100"
 description: "3D CAD Exercise 100: A forked mounting bracket with two upright eyes and a stepped opening through its base."
 draft: false
 slug: 3d-exercise-100
@@ -27,12 +27,11 @@ A forked mounting bracket with two upright eyes and a stepped opening through it
 
 ![3D CAD Exercise 100. A forked mounting bracket with two upright eyes and a stepped opening through its base.](drawing.avif)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Align the eye bores before establishing the gap between the uprights.
 - Use the section to check the base opening and smaller drilled features.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Check each opening against the drawing: its size, center position, and direction must agree across the available views.

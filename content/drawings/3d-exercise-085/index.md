@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 085"
+title: "Flanged Cover and Open-Ended Wrench – 3D CAD Exercise 085"
 description: "3D CAD Exercise 085: A flanged cover and a double open-ended wrench presented as separate modeling exercises."
 draft: false
 slug: 3d-exercise-085
@@ -27,12 +27,7 @@ A flanged cover and a double open-ended wrench presented as separate modeling ex
 
 ![3D CAD Exercise 085. A flanged cover and a double open-ended wrench presented as separate modeling exercises.](drawing.avif)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Use the cover section to distinguish the rim, recess, and mounting holes.
 - Lay out the wrench jaws and their angles before shaping the handle transitions.
-
-These are suggested reading checks, not a tested modeling tutorial.
-
-</details>

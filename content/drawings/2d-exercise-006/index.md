@@ -1,5 +1,5 @@
 ---
-title: "2D CAD Exercise 006"
+title: "Right triangle – 2D CAD Exercise 006"
 description: "2D CAD Exercise 006: A right triangle with a horizontal base, a vertical side, and a dimensioned hypotenuse."
 draft: false
 slug: 2d-exercise-006
@@ -28,12 +28,7 @@ A right triangle with a horizontal base, a vertical side, and a dimensioned hypo
 
 ![2D CAD Exercise 006. A right triangle with a horizontal base, a vertical side, and a dimensioned hypotenuse.](drawing.webp)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Constrain the base and upright side to be perpendicular.
 - Use the given lengths to resolve the third side rather than estimating its angle.
-
-These are suggested reading checks, not a tested modeling tutorial.
-
-</details>

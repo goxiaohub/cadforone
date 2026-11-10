@@ -1,5 +1,5 @@
 ---
-title: "2D CAD Exercise 015"
+title: "X-shaped outline – 2D CAD Exercise 015"
 description: "2D CAD Exercise 015: An X-shaped outline with four diagonal arms surrounding a central square."
 draft: false
 slug: 2d-exercise-015
@@ -28,12 +28,7 @@ An X-shaped outline with four diagonal arms surrounding a central square.
 
 ![2D CAD Exercise 015. An X-shaped outline with four diagonal arms surrounding a central square.](drawing.webp)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Establish the horizontal and vertical centerlines before drawing one arm.
 - Check the clipped ends and the intersections around the central square when mirroring.
-
-These are suggested reading checks, not a tested modeling tutorial.
-
-</details>

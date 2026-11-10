@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 114"
+title: "Circular plate – 3D CAD Exercise 114"
 description: "3D CAD Exercise 114: A circular plate with a raised handle and a repeating wavy surface profile."
 draft: false
 slug: 3d-exercise-114
@@ -27,12 +27,11 @@ A circular plate with a raised handle and a repeating wavy surface profile.
 
 ![3D CAD Exercise 114. A circular plate with a raised handle and a repeating wavy surface profile.](drawing.avif)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Use the radial variation diagram to establish one wave cycle.
 - Check continuity where the pattern closes and where the handle meets the plate.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Count the repeated elements and check their spacing about the center or along the path; a matching outline alone can hide a misplaced repetition.

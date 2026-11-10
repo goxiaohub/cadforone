@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 106"
+title: "Paired Orthographic-View Puzzles – 3D CAD Exercise 106"
 description: "3D CAD Exercise 106: Paired orthographic-view puzzles combining circular, rectangular, and pointed outlines."
 draft: false
 slug: 3d-exercise-106
@@ -27,12 +27,7 @@ Paired orthographic-view puzzles combining circular, rectangular, and pointed ou
 
 ![3D CAD Exercise 106. Paired orthographic-view puzzles combining circular, rectangular, and pointed outlines.](drawing.avif)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Align corresponding edges across the three views before choosing a solid.
 - Compare the two rows carefully; similar silhouettes do not guarantee identical geometry.
-
-These are suggested reading checks, not a tested modeling tutorial.
-
-</details>

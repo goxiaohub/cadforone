@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 173"
+title: "Three-boss mounting support – 3D CAD Exercise 173"
 description: "3D CAD Exercise 173: A three-boss mounting support with raised side eyes, a central bore, and a common base."
 draft: false
 slug: 3d-exercise-173
@@ -27,12 +27,11 @@ A three-boss mounting support with raised side eyes, a central bore, and a commo
 
 ![3D CAD Exercise 173. A three-boss mounting support with raised side eyes, a central bore, and a common base.](drawing.avif)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Align the boss centers from the front view before forming the connecting outline.
 - Compare sections A-A and B-B to establish the recesses and supporting web.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Check each opening against the drawing: its size, center position, and direction must agree across the available views.

@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 083"
+title: "Slotted Flange and Dished Component – 3D CAD Exercise 083"
 description: "3D CAD Exercise 083: Two circular parts: a slotted mounting flange and a stepped dished component shown in section."
 draft: false
 slug: 3d-exercise-083
@@ -27,12 +27,11 @@ Two circular parts: a slotted mounting flange and a stepped dished component sho
 
 ![3D CAD Exercise 083. Two circular parts: a slotted mounting flange and a stepped dished component shown in section.](drawing.avif)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Use an axial section to establish each circular profile.
 - Check the flange's radial slot and hole positions separately from its turned surfaces.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Check the slot ends and their center positions separately from the surrounding profile; confirm whether each slot is open-ended or enclosed.

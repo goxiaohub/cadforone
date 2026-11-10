@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 068"
+title: "Fluted cylindrical knob – 3D CAD Exercise 068"
 description: "3D CAD Exercise 068: A fluted cylindrical knob with a rounded end and a toothed-looking base rim."
 draft: false
 slug: 3d-exercise-068
@@ -28,12 +28,7 @@ A fluted cylindrical knob with a rounded end and a toothed-looking base rim.
 
 ![3D CAD Exercise 068. A fluted cylindrical knob with a rounded end and a toothed-looking base rim.](drawing.webp)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Establish the axial profile before adding the repeated longitudinal flutes.
 - Check the end view to distinguish the flute pattern from the base-rim pattern.
-
-These are suggested reading checks, not a tested modeling tutorial.
-
-</details>

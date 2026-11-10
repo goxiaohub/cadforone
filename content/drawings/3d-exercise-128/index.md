@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 128"
+title: "Multi-port housing – 3D CAD Exercise 128"
 description: "3D CAD Exercise 128: A multi-port housing with a circular mounting flange, a larger side opening, and ribbed exterior."
 draft: false
 slug: 3d-exercise-128
@@ -27,12 +27,11 @@ A multi-port housing with a circular mounting flange, a larger side opening, and
 
 ![3D CAD Exercise 128. A multi-port housing with a circular mounting flange, a larger side opening, and ribbed exterior.](drawing.avif)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Use the three sections to establish the internal passages and flange steps.
 - Check the local edge details separately from the larger body blends.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Check each opening against the drawing: its size, center position, and direction must agree across the available views.

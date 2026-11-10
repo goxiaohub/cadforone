@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 138"
+title: "Molded bottle – 3D CAD Exercise 138"
 description: "3D CAD Exercise 138: A molded bottle with an offset neck, curved shoulders, and recessed side panels."
 draft: false
 slug: 3d-exercise-138
@@ -27,12 +27,7 @@ A molded bottle with an offset neck, curved shoulders, and recessed side panels.
 
 ![3D CAD Exercise 138. A molded bottle with an offset neck, curved shoulders, and recessed side panels.](drawing.avif)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Use the plan outlines to establish the changing body section.
 - Check the side-panel boundaries and neck transition before adding small rounds.
-
-These are suggested reading checks, not a tested modeling tutorial.
-
-</details>

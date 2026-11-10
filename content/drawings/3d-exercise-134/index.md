@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 134"
+title: "Domed Body with Six Looping Tubes – 3D CAD Exercise 134"
 description: "3D CAD Exercise 134: A domed central body supported by six looping tubes arranged around its axis."
 draft: false
 slug: 3d-exercise-134
@@ -27,12 +27,7 @@ A domed central body supported by six looping tubes arranged around its axis.
 
 ![3D CAD Exercise 134. A domed central body supported by six looping tubes arranged around its axis.](drawing.avif)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Construct one tube centerline from the plan and elevation.
 - Check the tube-to-body junction before repeating the loop around the center.
-
-These are suggested reading checks, not a tested modeling tutorial.
-
-</details>

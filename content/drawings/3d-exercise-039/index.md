@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 039"
+title: "Arched strap – 3D CAD Exercise 039"
 description: "3D CAD Exercise 039: An arched strap with two slender curved bands joined near drilled end tabs."
 draft: false
 slug: 3d-exercise-039
@@ -28,12 +28,11 @@ An arched strap with two slender curved bands joined near drilled end tabs.
 
 ![3D CAD Exercise 039. An arched strap with two slender curved bands joined near drilled end tabs.](drawing.webp)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Use the plan view to establish the separation of the two bands.
 - Compare the end view with the main arc to resolve their lateral curvature and end connections.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Check each opening against the drawing: its size, center position, and direction must agree across the available views.

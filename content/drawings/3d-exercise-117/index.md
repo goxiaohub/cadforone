@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 117"
+title: "Forked Lever and Pivot Housing – 3D CAD Exercise 117"
 description: "3D CAD Exercise 117: A block housing connected to a forked operating lever through a transverse pivot."
 draft: false
 slug: 3d-exercise-117
@@ -27,12 +27,7 @@ A block housing connected to a forked operating lever through a transverse pivot
 
 ![3D CAD Exercise 117. A block housing connected to a forked operating lever through a transverse pivot.](drawing.avif)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Use section A-A to locate the bore steps and pivot geometry.
 - Compare the plan view with the partial detail before positioning the lever ends.
-
-These are suggested reading checks, not a tested modeling tutorial.
-
-</details>

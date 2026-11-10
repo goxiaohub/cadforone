@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 164"
+title: "Finned engine housing – 3D CAD Exercise 164"
 description: "3D CAD Exercise 164: A finned engine housing with a large lower bore, an upper cylinder, and an inclined side opening."
 draft: false
 slug: 3d-exercise-164
@@ -27,12 +27,11 @@ A finned engine housing with a large lower bore, an upper cylinder, and an incli
 
 ![3D CAD Exercise 164. A finned engine housing with a large lower bore, an upper cylinder, and an inclined side opening.](drawing.avif)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Locate the principal bore axes from the orthographic views.
 - Build the main housing before repeating the cooling fins and adding smaller openings.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Check each opening against the drawing: its size, center position, and direction must agree across the available views.

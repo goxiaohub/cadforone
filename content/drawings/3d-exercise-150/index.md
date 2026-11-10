@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 150"
+title: "Threaded Vise Block, Pin and Nut – 3D CAD Exercise 150"
 description: "3D CAD Exercise 150: A vise-related component sheet with a threaded block, cylindrical pin, and hexagonal nut."
 draft: false
 slug: 3d-exercise-150
@@ -27,12 +27,7 @@ A vise-related component sheet with a threaded block, cylindrical pin, and hexag
 
 ![3D CAD Exercise 150. A vise-related component sheet with a threaded block, cylindrical pin, and hexagonal nut.](drawing.avif)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Separate the block's vertical bore from its horizontal threaded passage.
 - Check the pin and nut interfaces against the corresponding hole and thread callouts.
-
-These are suggested reading checks, not a tested modeling tutorial.
-
-</details>

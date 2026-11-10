@@ -1,5 +1,5 @@
 ---
-title: "2D CAD Exercise 014"
+title: "Rectangular outline – 2D CAD Exercise 014"
 description: "2D CAD Exercise 014: A rectangular outline topped by a triangular roof, with diagonals meeting along the lower edge."
 draft: false
 slug: 2d-exercise-014
@@ -28,12 +28,7 @@ A rectangular outline topped by a triangular roof, with diagonals meeting along 
 
 ![2D CAD Exercise 014. A rectangular outline topped by a triangular roof, with diagonals meeting along the lower edge.](drawing.webp)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Locate the roof apex from the horizontal reference dimensions.
 - Use the marked angle and intersections to check the internal diagonals.
-
-These are suggested reading checks, not a tested modeling tutorial.
-
-</details>

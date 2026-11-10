@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 180"
+title: "Two-part linkage assembly – 3D CAD Exercise 180"
 description: "3D CAD Exercise 180: A two-part linkage assembly with a pin, a bent bracket, and specified relative positioning."
 draft: false
 slug: 3d-exercise-180
@@ -27,12 +27,11 @@ A two-part linkage assembly with a pin, a bent bracket, and specified relative p
 
 ![3D CAD Exercise 180. A two-part linkage assembly with a pin, a bent bracket, and specified relative positioning.](drawing.avif)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Model the two parts independently, then apply the shown coincident and angular relationships.
 - Set the assembly origin before checking center of mass and the distance between the marked points.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Keep the components separate and compare their relative positions with the assembly view. Check the listed parts before treating the assembly as complete.

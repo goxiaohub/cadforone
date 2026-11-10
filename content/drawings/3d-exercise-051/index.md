@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 051"
+title: "Tubular mounting body – 3D CAD Exercise 051"
 description: "3D CAD Exercise 051: A tubular mounting body with end flanges and two angled side tabs."
 draft: false
 slug: 3d-exercise-051
@@ -28,12 +28,11 @@ A tubular mounting body with end flanges and two angled side tabs.
 
 ![3D CAD Exercise 051. A tubular mounting body with end flanges and two angled side tabs.](drawing.webp)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Use section A-A to establish the tube wall and side-tab angles.
 - Check each flange and tab hole in its own view rather than projecting from the isometric image.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Inspect the internal space as well as the outside shape. Use any section views to check which walls remain and where the passage opens.

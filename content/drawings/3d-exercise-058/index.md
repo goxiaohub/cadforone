@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 058"
+title: "Ribbed angle bracket – 3D CAD Exercise 058"
 description: "3D CAD Exercise 058: A ribbed angle bracket with two holes in its upright and three holes in its rounded base."
 draft: false
 slug: 3d-exercise-058
@@ -28,12 +28,11 @@ A ribbed angle bracket with two holes in its upright and three holes in its roun
 
 ![3D CAD Exercise 058. A ribbed angle bracket with two holes in its upright and three holes in its rounded base.](drawing.webp)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Place the upright holes and the scalloped top from the front view.
 - Check the central rib and base-hole layout against the side and plan views.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Check each opening against the drawing: its size, center position, and direction must agree across the available views.

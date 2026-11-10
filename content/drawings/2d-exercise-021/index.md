@@ -1,5 +1,5 @@
 ---
-title: "2D CAD Exercise 021"
+title: "Three-bladed fan outline – 2D CAD Exercise 021"
 description: "2D CAD Exercise 021: A three-bladed fan outline formed by curved blades around a concentric circular hub."
 draft: false
 slug: 2d-exercise-021
@@ -28,12 +28,11 @@ A three-bladed fan outline formed by curved blades around a concentric circular 
 
 ![2D CAD Exercise 021. A three-bladed fan outline formed by curved blades around a concentric circular hub.](drawing.webp)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Resolve the arcs of one blade before repeating it around the hub.
 - Check the blade-to-hub junctions for the intended continuity.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Count the repeated elements and check their spacing about the center or along the path; a matching outline alone can hide a misplaced repetition.

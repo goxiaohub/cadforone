@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 136"
+title: "Two Rounded Stamp Handles – 3D CAD Exercise 136"
 description: "3D CAD Exercise 136: Two stamp-like handles with rounded tops, narrow waists, and different base shapes."
 draft: false
 slug: 3d-exercise-136
@@ -27,12 +27,7 @@ Two stamp-like handles with rounded tops, narrow waists, and different base shap
 
 ![3D CAD Exercise 136. Two stamp-like handles with rounded tops, narrow waists, and different base shapes.](drawing.avif)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Use the front and side profiles to control the changing handle section.
 - Keep the base lettering separate from the main solid so it can be edited independently.
-
-These are suggested reading checks, not a tested modeling tutorial.
-
-</details>

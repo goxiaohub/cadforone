@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 066"
+title: "Bent handle – 3D CAD Exercise 066"
 description: "3D CAD Exercise 066: A bent handle with a threaded attachment end and a spherical knob."
 draft: false
 slug: 3d-exercise-066
@@ -28,12 +28,7 @@ A bent handle with a threaded attachment end and a spherical knob.
 
 ![3D CAD Exercise 066. A bent handle with a threaded attachment end and a spherical knob.](drawing.webp)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Construct the bent center path from the straight lengths and bend radii.
 - Check the attachment direction and knob position against the reference views.
-
-These are suggested reading checks, not a tested modeling tutorial.
-
-</details>

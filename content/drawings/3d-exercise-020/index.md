@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 020"
+title: "Tapered bottle – 3D CAD Exercise 020"
 description: "3D CAD Exercise 020: A tapered bottle with an offset neck, an integrated handle opening, and oval cross-sections."
 draft: false
 slug: 3d-exercise-020
@@ -28,12 +28,11 @@ A tapered bottle with an offset neck, an integrated handle opening, and oval cro
 
 ![3D CAD Exercise 020. A tapered bottle with an offset neck, an integrated handle opening, and oval cross-sections.](drawing.webp)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Use sections A-A and B-B to establish how the body changes with height.
 - Check the handle opening and neck transition in both principal views.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Check each opening against the drawing: its size, center position, and direction must agree across the available views.

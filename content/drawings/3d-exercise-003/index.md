@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 003"
+title: "Triangular mounting base – 3D CAD Exercise 003"
 description: "3D CAD Exercise 003: A triangular mounting base carries an inclined split cylindrical feature and an upper lug, shown with sections A-A and B-B."
 draft: false
 slug: 3d-exercise-003
@@ -28,12 +28,7 @@ A triangular mounting base carries an inclined split cylindrical feature and an 
 
 ![3D CAD Exercise 003. A triangular mounting base carries an inclined split cylindrical feature and an upper lug, shown with sections A-A and B-B.](drawing.webp)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Use section B-B to distinguish the circular bore from the narrow split.
 - Check the inclined feature against the base and upper lug before adding edge rounds.
-
-These are suggested reading checks, not a tested modeling tutorial.
-
-</details>

@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 131"
+title: "Two Variable-Radius Spatial Spirals – 3D CAD Exercise 131"
 description: "3D CAD Exercise 131: Two spatial spiral exercises with changing coil radius and shaped end transitions."
 draft: false
 slug: 3d-exercise-131
@@ -27,12 +27,11 @@ Two spatial spiral exercises with changing coil radius and shaped end transition
 
 ![3D CAD Exercise 131. Two spatial spiral exercises with changing coil radius and shaped end transitions.](drawing.avif)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Define the axial path and radius changes before sweeping a section.
 - Check that each end transition meets the adjoining path with the indicated tangency.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Compare the path, turn spacing, and end conditions with the drawing. Do not assume constant pitch or diameter where the views show a change.

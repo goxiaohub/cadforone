@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 159"
+title: "Engine Cover and Offset Crankshaft – 3D CAD Exercise 159"
 description: "3D CAD Exercise 159: Two engine components: a ribbed circular cover and a stepped crankshaft with an offset feature."
 draft: false
 slug: 3d-exercise-159
@@ -27,12 +27,11 @@ Two engine components: a ribbed circular cover and a stepped crankshaft with an 
 
 ![3D CAD Exercise 159. Two engine components: a ribbed circular cover and a stepped crankshaft with an offset feature.](drawing.avif)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Use the cover section to establish its wall and internal ribs.
 - Locate the crankshaft's offset features separately from its main rotational axis.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Keep the components separate and compare their relative positions with the assembly view. Check the listed parts before treating the assembly as complete.

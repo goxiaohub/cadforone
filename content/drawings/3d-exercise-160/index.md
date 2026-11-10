@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 160"
+title: "Grooved Engine Part, Sleeve and Plate – 3D CAD Exercise 160"
 description: "3D CAD Exercise 160: An engine component sheet including a grooved circular part, a sleeve, and a thin circular plate."
 draft: false
 slug: 3d-exercise-160
@@ -27,12 +27,7 @@ An engine component sheet including a grooved circular part, a sleeve, and a thi
 
 ![3D CAD Exercise 160. An engine component sheet including a grooved circular part, a sleeve, and a thin circular plate.](drawing.avif)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Use section B-B to distinguish the circular part's internal steps from its face grooves.
 - Check the sleeve and plate dimensions as separate components before assembling them.
-
-These are suggested reading checks, not a tested modeling tutorial.
-
-</details>

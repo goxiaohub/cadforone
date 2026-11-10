@@ -1,5 +1,5 @@
 ---
-title: "2D CAD Exercise 063"
+title: "Upright lever profile – 2D CAD Exercise 063"
 description: "2D CAD Exercise 063: An upright lever profile with a large lower eye, a straight slot, a curved side slot, and a narrow top loop."
 draft: false
 slug: 2d-exercise-063
@@ -28,12 +28,11 @@ An upright lever profile with a large lower eye, a straight slot, a curved side 
 
 ![2D CAD Exercise 063. An upright lever profile with a large lower eye, a straight slot, a curved side slot, and a narrow top loop.](drawing.webp)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Use the lower eye center as the reference for the curved side slot.
 - Check the straight slot and top loop independently before blending the outer edges.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Check the slot ends and their center positions separately from the surrounding profile; confirm whether each slot is open-ended or enclosed.

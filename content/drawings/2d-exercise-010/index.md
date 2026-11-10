@@ -1,5 +1,5 @@
 ---
-title: "2D CAD Exercise 010"
+title: "Circular outline – 2D CAD Exercise 010"
 description: "2D CAD Exercise 010: A circular outline extended upward by a narrow rectangular neck."
 draft: false
 slug: 2d-exercise-010
@@ -28,12 +28,7 @@ A circular outline extended upward by a narrow rectangular neck.
 
 ![2D CAD Exercise 010. A circular outline extended upward by a narrow rectangular neck.](drawing.webp)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Center the neck on the circle before setting its width and height.
 - Trim the circle-to-neck junctions to leave one continuous outline.
-
-These are suggested reading checks, not a tested modeling tutorial.
-
-</details>

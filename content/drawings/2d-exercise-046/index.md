@@ -1,5 +1,5 @@
 ---
-title: "2D CAD Exercise 046"
+title: "Semicircular framework – 2D CAD Exercise 046"
 description: "2D CAD Exercise 046: A semicircular framework with four inclined ladder-like strips radiating from a small central arc."
 draft: false
 slug: 2d-exercise-046
@@ -28,12 +28,7 @@ A semicircular framework with four inclined ladder-like strips radiating from a 
 
 ![2D CAD Exercise 046. A semicircular framework with four inclined ladder-like strips radiating from a small central arc.](drawing.webp)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Locate each strip by its angular reference before repeating the internal rectangles.
 - Trim the strips and circular framework according to the visible intersections.
-
-These are suggested reading checks, not a tested modeling tutorial.
-
-</details>

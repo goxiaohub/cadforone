@@ -1,5 +1,5 @@
 ---
-title: "2D CAD Exercise 037"
+title: "Forked-Base Eye Bracket – 2D CAD Exercise 037"
 description: "2D CAD Exercise 037: Orthographic views of a bracket with a forked base and a raised, rounded eye."
 draft: false
 slug: 2d-exercise-037
@@ -28,12 +28,7 @@ Orthographic views of a bracket with a forked base and a raised, rounded eye.
 
 ![2D CAD Exercise 037. Orthographic views of a bracket with a forked base and a raised, rounded eye.](drawing.webp)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Read the open fork from the plan view before resolving the upright profile.
 - Align the eye center and base thickness across the views.
-
-These are suggested reading checks, not a tested modeling tutorial.
-
-</details>

@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 146"
+title: "Pawl assembly – 3D CAD Exercise 146"
 description: "3D CAD Exercise 146: A pawl assembly shown with numbered parts, a plan view, and a sectional view."
 draft: false
 slug: 3d-exercise-146
@@ -27,12 +27,11 @@ A pawl assembly shown with numbered parts, a plan view, and a sectional view.
 
 ![3D CAD Exercise 146. A pawl assembly shown with numbered parts, a plan view, and a sectional view.](drawing.avif)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Match the callouts to the parts table before positioning the components.
 - Use section C-C to check the internal interfaces and the sliding direction.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Keep the components separate and compare their relative positions with the assembly view. Check the listed parts before treating the assembly as complete.

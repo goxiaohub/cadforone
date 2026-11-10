@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 108"
+title: "Bearing-seat drawing – 3D CAD Exercise 108"
 description: "3D CAD Exercise 108: A bearing-seat drawing with a stepped bore, rounded exterior, and enlarged groove detail."
 draft: false
 slug: 3d-exercise-108
@@ -27,12 +27,11 @@ A bearing-seat drawing with a stepped bore, rounded exterior, and enlarged groov
 
 ![3D CAD Exercise 108. A bearing-seat drawing with a stepped bore, rounded exterior, and enlarged groove detail.](drawing.avif)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Use section A-A to establish the internal shoulders and bore.
 - Check the enlarged detail before forming the narrow exterior groove.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Check each opening against the drawing: its size, center position, and direction must agree across the available views.

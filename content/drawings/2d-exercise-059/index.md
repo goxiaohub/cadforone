@@ -1,5 +1,5 @@
 ---
-title: "2D CAD Exercise 059"
+title: "Rectangle Inscribed in a Circle – 2D CAD Exercise 059"
 description: "2D CAD Exercise 059: A rectangle inscribed in a circle, with a diagonal passing through the center."
 draft: false
 slug: 2d-exercise-059
@@ -28,12 +28,7 @@ A rectangle inscribed in a circle, with a diagonal passing through the center.
 
 ![2D CAD Exercise 059. A rectangle inscribed in a circle, with a diagonal passing through the center.](drawing.webp)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Keep the rectangle centered and its corners on the circumference.
 - Use the circle diameter and shown rectangle dimension to check the remaining side.
-
-These are suggested reading checks, not a tested modeling tutorial.
-
-</details>

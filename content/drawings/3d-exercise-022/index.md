@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 022"
+title: "Oval link – 3D CAD Exercise 022"
 description: "3D CAD Exercise 022: An oval link with two openings separated by a curved central bridge."
 draft: false
 slug: 3d-exercise-022
@@ -28,12 +28,11 @@ An oval link with two openings separated by a curved central bridge.
 
 ![3D CAD Exercise 022. An oval link with two openings separated by a curved central bridge.](drawing.webp)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Read both sections before choosing profiles for the outer rim and middle bridge.
 - Compare the opening outlines with the varying thickness shown in section.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Check each opening against the drawing: its size, center position, and direction must agree across the available views.

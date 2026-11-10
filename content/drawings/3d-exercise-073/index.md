@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 073"
+title: "Flanged Housing and Ring-Ended Arm – 3D CAD Exercise 073"
 description: "3D CAD Exercise 073: Two mounting parts: a flanged circular housing and a bored ring joined to a drilled arm."
 draft: false
 slug: 3d-exercise-073
@@ -27,12 +27,11 @@ Two mounting parts: a flanged circular housing and a bored ring joined to a dril
 
 ![3D CAD Exercise 073. Two mounting parts: a flanged circular housing and a bored ring joined to a drilled arm.](drawing.avif)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Treat the two drawings as separate models with their own reference axes.
 - Use the sections to check bore steps and arm thickness.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Check each opening against the drawing: its size, center position, and direction must agree across the available views.

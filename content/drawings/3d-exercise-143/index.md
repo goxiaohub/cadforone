@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 143"
+title: "Structural canopy frame – 3D CAD Exercise 143"
 description: "3D CAD Exercise 143: A structural canopy frame with curved supports, roof members, and section details."
 draft: false
 slug: 3d-exercise-143
@@ -27,12 +27,7 @@ A structural canopy frame with curved supports, roof members, and section detail
 
 ![3D CAD Exercise 143. A structural canopy frame with curved supports, roof members, and section details.](drawing.avif)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Lay out the member centerlines before selecting the indicated structural sections.
 - Inspect the intersections and trim lengths where the roof and curved supports meet.
-
-These are suggested reading checks, not a tested modeling tutorial.
-
-</details>

@@ -1,5 +1,5 @@
 ---
-title: "2D CAD Exercise 053"
+title: "Three-hole plate – 2D CAD Exercise 053"
 description: "2D CAD Exercise 053: A three-hole plate with rounded mounting lobes joined by inward-curving sides."
 draft: false
 slug: 2d-exercise-053
@@ -28,12 +28,11 @@ A three-hole plate with rounded mounting lobes joined by inward-curving sides.
 
 ![2D CAD Exercise 053. A three-hole plate with rounded mounting lobes joined by inward-curving sides.](drawing.webp)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Locate the three hole centers before drawing the outside lobes.
 - Construct the concave connecting arcs and check their tangent junctions.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Check each opening against the drawing: its size, center position, and direction must agree across the available views.

@@ -1,5 +1,5 @@
 ---
-title: "2D CAD Exercise 064"
+title: "Rounded handle outline – 2D CAD Exercise 064"
 description: "2D CAD Exercise 064: A rounded handle outline with a narrow waist and a drilled rectangular end tab."
 draft: false
 slug: 2d-exercise-064
@@ -28,12 +28,11 @@ A rounded handle outline with a narrow waist and a drilled rectangular end tab.
 
 ![2D CAD Exercise 064. A rounded handle outline with a narrow waist and a drilled rectangular end tab.](drawing.webp)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Construct the tab and its hole before resolving the handle's larger arcs.
 - Check tangency through the waist and around the broad rounded end.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Check each opening against the drawing: its size, center position, and direction must agree across the available views.

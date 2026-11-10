@@ -199,3 +199,12 @@ body:has(.cad-home) .cad-support-mobile { display: none; }
 .cad-home-footer-support { width: 100%; text-align: left; margin-top: .25rem; }
 .cad-home-footer-support .cad-support-card { margin: .75rem 0 0; }
 @media (max-width: 639px) { .cad-home-footer-support { text-align: center; } }
+
+.cad-practice-overview { margin: 2rem 0; padding: 1.25rem; border: 1px solid #8884; border-radius: .75rem; }
+.cad-practice-overview h2 { margin-top: 0; }
+.cad-practice-overview dl { display: grid; grid-template-columns: max-content 1fr; gap: .5rem 1rem; margin: 0; }
+.cad-practice-overview dt { font-weight: 600; }
+.cad-practice-overview dd { margin: 0; }
+@media(max-width: 480px) { .cad-practice-overview dl { grid-template-columns: 1fr; gap: .25rem; } .cad-practice-overview dd { margin-bottom: .75rem; } }
+
+.content .cad-practice-overview dt, .content .cad-practice-overview dd { margin: 0; padding: 0; line-height: 1.5; align-self: start; }

@@ -1,5 +1,5 @@
 ---
-title: "2D CAD Exercise 044"
+title: "Pedestal-shaped outline – 2D CAD Exercise 044"
 description: "2D CAD Exercise 044: A pedestal-shaped outline with a circular cluster, two side holes, and a sloping base."
 draft: false
 slug: 2d-exercise-044
@@ -28,12 +28,11 @@ A pedestal-shaped outline with a circular cluster, two side holes, and a sloping
 
 ![2D CAD Exercise 044. A pedestal-shaped outline with a circular cluster, two side holes, and a sloping base.](drawing.webp)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Establish the vertical centerline and the centers of the inner circles.
 - Check the side lobes and the transitions into the angled base.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Check each opening against the drawing: its size, center position, and direction must agree across the available views.

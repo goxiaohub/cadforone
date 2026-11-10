@@ -1,5 +1,5 @@
 ---
-title: "2D CAD Exercise 001"
+title: "Rounded plate outline – 2D CAD Exercise 001"
 description: "2D CAD Exercise 001: A rounded plate outline with five surrounding holes and a central circular opening interrupted by two narrow notches."
 draft: false
 slug: 2d-exercise-001
@@ -28,12 +28,11 @@ A rounded plate outline with five surrounding holes and a central circular openi
 
 ![2D CAD Exercise 001. A rounded plate outline with five surrounding holes and a central circular opening interrupted by two narrow notches.](drawing.webp)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Locate the hole centers before constructing the outer arcs.
 - Compare the upper and lower notches against the vertical centerline.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Check each opening against the drawing: its size, center position, and direction must agree across the available views.

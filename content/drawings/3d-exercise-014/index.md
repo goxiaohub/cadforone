@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 014"
+title: "Mounting rail – 3D CAD Exercise 014"
 description: "3D CAD Exercise 014: A mounting rail with several drilled holes and a central bored, rounded projection."
 draft: false
 slug: 3d-exercise-014
@@ -28,12 +28,11 @@ A mounting rail with several drilled holes and a central bored, rounded projecti
 
 ![3D CAD Exercise 014. A mounting rail with several drilled holes and a central bored, rounded projection.](drawing.webp)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Use section A-A to distinguish the hole depths and stepped openings.
 - Compare the end view with the isometric view to resolve the central projection and lower rail.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Check each opening against the drawing: its size, center position, and direction must agree across the available views.

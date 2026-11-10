@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 166"
+title: "Finned engine cover – 3D CAD Exercise 166"
 description: "3D CAD Exercise 166: A finned engine cover with a central opening, mounting holes, and local edge details."
 draft: false
 slug: 3d-exercise-166
@@ -27,12 +27,11 @@ A finned engine cover with a central opening, mounting holes, and local edge det
 
 ![3D CAD Exercise 166. A finned engine cover with a central opening, mounting holes, and local edge details.](drawing.avif)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Use section C-C to establish the cover thickness and central recess.
 - Lay out the cooling fins and mounting holes before adding the local rounds.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Check each opening against the drawing: its size, center position, and direction must agree across the available views.

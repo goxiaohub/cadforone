@@ -1,5 +1,5 @@
 ---
-title: "2D CAD Exercise 031"
+title: "Staircase-shaped polygon – 2D CAD Exercise 031"
 description: "2D CAD Exercise 031: A staircase-shaped polygon with repeated steps measured along a diagonal reference."
 draft: false
 slug: 2d-exercise-031
@@ -28,12 +28,11 @@ A staircase-shaped polygon with repeated steps measured along a diagonal referen
 
 ![2D CAD Exercise 031. A staircase-shaped polygon with repeated steps measured along a diagonal reference.](drawing.webp)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Relate the repeated step spacing to the angled dimension line.
 - Check the total height and width after completing the stepped outline.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Count the repeated elements and check their spacing about the center or along the path; a matching outline alone can hide a misplaced repetition.

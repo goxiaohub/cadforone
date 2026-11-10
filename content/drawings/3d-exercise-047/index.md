@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 047"
+title: "Stepped Support on a Rectangular Base – 3D CAD Exercise 047"
 description: "3D CAD Exercise 047: An angled, stepped support mounted on a rounded rectangular base."
 draft: false
 slug: 3d-exercise-047
@@ -28,12 +28,7 @@ An angled, stepped support mounted on a rounded rectangular base.
 
 ![3D CAD Exercise 047. An angled, stepped support mounted on a rounded rectangular base.](drawing.webp)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Use rotated view A to read the inclined feature in its own plane.
 - Check the base-hole locations separately from the rotated upper profile.
-
-These are suggested reading checks, not a tested modeling tutorial.
-
-</details>

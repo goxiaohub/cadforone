@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 132"
+title: "Wave Paths and Scalloped Surface – 3D CAD Exercise 132"
 description: "3D CAD Exercise 132: Wave-shaped circular paths and a scalloped surface formed from three-dimensional guide curves."
 draft: false
 slug: 3d-exercise-132
@@ -27,12 +27,7 @@ Wave-shaped circular paths and a scalloped surface formed from three-dimensional
 
 ![3D CAD Exercise 132. Wave-shaped circular paths and a scalloped surface formed from three-dimensional guide curves.](drawing.avif)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Establish the radial repetition and vertical variation of each guide curve.
 - Check the seam and surface continuity before closing the scalloped form.
-
-These are suggested reading checks, not a tested modeling tutorial.
-
-</details>

@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 137"
+title: "Raised Lettering and Wavy Surface – 3D CAD Exercise 137"
 description: "3D CAD Exercise 137: A raised-lettering example and a tiled wavy surface presented as separate surface exercises."
 draft: false
 slug: 3d-exercise-137
@@ -27,12 +27,7 @@ A raised-lettering example and a tiled wavy surface presented as separate surfac
 
 ![3D CAD Exercise 137. A raised-lettering example and a tiled wavy surface presented as separate surface exercises.](drawing.avif)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Check how the lettering follows its supporting face.
 - Build one wave unit and inspect continuity where the surface pattern repeats.
-
-These are suggested reading checks, not a tested modeling tutorial.
-
-</details>

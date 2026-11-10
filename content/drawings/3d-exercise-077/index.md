@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 077"
+title: "Pulley – 3D CAD Exercise 077"
 description: "3D CAD Exercise 077: A pulley with multiple rim grooves, six web openings, and a central bored hub."
 draft: false
 slug: 3d-exercise-077
@@ -27,12 +27,11 @@ A pulley with multiple rim grooves, six web openings, and a central bored hub.
 
 ![3D CAD Exercise 077. A pulley with multiple rim grooves, six web openings, and a central bored hub.](drawing.avif)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Use section B-B to establish the rim grooves and hub steps.
 - Lay out one web opening before repeating it around the central axis.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Check each opening against the drawing: its size, center position, and direction must agree across the available views.

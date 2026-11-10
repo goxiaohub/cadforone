@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 124"
+title: "Cylindrical housing on a rectangular foot – 3D CAD Exercise 124"
 description: "3D CAD Exercise 124: A cylindrical housing on a rectangular foot with a stepped bore and side opening."
 draft: false
 slug: 3d-exercise-124
@@ -27,12 +27,11 @@ A cylindrical housing on a rectangular foot with a stepped bore and side opening
 
 ![3D CAD Exercise 124. A cylindrical housing on a rectangular foot with a stepped bore and side opening.](drawing.avif)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Use section B-B to establish the internal cavity and lower wall.
 - Check the front bolt pattern against the separate base-hole layout.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Check each opening against the drawing: its size, center position, and direction must agree across the available views.

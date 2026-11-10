@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 127"
+title: "Tall bent lever – 3D CAD Exercise 127"
 description: "3D CAD Exercise 127: A tall bent lever with a triangular upper head and a sweeping lower arm."
 draft: false
 slug: 3d-exercise-127
@@ -27,12 +27,7 @@ A tall bent lever with a triangular upper head and a sweeping lower arm.
 
 ![3D CAD Exercise 127. A tall bent lever with a triangular upper head and a sweeping lower arm.](drawing.avif)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Build the eye-center layout before blending the arms into the heads.
 - Compare sections B-B and C-C to resolve the local cross-sections.
-
-These are suggested reading checks, not a tested modeling tutorial.
-
-</details>

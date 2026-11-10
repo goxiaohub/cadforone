@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 147"
+title: "Mounting base – 3D CAD Exercise 147"
 description: "3D CAD Exercise 147: A mounting base with a long central recess, side lugs, and a raised end block."
 draft: false
 slug: 3d-exercise-147
@@ -27,12 +27,7 @@ A mounting base with a long central recess, side lugs, and a raised end block.
 
 ![3D CAD Exercise 147. A mounting base with a long central recess, side lugs, and a raised end block.](drawing.avif)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Use section B-B to establish the recess depth and end-block openings.
 - Check the lug holes and narrow guide features against the plan view.
-
-These are suggested reading checks, not a tested modeling tutorial.
-
-</details>

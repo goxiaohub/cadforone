@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 057"
+title: "Low domed component – 3D CAD Exercise 057"
 description: "3D CAD Exercise 057: A low domed component with a rounded plan outline and an opening beneath the crown."
 draft: false
 slug: 3d-exercise-057
@@ -28,12 +28,11 @@ A low domed component with a rounded plan outline and an opening beneath the cro
 
 ![3D CAD Exercise 057. A low domed component with a rounded plan outline and an opening beneath the crown.](drawing.webp)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Use the hatched section to distinguish the outer dome from the lower opening.
 - Compare the plan and end views to resolve the taper and edge rounds.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Check each opening against the drawing: its size, center position, and direction must agree across the available views.

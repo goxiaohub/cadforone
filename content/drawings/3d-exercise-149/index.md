@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 149"
+title: "Sliding support block – 3D CAD Exercise 149"
 description: "3D CAD Exercise 149: A sliding support block with a central bore and accompanying small fastener drawings."
 draft: false
 slug: 3d-exercise-149
@@ -27,12 +27,11 @@ A sliding support block with a central bore and accompanying small fastener draw
 
 ![3D CAD Exercise 149. A sliding support block with a central bore and accompanying small fastener drawings.](drawing.avif)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Use section B-B to establish the guide profile below the bored boss.
 - Model the small fasteners separately before checking their mating directions.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Check each opening against the drawing: its size, center position, and direction must agree across the available views.

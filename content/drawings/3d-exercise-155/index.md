@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 155"
+title: "Tool assembly – 3D CAD Exercise 155"
 description: "3D CAD Exercise 155: A tool assembly combining a pivoting cover, cylindrical component, and screw-operated mechanism."
 draft: false
 slug: 3d-exercise-155
@@ -27,12 +27,11 @@ A tool assembly combining a pivoting cover, cylindrical component, and screw-ope
 
 ![3D CAD Exercise 155. A tool assembly combining a pivoting cover, cylindrical component, and screw-operated mechanism.](drawing.avif)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Use the exploded view to identify the separate moving parts.
 - Compare the sections with the operating-range sketch to check the allowed motion.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Keep the components separate and compare their relative positions with the assembly view. Check the listed parts before treating the assembly as complete.

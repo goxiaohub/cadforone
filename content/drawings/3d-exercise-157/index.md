@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 157"
+title: "Exploded model-engine assembly – 3D CAD Exercise 157"
 description: "3D CAD Exercise 157: An exploded model-engine assembly with numbered components and a material table."
 draft: false
 slug: 3d-exercise-157
@@ -27,12 +27,11 @@ An exploded model-engine assembly with numbered components and a material table.
 
 ![3D CAD Exercise 157. An exploded model-engine assembly with numbered components and a material table.](drawing.avif)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Match the cylinder, piston, crankshaft, and housing to their callouts.
 - Check the component hierarchy and assembly axes before adding smaller hardware.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Keep the components separate and compare their relative positions with the assembly view. Check the listed parts before treating the assembly as complete.

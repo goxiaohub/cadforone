@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 139"
+title: "Computer-mouse shell – 3D CAD Exercise 139"
 description: "3D CAD Exercise 139: A computer-mouse shell with a domed body, divided top surfaces, and a central wheel opening."
 draft: false
 slug: 3d-exercise-139
@@ -27,12 +27,12 @@ A computer-mouse shell with a domed body, divided top surfaces, and a central wh
 
 ![3D CAD Exercise 139. A computer-mouse shell with a domed body, divided top surfaces, and a central wheel opening.](drawing.avif)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Use the front and side profiles to control the overall shell curvature.
 - Check the top divisions and wheel opening against the plan view.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Check each opening against the drawing: its size, center position, and direction must agree across the available views.
+- Inspect the internal space as well as the outside shape. Use any section views to check which walls remain and where the passage opens.

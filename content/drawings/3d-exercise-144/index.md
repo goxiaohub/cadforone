@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 144"
+title: "Model-engine assembly sheet – 3D CAD Exercise 144"
 description: "3D CAD Exercise 144: A model-engine assembly sheet combining an exploded view, component drawings, and a parts list."
 draft: false
 slug: 3d-exercise-144
@@ -27,12 +27,11 @@ A model-engine assembly sheet combining an exploded view, component drawings, an
 
 ![3D CAD Exercise 144. A model-engine assembly sheet combining an exploded view, component drawings, and a parts list.](drawing.avif)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Match the numbered components to the parts list before planning the assembly.
 - Use the individual sections to resolve internal geometry that the assembled view hides.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Keep the components separate and compare their relative positions with the assembly view. Check the listed parts before treating the assembly as complete.

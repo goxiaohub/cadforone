@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 048"
+title: "Ribbed mounting body – 3D CAD Exercise 048"
 description: "3D CAD Exercise 048: A ribbed mounting body with an upright bore and a transverse cylindrical feature."
 draft: false
 slug: 3d-exercise-048
@@ -28,12 +28,11 @@ A ribbed mounting body with an upright bore and a transverse cylindrical feature
 
 ![3D CAD Exercise 048. A ribbed mounting body with an upright bore and a transverse cylindrical feature.](drawing.webp)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Locate the vertical and horizontal axes before constructing the surrounding body.
 - Compare the side view and plan to resolve the internal openings and supporting ribs.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Check each opening against the drawing: its size, center position, and direction must agree across the available views.

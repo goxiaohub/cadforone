@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 175"
+title: "Ribbed cylindrical housing – 3D CAD Exercise 175"
 description: "3D CAD Exercise 175: A ribbed cylindrical housing with a square mounting flange and a stepped central passage."
 draft: false
 slug: 3d-exercise-175
@@ -27,12 +27,11 @@ A ribbed cylindrical housing with a square mounting flange and a stepped central
 
 ![3D CAD Exercise 175. A ribbed cylindrical housing with a square mounting flange and a stepped central passage.](drawing.avif)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Establish the axial section before repeating the exterior ribs.
 - Check the flange holes and end openings separately from the rib pattern.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Inspect the internal space as well as the outside shape. Use any section views to check which walls remain and where the passage opens.

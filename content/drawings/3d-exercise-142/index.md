@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 142"
+title: "Perforated sheet-metal panel – 3D CAD Exercise 142"
 description: "3D CAD Exercise 142: A perforated sheet-metal panel with a rectangular center opening and bent mounting edges."
 draft: false
 slug: 3d-exercise-142
@@ -27,12 +27,12 @@ A perforated sheet-metal panel with a rectangular center opening and bent mounti
 
 ![3D CAD Exercise 142. A perforated sheet-metal panel with a rectangular center opening and bent mounting edges.](drawing.avif)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Lay out the repeated holes and central opening on the flat pattern.
 - Check the flange directions and corner reliefs against the folded view.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Check each opening against the drawing: its size, center position, and direction must agree across the available views.
+- Compare the bent shape with any flat layout provided. Check bend direction and the positions of openings on each face.

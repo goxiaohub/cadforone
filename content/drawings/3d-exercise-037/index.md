@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 037"
+title: "Rounded-end tray-like base – 3D CAD Exercise 037"
 description: "3D CAD Exercise 037: A rounded-end tray-like base with a central boss, a long rib, and smaller supporting webs."
 draft: false
 slug: 3d-exercise-037
@@ -28,12 +28,11 @@ A rounded-end tray-like base with a central boss, a long rib, and smaller suppor
 
 ![3D CAD Exercise 037. A rounded-end tray-like base with a central boss, a long rib, and smaller supporting webs.](drawing.webp)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Set the outer wall and central boss from the section and plan.
 - Check the longitudinal rib and radial webs against their distinct heights and directions.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Inspect the internal space as well as the outside shape. Use any section views to check which walls remain and where the passage opens.

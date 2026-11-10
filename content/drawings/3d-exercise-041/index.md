@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 041"
+title: "Oblong base – 3D CAD Exercise 041"
 description: "3D CAD Exercise 041: An oblong base with a tall cylindrical boss at one end and a raised slotted feature at the other."
 draft: false
 slug: 3d-exercise-041
@@ -28,12 +28,11 @@ An oblong base with a tall cylindrical boss at one end and a raised slotted feat
 
 ![3D CAD Exercise 041. An oblong base with a tall cylindrical boss at one end and a raised slotted feature at the other.](drawing.webp)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Use the section to establish the base thickness, boss height, and open bore.
 - Check the oblong slot and its raised rim as separate contours.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Check the slot ends and their center positions separately from the surrounding profile; confirm whether each slot is open-ended or enclosed.

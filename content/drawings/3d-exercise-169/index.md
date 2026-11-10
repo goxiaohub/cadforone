@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 169"
+title: "Bent-Bracket and Rod Assembly – 3D CAD Exercise 169"
 description: "3D CAD Exercise 169: An assembly exercise joining bent brackets to cylindrical rods at defined orientations."
 draft: false
 slug: 3d-exercise-169
@@ -27,12 +27,11 @@ An assembly exercise joining bent brackets to cylindrical rods at defined orient
 
 ![3D CAD Exercise 169. An assembly exercise joining bent brackets to cylindrical rods at defined orientations.](drawing.avif)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Use the component drawings to establish the bracket holes and rod shoulders.
 - Check contact faces and the assembly origin before calculating mass properties.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Keep the components separate and compare their relative positions with the assembly view. Check the listed parts before treating the assembly as complete.

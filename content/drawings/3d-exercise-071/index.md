@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 071"
+title: "Inclined Hollow Boss on a Mounting Flange – 3D CAD Exercise 071"
 description: "3D CAD Exercise 071: A rectangular mounting flange carrying an inclined hollow boss and four corner holes."
 draft: false
 slug: 3d-exercise-071
@@ -28,12 +28,12 @@ A rectangular mounting flange carrying an inclined hollow boss and four corner h
 
 ![3D CAD Exercise 071. A rectangular mounting flange carrying an inclined hollow boss and four corner holes.](drawing.webp)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Use the section to establish the boss angle, bore, and junction with the base.
 - Check the four mounting-hole positions in plan independently from the tilted boss axis.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Check each opening against the drawing: its size, center position, and direction must agree across the available views.
+- Inspect the internal space as well as the outside shape. Use any section views to check which walls remain and where the passage opens.

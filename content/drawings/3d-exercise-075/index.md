@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 075"
+title: "Two Saddle Support Blocks – 3D CAD Exercise 075"
 description: "3D CAD Exercise 075: Two block-shaped supports with semicircular saddles, stepped sides, and mounting holes."
 draft: false
 slug: 3d-exercise-075
@@ -27,12 +27,11 @@ Two block-shaped supports with semicircular saddles, stepped sides, and mounting
 
 ![3D CAD Exercise 075. Two block-shaped supports with semicircular saddles, stepped sides, and mounting holes.](drawing.avif)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Build the main block and saddle before adding the smaller steps.
 - Use the dimensioned isometric views to locate holes on the correct faces.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Check each opening against the drawing: its size, center position, and direction must agree across the available views.

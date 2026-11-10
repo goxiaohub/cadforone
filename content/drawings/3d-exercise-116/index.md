@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 116"
+title: "Tapered grooved handle – 3D CAD Exercise 116"
 description: "3D CAD Exercise 116: A tapered grooved handle with a flanged end and axial holes shown in section."
 draft: false
 slug: 3d-exercise-116
@@ -27,12 +27,11 @@ A tapered grooved handle with a flanged end and axial holes shown in section.
 
 ![3D CAD Exercise 116. A tapered grooved handle with a flanged end and axial holes shown in section.](drawing.avif)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Use section A-A to establish the tapered core and end bores.
 - Check the groove spacing and local end detail independently from the main revolve.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Check each opening against the drawing: its size, center position, and direction must agree across the available views.

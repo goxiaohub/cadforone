@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 005"
+title: "Hollow bent tube – 3D CAD Exercise 005"
 description: "3D CAD Exercise 005: A hollow bent tube connects to a triangular flange, with projected views and a circular cross-section."
 draft: false
 slug: 3d-exercise-005
@@ -28,12 +28,11 @@ A hollow bent tube connects to a triangular flange, with projected views and a c
 
 ![3D CAD Exercise 005. A hollow bent tube connects to a triangular flange, with projected views and a circular cross-section.](drawing.webp)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Study both projected views before choosing a three-dimensional tube path.
 - Use section A-A to distinguish the inner passage from the outer tube profile.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Inspect the internal space as well as the outside shape. Use any section views to check which walls remain and where the passage opens.

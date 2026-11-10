@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 118"
+title: "Forked base – 3D CAD Exercise 118"
 description: "3D CAD Exercise 118: A forked base with a spherical support region and several local section details."
 draft: false
 slug: 3d-exercise-118
@@ -27,12 +27,7 @@ A forked base with a spherical support region and several local section details.
 
 ![3D CAD Exercise 118. A forked base with a spherical support region and several local section details.](drawing.avif)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Use sections A-A and B-B to distinguish the spherical seat from the surrounding walls.
 - Check the two fork arms and their mounting holes against view C.
-
-These are suggested reading checks, not a tested modeling tutorial.
-
-</details>

@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 178"
+title: "Offset support – 3D CAD Exercise 178"
 description: "3D CAD Exercise 178: An offset support with a bored upper housing, a curved rib, and a drilled mounting foot."
 draft: false
 slug: 3d-exercise-178
@@ -27,12 +27,11 @@ An offset support with a bored upper housing, a curved rib, and a drilled mounti
 
 ![3D CAD Exercise 178. An offset support with a bored upper housing, a curved rib, and a drilled mounting foot.](drawing.avif)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Use the orthographic views to locate the upper bore relative to the foot.
 - Check the curved web and the upper mounting features before calculating volume.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Check each opening against the drawing: its size, center position, and direction must agree across the available views.

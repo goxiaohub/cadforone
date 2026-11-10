@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 063"
+title: "Tall ribbed support – 3D CAD Exercise 063"
 description: "3D CAD Exercise 063: A tall ribbed support with a transverse top eye and a slotted mounting base."
 draft: false
 slug: 3d-exercise-063
@@ -28,12 +28,11 @@ A tall ribbed support with a transverse top eye and a slotted mounting base.
 
 ![3D CAD Exercise 063. A tall ribbed support with a transverse top eye and a slotted mounting base.](drawing.webp)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Locate the top bore axis relative to the base before forming the upright ribs.
 - Use view A to read the slots and mounting holes without foreshortening.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Check the slot ends and their center positions separately from the surrounding profile; confirm whether each slot is open-ended or enclosed.

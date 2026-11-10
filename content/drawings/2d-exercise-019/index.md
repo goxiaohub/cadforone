@@ -1,5 +1,5 @@
 ---
-title: "2D CAD Exercise 019"
+title: "Five-Loop Rosette – 2D CAD Exercise 019"
 description: "2D CAD Exercise 019: A five-loop rosette with narrow bands crossing near its center."
 draft: false
 slug: 2d-exercise-019
@@ -28,12 +28,11 @@ A five-loop rosette with narrow bands crossing near its center.
 
 ![2D CAD Exercise 019. A five-loop rosette with narrow bands crossing near its center.](drawing.webp)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Construct one loop and establish the angular repetition about the center.
 - Follow each band through the crossings before trimming overlapping lines.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Count the repeated elements and check their spacing about the center or along the path; a matching outline alone can hide a misplaced repetition.

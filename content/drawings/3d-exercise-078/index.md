@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 078"
+title: "Inclined mounting bracket – 3D CAD Exercise 078"
 description: "3D CAD Exercise 078: An inclined mounting bracket with a slotted tongue and an upright drilled ear."
 draft: false
 slug: 3d-exercise-078
@@ -27,12 +27,12 @@ An inclined mounting bracket with a slotted tongue and an upright drilled ear.
 
 ![3D CAD Exercise 078. An inclined mounting bracket with a slotted tongue and an upright drilled ear.](drawing.avif)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Use view A to read the tongue slot without foreshortening.
 - Check the inclined tongue against the base and ear profiles.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Check each opening against the drawing: its size, center position, and direction must agree across the available views.
+- Check the slot ends and their center positions separately from the surrounding profile; confirm whether each slot is open-ended or enclosed.

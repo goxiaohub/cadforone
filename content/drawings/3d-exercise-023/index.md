@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 023"
+title: "Rounded yin-yang form – 3D CAD Exercise 023"
 description: "3D CAD Exercise 023: A rounded yin-yang form shown as a joined shape and as two separated halves."
 draft: false
 slug: 3d-exercise-023
@@ -28,12 +28,7 @@ A rounded yin-yang form shown as a joined shape and as two separated halves.
 
 ![3D CAD Exercise 023. A rounded yin-yang form shown as a joined shape and as two separated halves.](drawing.webp)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Use the separated view to understand the interface between the two lobes.
 - Treat the few shown dimensions as limited references, not a complete definition of every surface.
-
-These are suggested reading checks, not a tested modeling tutorial.
-
-</details>

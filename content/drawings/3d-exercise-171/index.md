@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 171"
+title: "Slotted Bracket Modeling Exercise – 3D CAD Exercise 171"
 description: "3D CAD Exercise 171: A slotted bracket exercise accompanied by modeling questions and reference answers."
 draft: false
 slug: 3d-exercise-171
@@ -27,12 +27,11 @@ A slotted bracket exercise accompanied by modeling questions and reference answe
 
 ![3D CAD Exercise 171. A slotted bracket exercise accompanied by modeling questions and reference answers.](drawing.avif)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Use the orthographic views to distinguish the open slot from the recessed upper region.
 - Verify your own geometry and material settings before comparing calculated results with the answer panel.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Check the slot ends and their center positions separately from the surrounding profile; confirm whether each slot is open-ended or enclosed.

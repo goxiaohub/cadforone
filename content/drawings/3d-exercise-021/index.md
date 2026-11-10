@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 021"
+title: "Figure-eight link – 3D CAD Exercise 021"
 description: "3D CAD Exercise 021: A figure-eight link with two circular openings and a smoothly narrowed middle."
 draft: false
 slug: 3d-exercise-021
@@ -28,12 +28,11 @@ A figure-eight link with two circular openings and a smoothly narrowed middle.
 
 ![3D CAD Exercise 021. A figure-eight link with two circular openings and a smoothly narrowed middle.](drawing.webp)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Use the section to distinguish the rounded ring profile from the thicker middle region.
 - Check the junctions between the rings and waist in both front and edge views.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Check each opening against the drawing: its size, center position, and direction must agree across the available views.

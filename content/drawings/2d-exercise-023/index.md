@@ -1,5 +1,5 @@
 ---
-title: "2D CAD Exercise 023"
+title: "Open hook profile – 2D CAD Exercise 023"
 description: "2D CAD Exercise 023: An open hook profile with a straight upper stem and a rounded lower bend."
 draft: false
 slug: 2d-exercise-023
@@ -28,12 +28,7 @@ An open hook profile with a straight upper stem and a rounded lower bend.
 
 ![2D CAD Exercise 023. An open hook profile with a straight upper stem and a rounded lower bend.](drawing.webp)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Construct the inner and outer bends using their separate radius callouts.
 - Check the hook opening and the small transitions into the straight stem.
-
-These are suggested reading checks, not a tested modeling tutorial.
-
-</details>

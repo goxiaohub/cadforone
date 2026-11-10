@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 152"
+title: "Clamping fixture – 3D CAD Exercise 152"
 description: "3D CAD Exercise 152: A clamping fixture shown assembled, with a section through its support and adjustment mechanism."
 draft: false
 slug: 3d-exercise-152
@@ -27,12 +27,11 @@ A clamping fixture shown assembled, with a section through its support and adjus
 
 ![3D CAD Exercise 152. A clamping fixture shown assembled, with a section through its support and adjustment mechanism.](drawing.avif)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Trace the screw and slide motion through section A-A.
 - Check which interfaces allow rotation and which locate the fixture rigidly.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Keep the components separate and compare their relative positions with the assembly view. Check the listed parts before treating the assembly as complete.

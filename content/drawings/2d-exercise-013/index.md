@@ -1,5 +1,5 @@
 ---
-title: "2D CAD Exercise 013"
+title: "Inclined Brickwork Pattern – 2D CAD Exercise 013"
 description: "2D CAD Exercise 013: An inclined brickwork pattern made from staggered rows of rectangular blocks."
 draft: false
 slug: 2d-exercise-013
@@ -28,12 +28,11 @@ An inclined brickwork pattern made from staggered rows of rectangular blocks.
 
 ![2D CAD Exercise 013. An inclined brickwork pattern made from staggered rows of rectangular blocks.](drawing.webp)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Lay out a consistent block and row offset before rotating the pattern.
 - Trim the repeated blocks against the specified outer boundary.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Count the repeated elements and check their spacing about the center or along the path; a matching outline alone can hide a misplaced repetition.

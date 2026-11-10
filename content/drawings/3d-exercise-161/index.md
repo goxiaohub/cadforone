@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 161"
+title: "Tubular Fitting, Eye Link and Multi-Port Body – 3D CAD Exercise 161"
 description: "3D CAD Exercise 161: Three small engine components: a tubular fitting, an eye-ended part, and a multi-port body."
 draft: false
 slug: 3d-exercise-161
@@ -27,12 +27,12 @@ Three small engine components: a tubular fitting, an eye-ended part, and a multi
 
 ![3D CAD Exercise 161. Three small engine components: a tubular fitting, an eye-ended part, and a multi-port body.](drawing.avif)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Read each component's section independently before choosing its modeling sequence.
 - Check the intersecting passages in the body separately from the external bosses.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Inspect the internal space as well as the outside shape. Use any section views to check which walls remain and where the passage opens.
+- Keep the components separate and compare their relative positions with the assembly view. Check the listed parts before treating the assembly as complete.

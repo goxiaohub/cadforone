@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 140"
+title: "Folded panel – 3D CAD Exercise 140"
 description: "3D CAD Exercise 140: A folded panel with a central grille pattern and a corresponding flat layout."
 draft: false
 slug: 3d-exercise-140
@@ -27,12 +27,12 @@ A folded panel with a central grille pattern and a corresponding flat layout.
 
 ![3D CAD Exercise 140. A folded panel with a central grille pattern and a corresponding flat layout.](drawing.avif)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Create the grille openings in relation to the panel's centerlines.
 - Compare the folded and developed views to check bend locations and edge returns.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Count the repeated elements and check their spacing about the center or along the path; a matching outline alone can hide a misplaced repetition.
+- Compare the bent shape with any flat layout provided. Check bend direction and the positions of openings on each face.

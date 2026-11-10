@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 181"
+title: "90-degree flanged pipe elbow – 3D CAD Exercise 181"
 description: "3D CAD Exercise 181: A 90-degree flanged pipe elbow shown in a top view and section A-A, with a hollow curved passage and mounting holes."
 draft: false
 slug: 3d-exercise-181
@@ -27,12 +27,12 @@ A 90-degree flanged pipe elbow shown in a top view and section A-A, with a hollo
 
 ![3D CAD Exercise 181. A 90-degree flanged pipe elbow shown in a top view and section A-A, with a hollow curved passage and mounting holes.](drawing.avif)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Read section A-A to distinguish the inner passage from the outer wall, then check the bend radius and straight end lengths before creating a sweep.
 - Use the top view to locate the flange mounting holes, and check the flange thicknesses, chamfers, and R3 fillets against the section view.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Check each opening against the drawing: its size, center position, and direction must agree across the available views.
+- Inspect the internal space as well as the outside shape. Use any section views to check which walls remain and where the passage opens.

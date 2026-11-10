@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 061"
+title: "Circular impeller-like part – 3D CAD Exercise 061"
 description: "3D CAD Exercise 061: A circular impeller-like part with curved vanes, a central bore, and a recessed base."
 draft: false
 slug: 3d-exercise-061
@@ -28,12 +28,12 @@ A circular impeller-like part with curved vanes, a central bore, and a recessed 
 
 ![3D CAD Exercise 061. A circular impeller-like part with curved vanes, a central bore, and a recessed base.](drawing.webp)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Use the sections to establish the base, hub, and vane heights.
 - Construct one vane from its indicated curves before checking the repeated arrangement.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Check each opening against the drawing: its size, center position, and direction must agree across the available views.
+- Count the repeated elements and check their spacing about the center or along the path; a matching outline alone can hide a misplaced repetition.

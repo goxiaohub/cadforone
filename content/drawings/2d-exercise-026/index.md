@@ -1,5 +1,5 @@
 ---
-title: "2D CAD Exercise 026"
+title: "D-shaped plate outline – 2D CAD Exercise 026"
 description: "2D CAD Exercise 026: A D-shaped plate outline with a large circular feature on the left and five circles inside a rectangular opening on the right."
 draft: false
 slug: 2d-exercise-026
@@ -28,12 +28,11 @@ A D-shaped plate outline with a large circular feature on the left and five circ
 
 ![2D CAD Exercise 026. A D-shaped plate outline with a large circular feature on the left and five circles inside a rectangular opening on the right.](drawing.webp)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Use the left circular center as a reference for the rounded outer end.
 - Position the five-circle arrangement within its rectangle before checking the narrow left-side interruption.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Check each opening against the drawing: its size, center position, and direction must agree across the available views.

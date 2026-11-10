@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 105"
+title: "Inclined Ribbed Boss Support – 3D CAD Exercise 105"
 description: "3D CAD Exercise 105: An inclined ribbed support connecting a mounting base to an upright cylindrical boss."
 draft: false
 slug: 3d-exercise-105
@@ -27,12 +27,7 @@ An inclined ribbed support connecting a mounting base to an upright cylindrical 
 
 ![3D CAD Exercise 105. An inclined ribbed support connecting a mounting base to an upright cylindrical boss.](drawing.avif)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Establish the boss axis and the inclined web from the section.
 - Check the lower mounting holes and the bore's side opening independently.
-
-These are suggested reading checks, not a tested modeling tutorial.
-
-</details>

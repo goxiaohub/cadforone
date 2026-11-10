@@ -1,5 +1,5 @@
 ---
-title: "2D CAD Exercise 043"
+title: "Slotted Stepped Shaft – 2D CAD Exercise 043"
 description: "2D CAD Exercise 043: A stepped shaft drawing with a longitudinal slot, a cross-marked section, and an end section view."
 draft: false
 slug: 2d-exercise-043
@@ -28,12 +28,11 @@ A stepped shaft drawing with a longitudinal slot, a cross-marked section, and an
 
 ![2D CAD Exercise 043. A stepped shaft drawing with a longitudinal slot, a cross-marked section, and an end section view.](drawing.webp)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Read axial lengths separately from the diameter callouts.
 - Use the end section to interpret the shaped portion instead of relying on the side silhouette alone.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Check the slot ends and their center positions separately from the surrounding profile; confirm whether each slot is open-ended or enclosed.

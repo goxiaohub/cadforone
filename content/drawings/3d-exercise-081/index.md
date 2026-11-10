@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 081"
+title: "Two Offset Eye Links – 3D CAD Exercise 081"
 description: "3D CAD Exercise 081: Two offset links joining bored eyes with stepped or curved connecting arms."
 draft: false
 slug: 3d-exercise-081
@@ -27,12 +27,11 @@ Two offset links joining bored eyes with stepped or curved connecting arms.
 
 ![3D CAD Exercise 081. Two offset links joining bored eyes with stepped or curved connecting arms.](drawing.avif)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Place the eye axes before shaping each connecting arm.
 - Use the sections and local views to check the changes in arm thickness.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Check each opening against the drawing: its size, center position, and direction must agree across the available views.

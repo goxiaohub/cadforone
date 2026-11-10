@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 113"
+title: "Bored Support Parameter Configurations – 3D CAD Exercise 113"
 description: "3D CAD Exercise 113: A bored support bracket presented in three parameter-table configurations."
 draft: false
 slug: 3d-exercise-113
@@ -27,12 +27,12 @@ A bored support bracket presented in three parameter-table configurations.
 
 ![3D CAD Exercise 113. A bored support bracket presented in three parameter-table configurations.](drawing.avif)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Separate the table-driven dimensions from fixed mounting features.
 - Regenerate each listed configuration and inspect the boss, ribs, and base holes.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Check each opening against the drawing: its size, center position, and direction must agree across the available views.
+- Rebuild each size or configuration shown on the sheet and check that the intended holes, slots, and connections remain in place after the change.

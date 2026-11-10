@@ -1,5 +1,5 @@
 ---
-title: "2D CAD Exercise 052"
+title: "Symmetric two-hole plate – 2D CAD Exercise 052"
 description: "2D CAD Exercise 052: A symmetric two-hole plate with rounded ends and gently curved upper and lower boundaries."
 draft: false
 slug: 2d-exercise-052
@@ -28,12 +28,11 @@ A symmetric two-hole plate with rounded ends and gently curved upper and lower b
 
 ![2D CAD Exercise 052. A symmetric two-hole plate with rounded ends and gently curved upper and lower boundaries.](drawing.webp)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Set the hole-center spacing before constructing the rounded ends.
 - Check tangency where the sloping sides meet the broad top and bottom arcs.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Check each opening against the drawing: its size, center position, and direction must agree across the available views.

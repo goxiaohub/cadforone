@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 126"
+title: "Long, angled linkage – 3D CAD Exercise 126"
 description: "3D CAD Exercise 126: A long, angled linkage with several pivot holes and recessed webs."
 draft: false
 slug: 3d-exercise-126
@@ -27,12 +27,11 @@ A long, angled linkage with several pivot holes and recessed webs.
 
 ![3D CAD Exercise 126. A long, angled linkage with several pivot holes and recessed webs.](drawing.avif)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Locate the pivot centers before drawing the curved connecting arms.
 - Use the sections to check web depth and changes in thickness along the linkage.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Check each opening against the drawing: its size, center position, and direction must agree across the available views.

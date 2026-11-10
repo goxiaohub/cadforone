@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 086"
+title: "Inclined bored support – 3D CAD Exercise 086"
 description: "3D CAD Exercise 086: An inclined bored support rising from a rectangular mounting flange."
 draft: false
 slug: 3d-exercise-086
@@ -27,12 +27,11 @@ An inclined bored support rising from a rectangular mounting flange.
 
 ![3D CAD Exercise 086. An inclined bored support rising from a rectangular mounting flange.](drawing.avif)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Use view A to establish the bore and surrounding profile in the inclined plane.
 - Compare view B with the side view to resolve the underside recess and supporting ribs.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Check each opening against the drawing: its size, center position, and direction must agree across the available views.

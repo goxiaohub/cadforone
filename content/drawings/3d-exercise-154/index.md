@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 154"
+title: "Manual-valve section – 3D CAD Exercise 154"
 description: "3D CAD Exercise 154: A manual-valve section with a lever shown in its maximum opening position."
 draft: false
 slug: 3d-exercise-154
@@ -27,12 +27,11 @@ A manual-valve section with a lever shown in its maximum opening position.
 
 ![3D CAD Exercise 154. A manual-valve section with a lever shown in its maximum opening position.](drawing.avif)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Use section A-A to locate the internal stem and linkage pivots.
 - Check the lever's range of motion without constraining away its intended rotation.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Check each opening against the drawing: its size, center position, and direction must agree across the available views.

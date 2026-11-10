@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 097"
+title: "Variable-Pitch and Diameter Coil Springs – 3D CAD Exercise 097"
 description: "3D CAD Exercise 097: A set of coil-spring examples comparing constant and changing pitch and diameter."
 draft: false
 slug: 3d-exercise-097
@@ -27,12 +27,11 @@ A set of coil-spring examples comparing constant and changing pitch and diameter
 
 ![3D CAD Exercise 097. A set of coil-spring examples comparing constant and changing pitch and diameter.](drawing.avif)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Separate wire diameter, coil diameter, and pitch in the model parameters.
 - Check the flattened end condition shown in the dimensioned spring drawing.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Compare the path, turn spacing, and end conditions with the drawing. Do not assume constant pitch or diameter where the views show a change.

@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 095"
+title: "Faceted Radial Form and Stepped Wedge – 3D CAD Exercise 095"
 description: "3D CAD Exercise 095: A faceted radial form and a stepped wedge with an inclined upper feature."
 draft: false
 slug: 3d-exercise-095
@@ -27,12 +27,11 @@ A faceted radial form and a stepped wedge with an inclined upper feature.
 
 ![3D CAD Exercise 095. A faceted radial form and a stepped wedge with an inclined upper feature.](drawing.avif)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Use the polygon layout to establish the radial facets of the first part.
 - Compare the wedge's plan and side profiles before adding its raised feature.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Count the repeated elements and check their spacing about the center or along the path; a matching outline alone can hide a misplaced repetition.

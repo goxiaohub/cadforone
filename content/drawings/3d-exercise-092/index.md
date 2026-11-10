@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 092"
+title: "Hollow branch connector – 3D CAD Exercise 092"
 description: "3D CAD Exercise 092: A hollow branch connector with an inclined side flange and a straight main passage."
 draft: false
 slug: 3d-exercise-092
@@ -27,12 +27,11 @@ A hollow branch connector with an inclined side flange and a straight main passa
 
 ![3D CAD Exercise 092. A hollow branch connector with an inclined side flange and a straight main passage.](drawing.avif)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Use the section to locate the intersection of the two passages.
 - Read the inclined flange in its own view before placing its holes.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Inspect the internal space as well as the outside shape. Use any section views to check which walls remain and where the passage opens.

@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 050"
+title: "Base-mounted cylindrical housing – 3D CAD Exercise 050"
 description: "3D CAD Exercise 050: A base-mounted cylindrical housing with supporting ribs and a split upper fastening feature."
 draft: false
 slug: 3d-exercise-050
@@ -28,12 +28,7 @@ A base-mounted cylindrical housing with supporting ribs and a split upper fasten
 
 ![3D CAD Exercise 050. A base-mounted cylindrical housing with supporting ribs and a split upper fastening feature.](drawing.webp)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Establish the main bore axis and base position before adding the supports.
 - Compare all three views to resolve the upper split and fastening-hole direction.
-
-These are suggested reading checks, not a tested modeling tutorial.
-
-</details>

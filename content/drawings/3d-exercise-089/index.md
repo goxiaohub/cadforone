@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 089"
+title: "Stepped plate – 3D CAD Exercise 089"
 description: "3D CAD Exercise 089: A stepped plate with a raised square socket and a two-hole projecting arm."
 draft: false
 slug: 3d-exercise-089
@@ -27,12 +27,11 @@ A stepped plate with a raised square socket and a two-hole projecting arm.
 
 ![3D CAD Exercise 089. A stepped plate with a raised square socket and a two-hole projecting arm.](drawing.avif)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Build the socket and stepped arm from the plan and side views.
 - Set the shown origin and material before checking mass and center of mass.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Check each opening against the drawing: its size, center position, and direction must agree across the available views.

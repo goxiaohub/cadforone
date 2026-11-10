@@ -1,5 +1,5 @@
 ---
-title: "3D CAD Exercise 082"
+title: "Rounded rectangular plate – 3D CAD Exercise 082"
 description: "3D CAD Exercise 082: A rounded rectangular plate with a mixed hole pattern shown using two dimensioning methods."
 draft: false
 slug: 3d-exercise-082
@@ -27,12 +27,12 @@ A rounded rectangular plate with a mixed hole pattern shown using two dimensioni
 
 ![3D CAD Exercise 082. A rounded rectangular plate with a mixed hole pattern shown using two dimensioning methods.](drawing.avif)
 
-<details class="cad-practice-notes">
-<summary>Practice notes</summary>
+## Drawing reading checks
 
 - Compare the chain dimensions with the coordinates in the conventional layout.
 - Distinguish plain holes from the threaded callouts before creating the pattern.
 
-These are suggested reading checks, not a tested modeling tutorial.
+## Check your result
 
-</details>
+- Check each opening against the drawing: its size, center position, and direction must agree across the available views.
+- Count the repeated elements and check their spacing about the center or along the path; a matching outline alone can hide a misplaced repetition.
