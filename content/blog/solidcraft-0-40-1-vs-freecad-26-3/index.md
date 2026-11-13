@@ -1,82 +1,82 @@
 ---
-title: "SolidCraft 0.40.1 对比 FreeCAD 26.3：技术差异与选型建议"
+title: "SolidCraft 0.40.1 vs FreeCAD 26.3: Technical Differences and Which to Choose"
 date: 2026-11-13T12:00:00+08:00
 draft: false
-description: "从几何内核、参数修改、文件交换、工程交付和自动化比较 SolidCraft 0.40.1 与 FreeCAD 26.3，给出不同用户的选型与验证方法。"
+description: "Compare SolidCraft 0.40.1 and FreeCAD 26.3 across parametric modeling, file exchange, engineering workflows, and automation, with practical advice on choosing between them."
 tags: [SolidCraft, FreeCAD, CAD]
 ---
 
-如果你需要长期维护机械模型，并继续完成工程图、加工或分析，建议先把 FreeCAD 作为主要评估对象；如果你主要做小零件、打印件，或者希望用 AI 和脚本直接驱动建模，SolidCraft 0.40.1 值得用真实项目试用。决定是否迁移的关键，是模型修改和交付能否闭环。
+For mechanical models that must remain editable and lead to drawings, machining, or analysis, FreeCAD is the stronger starting point for evaluation. For small parts, printed enclosures, and experiments with agent-driven modeling, SolidCraft 0.40.1 deserves a trial on a real project. The deciding question is whether you can revise the model and complete the required deliverables.
 
-**资料核对日期：2026 年 11 月 13 日。本文是官方资料驱动的技术分析，未进行同机跑分或完整项目实测。推荐意见是基于工作流的判断，不是性能测试结论。**
+**Sources checked on November 13, 2026. This is a technical analysis of official documentation, not a same-machine benchmark or a completed production-project comparison. Recommendations below are editorial judgments about workflows.**
 
-## 先说明版本边界
+## First, get the versions right
 
-[SolidCraft 0.40.1](https://github.com/tangency-labs/solidcraft/releases/tag/v0.40.1) 于 11 月 12 日发布，是 0.40.0 的修复版本。FreeCAD 的[官方发布列表](https://github.com/FreeCAD/FreeCAD/releases)在本次核对时仍列出 **26.3 RC2**。因此，下文比较的是 SolidCraft 0.40.1 与 FreeCAD 26.3 发布候选系列，不把开发周版等同于正式版。
+[SolidCraft 0.40.1](https://github.com/tangency-labs/solidcraft/releases/tag/v0.40.1) was released on November 12 as a fix release for 0.40.0. At the time of this review, the [FreeCAD release list](https://github.com/FreeCAD/FreeCAD/releases) still listed **26.3 RC2**. This article therefore compares SolidCraft 0.40.1 with the FreeCAD 26.3 release-candidate series. Development weeklies are not treated as the final release.
 
-FreeCAD 网站仓库的 [26.3 介绍页](https://freecad.github.io/Website/download/releases/26-3/)仍含占位文字，不能仅凭该页面的标题或日期断言正式版已经发布。下载时应核对 GitHub 的版本标签与预发布标记。
+The FreeCAD website repository's [26.3 introduction page](https://freecad.github.io/Website/download/releases/26-3/) still contains placeholder copy. Its title and date alone are insufficient evidence that the final release is available. Check the actual download tag and prerelease status.
 
-## 0.40.1 的价值：减少修改后出错的机会
+## Why the 0.40.1 fixes matter
 
-这个补丁值得关注的是结果正确性，而不是新增按钮数量。官方说明涉及边缘附近切除、放样和居中盒体的修正，也改善了当前视图 DXF 中圆与圆弧的表达。这些变化直接关联“改完尺寸之后，模型是否仍然符合设计意图”。
+The useful changes concern model behavior: cuts close to body edges, loft results, and the placement of boxes defined by their centers. Current-view DXF export also improves the representation of circles and arcs. These changes matter when a design must survive a revision, rather than merely look correct after its first construction.
 
-以居中盒体为例，定位方式和尺寸必须是两种独立的设计信息：改变宽度时，中心应留在原位。这个案例说明，参数化软件不能只检查初次生成，还要检查修改后的空间位置。[来源：0.40.1 发布说明](https://github.com/tangency-labs/solidcraft/releases/tag/v0.40.1)
+A centered box illustrates the issue. Size and placement express separate intentions: increasing its width should preserve its center. That makes a dimension-change test more informative than a screenshot of the initial solid. These are documented fixes, not results measured for this article. See the [0.40.1 release notes](https://github.com/tangency-labs/solidcraft/releases/tag/v0.40.1).
 
-## 几何内核：实现路线不同，不能直接推出精度高低
+## Geometry kernels: different implementations do not establish a winner
 
-SolidCraft 的 [0.40 系列发布说明](https://github.com/tangency-labs/solidcraft/releases/tag/v0.40.0)介绍了新的几何、网格和 STEP 处理路线。FreeCAD 则建立在 Open CASCADE 体系上，可从其[官方源码依赖配置](https://github.com/FreeCAD/FreeCAD/blob/main/cMake/FreeCAD_Helpers/SetupOpenCasCade.cmake)核对依赖。
+The [SolidCraft 0.40 release notes](https://github.com/tangency-labs/solidcraft/releases/tag/v0.40.0) describe changes to its geometry, meshing, and STEP implementation. FreeCAD uses Open CASCADE, as reflected in its [official dependency configuration](https://github.com/FreeCAD/FreeCAD/blob/main/cMake/FreeCAD_Helpers/SetupOpenCasCade.cmake).
 
-新路线可能带来针对特定几何和自动化任务的优化空间；长期使用的内核则积累了更多格式交换和边界案例经验。但“Rust 实现”本身不证明建模更准确，“成熟内核”也不保证任何倒角或布尔运算都成功。
+A newer implementation can create opportunities to optimize particular operations. An established kernel brings experience with exchange formats and difficult boundary cases. Neither observation proves that one application is always more accurate or reliable. Rust does not establish geometric accuracy, and a mature kernel does not guarantee that every fillet or Boolean operation will succeed.
 
-选型应拿自己的零件测试：薄壁、相切面、接近重合的切口、小圆角，以及连续修改后的重建。检查实体是否有效、孔是否贯通、壁厚是否保留，再谈速度。单看视口里的外形，发现不了所有几何错误。
+Test thin walls, tangent surfaces, nearly coincident cuts, small fillets, and successive edits on your own parts. Check solid validity, through-holes, and remaining wall thickness before comparing speed. The viewport can conceal geometric defects.
 
-## 功能对照：有命令，不等于交付能力相同
+## Compare complete workflows, not command counts
 
-| 评估项 | SolidCraft 0.40.1 | FreeCAD 26.3 系列 | 选型重点 |
+| Area | SolidCraft 0.40.1 | FreeCAD 26.3 series | What to verify |
 | --- | --- | --- | --- |
-| 参数化零件 | 草图约束、特征时间线、参数与配置 | Sketcher、Part Design 等工作台 | 改上游尺寸后能否保持下游意图 |
-| 装配 | 版本文档列出关节、运动与干涉功能 | 有专门的 Assembly 工作台 | 用自己的机构检查约束和运动 |
-| 钣金 | 版本文档列出折弯、展开与平板图功能 | 通常结合外部 SheetMetal 工作台 | 展开结果、折弯参数与插件版本一起验证 |
-| 工程交付 | 当前视图 DXF 可用于轮廓交换 | TechDraw 是专门的工程图工作台 | 需要多视图、标注与图纸更新时，完整试出图 |
-| 加工与分析 | 本文不将其认定为已验证的 CAM/FEM 替代方案 | CAM、FEM 提供对应工作流 | 检查刀路、后处理器或求解器依赖 |
-| 自动化入口 | CLI、内置 MCP、桌面与浏览器入口 | Python API、宏与扩展工作台 | 看现有脚本、接口和维护能力 |
+| Parametric parts | Constrained sketches, feature timeline, parameters and configurations | Sketcher, Part Design and related workbenches | Whether upstream edits preserve downstream intent |
+| Assemblies | Versioned documentation lists joints, motion and interference tools | Dedicated Assembly workbench | Constraints and motion on your mechanism |
+| Sheet metal | Versioned documentation lists bending, unfolding and flat patterns | Commonly uses the external SheetMetal workbench | Bend settings, flat results and addon compatibility |
+| Drawing deliverables | Current-view DXF supports outline exchange | TechDraw provides a dedicated drawing workflow | Complete a sheet with the views, dimensions and updates you need |
+| Machining and analysis | Not established here as a validated CAM/FEM replacement | CAM and FEM provide corresponding workflows | Postprocessors, solvers and the actual deliverable |
+| Automation | CLI, built-in MCP, desktop and browser entry points | Python API, macros and extension workbenches | Existing scripts, interfaces and maintenance requirements |
 
-SolidCraft 的功能依据采用 [v0.40.1 固定版本能力文档](https://raw.githubusercontent.com/tangency-labs/solidcraft/v0.40.1/docs/capabilities.md)，避免把主分支后续变化算进当前版本。FreeCAD 的工作台范围可从[官方源码模块目录](https://github.com/FreeCAD/FreeCAD/tree/main/src/Mod)核对；外部插件不等于核心安装包自带功能，具体行为仍需在实际 RC 安装中验证。
+For SolidCraft, this comparison uses the [capabilities document pinned to v0.40.1](https://raw.githubusercontent.com/tangency-labs/solidcraft/v0.40.1/docs/capabilities.md), rather than assuming that later main-branch changes shipped in the release. FreeCAD's [official module directory](https://github.com/FreeCAD/FreeCAD/tree/main/src/Mod) identifies its workbench areas; behavior must still be checked in the installed RC. External addons should not be confused with features bundled in the core installation.
 
-## 文件能打开，不等于设计历史能接着改
+## Opening a file does not preserve its design history
 
-SolidCraft 的版本文档支持把 FreeCAD 文件中的实体作为基础几何导入。这不意味着 FreeCAD 的草图约束、表达式和特征树会自动变成等价的 SolidCraft 时间线。同样，STEP 通常适合交换几何，不能当作跨软件传递完整参数化设计意图的保证。
+SolidCraft documents importing solids from FreeCAD files as base geometry. That does not establish a translation of FreeCAD sketch constraints, expressions, and feature history into an equivalent SolidCraft timeline. Similarly, STEP is useful for exchanging geometry, but should not be assumed to transfer complete parametric design intent between applications.
 
-所以建议同时保留原生文件和中性格式。迁移前，导出一个带孔、圆角和多实体的真实零件，在接收软件中核对单位、位置、实体数量和关键尺寸，再继续建模。涉及装配时，还要检查组件层级与相对位置。[来源：版本能力文档](https://raw.githubusercontent.com/tangency-labs/solidcraft/v0.40.1/docs/capabilities.md)
+Keep native project files alongside neutral exports. Before migrating, exchange a real part containing holes, fillets and multiple bodies. Check units, placement, body count and critical dimensions in the receiving application. For assemblies, inspect component hierarchy and relative positions too. See the [versioned file-format capabilities](https://raw.githubusercontent.com/tangency-labs/solidcraft/v0.40.1/docs/capabilities.md).
 
-还有一个具体版本风险：0.40.1 保存的格式为 54，0.30.1 及更早版本不能读取；0.40.0 虽能打开，但居中盒体可能显示偏移。团队不要让不同版本反复覆盖同一个原生文件。[来源：兼容性说明](https://github.com/tangency-labs/solidcraft/releases/tag/v0.40.1)
+There is also a concrete version-compatibility issue: 0.40.1 writes format 54. Version 0.30.1 and earlier cannot read it. Version 0.40.0 can open it, but a centered box may appear displaced. Avoid repeatedly overwriting a shared native project from different versions. The [release compatibility notes](https://github.com/tangency-labs/solidcraft/releases/tag/v0.40.1) explain the boundary.
 
-## 哪些人更适合先选 FreeCAD
+## Who should start with FreeCAD?
 
-**需要长期积累机械设计能力的学习者。** 如果学习目标包含读图、参数约束、零件建模、装配以及二维出图，FreeCAD 的工作台体系适合作为学习主线。代价是要理解工作台之间的数据关系，不能只记按钮位置。
+**Learners building a broad mechanical-design foundation.** If your goals include drawing interpretation, constrained sketches, parts, assemblies and drawing sheets, FreeCAD offers a useful learning path across these areas. The cost is learning how workbenches and document objects relate, rather than memorizing isolated buttons.
 
-**模型完成后还要加工、分析或持续改版的人。** 评估重点应放在从模型到后续交付的路径，而不是初次拉伸的速度。已有 Python 脚本、FreeCAD 文件和插件流程的团队，也不应仅为了界面变化迁移全部资产。
+**Users whose models must support further engineering work.** Evaluate the route from geometry to drawings, machining or analysis. Existing Python scripts, FreeCAD projects and addon-dependent processes are also assets: a different interface alone is a weak reason to migrate them.
 
-这不意味着 26.3 RC2 自动适合生产。已有稳定流程应先在副本上评估候选版，确认插件、后处理器与项目文件兼容，再决定是否升级。
+This recommendation does not imply that 26.3 RC2 is automatically suitable for production. Test the candidate on copies and verify plugins, postprocessors and project compatibility before upgrading an established workflow.
 
-## 哪些人适合试 SolidCraft 0.40.1
+## Who should try SolidCraft 0.40.1?
 
-**做小型零件、外壳和打印件的个人用户。** 可以用较小项目评估从草图到实体、参数调整、导出和切片的连续体验。先完成一件要实际使用的零件，比浏览功能列表更有价值。
+**Individuals making small parts, enclosures and printed objects.** Use a manageable project to evaluate the sequence from sketch to solid, parameter revision, export and slicing. Finishing something you intend to use reveals more than browsing the feature list.
 
-**开发者与 AI 建模工作流的探索者。** SolidCraft 将 CLI 和 MCP 作为明确入口，适合尝试参数批处理、命令重放和自动测量。它的[固定版本 README](https://raw.githubusercontent.com/tangency-labs/solidcraft/v0.40.1/README.md)也明确把项目定位为适用于简单零件的早期工具，不能把这一定位扩大成复杂工业项目的可靠性承诺。
+**Developers exploring automated or AI-assisted CAD.** SolidCraft makes CLI and MCP explicit entry points, making it interesting for command replay, parameter batches and automated measurement. Its [versioned README](https://raw.githubusercontent.com/tangency-labs/solidcraft/v0.40.1/README.md) also describes it as an early tool usable for simple parts. That scope should not be expanded into a promise of reliability on complex industrial projects.
 
-使用代理建模时，应让命令结果可复查：保存参数、记录失败步骤，比较修改前后的尺寸和实体状态。AI 生成成功提示，不等于零件已经通过工程检查。
+Agent-driven modeling still needs inspectable results. Save parameters, record failed operations, and compare dimensions and solid state before and after changes. An agent reporting success is not engineering verification.
 
-## 用同一道题决定，而不是凭印象投票
+## Let the same real part decide
 
-可以从本站的[三维图纸库](/drawings/3d/)选择熟悉的零件，在两个软件中各做一次。下面是建议的验证流程，不是本文已经完成的实验。
+Choose a familiar part from the [3D drawing library](/drawings/3d/) and build it in both applications. The following is a proposed evaluation, not an experiment completed for this article.
 
-1. **初建**：完成主形体、孔、切口和圆角，记录卡住的位置及解决方法。
-2. **改版**：修改一个主要尺寸、一个孔距和一个局部特征，检查关联几何是否正确更新。
-3. **重开**：关闭软件再打开原生文件，确认参数、位置和几何状态保持一致。
-4. **交换**：导出 STEP 和打印所需格式，在另一款软件或切片器中检查尺寸、单位和实体数量。
-5. **交付**：需要图纸就完整出一张，需要加工就验证刀路，需要钣金就检查展开；不要用不相关的演示替代这一项。
+1. **Build:** finish the main shape, holes, cuts and fillets. Record obstacles and workarounds.
+2. **Revise:** change an overall dimension, a hole spacing and a local feature. Inspect the dependent geometry.
+3. **Reopen:** close and reopen the native project. Confirm that parameters, placements and geometry remain correct.
+4. **Exchange:** export STEP and the format needed for printing. Check units, dimensions and body count in another application or slicer.
+5. **Deliver:** finish the drawing sheet, validate the machining route, or inspect the flat pattern that your actual task requires.
 
-记录操作耗时、失败次数、返工量和交付缺口。对初学者，教程是否能帮助解决问题也应算成本；对团队，版本统一和历史文件维护成本往往更重要。
+Record time, failures, rework and missing deliverables. For a learner, access to explanations that resolve problems is part of the cost. For a team, consistent versions and maintenance of historical projects may matter more than initial modeling speed.
 
-**我的建议：FreeCAD 适合作为机械设计与多工作流学习的主线；SolidCraft 0.40.1 适合围绕简单零件和自动化入口进行有边界的试用。** 两者可以并存。让一件经历过修改、重开和交付的真实零件，决定你把哪一个放到主力位置。
+**My recommendation is to evaluate FreeCAD as the main learning and engineering-workflow tool, and SolidCraft 0.40.1 through bounded trials of simple parts and automation.** You can use both. A real part that survives revision, reopening and delivery is the best basis for deciding which becomes your primary application.
