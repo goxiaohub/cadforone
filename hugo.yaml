@@ -66,6 +66,20 @@ menu:
       name: Blog
       pageRef: /blog
       weight: 2
+    - identifier: plugins
+      name: Plugins
+      pageRef: /plugins
+      weight: 3
+    - identifier: solidcraft-plugins
+      name: SolidCraft Plugins
+      pageRef: /plugins/solidcraft
+      parent: plugins
+      weight: 1
+    - identifier: freecad-plugins
+      name: FreeCAD Plugins
+      pageRef: /plugins/freecad
+      parent: plugins
+      weight: 2
     - identifier: more
       name: More
       weight: 4
@@ -100,6 +114,20 @@ menu:
       weight: 3
 
   sidebar:
+    - identifier: plugins
+      name: Plugins
+      pageRef: /plugins
+      weight: 3
+    - identifier: solidcraft-plugins
+      name: SolidCraft Plugins
+      pageRef: /plugins/solidcraft
+      parent: plugins
+      weight: 1
+    - identifier: freecad-plugins
+      name: FreeCAD Plugins
+      pageRef: /plugins/freecad
+      parent: plugins
+      weight: 2
     - identifier: more
       name: More
       params:

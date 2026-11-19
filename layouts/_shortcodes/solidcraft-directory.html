@@ -1,0 +1,12 @@
+{{ $freecad := eq (.Get 0 | default "") "freecad" }}
+<div class="cad-plugin-directory" data-plugin-directory{{ if $freecad }} data-freecad{{ end }}>
+  <div class="cad-plugin-controls">
+    <label>Search plugins <input type="search" placeholder="Name, author, or keyword"></label>
+    {{ if not $freecad }}<label>Filter <select data-filter><option value="">All tags and categories</option></select></label>
+    <label>Sort <select data-sort><option value="newest">Newest release</option><option value="stars">GitHub stars</option><option value="downloads">Downloads</option><option value="name">Name</option></select></label>{{ end }}
+  </div>
+  <p data-status role="status">Loading plugins from GitHub…</p>
+  <div class="cad-plugin-grid" data-results></div>
+  <noscript>Enable JavaScript or browse the <a href="{{ if $freecad }}https://github.com/FreeCAD/FreeCAD-addons/blob/master/AddonCatalog.json{{ else }}https://tharje.github.io/solidcraft-plugins/{{ end }}">source directory</a>.</noscript>
+</div>
+<script defer src="{{ "js/solidcraft-directory.js" | relURL }}"></script>
