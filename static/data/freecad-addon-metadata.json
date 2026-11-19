@@ -1,0 +1,602 @@
+{
+  "3DfindIT": {
+    "repository": "https://github.com/cadenasgmbh/3dfindit-freecad-integration",
+    "description": "3DfindIT.com, the engineering search engine for 3D components from CADENAS, provides users with easy access to millions of CAD models from thousands of international manufacturers and a range of intuitive search methods.",
+    "image": "https://raw.githubusercontent.com/cadenasgmbh/3dfindit-freecad-integration/master/freecad/cadenas3dfindit/resources/icons/3dfindit.svg"
+  },
+  "A2plus": {
+    "repository": "https://github.com/kbwbe/A2plus",
+    "description": "Another assembly workbench for FreeCAD, following and extending Hamish's Assembly 2 workbench hence Assembly2plus. The main goal of A2plus is to create a very simple, easy to use, and not over-featured workbench for FreeCAD assemblies. Using the KISS principle: KEEP IT SIMPLE, STUPID",
+    "image": "https://raw.githubusercontent.com/kbwbe/A2plus/master/icons/a2p_Workbench.svg"
+  },
+  "addFC": {
+    "repository": "https://github.com/GS90/addFC",
+    "description": "Additional tools for FreeCAD.",
+    "image": "https://raw.githubusercontent.com/GS90/addFC/main/addon/addFC/ui/icon/workbench.svg"
+  },
+  "AddonManager": {
+    "repository": "https://github.com/FreeCAD/AddonManager",
+    "description": "Tool to install workbenches, macros, themes, etc.",
+    "image": "https://raw.githubusercontent.com/FreeCAD/AddonManager/main/Resources/icons/addon_manager.svg"
+  },
+  "AirPlaneDesign": {
+    "repository": "https://github.com/FredsFactory/FreeCAD_AirPlaneDesign",
+    "description": "A FreeCAD workbench dedicated to Airplane Design.",
+    "image": "https://raw.githubusercontent.com/FredsFactory/FreeCAD_AirPlaneDesign/master/resources/icons/appicon.svg"
+  },
+  "Alternate_OpenSCAD": {
+    "repository": "https://github.com/KeithSloan/OpenSCAD_Alt_Import",
+    "description": "An alternate OpenSCAD importer with some experimental features.",
+    "image": "https://raw.githubusercontent.com/KeithSloan/OpenSCAD_Alt_Import/master/freecad/OpenSCAD_Alt_Import/Resources/icons/OpenSCAD_Alternate.png"
+  },
+  "AnimationFreeCAD": {
+    "repository": "https://github.com/QuentinTournier40/AnimationFreeCAD",
+    "description": "The FreeCAD Animation workbench allows users to animate any object easily through visual scripting Nodes thanks to PyFlow.",
+    "image": "https://raw.githubusercontent.com/QuentinTournier40/AnimationFreeCAD/main/icons/clapCinema.svg"
+  },
+  "Assembly2MuJoCo": {
+    "repository": "https://github.com/AnesBenmerzoug/FreeCAD-Assembly2MuJoCo",
+    "description": "An addon for exporting FreeCAD builtin Assemblies to MuJoCo.",
+    "image": "https://raw.githubusercontent.com/AnesBenmerzoug/FreeCAD-Assembly2MuJoCo/main/resources/icons/assembly2mujoco-icon.svg"
+  },
+  "Assembly3": {
+    "repository": "https://github.com/realthunder/FreeCAD_assembly3",
+    "description": "Assembly3 workbench an attempt to bring assembly capability to FreeCAD using SolveSpace constraint solver",
+    "image": "https://raw.githubusercontent.com/realthunder/FreeCAD_assembly3/master/freecad/asm3/Gui/Resources/icons/AssemblyWorkbench.svg"
+  },
+  "Assembly4.1": {
+    "repository": "https://github.com/leoheck/FreeCAD_Assembly4.1",
+    "description": "This assembly workbench use lets you put FreeCAD Part and Body together inside a standard Assembly container.",
+    "image": "https://raw.githubusercontent.com/leoheck/FreeCAD_Assembly4.1/main/freecad/Resources/icons/Assembly4.svg"
+  },
+  "BCFPlugin": {
+    "repository": "https://github.com/podestplatz/BCF-Plugin-FreeCAD",
+    "description": "Integrate collaboration in the BIM space through support of the BCF (BIM Collaboration Format).",
+    "image": "https://raw.githubusercontent.com/podestplatz/BCF-Plugin-FreeCAD/master/icons/BCFPlugin_workbench_icon.svg"
+  },
+  "Behave-Dark-Colors": {
+    "repository": "https://github.com/Chrismettal/FreeCAD-Behave-Dark-Preference-Pack",
+    "description": "A preference pack including GUI color information to extend the Behave Dark stylesheet",
+    "image": "https://raw.githubusercontent.com/Chrismettal/FreeCAD-Behave-Dark-Preference-Pack/main/resources/icons/Behave-Dark.svg"
+  },
+  "Beltrami": {
+    "repository": "https://github.com/Simturb/Beltrami",
+    "description": "Workbench for designing Turbomachine blades.",
+    "image": "https://raw.githubusercontent.com/Simturb/Beltrami/main/freecad/Beltrami/Resources/Icons/Logo.svg"
+  },
+  "BillOfMaterials": {
+    "repository": "https://github.com/APEbbers/BillOfMaterials-WB",
+    "description": "A workbench to create Bill of Materials (BoM) independent of the assembly workbench of your choice.",
+    "image": "https://raw.githubusercontent.com/APEbbers/BillOfMaterials-WB/main/Resources/Icons/BillOfMaterialsWB.svg"
+  },
+  "btl": {
+    "repository": "https://github.com/knipknap/better-tool-library",
+    "description": "A FreeCAD Path Addon to manage your tool library.",
+    "image": "https://raw.githubusercontent.com/knipknap/better-tool-library/main/btl/resources/icons/tool-library.svg"
+  },
+  "BIM": {
+    "repository": "https://github.com/yorikvanhavre/BIM_Workbench",
+    "description": "This is a workbench for FreeCAD that implements a complete set of Building Information Modeling (BIM) tools and allows a proper BIM workflow similar to professional BIM applications like Revit, ArchiCAD, Tekla, AllPlan or BricsCAD.",
+    "image": "https://raw.githubusercontent.com/yorikvanhavre/BIM_Workbench/master/icons/IFC.svg"
+  },
+  "boltsfc": {
+    "repository": "https://github.com/boltsparts/boltsfc",
+    "description": "Installable FreeCAD package of BOLTS, an Open Library for Technical Specifications.",
+    "image": "https://raw.githubusercontent.com/boltsparts/boltsfc/main/BOLTS/icons/BOLTS_logo.svg"
+  },
+  "Cables": {
+    "repository": "https://github.com/sargo-devel/Cables",
+    "description": "Electrical cables drawing tools workbench for FreeCAD.",
+    "image": "https://raw.githubusercontent.com/sargo-devel/Cables/master/freecad/cables/resources/icons/CablesLogo.svg"
+  },
+  "CadbaseLibrary": {
+    "repository": "https://github.com/mnnxp/cadbaselibrary-freecad",
+    "description": "The workbench provides users with an easier way to work with components on the CADBase platform through the FreeCAD interface. Component modifications contain sets of files for various CAD systems. This workbench will work with data from the FreeCAD set, without the need to download documentation and data from other file sets.",
+    "image": "https://raw.githubusercontent.com/mnnxp/cadbaselibrary-freecad/master/Icons/CadbaseLibrary.svg"
+  },
+  "cadquery_module": {
+    "repository": "https://github.com/jmwright/cadquery-freecad-module",
+    "description": "Build CadQuery models withing FreeCAD.",
+    "image": "https://raw.githubusercontent.com/jmwright/cadquery-freecad-module/master/freecad/CadQuery/icons/CQ_Logo.svg"
+  },
+  "CamScripts": {
+    "repository": "https://github.com/spanner888/CamScripts",
+    "description": "CamScripts ToolBit import or script creation and configure *every* step of FreeCAD CAM process.",
+    "image": ""
+  },
+  "CfdOF": {
+    "repository": "https://github.com/jaheyns/CfdOF",
+    "description": "Computational Fluid Dynamics (CFD) based on OpenFOAM.",
+    "image": "https://raw.githubusercontent.com/jaheyns/CfdOF/master/Gui/Icons/cfd.svg"
+  },
+  "Channels": {
+    "repository": "https://github.com/mnesarco/Channels",
+    "description": "FreeCAD Channels - Connector to Blender",
+    "image": "https://raw.githubusercontent.com/mnesarco/Channels/main/freecad/channels/resources/icons/preferences-channels.svg"
+  },
+  "ConstraintDesign": {
+    "repository": "https://github.com/drwho495/ConstraintDesign-wb",
+    "description": "This addon adds a design workbench that is specially designed to be as flexible and stable as possible.",
+    "image": "https://raw.githubusercontent.com/drwho495/ConstraintDesign-wb/main/icons/ConstraintPart.svg"
+  },
+  "Color-Palette-Theme": {
+    "repository": "https://github.com/altangarts/FreeCAD-Themes-ColorPalette",
+    "description": "Choose your colors with the \"ColorPalette\" Theme and increase the focus on objects and texts(FreeCAD v1.1.0 ≥)",
+    "image": "https://raw.githubusercontent.com/altangarts/FreeCAD-Themes-ColorPalette/main/resources/icons/ColorPaletteTheme.svg"
+  },
+  "CurvedShapes": {
+    "repository": "https://github.com/chbergmann/CurvedShapesWorkbench",
+    "description": "Create 3D shapes from 2D curves.",
+    "image": "https://raw.githubusercontent.com/chbergmann/CurvedShapesWorkbench/master/Resources/icons/curvedArray.svg"
+  },
+  "Curves": {
+    "repository": "https://github.com/tomate44/CurvesWB",
+    "description": "A collection of tools mainly dedicated to NURBS curves and surfaces modeling.",
+    "image": "https://raw.githubusercontent.com/tomate44/CurvesWB/main/freecad/Curves/resources/icons/blendSurf.svg"
+  },
+  "Defeaturing": {
+    "repository": "https://github.com/easyw/Defeaturing_WB",
+    "description": "A set of tools to edit a Shape or a STEP model.",
+    "image": "https://raw.githubusercontent.com/easyw/Defeaturing_WB/master/Resources/icons/Defeaturing-icon.svg"
+  },
+  "Design456": {
+    "repository": "https://github.com/MariwanJ/Design456",
+    "description": "Direct Modeling Workbench for FreeCAD",
+    "image": "https://raw.githubusercontent.com/MariwanJ/Design456/main/freecad/Design456/Resources/icons/WorkbenchIcon.svg"
+  },
+  "DesignSPHysics": {
+    "repository": "https://github.com/DualSPHysics/DesignSPHysics",
+    "description": "DesignSPHysics is a macro/addon for FreeCAD that provides a Graphical User Interface for fluid and multi-physics solver DualSPHysics",
+    "image": "https://raw.githubusercontent.com/DualSPHysics/DesignSPHysics/master/images/icon.svg"
+  },
+  "dodo": {
+    "repository": "https://github.com/oddtopus/dodo",
+    "description": "A set of commands and objects that help to speed-up the drawing of frames and pipelines. Py3/Qt5 port of flamingo.",
+    "image": "https://raw.githubusercontent.com/oddtopus/dodo/master/iconz/dodo.svg"
+  },
+  "Dracula": {
+    "repository": "https://github.com/dracula/freecad",
+    "description": "Dracula dark theme for FreeCAD",
+    "image": "https://raw.githubusercontent.com/dracula/freecad/master/resources/icons/Dracula.svg"
+  },
+  "DynamicData": {
+    "repository": "https://github.com/mwganson/DynamicData",
+    "description": "Container object for holding custom properties, alternative to spreadsheet",
+    "image": "https://raw.githubusercontent.com/mwganson/DynamicData/master/freecad/Dynamic_Data/Resources/icons/DynamicDataLogo.svg"
+  },
+  "EasyProfileFrame": {
+    "repository": "https://github.com/ovo-Tim/EasyProfileFrame",
+    "description": "Simplifies the creation of frames using profiles, such as aluminum profiles. It also includes support for exporting Bill of Materials (BOM).",
+    "image": "https://raw.githubusercontent.com/ovo-Tim/EasyProfileFrame/main/freecad/easy_profile_frame/resources/icons/MakerWorkbench_Aluproft_Cmd.svg"
+  },
+  "EM": {
+    "repository": "https://github.com/ediloren/EM-Workbench-for-FreeCAD",
+    "description": "This project is dedicated to building an ElectroMagnetic workbench for FreeCAD, with support for inductance and capacitance solvers.",
+    "image": "https://raw.githubusercontent.com/ediloren/EM-Workbench-for-FreeCAD/master/Resources/Icons/EMWorkbench.svg"
+  },
+  "Estimate": {
+    "repository": "https://github.com/erroronline1/estimateWB",
+    "description": "A FreeCAD workbench to estimate material quantity by volume or weight for selected parts",
+    "image": "https://raw.githubusercontent.com/erroronline1/estimateWB/master/freecad/estimateWB/resources/icon.svg"
+  },
+  "fasteners": {
+    "repository": "https://github.com/shaise/FreeCAD_FastenersWB",
+    "description": "Some common fasteners and fastener tools for FreeCAD.",
+    "image": "https://raw.githubusercontent.com/shaise/FreeCAD_FastenersWB/master/Icons/FNLogo.svg"
+  },
+  "Fcmcua": {
+    "repository": "https://github.com/heissgetraenk/fcmcua",
+    "description": "Link a motion controller to a FreeCAD assembly using OPC UA",
+    "image": "https://raw.githubusercontent.com/heissgetraenk/fcmcua/main/freecad/fcmcua/resources/fcmcua_wb.svg"
+  },
+  "fcVM": {
+    "repository": "https://github.com/HarryvL/fcVM-workbench",
+    "description": "Finite element collapse analysis based on the von Mises plasticity model for use with FreeCAD",
+    "image": "https://raw.githubusercontent.com/HarryvL/fcVM-workbench/main/icons/fcFEM.svg"
+  },
+  "FileExplorerExt": {
+    "repository": "https://github.com/mnesarco/FileExplorerExt",
+    "description": "Integrated file system viewer.",
+    "image": "https://raw.githubusercontent.com/mnesarco/FileExplorerExt/main/freecad/FileExplorerExt/resources/icon.svg"
+  },
+  "FoamCut": {
+    "repository": "https://github.com/Shkolik/Foamcut",
+    "description": "Foamcut workbench provide functionality to prepare job and generate Gcode for 4 or 5 axis cnc hotwire cutter.",
+    "image": "https://raw.githubusercontent.com/Shkolik/Foamcut/main/Resources/icons/foamcut.svg"
+  },
+  "FreeCAD-Beginner-Assistant": {
+    "repository": "https://github.com/alekssadowski95/FreeCAD-Beginner-Assistant",
+    "description": "Best practices modeling assistant for the Part and Sketcher workbench.",
+    "image": "https://raw.githubusercontent.com/alekssadowski95/FreeCAD-Beginner-Assistant/main/Icons/FreeCAD-Beginner-Assistant.svg"
+  },
+  "freecad.gears": {
+    "repository": "https://github.com/looooo/freecad.gears",
+    "description": "A gear workbench for FreeCAD",
+    "image": "https://raw.githubusercontent.com/looooo/freecad.gears/master/freecad/gears/icons/gearworkbench.svg"
+  },
+  "FreecadDiscordPresence": {
+    "repository": "https://github.com/TzurSoffer/FreecadDiscordPresence",
+    "description": "Shows FreeCAD Status on discord.",
+    "image": "https://raw.githubusercontent.com/TzurSoffer/FreecadDiscordPresence/main/freecad/DiscordPresence/Resources/Icons/discord.svg"
+  },
+  "FreeCAD-Documentation-html": {
+    "repository": "https://github.com/Reqrefusion/FreeCAD-Documentation-html",
+    "description": "Local version of the FreeCAD Wiki.",
+    "image": "https://raw.githubusercontent.com/Reqrefusion/FreeCAD-Documentation-html/main/Resources/Media/Logo.svg"
+  },
+  "Freecad-Built-in-themes-beta": {
+    "repository": "https://github.com/MisterMakerNL/Freecad-Built-in-themes-beta",
+    "description": "Beta versions of the preference Packs included with the FreeCAD distribution",
+    "image": "https://raw.githubusercontent.com/MisterMakerNL/Freecad-Built-in-themes-beta/main/resources/icons/Freecad-Built-in-themes-beta.svg"
+  },
+  "freecad.optics_design_workbench": {
+    "repository": "https://github.com/zaphB/freecad.optics_design_workbench",
+    "description": "Physically accurate forward ray tracing for optics simulation and optimization with FreeCAD workbench frontend.",
+    "image": "https://raw.githubusercontent.com/zaphB/freecad.optics_design_workbench/master/workbench.svg"
+  },
+  "FreeCAD-Ribbon": {
+    "repository": "https://github.com/APEbbers/FreeCAD-Ribbon",
+    "description": "A customizable ribbon interface for FreeCAD",
+    "image": "https://raw.githubusercontent.com/APEbbers/FreeCAD-Ribbon/main/Resources/icons/FreecadNew.svg"
+  },
+  "FreeCAD-themes": {
+    "repository": "https://github.com/FreeCAD/FreeCAD-themes",
+    "description": "Additional themes for FreeCAD",
+    "image": "https://raw.githubusercontent.com/FreeCAD/FreeCAD-themes/main/extra_themes.svg"
+  },
+  "freecad-xr-workbench": {
+    "repository": "https://github.com/kwahoo2/freecad-xr-workbench",
+    "description": "A Virtual Reality (OpenXR) workbench. View your models with VR goggles.",
+    "image": "https://raw.githubusercontent.com/kwahoo2/freecad-xr-workbench/main/Resources/Gui/Resources/icons/preferences-virtual_reality.svg"
+  },
+  "freecad_streamdeck_addon": {
+    "repository": "https://github.com/Giraut/freecad_streamdeck_addon",
+    "description": "FreeCAD addon to use an Elgato Stream Deck macropad as an input device.",
+    "image": "https://raw.githubusercontent.com/Giraut/freecad_streamdeck_addon/main/logo.svg"
+  },
+  "FeedsAndSpeeds": {
+    "repository": "https://github.com/dubstar-04/FeedsAndSpeeds",
+    "description": "CAM addon to help generate basic feeds and speeds for machining.",
+    "image": "https://raw.githubusercontent.com/dubstar-04/FeedsAndSpeeds/master/Icons/CAM_FeedsAndSpeeds.svg"
+  },
+  "FEM_FrontISTR": {
+    "repository": "https://github.com/FrontISTR/FEM_FrontISTR",
+    "description": "A FreeCAD addon that enables a parallel nonliner FEM solver FrontISTR.",
+    "image": "https://raw.githubusercontent.com/FrontISTR/FEM_FrontISTR/master/Resources/FrontISTR.svg"
+  },
+  "FEMbyGEN": {
+    "repository": "https://github.com/Serince/FEMbyGEN",
+    "description": "Parametric Finite Element Analysis(FEM)",
+    "image": "https://raw.githubusercontent.com/Serince/FEMbyGEN/master/fembygen/icons/icon.svg"
+  },
+  "frame": {
+    "repository": "https://github.com/looooo/freecad_frame",
+    "description": "A workbench for beams and frames",
+    "image": "https://raw.githubusercontent.com/looooo/freecad_frame/master/freecad/frametools/icons/beam.svg"
+  },
+  "FrameForge": {
+    "repository": "https://github.com/lukh/frameforge",
+    "description": "FrameForge is dedicated for creating Frames and Beams, and apply operations (miter cuts, trim cuts) on these profiles.",
+    "image": "https://raw.githubusercontent.com/lukh/frameforge/main/freecad/frameforge/resources/icons/metalwb.svg"
+  },
+  "free2ki": {
+    "repository": "https://github.com/30350n/free2ki",
+    "description": "Export your 3D models to VRML files, with correctly applied rotation and scaling, for use in KiCad as well as Blender.",
+    "image": "https://raw.githubusercontent.com/30350n/free2ki/freecad-addons/freecad/free2ki/icons/kicad-export.svg"
+  },
+  "FreeGrid": {
+    "repository": "https://github.com/instancezero/in3dca-freegrid.git",
+    "description": "A simple tools workbench for generating FreeGrid storage system components.",
+    "image": "https://raw.githubusercontent.com/instancezero/in3dca-freegrid/main/freecad/freegrid/resources/icons/FreeGrid.svg"
+  },
+  "FusedFilamentDesign": {
+    "repository": "https://github.com/rahix/FusedFilamentDesign.git",
+    "description": "PartDesign addon for FFF/FDM 3D-printing design",
+    "image": "https://raw.githubusercontent.com/rahix/FusedFilamentDesign/release/Resources/icons/ffDesign_Logo.svg"
+  },
+  "GDML": {
+    "repository": "https://github.com/KeithSloan/GDML",
+    "description": "An external workbench for creating GDML models for Geant4 and Root",
+    "image": "https://raw.githubusercontent.com/KeithSloan/GDML/Main/freecad/gdml/Resources/icons/GDMLWorkbench.svg"
+  },
+  "Gridfinity": {
+    "repository": "https://github.com/Stu142/FreeCAD-Gridfinity-Workbench",
+    "description": "This Workbench will generate several variations of parametric Gridfinity bins and baseplates that can be easily customized.",
+    "image": "https://raw.githubusercontent.com/Stu142/FreeCAD-Gridfinity-Workbench/master/freecad/gridfinity_workbench/icons/gridfinity_workbench_icon.svg"
+  },
+  "Help": {
+    "repository": "https://github.com/FreeCAD/FreeCAD-Help",
+    "description": "A help system for displaying FreeCAD documentation.",
+    "image": "https://raw.githubusercontent.com/FreeCAD/FreeCAD-Help/main/icons/help.svg"
+  },
+  "ImportNURBS": {
+    "repository": "https://github.com/KeithSloan/ImportNURBS",
+    "description": "An external workbench for add importer for 3dm>",
+    "image": "https://raw.githubusercontent.com/KeithSloan/ImportNURBS/master/freecad/importNURBS/Resources/icons/ImportNURBSworkbench.svg"
+  },
+  "InventorLoader": {
+    "repository": "https://github.com/jmplonka/InventorLoader",
+    "description": "This plugin enables FreeCAD to import Inventor part files (*.IPT), ACIS files (*.SAT, *.SAB), 3D-Solids from DXF files and Fusion360 (*.f3d) files.",
+    "image": "https://raw.githubusercontent.com/jmplonka/InventorLoader/master/Icon.png"
+  },
+  "kicadStepUpMod": {
+    "repository": "https://github.com/easyw/kicadStepUpMod",
+    "description": "A bidirectional ECAD/MCAD collaboration between KiCAD and FreeCAD.",
+    "image": "https://raw.githubusercontent.com/easyw/kicadStepUpMod/master/Resources/icons/kicad-StepUp-tools-WB.svg"
+  },
+  "lattice2": {
+    "repository": "https://github.com/DeepSOIC/Lattice2",
+    "description": "Tools and arrays of all sorts and kinds, and local coordinate systems",
+    "image": "https://raw.githubusercontent.com/DeepSOIC/Lattice2/master/PyResources/icons/Lattice2.svg"
+  },
+  "LCInterlocking": {
+    "repository": "https://github.com/execuc/LCInterlocking",
+    "description": "Create interlocking parts for laser cutting or CNC milling",
+    "image": "https://raw.githubusercontent.com/execuc/LCInterlocking/master/small_icon.svg"
+  },
+  "parts_library": {
+    "repository": "https://github.com/FreeCAD/FreeCAD-library",
+    "description": "A community-maintained library of ready-made parts for FreeCAD, in FCStd, STEP, STL and BREP formats, organized by family: mechanical, electrical, electronic, architectural, medical, hydraulic, HVAC, piping and more. Includes the PartsLibrary macro, which adds a browser panel to FreeCAD from which parts can be inserted into the active document by double-clic",
+    "image": "https://raw.githubusercontent.com/FreeCAD/FreeCAD-library/master/thumbnails/icon-grid.svg"
+  },
+  "MakerWorkbench": {
+    "repository": "https://github.com/URJCMakerGroup/MakerWorkbench",
+    "description": "A mechatronic components system + optic components system",
+    "image": "https://raw.githubusercontent.com/URJCMakerGroup/MakerWorkbench/master/Resources/icons/Maker_workbench_icon.svg"
+  },
+  "Manipulator": {
+    "repository": "https://github.com/easyw/Manipulator",
+    "description": "A handy way to Move and Align objects in FreeCAD.",
+    "image": "https://raw.githubusercontent.com/easyw/Manipulator/master/Resources/icons/Manipulator-icon.svg"
+  },
+  "Marz": {
+    "repository": "https://github.com/mnesarco/MarzWorkbench",
+    "description": "Parametric Guitar design workbench",
+    "image": "https://raw.githubusercontent.com/mnesarco/MarzWorkbench/master/Resources/icons/Marz.svg"
+  },
+  "MeshRemodel": {
+    "repository": "https://github.com/mwganson/MeshRemodel",
+    "description": "Workbench for remodeling and repairing mesh objects.",
+    "image": "https://raw.githubusercontent.com/mwganson/MeshRemodel/master/freecad/Mesh_Remodel/Resources/Icons/MeshRemodel_workbench_icon.svg"
+  },
+  "MnesarcoUtils": {
+    "repository": "https://github.com/mnesarco/FreeCAD_Utils",
+    "description": "A collection of tools mainly dedicated to scripting and experiments.",
+    "image": "https://raw.githubusercontent.com/mnesarco/FreeCAD_Utils/main/freecad/mnesarco/resources/icons/MnesarcoUtils.svg"
+  },
+  "MOOC": {
+    "repository": "https://github.com/j-wiedemann/mooc-workbench",
+    "description": "Learn FreeCAD",
+    "image": "https://raw.githubusercontent.com/j-wiedemann/mooc-workbench/master/medias/icons/mooc-workbench.svg"
+  },
+  "Movie": {
+    "repository": "https://github.com/Francisco-Rosa/FreeCAD-Movie",
+    "description": "Workbench to create and animate the movie camera, create and play videos of animations",
+    "image": "https://raw.githubusercontent.com/Francisco-Rosa/FreeCAD-Movie/master/icons/CreateVideoIcon.svg"
+  },
+  "NikraDAP": {
+    "repository": "https://github.com/NikraDAP/FreeCAD-NikraDAP",
+    "description": "Multibody Planar Dynamics Workbench based on a DAP solver algorithm developed by P.E. Nikravesh.",
+    "image": "https://raw.githubusercontent.com/NikraDAP/FreeCAD-NikraDAP/main/icons/Icon1n.png"
+  },
+  "Nodes": {
+    "repository": "https://github.com/j8sr0230/Nodes",
+    "description": "Visual scripting workbench for FreeCAD",
+    "image": "https://raw.githubusercontent.com/j8sr0230/Nodes/main/icons/nodes_wb_icon.svg"
+  },
+  "offline-documentation": {
+    "repository": "https://github.com/FreeCAD/FreeCAD-documentation",
+    "description": "The FreeCAD documentation for offline use",
+    "image": ""
+  },
+  "Ondsel-Lens": {
+    "repository": "https://github.com/FreeCAD/Ondsel-Lens-Addon",
+    "description": "Workspace manager for Ondsel Lens workspaces",
+    "image": "https://raw.githubusercontent.com/FreeCAD/Ondsel-Lens-Addon/main/Resources/icons/OndselWorkbench.svg"
+  },
+  "OpenTheme": {
+    "repository": "https://github.com/obelisk79/OpenTheme",
+    "description": "An accessible and coordinated set of Light and Dark themes for FreeCAD",
+    "image": "https://raw.githubusercontent.com/obelisk79/OpenTheme/main/resources/icons/OpenTheme.png"
+  },
+  "OpticsWorkbench": {
+    "repository": "https://github.com/chbergmann/OpticsWorkbench",
+    "description": "Geometrical optics for FreeCAD. Performs simple raytracing through your FreeCAD objects.",
+    "image": "https://raw.githubusercontent.com/chbergmann/OpticsWorkbench/main/optics_workbench_icon.svg"
+  },
+  "OSAFE": {
+    "repository": "https://github.com/ebrahimraeyat/OSAFE",
+    "description": "This is a workbench for FreeCAD that creates foundation model from CSI ETABS model results.",
+    "image": "https://raw.githubusercontent.com/ebrahimraeyat/OSAFE/master/osafe_images/safe.png"
+  },
+  "OSE3dPrinter": {
+    "repository": "https://github.com/gbroques/ose-3d-printer-workbench",
+    "description": "A FreeCAD workbench for designing 3D printers by Open Source Ecology for Distributive Enterprise.",
+    "image": "https://raw.githubusercontent.com/gbroques/ose-3d-printer-workbench/master/freecad/ose3dprinter/icon/Frame.svg"
+  },
+  "Part-o-magic": {
+    "repository": "https://github.com/DeepSOIC/Part-o-magic",
+    "description": "Experiment on FreeCAD-wide automation of Part container management",
+    "image": "https://raw.githubusercontent.com/DeepSOIC/Part-o-magic/master/PartOMagic/Gui/Icons/icons/PartOMagic.svg"
+  },
+  "pcb": {
+    "repository": "https://github.com/marmni/FreeCAD-PCB",
+    "description": "Printed Circuit Board (PCB) Workbench for FreeCAD",
+    "image": "https://raw.githubusercontent.com/marmni/FreeCAD-PCB/master/data/FreeCAD-PCB_workbench_icon.svg"
+  },
+  "PieMenu": {
+    "repository": "https://github.com/Grubuntu/PieMenu",
+    "description": "The PieMenu module is a tool to accelerate and simplify your workflow in usage of FreeCAD.",
+    "image": "https://raw.githubusercontent.com/Grubuntu/PieMenu/master/Resources/icons/PieMenu_Logo.svg"
+  },
+  "Plot": {
+    "repository": "https://github.com/FreeCAD/Plot",
+    "description": "Some tools to manipulate the FreeCAD plots",
+    "image": "https://raw.githubusercontent.com/FreeCAD/Plot/2024.11.26/freecad/plot/resources/icons/Plot_Icon.svg"
+  },
+  "ProDarkThemePreferencePack": {
+    "repository": "https://github.com/turn211/ProDarkThemePreferencePack",
+    "description": "ProDark preference pack including a stylesheet and othe GUI colour information for a complete ProDark experience",
+    "image": "https://raw.githubusercontent.com/turn211/ProDarkThemePreferencePack/main/resources/icons/ProDark.svg"
+  },
+  "Pyramids-and-Polyhedrons": {
+    "repository": "https://github.com/Addon-Shelter/Polyhedra",
+    "description": "Create various polyhedrons in the Part workbench.",
+    "image": "https://raw.githubusercontent.com/Addon-Shelter/Polyhedra/Latest/freecad/Polyhedra/Resources/Icons/Addon.svg"
+  },
+  "pyOpToolsWorkbench": {
+    "repository": "https://github.com/cihologramas/freecad-pyoptools",
+    "description": "An optics ray-tracing workbench based on pyOpTools",
+    "image": "https://raw.githubusercontent.com/cihologramas/freecad-pyoptools/master/freecad/pyoptools/resources/pyoptools.png"
+  },
+  "Quetzal": {
+    "repository": "https://github.com/EdgarJRobles/quetzal",
+    "description": "A set of commands and objects that help to speed-up the drawing of frames and pipelines. Dodo successor.",
+    "image": "https://raw.githubusercontent.com/EdgarJRobles/quetzal/master/iconz/quetzal.svg"
+  },
+  "QuickMeasure": {
+    "repository": "https://github.com/DanMiel/QuickMeasure",
+    "description": "Measures selected features.",
+    "image": "https://raw.githubusercontent.com/DanMiel/QuickMeasure/main/Icons/QuickMeasure.svg"
+  },
+  "Reinforcement": {
+    "repository": "https://github.com/amrit3701/FreeCAD-Reinforcement",
+    "description": "A workbench that provides tools for Reinforcement Generation and its Detailing.",
+    "image": "https://raw.githubusercontent.com/amrit3701/FreeCAD-Reinforcement/master/icons/Reinforcement.svg"
+  },
+  "Render": {
+    "repository": "https://github.com/FreeCAD/FreeCAD-render",
+    "description": "(UNMAINTAINED) A workbench to produce high-quality rendered images from your FreeCAD document, using open-source external rendering engines. Designed as a modern replacement for deprecated internal Raytracing Workbench.",
+    "image": "https://raw.githubusercontent.com/FreeCAD/FreeCAD-render/master/Render/resources/icons/Render.svg"
+  },
+  "Road": {
+    "repository": "https://github.com/HakanSeven12/Road",
+    "description": "Road is the Transportation and Geomatics Engineering workbench for FreeCAD.",
+    "image": "https://raw.githubusercontent.com/HakanSeven12/Road/main/freecad/road/resources/RoadWorkbench.svg"
+  },
+  "Rocket": {
+    "repository": "https://github.com/davesrocketshop/Rocket",
+    "description": "A workbench for designing model rockets.",
+    "image": "https://raw.githubusercontent.com/davesrocketshop/Rocket/v3.3.0/Resources/icons/RocketWorkbench.svg"
+  },
+  "SaveAndRestore": {
+    "repository": "https://github.com/APEbbers/SaveAndRestore",
+    "description": "A simple addon to save and restore your settings",
+    "image": "https://raw.githubusercontent.com/APEbbers/SaveAndRestore/main/Resources/icons/SaveAnRestore.svg"
+  },
+  "SearchBar": {
+    "repository": "https://github.com/APEbbers/SearchBar",
+    "description": "Adds a search bar widget for tools, document objects, and preferences",
+    "image": "https://raw.githubusercontent.com/APEbbers/SearchBar/main/Resources/Icons/Tango-System-search.svg"
+  },
+  "ShapeStrings": {
+    "repository": "https://github.com/robertmassaioli/shapestrings",
+    "description": "Advanced tools for creating and manipulating ShapeStrings.",
+    "image": "https://raw.githubusercontent.com/robertmassaioli/shapestrings/main/freecad/ShapeStrings/Resources/Icons/Logo.svg"
+  },
+  "sheetmetal": {
+    "repository": "https://github.com/shaise/FreeCAD_SheetMetal",
+    "description": "A simple sheet metal tools workbench for FreeCAD.",
+    "image": "https://raw.githubusercontent.com/shaise/FreeCAD_SheetMetal/master/Resources/icons/SMLogo.svg"
+  },
+  "Ship": {
+    "repository": "https://github.com/FreeCAD/freecad.ship",
+    "description": "Naval ship design (architecture, seakeeping, and ship resistance)",
+    "image": "https://raw.githubusercontent.com/FreeCAD/freecad.ship/master/freecad/ship/resources/icons/Ship_Logo.svg"
+  },
+  "Silk": {
+    "repository": "https://github.com/edwardvmills/Silk",
+    "description": "NURBS Surface modeling tools focused on low degree and seam continuity",
+    "image": "https://raw.githubusercontent.com/edwardvmills/Silk/master/Resources/Icons/Silk.svg"
+  },
+  "Smooth-Toolsync": {
+    "repository": "https://github.com/loobric/smooth-freecad.git",
+    "description": "Synchronize FreeCAD's CAM tool libraries with a Loobric tool data server. Adds \"Loobric\" to the CAM workbench toolbar (a modeless Sync / Machines / Audit log window) and a preference page for server configuration. Current capabilities (v2): - Two-way sync of tool bits and tool libraries: a plan/apply preview shows what changed on each side; upload local edit",
+    "image": "https://raw.githubusercontent.com/loobric/smooth-freecad/master/freecad/Loobric/Resources/icons/Loobric.svg"
+  },
+  "Solar": {
+    "repository": "https://github.com/Francisco-Rosa/Solar",
+    "description": "Workbench to manage solar analysis and configurations.",
+    "image": "https://raw.githubusercontent.com/Francisco-Rosa/Solar/main/freecad/Solar/icons/Logo.svg"
+  },
+  "StandardBeams": {
+    "repository": "https://github.com/MortenVajhoj/StandardBeams",
+    "description": "Workbench to create standard beam profiles of varying shapes.",
+    "image": "https://raw.githubusercontent.com/MortenVajhoj/StandardBeams/main/freecad/StandardBeams/Resources/Icons/I-Beam.svg"
+  },
+  "STEMFIE": {
+    "repository": "https://github.com/bilbaomakers/StemfieWB",
+    "description": "A simple workbench for generating STEMFIE system components.",
+    "image": "https://raw.githubusercontent.com/bilbaomakers/StemfieWB/main/freecad/stemfie/resources/icons/STEMFIE.svg"
+  },
+  "SvgWorkbench": {
+    "repository": "https://github.com/mnesarco/SvgWorkbench",
+    "description": "FreeCAD Svg Workbench",
+    "image": "https://raw.githubusercontent.com/mnesarco/SvgWorkbench/main/freecad/svgwb/resources/icons/svgwb.svg"
+  },
+  "Telemetry": {
+    "repository": "https://github.com/FreeCAD/FreeCAD-Telemetry",
+    "description": "Help improve FreeCAD by sending basic metrics to the development team.",
+    "image": "https://raw.githubusercontent.com/FreeCAD/FreeCAD-Telemetry/main/Resources/icons/telemetryLogo.svg"
+  },
+  "Templater": {
+    "repository": "https://github.com/FC-FBXL5/Templater",
+    "description": "A workbench to gather some drafting related tools",
+    "image": "https://raw.githubusercontent.com/FC-FBXL5/Templater/main/Resources/icons/TemplaterWorkbench.svg"
+  },
+  "ThreadProfile": {
+    "repository": "https://github.com/mwganson/ThreadProfile",
+    "description": "ThreadProfile object for creating internal/external threads",
+    "image": "https://raw.githubusercontent.com/mwganson/ThreadProfile/master/Resources/icons/ThreadProfileLogo.svg"
+  },
+  "TitleBlock": {
+    "repository": "https://github.com/APEbbers/TitleBlock-WB",
+    "description": "An extension for the TechDraw workbench to fill a TitleBlock with the aid of the Spreadsheet workbench.",
+    "image": "https://raw.githubusercontent.com/APEbbers/TitleBlock-WB/main/Resources/Icons/TitleBlockWB.svg"
+  },
+  "toSketch": {
+    "repository": "https://github.com/KeithSloan/toSketch",
+    "description": "Tools to help recreate models from STEP files.",
+    "image": "https://raw.githubusercontent.com/KeithSloan/toSketch/main/freecad/toSketch/Resources/icons/toSketchlogo.svg"
+  },
+  "taack-plm-freecad": {
+    "repository": "https://github.com/Taack/taack-plm-freecad",
+    "description": "This workbench contains tools to interact with Taack Plm Intranet server app you can find under the https://github.com/Taack/plm",
+    "image": "https://raw.githubusercontent.com/Taack/taack-plm-freecad/main/icons/logo_taack.svg"
+  },
+  "freecad-wakatime": {
+    "repository": "https://github.com/Pegoku/freecad-wakatime",
+    "description": "A simple FreeCAD WakaTime extension.",
+    "image": "https://raw.githubusercontent.com/Pegoku/freecad-wakatime/main/freecad/Wakatime/Resources/Icons/Logo.svg"
+  },
+  "Vars": {
+    "repository": "https://github.com/mnesarco/Vars",
+    "description": "FreeCAD Vars",
+    "image": "https://raw.githubusercontent.com/mnesarco/Vars/main/freecad/vars/resources/icons/vars.svg"
+  },
+  "WebTools": {
+    "repository": "https://github.com/yorikvanhavre/WebTools",
+    "description": "A collection of tools to work with web services",
+    "image": "https://raw.githubusercontent.com/yorikvanhavre/WebTools/master/icons/webTools.svg"
+  },
+  "WB_Organizer": {
+    "repository": "https://github.com/Palmstroemen/WB_Organizer",
+    "description": "A workbench organizer widget for FreeCAD. Allows you to group your long list of workbenches into smaller meaningful groups. Allows you to rename some workbenches for better understanding or translation. Allows to show the workbench selector as tabbar.",
+    "image": "https://raw.githubusercontent.com/Palmstroemen/WB_Organizer/main/Resources/icons/WBO_icon.svg"
+  },
+  "Woods": {
+    "repository": "https://github.com/davesrocketshop/Woods",
+    "description": "Collection of various wood materials.",
+    "image": "https://raw.githubusercontent.com/davesrocketshop/Woods/master/freecad/Woods/Resources/Icons/Logo.svg"
+  },
+  "woodworking": {
+    "repository": "https://github.com/dprojects/Woodworking",
+    "description": "Woodworking workbench was designed primarily for creating simple cabinets for your home or garage. However, it includes many features that will make everyday carpentry and other CAD projects easier and faster. I hope you will find something you enjoy here.",
+    "image": "https://raw.githubusercontent.com/dprojects/Woodworking/master/Icons/Woodworking.png"
+  },
+  "yaml-workbench": {
+    "repository": "https://github.com/Mambix/FreeCAD-yaml-workbench",
+    "description": "A FreeCAD addon that loads and manipulates objects via YAML files.",
+    "image": "https://raw.githubusercontent.com/Mambix/FreeCAD-yaml-workbench/v0.1.4/Resources/icons/YAML_workbench_icon.svg"
+  }
+}

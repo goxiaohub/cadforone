@@ -41,6 +41,11 @@
     a.rel = 'noreferrer';
     return a;
   }
+  const metadata = freecad
+    ? await fetch(new URL('../data/freecad-addon-metadata.json', document.currentScript.src))
+      .then(response => response.ok ? response.json() : {}).catch(() => ({}))
+    : {};
+  if (freecad) root.classList.add('cad-freecad-directory');
   let cached = false;
   const data = await load(feed).catch(() => { cached = true; return load(snapshot); }).catch(() => null);
   if (!data) {
@@ -48,12 +53,27 @@
     return;
   }
   const plugins = data.plugins.filter(p => p && typeof p.name === 'string' && allowed(p.url, freecad ? ['github.com', 'gitlab.com', 'codeberg.org', 'framagit.org', 'git.freecad.org', 'salsa.debian.org'] : ['github.com']));
+  if (freecad) for (const plugin of plugins) {
+    const details = metadata[plugin.name];
+    if (details?.repository === plugin.url) {
+      plugin.image = details.image;
+      plugin.description = details.description;
+    }
+  }
   const tags = p => [...(Array.isArray(p.topics) ? p.topics : []), p.category].filter(t => typeof t === 'string' && t !== 'solidcraft-plugin');
   if (filter) for (const tag of [...new Set(plugins.flatMap(tags))].sort()) filter.add(new Option(tag, tag));
   function card(p) {
     const item = element('article');
     const source = allowed(p.url, freecad ? ['github.com', 'gitlab.com', 'codeberg.org', 'framagit.org', 'git.freecad.org', 'salsa.debian.org'] : ['github.com']);
     const preview = allowed(p.image, ['raw.githubusercontent.com', 'github.com', 'user-images.githubusercontent.com']);
+    const media = freecad ? element('div') : item;
+    if (freecad) {
+      media.className = 'cad-addon-media';
+      const initials = element('span', p.name.replace(/[^a-z0-9]/gi, '').slice(0, 2).toUpperCase() || 'FC');
+      initials.setAttribute('aria-hidden', 'true');
+      media.append(initials);
+      item.append(media);
+    }
     if (preview) {
       const img = element('img');
       img.alt = '';
@@ -61,10 +81,11 @@
       img.referrerPolicy = 'no-referrer';
       img.addEventListener('error', () => img.remove());
       img.src = preview;
-      item.append(img);
+      media.append(img);
     }
     item.append(element('h2', p.name), element('p', [p.owner, p.release?.tag || p.version, p.category].filter(Boolean).join(' · ')));
-    item.append(element('p', p.minimum ? 'Minimum FreeCAD version for this branch: ' + p.minimum : (p.description || 'See the repository for details.')));
+    item.append(element('p', p.description || 'See the repository for documentation and setup details.'));
+    if (p.minimum) item.append(element('p', 'FreeCAD ' + p.minimum + ' or later for this branch'));
     const repo = link(freecad ? 'Add-on repository' : 'GitHub repository', source);
     const zip = allowed(p.release?.zip, ['github.com']);
     item.append(repo);
