@@ -47,12 +47,12 @@
     status.replaceChildren(link('Browse the community directory', freecad ? "https://github.com/FreeCAD/FreeCAD-addons/blob/master/AddonCatalog.json" : "https://tharje.github.io/solidcraft-plugins/"));
     return;
   }
-  const plugins = data.plugins.filter(p => p && typeof p.name === 'string' && allowed(p.url, freecad ? ['github.com', 'gitlab.com', 'codeberg.org', 'framagit.org', 'git.freecad.org'] : ['github.com']));
+  const plugins = data.plugins.filter(p => p && typeof p.name === 'string' && allowed(p.url, freecad ? ['github.com', 'gitlab.com', 'codeberg.org', 'framagit.org', 'git.freecad.org', 'salsa.debian.org'] : ['github.com']));
   const tags = p => [...(Array.isArray(p.topics) ? p.topics : []), p.category].filter(t => typeof t === 'string' && t !== 'solidcraft-plugin');
   if (filter) for (const tag of [...new Set(plugins.flatMap(tags))].sort()) filter.add(new Option(tag, tag));
   function card(p) {
     const item = element('article');
-    const source = allowed(p.url, freecad ? ['github.com', 'gitlab.com', 'codeberg.org', 'framagit.org', 'git.freecad.org'] : ['github.com']);
+    const source = allowed(p.url, freecad ? ['github.com', 'gitlab.com', 'codeberg.org', 'framagit.org', 'git.freecad.org', 'salsa.debian.org'] : ['github.com']);
     const preview = allowed(p.image, ['raw.githubusercontent.com', 'github.com', 'user-images.githubusercontent.com']);
     if (preview) {
       const img = element('img');
