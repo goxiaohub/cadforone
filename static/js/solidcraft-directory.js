@@ -60,6 +60,11 @@
       plugin.description = details.description;
     }
   }
+  if (freecad) for (const plugin of plugins) {
+    const repository = new URL(plugin.url);
+    plugin.owner = repository.pathname.split('/').filter(Boolean)[0] || '';
+    plugin.category = repository.hostname;
+  }
   const tags = p => [...(Array.isArray(p.topics) ? p.topics : []), p.category].filter(t => typeof t === 'string' && t !== 'solidcraft-plugin');
   if (filter) for (const tag of [...new Set(plugins.flatMap(tags))].sort()) filter.add(new Option(tag, tag));
   function card(p) {
@@ -100,13 +105,15 @@
       [p.name, p.description, p.owner, p.url, ...tags(p)].join(' ').toLowerCase().includes(query));
     const date = p => Date.parse(p.release?.date || p.updated || '') || 0;
     matches.sort((a, b) => {
-      if (freecad || sort.value === 'name') return a.name.localeCompare(b.name);
+      if (sort.value === 'name-desc') return b.name.localeCompare(a.name);
+      if (sort.value === 'owner') return a.owner.localeCompare(b.owner) || a.name.localeCompare(b.name);
+      if (sort.value === 'name') return a.name.localeCompare(b.name);
       if (sort.value === 'stars' || sort.value === 'downloads') return (Number(b[sort.value]) || 0) - (Number(a[sort.value]) || 0);
       return date(b) - date(a);
     });
     const updated = typeof data.generated === 'string' ? data.generated.slice(0, 10) : '';
     status.textContent = [matches.length + ' of ' + plugins.length + ' entries', updated && 'Index date: ' + updated, cached && 'Saved snapshot'].filter(Boolean).join(' · ');
-    results.replaceChildren(...matches.map(card));
+    results.replaceChildren(...(matches.length ? matches.map(card) : [element('p', 'No plugins match your search and filter. Try a different keyword or choose the all option.')]));
   }
   search.addEventListener('input', render);
   filter?.addEventListener('change', render);

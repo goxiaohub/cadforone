@@ -2,7 +2,9 @@
 <div class="cad-plugin-directory" data-plugin-directory{{ if $freecad }} data-freecad{{ end }}>
   <div class="cad-plugin-controls">
     <label>Search plugins <input type="search" placeholder="Name, author, or keyword"></label>
-    {{ if not $freecad }}<label>Filter <select data-filter><option value="">All tags and categories</option></select></label>
+    {{ if $freecad }}<label>Filter <select data-filter><option value="">All repository hosts</option></select></label>
+    <label>Sort <select data-sort><option value="name">Name A–Z</option><option value="name-desc">Name Z–A</option><option value="owner">Repository owner A–Z</option></select></label>
+    {{ else }}<label>Filter <select data-filter><option value="">All tags and categories</option></select></label>
     <label>Sort <select data-sort><option value="newest">Newest release</option><option value="stars">GitHub stars</option><option value="downloads">Downloads</option><option value="name">Name</option></select></label>{{ end }}
   </div>
   <p data-status role="status">Loading plugins from GitHub…</p>
