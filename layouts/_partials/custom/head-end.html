@@ -22,3 +22,5 @@
   {{- $items = $items | append (dict "@type" "ListItem" "position" 4 "name" .Title "item" .Permalink) -}}
   <script type="application/ld+json">{{ dict "@context" "https://schema.org" "@type" "BreadcrumbList" "itemListElement" $items | jsonify | safeJS }}</script>
 {{- end -}}
+
+<script src="{{ "js/cad-themes.js" | relURL }}?v=20261122" defer></script>
